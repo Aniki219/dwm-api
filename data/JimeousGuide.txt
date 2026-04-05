@@ -4513,7 +4513,7 @@
     Heres an example of reading the breeding lists
 
     ,———————————————————————————————————————————————————.
-    |  PHOENIX         : FireAir   SquallHit TailWind   |
+    |  PHOENIX           FireAir   SquallHit TailWind   |
     ‘———————————————————————————————————————————————————’
     ,---------------------------------------------------------------------.
     ¦ Found: Sky Key World    - Outside Heaven Helm Cave                  ¦
