@@ -54,7 +54,7 @@ TABLE OF CONTENTS -----------------------------------------------------------
       iv. Bird Family
       v. Plant Family
       vi. Bug Family
-      vii. Demon Family
+      vii. Devil Family
       viii. Zombie Family
       ix. Material Family
       x. Water Family
@@ -67,7 +67,7 @@ TABLE OF CONTENTS -----------------------------------------------------------
       iv. Bird Family
       v. Plant Family
       vi. Bug Family
-      vii. Demon Family
+      vii. Devil Family
       viii. Zombie Family
       ix. Material Family
       x. Water Family
@@ -352,7 +352,7 @@ MultiEyes  35  4 14 15 19 13  2  3 Sap       TwinHits  PalsyAir
 ----------------------------------------------------------------
 
 
-vii. Demon Family
+vii. Devil Family
 ----------------------------------------------------------------
 Name       ML EP HP MP AT DF AG IN SkillA    SkillB    SkillC
 ----------------------------------------------------------------
@@ -778,7 +778,7 @@ MultiEyes  0 1 0 0 0 0 3 3 1 2 2 2 1 1 0 0 0 0 1 2 2 0 0 0 0 0 0
 ----------------------------------------------------------------
 
 
-vii. Demon Family
+vii. Devil Family
 ----------------------------------------------------------------
 Name       A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ
 ----------------------------------------------------------------

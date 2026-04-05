@@ -7,10 +7,11 @@ type Stat = {
 }
 
 type Monster = {
-    name: string,
+    name: string
     stats: Stat
     moves: string[]
     resistances: number[]
+    breeds: Breed[]
 }
 
 type Family = {
@@ -23,16 +24,17 @@ type MonsterData = {
     }
 }
 
-type Breeds = {
-    base: string,
-    mate: string,
+type Breed = {
+    base: string[],
+    mate: string[],
 }
 
+const data: MonsterData = { families: {} };
+
 function parseMonsterData() {
-    const text = fs.readFileSync('data\\AmbiosGuide.txt', 'utf-8');
+    const text = fs.readFileSync('data/AmbiosGuide.txt', 'utf-8');
     const lines = text.split('\n');
 
-    const data: MonsterData = { families: {} };
     let currentFamily: string = "";
     let currentHeader: string = "";
     let prevLineWasEquals: boolean = false;
@@ -71,7 +73,7 @@ function parseMonsterData() {
         }
 
         if (familyMatch) {
-            currentFamily = familyMatch[1]; // e.g. "Slime Family"
+            currentFamily = familyMatch[1].toUpperCase(); // e.g. "Slime Family"
             if (!data.families[currentFamily]) {
                 data.families[currentFamily] = {};
             }
@@ -87,11 +89,12 @@ function parseMonsterData() {
                 STAT_NAMES.forEach((name, i) => {
                     stats[name] = parseInt(splits[i + 1]);
                 });
-                data.families[currentFamily][splits[0] as string] = {
+                data.families[currentFamily][splits[0].toUpperCase()] = {
                     name: splits[0],
                     stats: stats,
                     moves: splits.slice(9, 12),
-                    resistances: []
+                    resistances: [],
+                    breeds: new Array<Breed>()
                 };
             }
             if (currentHeader == "MONSTER RESISTANCES") {
@@ -106,15 +109,15 @@ function parseMonsterData() {
 
     // console.clear();
     // console.log(data);
-
-    return data;
 }
 
 function parseBreedsData() {
-    const text = fs.readFileSync('data\\JimeousGuide.txt', 'utf-8');
+    const text = fs.readFileSync('data/JimeousGuide.txt', 'utf-8');
     const lines = text.split('\n');
 
+    let currentFamily = "";
     let currentMonster = "";
+    let baseMateRow = 0;
 
     for (const line of lines) {
         const monster = line.match(/\|  ([A-Z]+)\s*:/);
@@ -123,24 +126,58 @@ function parseBreedsData() {
             continue;
         }
 
-        const baseMatePair = line.match(/¦ ([A-Z ]+)\s*¦ ([A-Z ]+)¦/i)
-        if (baseMatePair && baseMatePair[1].trim() != "Base") {
-            console.log(
-                {
-                    monster: {
-                        name: currentMonster,
-                        bases: baseMatePair[1].trim().split(" "),
-                        mates: baseMatePair[2].trim().split(" "),
-                    }
+        if (line.match(/-+\^-+/)) {
+            currentMonster = "";
+            baseMateRow = 0;
+        }
+
+        const familyMatch = line.match(/_\|[ 0-9\.]+([A-Z\?]+ FAMILY)/);
+        if (familyMatch) {
+            currentFamily = familyMatch[1];
+        }
+
+        if (currentMonster == "") continue;
+
+        const baseMates = data.families[currentFamily][currentMonster]?.breeds;
+        if (!baseMates) continue;
+
+        const baseMatePair = line.match(/¦ ([A-Z 1-5†]+)\s*¦\s*([A-Z 1-5†]+)¦/i);
+        if (baseMatePair) {
+            if (baseMatePair[1].trim() == "Base") {
+                baseMateRow = 0;
+                continue;
+            }
+
+            const bases = baseMatePair[1].trim().split(" ");
+            const mates = baseMatePair[2].trim().split(" ");
+
+            //console.log(baseMates[0]);
+
+            if (bases && bases[0] != '') {
+                const r = baseMates[baseMateRow] as Breed;
+                if (!r) {
+                    r.push({base:[], mate:[]});
                 }
-            )
+                r.base = baseMates[baseMateRow].base.concat(bases);
+            }
+            // if (mates && mates[0] != '') {
+            //     baseMates[baseMateRow].mate = baseMates[baseMateRow].base.concat(mates);
+            // }
+        }
+
+        if (line.match(/¦-+\+-+¦/)) {
+            baseMateRow++;
         }
     }
 }
 
 export default function Home() {
-    //parseMonsterData();
+    console.clear();
+    parseMonsterData();
     parseBreedsData();
+
+    // console.log(data);
+    //
     return (
         <div>
 
