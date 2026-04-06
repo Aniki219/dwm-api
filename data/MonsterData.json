@@ -1,0 +1,10546 @@
+{
+	"families": {
+		"SLIME FAMILY": {
+			"DRAKSLIME": {
+				"name": "DrakSlime",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 13,
+					"HP": 16,
+					"MP": 10,
+					"Attack": 13,
+					"Defense": 8,
+					"Agility": 20,
+					"Intelligence": 16
+				},
+				"moves": [
+					"BeDragon",
+					"FireAir",
+					"SuckAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
+			},
+			"SPOTSLIME": {
+				"name": "SpotSlime",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 10,
+					"HP": 17,
+					"MP": 1,
+					"Attack": 17,
+					"Defense": 4,
+					"Agility": 17,
+					"Intelligence": 8
+				},
+				"moves": [
+					"CallHelp",
+					"LushLicks",
+					"Imitate"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
+			},
+			"WINGSLIME": {
+				"name": "WingSlime",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 10,
+					"HP": 13,
+					"MP": 2,
+					"Attack": 11,
+					"Defense": 11,
+					"Agility": 24,
+					"Intelligence": 8
+				},
+				"moves": [
+					"WindBeast",
+					"SquallHit",
+					"TailWind"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
+			},
+			"TREESLIME": {
+				"name": "TreeSlime",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 11,
+					"HP": 13,
+					"MP": 11,
+					"Attack": 8,
+					"Defense": 14,
+					"Agility": 17,
+					"Intelligence": 17
+				},
+				"moves": [
+					"Sap",
+					"Paralyze",
+					"SleepAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
+			},
+			"SNAILY": {
+				"name": "Snaily",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 8,
+					"HP": 11,
+					"MP": 10,
+					"Attack": 17,
+					"Defense": 20,
+					"Agility": 20,
+					"Intelligence": 8
+				},
+				"moves": [
+					"Icebolt",
+					"NumbOff",
+					"CallHelp"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"BUGFM"
+						]
+					}
+				]
+			},
+			"SLIMENITE": {
+				"name": "SlimeNite",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 15,
+					"HP": 14,
+					"MP": 1,
+					"Attack": 15,
+					"Defense": 14,
+					"Agility": 20,
+					"Intelligence": 14
+				},
+				"moves": [
+					"Heal",
+					"Upper",
+					"BeastCut"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
+			},
+			"BABBLE": {
+				"name": "Babble",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 12,
+					"HP": 17,
+					"MP": 7,
+					"Attack": 17,
+					"Defense": 8,
+					"Agility": 14,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Surround",
+					"PoisonHit",
+					"EerieLite"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"ZOMBIEFM",
+							"GiantMoth",
+							"Poisongon"
+						]
+					}
+				]
+			},
+			"BOXSLIME": {
+				"name": "BoxSlime",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 11,
+					"HP": 11,
+					"MP": 10,
+					"Attack": 14,
+					"Defense": 19,
+					"Agility": 14,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Blaze",
+					"Upper",
+					"Ramming"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
+			},
+			"PEARLGEL": {
+				"name": "PearlGel",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 10,
+					"HP": 10,
+					"MP": 16,
+					"Attack": 8,
+					"Defense": 22,
+					"Agility": 14,
+					"Intelligence": 9
+				},
+				"moves": [
+					"Upper",
+					"ChargeUp",
+					"Radiant"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"WATER"
+						]
+					}
+				]
+			},
+			"SLIME": {
+				"name": "Slime",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 16,
+					"HP": 22,
+					"MP": 11,
+					"Attack": 14,
+					"Defense": 17,
+					"Agility": 11,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Firebal",
+					"MegaMagic",
+					"Radiant"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [],
+						"mate": []
+					}
+				]
+			},
+			"HEALER": {
+				"name": "Healer",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 11,
+					"HP": 11,
+					"MP": 15,
+					"Attack": 11,
+					"Defense": 11,
+					"Agility": 20,
+					"Intelligence": 18
+				},
+				"moves": [
+					"Heal",
+					"HealUs",
+					"Upper"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"Copycat",
+							"Madplant",
+							"Funkybird",
+							"Pillowrat"
+						]
+					}
+				]
+			},
+			"FANGSLIME": {
+				"name": "FangSlime",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 10,
+					"HP": 25,
+					"MP": 1,
+					"Attack": 18,
+					"Defense": 13,
+					"Agility": 20,
+					"Intelligence": 13
+				},
+				"moves": [
+					"CallHelp",
+					"ChargeUp",
+					"WarCry"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"Almiraj",
+							"DarkHorn",
+							"GulpBeast",
+							"KingLeo",
+							"MadCat",
+							"Trumpeter"
+						]
+					}
+				]
+			},
+			"ROCKSLIME": {
+				"name": "RockSlime",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 11,
+					"HP": 13,
+					"MP": 10,
+					"Attack": 14,
+					"Defense": 23,
+					"Agility": 16,
+					"Intelligence": 14
+				},
+				"moves": [
+					"HighJump",
+					"Ramming",
+					"StrongD"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"BombCrag",
+							"Golem",
+							"Deadnite",
+							"Stoneman"
+						]
+					}
+				]
+			},
+			"SLIMEBORG": {
+				"name": "SlimeBorg",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 11,
+					"HP": 18,
+					"MP": 11,
+					"Attack": 20,
+					"Defense": 15,
+					"Agility": 14,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Lightning",
+					"RainSlash",
+					"BladeD"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"Roboster1"
+						]
+					},
+					{
+						"base": [
+							"DrakSlime"
+						],
+						"mate": [
+							"Swordgon"
+						]
+					},
+					{
+						"base": [
+							"Metabble"
+						],
+						"mate": [
+							"BattleRex",
+							"SkyDragon"
+						]
+					},
+					{
+						"base": [
+							"RockSlime"
+						],
+						"mate": [
+							"GreatDrak"
+						]
+					},
+					{
+						"base": [
+							"SlimeNite"
+						],
+						"mate": [
+							"Spikerous"
+						]
+					}
+				]
+			},
+			"SLABBIT": {
+				"name": "Slabbit",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 10,
+					"HP": 15,
+					"MP": 7,
+					"Attack": 14,
+					"Defense": 8,
+					"Agility": 21,
+					"Intelligence": 15
+				},
+				"moves": [
+					"SideStep",
+					"LegSweep",
+					"Whistle"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"Skullroo"
+						]
+					}
+				]
+			},
+			"KINGSLIME": {
+				"name": "KingSlime",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 12,
+					"HP": 18,
+					"MP": 14,
+					"Attack": 15,
+					"Defense": 14,
+					"Agility": 20,
+					"Intelligence": 15
+				},
+				"moves": [
+					"Mpass",
+					"Barrier",
+					"Vivify"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Slime"
+						],
+						"mate": [
+							"Slime†5",
+							"or",
+							"better"
+						]
+					},
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					},
+					{
+						"base": [
+							"Spotking"
+						],
+						"mate": [
+							"BattleRex",
+							"BossTroll",
+							"Centasaur",
+							"DeadNoble",
+							"Divinegon",
+							"Gigantes",
+							"GreatDrak",
+							"KingLeo",
+							"MadCondor",
+							"Unicorn",
+							"WhipBird",
+							"WhiteKing",
+							"ZapBird"
+						]
+					}
+				]
+			},
+			"METALY": {
+				"name": "Metaly",
+				"stats": {
+					"MaxLevel": 20,
+					"Experience": 25,
+					"HP": 0,
+					"MP": 30,
+					"Attack": 11,
+					"Defense": 30,
+					"Agility": 31,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Blaze",
+					"Icebolt",
+					"Beat"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"MetalDrak"
+						]
+					}
+				]
+			},
+			"METABBLE": {
+				"name": "Metabble",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 27,
+					"HP": 0,
+					"MP": 30,
+					"Attack": 14,
+					"Defense": 31,
+					"Agility": 31,
+					"Intelligence": 15
+				},
+				"moves": [
+					"Firebal",
+					"Bang",
+					"Sacrifice"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Metaly"
+						],
+						"mate": [
+							"Metaly",
+							"WonderEgg"
+						]
+					}
+				]
+			},
+			"SPOTKING": {
+				"name": "SpotKing",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 9,
+					"HP": 18,
+					"MP": 11,
+					"Attack": 18,
+					"Defense": 11,
+					"Agility": 20,
+					"Intelligence": 15
+				},
+				"moves": [
+					"CleanCut",
+					"NapAttack",
+					"MouthShut"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"KingSlime",
+							"MetalKing"
+						],
+						"mate": [
+							"BattleRex",
+							"BossTroll",
+							"Centasaur",
+							"DeadNoble",
+							"Divinegon",
+							"Gigantes",
+							"GreatDrak",
+							"KingLeo",
+							"MadCondor",
+							"Unicorn",
+							"WhipBird",
+							"WhiteKing",
+							"ZapBird"
+						]
+					},
+					{
+						"base": [
+							"SpotSlime"
+						],
+						"mate": [
+							"SpotSlime†5",
+							"or",
+							"better"
+						]
+					}
+				]
+			},
+			"TROPICGEL": {
+				"name": "TropicGel",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 14,
+					"HP": 15,
+					"MP": 20,
+					"Attack": 19,
+					"Defense": 9,
+					"Agility": 14,
+					"Intelligence": 15
+				},
+				"moves": [
+					"Mpass",
+					"SleepAir",
+					"LushLicks"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Slime"
+						],
+						"mate": [
+							"Mommonja",
+							"PillowRat"
+						]
+					},
+					{
+						"base": [
+							"TreeSlime"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					},
+					{
+						"base": [
+							"WonderEgg"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
+			},
+			"MIMESLIME": {
+				"name": "MimeSlime",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 17,
+					"HP": 10,
+					"MP": 12,
+					"Attack": 8,
+					"Defense": 19,
+					"Agility": 20,
+					"Intelligence": 17
+				},
+				"moves": [
+					"PanicAll",
+					"Ahhh",
+					"LoveRain"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Healer"
+						],
+						"mate": [
+							"1EyeClown",
+							"TreeBoy",
+							"EvilWand"
+						]
+					},
+					{
+						"base": [
+							"WonderEgg"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
+			},
+			"HALOSLIME": {
+				"name": "HaloSlime",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 16,
+					"HP": 9,
+					"MP": 20,
+					"Attack": 11,
+					"Defense": 13,
+					"Agility": 12,
+					"Intelligence": 22
+				},
+				"moves": [
+					"Sleep",
+					"SealPray",
+					"LifeSong"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Mimeslime"
+						],
+						"mate": [
+							"ZOMBIEFM",
+							"Pixy",
+							"StubBird"
+						]
+					},
+					{
+						"base": [
+							"Slime"
+						],
+						"mate": [
+							"Copycat"
+						]
+					},
+					{
+						"base": [
+							"WonderEgg"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
+			},
+			"METALKING": {
+				"name": "MetalKing",
+				"stats": {
+					"MaxLevel": 55,
+					"Experience": 29,
+					"HP": 0,
+					"MP": 31,
+					"Attack": 15,
+					"Defense": 31,
+					"Agility": 31,
+					"Intelligence": 18
+				},
+				"moves": [
+					"Bolt",
+					"Ironize",
+					"HellBlast"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Kingslime",
+							"Spotking"
+						],
+						"mate": [
+							"MetalDrak"
+						]
+					},
+					{
+						"base": [
+							"Metabble",
+							"WonderEgg"
+						],
+						"mate": [
+							"Metabble"
+						]
+					}
+				]
+			},
+			"GOLDSLIME": {
+				"name": "GoldSlime",
+				"stats": {
+					"MaxLevel": 70,
+					"Experience": 31,
+					"HP": 0,
+					"MP": 31,
+					"Attack": 19,
+					"Defense": 31,
+					"Agility": 31,
+					"Intelligence": 18
+				},
+				"moves": [
+					"Chance",
+					"BigBang",
+					"Surge"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Kingslime",
+							"Spotking",
+							"Metalking"
+						],
+						"mate": [
+							"GoldGolem"
+						]
+					},
+					{
+						"base": [
+							"Metalking",
+							"WonderEgg"
+						],
+						"mate": [
+							"Metalking"
+						]
+					}
+				]
+			},
+			"GRANSLIME": {
+				"name": "GranSlime",
+				"stats": {
+					"MaxLevel": 80,
+					"Experience": 30,
+					"HP": 25,
+					"MP": 29,
+					"Attack": 27,
+					"Defense": 31,
+					"Agility": 6,
+					"Intelligence": 31
+				},
+				"moves": [
+					"Farewell",
+					"Focus",
+					"Informer"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Goldslime"
+						],
+						"mate": [
+							"Darkmate",
+							"GoldSlime",
+							"Deathmore1"
+						]
+					},
+					{
+						"base": [
+							"WonderEgg"
+						],
+						"mate": [
+							"Goldslime"
+						]
+					}
+				]
+			},
+			"WONDEREGG": {
+				"name": "WonderEgg",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 4,
+					"HP": 8,
+					"MP": 13,
+					"Attack": 11,
+					"Defense": 19,
+					"Agility": 11,
+					"Intelligence": 20
+				},
+				"moves": [
+					"Sacrifice",
+					"Ironize",
+					"Chance"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Slime"
+						],
+						"mate": [
+							"BigRoost"
+						]
+					}
+				]
+			}
+		},
+		"DRAGON FAMILY": {
+			"DRAGONKID": {
+				"name": "DragonKid",
+				"stats": {
+					"MaxLevel": 30,
+					"Experience": 7,
+					"HP": 10,
+					"MP": 3,
+					"Attack": 17,
+					"Defense": 2,
+					"Agility": 5,
+					"Intelligence": 5
+				},
+				"moves": [
+					"FireAir",
+					"SleepAir",
+					"Dodge"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
+			},
+			"TORTRAGON": {
+				"name": "Tortragon",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 17,
+					"HP": 15,
+					"MP": 11,
+					"Attack": 18,
+					"Defense": 6,
+					"Agility": 7,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Ironize",
+					"MagicBack",
+					"Lightning"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
+			},
+			"PTERANOD": {
+				"name": "Pteranod",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 16,
+					"HP": 14,
+					"MP": 11,
+					"Attack": 18,
+					"Defense": 2,
+					"Agility": 20,
+					"Intelligence": 4
+				},
+				"moves": [
+					"Firebal",
+					"WindBeast",
+					"TailWind"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
+			},
+			"GASGON": {
+				"name": "Gasgon",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 18,
+					"HP": 17,
+					"MP": 15,
+					"Attack": 13,
+					"Defense": 11,
+					"Agility": 7,
+					"Intelligence": 18
+				},
+				"moves": [
+					"Sacrifice",
+					"Farewell",
+					"Beserker"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
+			},
+			"FAIRYDRAK": {
+				"name": "FairyDrak",
+				"stats": {
+					"MaxLevel": 30,
+					"Experience": 15,
+					"HP": 9,
+					"MP": 13,
+					"Attack": 17,
+					"Defense": 16,
+					"Agility": 14,
+					"Intelligence": 4
+				},
+				"moves": [
+					"Surround",
+					"SleepAir",
+					"LushLicks"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"BUGFM"
+						]
+					}
+				]
+			},
+			"LIZARDMAN": {
+				"name": "LizardMan",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 20,
+					"HP": 17,
+					"MP": 10,
+					"Attack": 19,
+					"Defense": 13,
+					"Agility": 5,
+					"Intelligence": 16
+				},
+				"moves": [
+					"AquaCut",
+					"GigaSlash",
+					"EvilSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
+			},
+			"POISONGON": {
+				"name": "Poisongon",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 19,
+					"HP": 21,
+					"MP": 16,
+					"Attack": 15,
+					"Defense": 13,
+					"Agility": 7,
+					"Intelligence": 1
+				},
+				"moves": [
+					"PoisonHit",
+					"PoisonGas",
+					"LushLicks"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
+			},
+			"SWORDGON": {
+				"name": "Swordgon",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 20,
+					"HP": 9,
+					"MP": 3,
+					"Attack": 23,
+					"Defense": 6,
+					"Agility": 1,
+					"Intelligence": 5
+				},
+				"moves": [
+					"CleanCut",
+					"RainSlash",
+					"BladeD"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
+			},
+			"DRYGON": {
+				"name": "Drygon",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 16,
+					"HP": 11,
+					"MP": 2,
+					"Attack": 19,
+					"Defense": 13,
+					"Agility": 7,
+					"Intelligence": 5
+				},
+				"moves": [
+					"Sap",
+					"Ramming",
+					"WarCry"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"WATERFM"
+						]
+					}
+				]
+			},
+			"DRAGON": {
+				"name": "Dragon",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 20,
+					"HP": 17,
+					"MP": 1,
+					"Attack": 20,
+					"Defense": 16,
+					"Agility": 7,
+					"Intelligence": 4
+				},
+				"moves": [
+					"FireAir",
+					"FireSlash",
+					"SealAll"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DragonKid"
+						],
+						"mate": [
+							"DragonKid"
+						]
+					}
+				]
+			},
+			"MINIDRAK": {
+				"name": "MiniDrak",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 16,
+					"HP": 14,
+					"MP": 8,
+					"Attack": 17,
+					"Defense": 14,
+					"Agility": 18,
+					"Intelligence": 10
+				},
+				"moves": [
+					"CallHelp",
+					"Ramming",
+					"SandStorm"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"Picky"
+						]
+					}
+				]
+			},
+			"MADDRAGON": {
+				"name": "MadDragon",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 19,
+					"HP": 19,
+					"MP": 0,
+					"Attack": 21,
+					"Defense": 5,
+					"Agility": 8,
+					"Intelligence": 0
+				},
+				"moves": [
+					"EvilSlash",
+					"Massacre",
+					"CureDance"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"GulpBeast"
+						]
+					},
+					{
+						"base": [
+							"Gasgon"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
+			},
+			"RAYBURN": {
+				"name": "Rayburn",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 17,
+					"HP": 14,
+					"MP": 2,
+					"Attack": 17,
+					"Defense": 16,
+					"Agility": 15,
+					"Intelligence": 5
+				},
+				"moves": [
+					"VacuSlash",
+					"DevilCut",
+					"PoisonHit"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"MadCondor"
+						]
+					},
+					{
+						"base": [
+							"LizardMan"
+						],
+						"mate": [
+							"FaceTree",
+							"GateGuard",
+							"Gigantes",
+							"GoatHorn",
+							"Lionex",
+							"MadCat",
+							"Trumpeter",
+							"WingSlime"
+						]
+					}
+				]
+			},
+			"CHAMELGON": {
+				"name": "Chamelgon",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 19,
+					"HP": 17,
+					"MP": 18,
+					"Attack": 11,
+					"Defense": 6,
+					"Agility": 8,
+					"Intelligence": 13
+				},
+				"moves": [
+					"PanicAll",
+					"Paralyze",
+					"PalsyAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"Voodoll"
+						]
+					}
+				]
+			},
+			"LIZARDFLY": {
+				"name": "LizardFly",
+				"stats": {
+					"MaxLevel": 30,
+					"Experience": 16,
+					"HP": 11,
+					"MP": 11,
+					"Attack": 17,
+					"Defense": 17,
+					"Agility": 13,
+					"Intelligence": 5
+				},
+				"moves": [
+					"Firebal",
+					"Sap",
+					"FireAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"GoHopper"
+						]
+					}
+				]
+			},
+			"ANDREAL": {
+				"name": "Andreal",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 22,
+					"HP": 21,
+					"MP": 15,
+					"Attack": 19,
+					"Defense": 17,
+					"Agility": 19,
+					"Intelligence": 12
+				},
+				"moves": [
+					"Infernos",
+					"Surround",
+					"PoisonGas"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"Gulpple"
+						]
+					},
+					{
+						"base": [
+							"Battlerex",
+							"Gasgon",
+							"MadDragon",
+							"SkyDragon"
+						],
+						"mate": [
+							"Akubar",
+							"ArcDemon",
+							"DeadNoble",
+							"FunkyBird",
+							"GoatHorn",
+							"Goategon",
+							"Golem",
+							"Lionex",
+							"MadCondor",
+							"Ogre",
+							"Trumpeter"
+						]
+					}
+				]
+			},
+			"KINGCOBRA": {
+				"name": "KingCobra",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 20,
+					"HP": 18,
+					"MP": 8,
+					"Attack": 16,
+					"Defense": 13,
+					"Agility": 19,
+					"Intelligence": 11
+				},
+				"moves": [
+					"PoisonHit",
+					"Curse",
+					"K.O."
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"Babble"
+						]
+					}
+				]
+			},
+			"VAMPIRUS": {
+				"name": "Vampirus",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 8,
+					"HP": 14,
+					"MP": 7,
+					"Attack": 10,
+					"Defense": 8,
+					"Agility": 19,
+					"Intelligence": 8
+				},
+				"moves": [
+					"Infernos",
+					"CallHelp",
+					"BiAttack"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"Madgoose"
+						]
+					},
+					{
+						"base": [],
+						"mate": []
+					},
+					{
+						"base": [
+							"Pteranod"
+						],
+						"mate": [
+							"Pteranod"
+						]
+					}
+				]
+			},
+			"SNAKEBAT": {
+				"name": "SnakeBat",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 7,
+					"HP": 10,
+					"MP": 9,
+					"Attack": 21,
+					"Defense": 15,
+					"Agility": 9,
+					"Intelligence": 8
+				},
+				"moves": [
+					"RockThrow",
+					"LushLicks",
+					"Errand"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"Catfly"
+						]
+					},
+					{
+						"base": [
+							"KingCobra"
+						],
+						"mate": [
+							"Dracky"
+						]
+					}
+				]
+			},
+			"SPIKEROUS": {
+				"name": "Spikerous",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 19,
+					"HP": 20,
+					"MP": 8,
+					"Attack": 19,
+					"Defense": 24,
+					"Agility": 1,
+					"Intelligence": 2
+				},
+				"moves": [
+					"RockThrow",
+					"Beserker",
+					"Kamikaze"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"ArmyCrab",
+							"Digster"
+						]
+					}
+				]
+			},
+			"GREATDRAK": {
+				"name": "GreatDrak",
+				"stats": {
+					"MaxLevel": 60,
+					"Experience": 23,
+					"HP": 21,
+					"MP": 5,
+					"Attack": 23,
+					"Defense": 14,
+					"Agility": 16,
+					"Intelligence": 11
+				},
+				"moves": [
+					"FrigidAir",
+					"IceSlash",
+					"SealAll"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"Battlerex",
+							"Gigantes",
+							"MetalKing",
+							"Unicorn",
+							"Zapbird",
+							"Centasaur",
+							"Kingslime",
+							"Spotking",
+							"Whipbird"
+						]
+					},
+					{
+						"base": [],
+						"mate": []
+					},
+					{
+						"base": [
+							"Dragon†5",
+							"or",
+							"better"
+						],
+						"mate": [
+							"Dragon"
+						]
+					},
+					{
+						"base": [
+							"DragonKid†5",
+							"or",
+							"better"
+						],
+						"mate": [
+							"DragonKid"
+						]
+					}
+				]
+			},
+			"CRESTPENT": {
+				"name": "Crestpent",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 18,
+					"HP": 14,
+					"MP": 4,
+					"Attack": 15,
+					"Defense": 5,
+					"Agility": 19,
+					"Intelligence": 8
+				},
+				"moves": [
+					"StopSpell",
+					"BeDragon",
+					"PoisonHit"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"BigRoost"
+						]
+					}
+				]
+			},
+			"WINGSNAKE": {
+				"name": "WingSnake",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 20,
+					"HP": 15,
+					"MP": 8,
+					"Attack": 20,
+					"Defense": 17,
+					"Agility": 14,
+					"Intelligence": 11
+				},
+				"moves": [
+					"SquallHit",
+					"HighJump",
+					"PoisonGas"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Crestpent"
+						],
+						"mate": [
+							"Crestpent"
+						]
+					}
+				]
+			},
+			"COATOL": {
+				"name": "Coatol",
+				"stats": {
+					"MaxLevel": 60,
+					"Experience": 23,
+					"HP": 25,
+					"MP": 14,
+					"Attack": 20,
+					"Defense": 22,
+					"Agility": 18,
+					"Intelligence": 14
+				},
+				"moves": [
+					"Bang",
+					"BoltSlash",
+					"EvilSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Wingsnake"
+						],
+						"mate": [
+							"Wingsnake"
+						]
+					},
+					{
+						"base": [
+							"Battlerex",
+							"Gasgon",
+							"LizardMan",
+							"Pteranod",
+							"SkyDragon",
+							"Vampirus"
+						],
+						"mate": [
+							"CopyCat",
+							"Darkhorn",
+							"Madknight",
+							"StoneMan",
+							"WhipBird"
+						]
+					}
+				]
+			},
+			"OROCHI": {
+				"name": "Orochi",
+				"stats": {
+					"MaxLevel": 60,
+					"Experience": 22,
+					"HP": 24,
+					"MP": 13,
+					"Attack": 24,
+					"Defense": 21,
+					"Agility": 11,
+					"Intelligence": 8
+				},
+				"moves": [
+					"FireAir",
+					"FireSlash",
+					"BiAttack"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					},
+					{
+						"base": [
+							"Andreal",
+							"GreatDrak"
+						],
+						"mate": [
+							"MedusaEye"
+						]
+					}
+				]
+			},
+			"BATTLEREX": {
+				"name": "BattleRex",
+				"stats": {
+					"MaxLevel": 60,
+					"Experience": 22,
+					"HP": 23,
+					"MP": 16,
+					"Attack": 26,
+					"Defense": 20,
+					"Agility": 17,
+					"Intelligence": 16
+				},
+				"moves": [
+					"FireAir",
+					"MetalCut",
+					"EvilSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"Kingleo",
+							"Madknight",
+							"EvilArmor",
+							"Lionex",
+							"Ogre"
+						]
+					}
+				]
+			},
+			"SKYDRAGON": {
+				"name": "SkyDragon",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 18,
+					"HP": 15,
+					"MP": 11,
+					"Attack": 20,
+					"Defense": 14,
+					"Agility": 18,
+					"Intelligence": 8
+				},
+				"moves": [
+					"FireAir",
+					"MultiCut",
+					"SuckAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"Phoenix"
+						]
+					}
+				]
+			},
+			"SERPENTIA": {
+				"name": "Serpentia",
+				"stats": {
+					"MaxLevel": 55,
+					"Experience": 24,
+					"HP": 23,
+					"MP": 7,
+					"Attack": 24,
+					"Defense": 21,
+					"Agility": 18,
+					"Intelligence": 8
+				},
+				"moves": [
+					"SlimeBlow",
+					"DevilCut",
+					"RainSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"GreatDrak"
+						],
+						"mate": [
+							"Lionex",
+							"Skeletor",
+							"Octoraid"
+						]
+					}
+				]
+			},
+			"DIVINEGON": {
+				"name": "Divinegon",
+				"stats": {
+					"MaxLevel": 70,
+					"Experience": 28,
+					"HP": 26,
+					"MP": 25,
+					"Attack": 28,
+					"Defense": 24,
+					"Agility": 20,
+					"Intelligence": 23
+				},
+				"moves": [
+					"BigBang",
+					"FrigidAir",
+					"Meditate"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Skydragon"
+						],
+						"mate": [
+							"Orochi",
+							"Serpentia"
+						]
+					}
+				]
+			},
+			"ORLIGON": {
+				"name": "Orligon",
+				"stats": {
+					"MaxLevel": 75,
+					"Experience": 29,
+					"HP": 25,
+					"MP": 24,
+					"Attack": 28,
+					"Defense": 25,
+					"Agility": 21,
+					"Intelligence": 24
+				},
+				"moves": [
+					"TwinHits",
+					"Beserker",
+					"StrongD"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Divinegon"
+						],
+						"mate": [
+							"GigaDraco",
+							"GoldGolem"
+						]
+					}
+				]
+			},
+			"GIGADRACO": {
+				"name": "GigaDraco",
+				"stats": {
+					"MaxLevel": 70,
+					"Experience": 24,
+					"HP": 30,
+					"MP": 24,
+					"Attack": 29,
+					"Defense": 12,
+					"Agility": 6,
+					"Intelligence": 11
+				},
+				"moves": [
+					"FireAir",
+					"RockThrow",
+					"Massacre"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Andreal",
+							"Battlerex",
+							"GreatDrak",
+							"Skydragon"
+						],
+						"mate": [
+							"Bosstroll",
+							"Gigantes"
+						]
+					}
+				]
+			}
+		},
+		"BEAST FAMILY": {
+			"TONGUELLA": {
+				"name": "Tonguella",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 12,
+					"HP": 14,
+					"MP": 5,
+					"Attack": 15,
+					"Defense": 12,
+					"Agility": 11,
+					"Intelligence": 16
+				},
+				"moves": [
+					"NapAttack",
+					"SleepAir",
+					"LushLicks"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
+			},
+			"ALMIRAJ": {
+				"name": "Almiraj",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 13,
+					"HP": 18,
+					"MP": 5,
+					"Attack": 14,
+					"Defense": 9,
+					"Agility": 15,
+					"Intelligence": 4
+				},
+				"moves": [
+					"Sleep",
+					"ChargeUp",
+					"Beserker"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
+			},
+			"CATFLY": {
+				"name": "CatFly",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 10,
+					"HP": 11,
+					"MP": 10,
+					"Attack": 13,
+					"Defense": 8,
+					"Agility": 18,
+					"Intelligence": 14
+				},
+				"moves": [
+					"Slow",
+					"StopSpell",
+					"OddDance"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
+			},
+			"PILLOWRAT": {
+				"name": "PillowRat",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 11,
+					"HP": 14,
+					"MP": 17,
+					"Attack": 8,
+					"Defense": 8,
+					"Agility": 19,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Slow",
+					"Ramming",
+					"SideStep"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
+			},
+			"SACCER": {
+				"name": "Saccer",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 9,
+					"HP": 16,
+					"MP": 5,
+					"Attack": 9,
+					"Defense": 17,
+					"Agility": 0,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Upper",
+					"PsycheUp",
+					"PalsyAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"BUGFM"
+						]
+					}
+				]
+			},
+			"GULPBEAST": {
+				"name": "GulpBeast",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 13,
+					"HP": 24,
+					"MP": 1,
+					"Attack": 26,
+					"Defense": 13,
+					"Agility": 7,
+					"Intelligence": 1
+				},
+				"moves": [
+					"Massacre",
+					"Ramming",
+					"WarCry"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Tonguella"
+						],
+						"mate": [
+							"Digster",
+							"Skullgon",
+							"DeadNoble",
+							"WhiteKing",
+							"Skeletor"
+						]
+					},
+					{
+						"base": [
+							"WildApe",
+							"Grizzly",
+							"Yeti",
+							"Unicorn",
+							"Dumbira",
+							"Trumpeter"
+						],
+						"mate": [
+							"Digster",
+							"Skullgon",
+							"DeadNoble",
+							"WhiteKing",
+							"Skeletor",
+							"MetalDrak",
+							"Roboster1",
+							"LavaMan",
+							"IceMan",
+							"Golem",
+							"StoneMan"
+						]
+					},
+					{
+						"base": [
+							"Grizzly",
+							"Yeti",
+							"Trumpeter",
+							"BigEye"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					},
+					{
+						"base": [
+							"Grizzly"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
+			},
+			"SKULLROO": {
+				"name": "Skullroo",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 12,
+					"HP": 14,
+					"MP": 10,
+					"Attack": 11,
+					"Defense": 8,
+					"Agility": 16,
+					"Intelligence": 2
+				},
+				"moves": [
+					"ChargeUp",
+					"PaniDance",
+					"EagleEye"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
+			},
+			"WINDBEAST": {
+				"name": "WindBeast",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 12,
+					"HP": 13,
+					"MP": 20,
+					"Attack": 13,
+					"Defense": 15,
+					"Agility": 15,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Infernos",
+					"Icebolt",
+					"VacuSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"CatFly"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					},
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
+			},
+			"BEAVERN": {
+				"name": "Beavern",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 14,
+					"HP": 22,
+					"MP": 8,
+					"Attack": 8,
+					"Defense": 21,
+					"Agility": 10,
+					"Intelligence": 7
+				},
+				"moves": [
+					"Icebolt",
+					"ChargeUp",
+					"Geyser"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"WATERFM"
+						]
+					}
+				]
+			},
+			"ANTBEAR": {
+				"name": "Antbear",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 8,
+					"HP": 14,
+					"MP": 7,
+					"Attack": 17,
+					"Defense": 11,
+					"Agility": 9,
+					"Intelligence": 11
+				},
+				"moves": [
+					"MetalCut",
+					"SquallHit",
+					"LushLicks"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Saccer"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
+			},
+			"SUPERTEN": {
+				"name": "SuperTen",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 9,
+					"HP": 18,
+					"MP": 7,
+					"Attack": 13,
+					"Defense": 12,
+					"Agility": 11,
+					"Intelligence": 7
+				},
+				"moves": [
+					"K.O.",
+					"Dance",
+					"Hustle"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Tonguella",
+							"GulpBeast"
+						],
+						"mate": [
+							"TreeSlime",
+							"FangSlime",
+							"MadDragon",
+							"FunkyBird",
+							"MadPlant",
+							"FaceTree",
+							"Lipsy",
+							"Demonite",
+							"Gremlin",
+							"Copycat",
+							"JewelBag",
+							"Mimic"
+						]
+					},
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"Mudron"
+						]
+					},
+					{
+						"base": [
+							"Dumbira"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
+			},
+			"IRONTURT": {
+				"name": "IronTurt",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 10,
+					"HP": 18,
+					"MP": 5,
+					"Attack": 17,
+					"Defense": 23,
+					"Agility": 2,
+					"Intelligence": 11
+				},
+				"moves": [
+					"MagicWall",
+					"StrongD",
+					"Cover"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"Tortragon"
+						]
+					}
+				]
+			},
+			"MOMMONJA": {
+				"name": "Mommonja",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 9,
+					"HP": 14,
+					"MP": 11,
+					"Attack": 16,
+					"Defense": 14,
+					"Agility": 20,
+					"Intelligence": 8
+				},
+				"moves": [
+					"CureDance",
+					"MouthShut",
+					"EagleEye"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"DuckKite"
+						]
+					}
+				]
+			},
+			"HAMMERMAN": {
+				"name": "HammerMan",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 11,
+					"HP": 17,
+					"MP": 19,
+					"Attack": 17,
+					"Defense": 11,
+					"Agility": 17,
+					"Intelligence": 10
+				},
+				"moves": [
+					"ChargeUp",
+					"EvilSlash",
+					"Kamikaze"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"Stubsuck"
+						]
+					}
+				]
+			},
+			"GRIZZLY": {
+				"name": "Grizzly",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 14,
+					"HP": 20,
+					"MP": 0,
+					"Attack": 27,
+					"Defense": 7,
+					"Agility": 9,
+					"Intelligence": 1
+				},
+				"moves": [
+					"SquallHit",
+					"BiAttack",
+					"LegSweep"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"DEVILFM",
+							"MetalDrak",
+							"Roboster1",
+							"LavaMan",
+							"IceMan",
+							"Golem",
+							"StoneMan"
+						]
+					}
+				]
+			},
+			"YETI": {
+				"name": "Yeti",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 13,
+					"HP": 18,
+					"MP": 11,
+					"Attack": 15,
+					"Defense": 9,
+					"Agility": 10,
+					"Intelligence": 8
+				},
+				"moves": [
+					"Icebolt",
+					"IceSlash",
+					"WarCry"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"IronTurt",
+							"Goategon",
+							"WildApe",
+							"MadCat"
+						],
+						"mate": [
+							"Pteranod",
+							"Gasgon",
+							"Swordgon",
+							"MadDragon",
+							"BattleRex",
+							"SkyDragon"
+						]
+					},
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"Orc"
+						]
+					}
+				]
+			},
+			"ARROWDOG": {
+				"name": "ArrowDog",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 5,
+					"HP": 9,
+					"MP": 7,
+					"Attack": 21,
+					"Defense": 19,
+					"Agility": 13,
+					"Intelligence": 14
+				},
+				"moves": [
+					"Blaze",
+					"CallHelp",
+					"MouthShut"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"PutrePup"
+						]
+					}
+				]
+			},
+			"NOCTOKING": {
+				"name": "NoctoKing",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 13,
+					"HP": 22,
+					"MP": 13,
+					"Attack": 18,
+					"Defense": 15,
+					"Agility": 20,
+					"Intelligence": 8
+				},
+				"moves": [
+					"Surround",
+					"SleepAir",
+					"ThickFog"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"ArrowDog"
+						],
+						"mate": [
+							"Dracky",
+							"Shadow"
+						]
+					}
+				]
+			},
+			"BEASTNITE": {
+				"name": "BeastNite",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 8,
+					"HP": 21,
+					"MP": 4,
+					"Attack": 22,
+					"Defense": 14,
+					"Agility": 8,
+					"Intelligence": 6
+				},
+				"moves": [
+					"Sleep",
+					"RainSlash",
+					"GigaSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"EvilArmor"
+						]
+					},
+					{
+						"base": [],
+						"mate": []
+					},
+					{
+						"base": [
+							"CatMage"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					},
+					{
+						"base": [],
+						"mate": []
+					},
+					{
+						"base": [
+							"MadGopher"
+						],
+						"mate": [
+							"Dumbira"
+						]
+					}
+				]
+			},
+			"MADGOPHER": {
+				"name": "MadGopher",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 12,
+					"HP": 14,
+					"MP": 13,
+					"Attack": 17,
+					"Defense": 9,
+					"Agility": 8,
+					"Intelligence": 11
+				},
+				"moves": [
+					"BirdBlow",
+					"ZombieCut",
+					"Informer"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"SabreMan"
+						]
+					}
+				]
+			},
+			"FAIRYRAT": {
+				"name": "FairyRat",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 11,
+					"HP": 12,
+					"MP": 5,
+					"Attack": 13,
+					"Defense": 14,
+					"Agility": 17,
+					"Intelligence": 7
+				},
+				"moves": [
+					"Slow",
+					"Surround",
+					"SlimeBlow"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"LizardFly"
+						]
+					}
+				]
+			},
+			"UNICORN": {
+				"name": "Unicorn",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 14,
+					"HP": 19,
+					"MP": 21,
+					"Attack": 14,
+					"Defense": 13,
+					"Agility": 12,
+					"Intelligence": 25
+				},
+				"moves": [
+					"Heal",
+					"Vivify",
+					"Errand"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Tonguella",
+							"GulpBeast",
+							"Grizzly",
+							"Yeti",
+							"Goategon",
+							"WildApe",
+							"Trumpeter"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					},
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"FangSlime"
+						]
+					}
+				]
+			},
+			"GOATEGON": {
+				"name": "Goategon",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 11,
+					"HP": 19,
+					"MP": 9,
+					"Attack": 17,
+					"Defense": 13,
+					"Agility": 17,
+					"Intelligence": 3
+				},
+				"moves": [
+					"Firebal",
+					"Slow",
+					"SleepAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"DrakSlime",
+							"LizardMan"
+						]
+					}
+				]
+			},
+			"WILDAPE": {
+				"name": "WildApe",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 13,
+					"HP": 13,
+					"MP": 1,
+					"Attack": 20,
+					"Defense": 10,
+					"Agility": 8,
+					"Intelligence": 4
+				},
+				"moves": [
+					"TwinSlash",
+					"SideStep",
+					"Errand"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Almiraj"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					},
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"MadPecker"
+						]
+					}
+				]
+			},
+			"TRUMPETER": {
+				"name": "Trumpeter",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 14,
+					"HP": 17,
+					"MP": 8,
+					"Attack": 21,
+					"Defense": 17,
+					"Agility": 14,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Beserker",
+					"SandStorm",
+					"WarCry"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Tonguella",
+							"GulpBeast",
+							"Grizzly",
+							"Yeti"
+						],
+						"mate": [
+							"LandOwl",
+							"MadCondor",
+							"ZapBird",
+							"WhipBird"
+						]
+					},
+					{
+						"base": [
+							"GulpBeast"
+						],
+						"mate": [
+							"MetalDrak",
+							"Balzak",
+							"LavaMan",
+							"IceMan",
+							"Golem",
+							"StoneMan",
+							"Roboster1"
+						]
+					},
+					{
+						"base": [
+							"WildApe"
+						],
+						"mate": [
+							"WildApe"
+						]
+					},
+					{
+						"base": [
+							"SuperTen"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
+			},
+			"KINGLEO": {
+				"name": "KingLeo",
+				"stats": {
+					"MaxLevel": 60,
+					"Experience": 15,
+					"HP": 20,
+					"MP": 14,
+					"Attack": 24,
+					"Defense": 23,
+					"Agility": 17,
+					"Intelligence": 14
+				},
+				"moves": [
+					"Firebal",
+					"FrigidAir",
+					"BiAttack"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Trumpeter"
+						],
+						"mate": [
+							"Trumpeter",
+							"MetalDrak",
+							"Balzak",
+							"GoldGolem",
+							"BossTroll"
+						]
+					}
+				]
+			},
+			"DARKHORN": {
+				"name": "DarkHorn",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 13,
+					"HP": 17,
+					"MP": 4,
+					"Attack": 19,
+					"Defense": 18,
+					"Agility": 10,
+					"Intelligence": 12
+				},
+				"moves": [
+					"Sleep",
+					"StopSpell",
+					"PsycheUp"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					}
+				]
+			},
+			"MADCAT": {
+				"name": "MadCat",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 12,
+					"HP": 15,
+					"MP": 7,
+					"Attack": 18,
+					"Defense": 14,
+					"Agility": 17,
+					"Intelligence": 11
+				},
+				"moves": [
+					"VacuSlash",
+					"SquallHit",
+					"LegSweep"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"Dragon"
+						]
+					},
+					{
+						"base": [
+							"CatMage"
+						],
+						"mate": [
+							"Goategon",
+							"Unicorn"
+						]
+					}
+				]
+			},
+			"BIGEYE": {
+				"name": "BigEye",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 11,
+					"HP": 14,
+					"MP": 8,
+					"Attack": 14,
+					"Defense": 11,
+					"Agility": 7,
+					"Intelligence": 9
+				},
+				"moves": [
+					"Icebolt",
+					"FrigidAir",
+					"LoveRain"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"Eyeball",
+							"Drygon"
+						]
+					}
+				]
+			},
+			"GORAGO": {
+				"name": "Gorago",
+				"stats": {
+					"MaxLevel": 65,
+					"Experience": 29,
+					"HP": 29,
+					"MP": 28,
+					"Attack": 30,
+					"Defense": 24,
+					"Agility": 24,
+					"Intelligence": 6
+				},
+				"moves": [
+					"Bang",
+					"Massacre",
+					"EerieLite"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DarkHorn"
+						],
+						"mate": [
+							"BOSSFM",
+							"Orochi"
+						]
+					}
+				]
+			},
+			"CATMAGE": {
+				"name": "CatMage",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 4,
+					"HP": 7,
+					"MP": 6,
+					"Attack": 10,
+					"Defense": 4,
+					"Agility": 6,
+					"Intelligence": 15
+				},
+				"moves": [
+					"Blaze",
+					"Surround",
+					"Transform"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"CatFly"
+						],
+						"mate": [
+							"MimeSlime",
+							"CatMage",
+							"TreeBoy",
+							"Sickler",
+							"1EyeClown",
+							"Reaper",
+							"EvilWand"
+						]
+					}
+				]
+			},
+			"DUMBIRA": {
+				"name": "Dumbira",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 7,
+					"HP": 15,
+					"MP": 10,
+					"Attack": 9,
+					"Defense": 8,
+					"Agility": 14,
+					"Intelligence": 7
+				},
+				"moves": [
+					"MetalCut",
+					"RainSlash",
+					"TwinSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"NoctoKing"
+						],
+						"mate": [
+							"Gigantes"
+						]
+					},
+					{
+						"base": [],
+						"mate": []
+					},
+					{
+						"base": [
+							"SuperTen"
+						],
+						"mate": [
+							"BeastNite",
+							"LizardMan",
+							"Orc",
+							"Walrusman",
+							"Bubblemon",
+							"Mertiger",
+							"SaberMan"
+						]
+					}
+				]
+			}
+		},
+		"BIRD FAMILY": {
+			"PICKY": {
+				"name": "Picky",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 4,
+					"HP": 11,
+					"MP": 12,
+					"Attack": 14,
+					"Defense": 8,
+					"Agility": 18,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Sap",
+					"Surround",
+					"BugBlow"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
+			},
+			"WYVERN": {
+				"name": "Wyvern",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 6,
+					"HP": 17,
+					"MP": 13,
+					"Attack": 19,
+					"Defense": 11,
+					"Agility": 16,
+					"Intelligence": 20
+				},
+				"moves": [
+					"Heal",
+					"Sleep",
+					"FrigidAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
+			},
+			"BULLBIRD": {
+				"name": "BullBird",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 5,
+					"HP": 14,
+					"MP": 8,
+					"Attack": 17,
+					"Defense": 9,
+					"Agility": 6,
+					"Intelligence": 4
+				},
+				"moves": [
+					"Shears",
+					"ChargeUp",
+					"Ramming"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
+			},
+			"FLORAJAY": {
+				"name": "Florajay",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 5,
+					"HP": 6,
+					"MP": 18,
+					"Attack": 12,
+					"Defense": 3,
+					"Agility": 21,
+					"Intelligence": 19
+				},
+				"moves": [
+					"Speed",
+					"BeastCut",
+					"LifeSong"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
+			},
+			"DUCKKITE": {
+				"name": "DuckKite",
+				"stats": {
+					"MaxLevel": 30,
+					"Experience": 3,
+					"HP": 11,
+					"MP": 11,
+					"Attack": 9,
+					"Defense": 12,
+					"Agility": 18,
+					"Intelligence": 7
+				},
+				"moves": [
+					"Sleep",
+					"PanicAll",
+					"Curse"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"BUGFM"
+						]
+					}
+				]
+			},
+			"MADPECKER": {
+				"name": "MadPecker",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 4,
+					"HP": 9,
+					"MP": 7,
+					"Attack": 20,
+					"Defense": 14,
+					"Agility": 23,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Infernos",
+					"Sap",
+					"VacuSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
+			},
+			"MADRAVEN": {
+				"name": "MadRaven",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 5,
+					"HP": 6,
+					"MP": 14,
+					"Attack": 17,
+					"Defense": 12,
+					"Agility": 18,
+					"Intelligence": 5
+				},
+				"moves": [
+					"HighJump",
+					"TailWind",
+					"EagleEye"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
+			},
+			"MISTYWING": {
+				"name": "MistyWing",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 5,
+					"HP": 12,
+					"MP": 17,
+					"Attack": 8,
+					"Defense": 15,
+					"Agility": 22,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Barrier",
+					"EerieLite",
+					"Informer"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
+			},
+			"AQUAHAWK": {
+				"name": "AquaHawk",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 12,
+					"HP": 7,
+					"MP": 8,
+					"Attack": 6,
+					"Defense": 13,
+					"Agility": 14,
+					"Intelligence": 19
+				},
+				"moves": [
+					"CurseOff",
+					"SquallHit",
+					"AquaWall"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"WATERFM"
+						]
+					}
+				]
+			},
+			"DRACKY": {
+				"name": "Dracky",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 2,
+					"HP": 11,
+					"MP": 4,
+					"Attack": 8,
+					"Defense": 13,
+					"Agility": 17,
+					"Intelligence": 11
+				},
+				"moves": [
+					"Antidote",
+					"Sleep",
+					"RobMagic"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Picky"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
+			},
+			"KITEHAWK": {
+				"name": "KiteHawk",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 5,
+					"HP": 13,
+					"MP": 8,
+					"Attack": 8,
+					"Defense": 7,
+					"Agility": 9,
+					"Intelligence": 1
+				},
+				"moves": [
+					"MagicWall",
+					"Curse",
+					"TailWind"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"Facer"
+						]
+					},
+					{
+						"base": [
+							"DuckKite"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
+			},
+			"BIGROOST": {
+				"name": "BigRoost",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 3,
+					"HP": 8,
+					"MP": 5,
+					"Attack": 14,
+					"Defense": 12,
+					"Agility": 17,
+					"Intelligence": 8
+				},
+				"moves": [
+					"VacuSlash",
+					"SandStorm",
+					"Dodge"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [],
+						"mate": []
+					}
+				]
+			},
+			"STUBBIRD": {
+				"name": "StubBird",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 6,
+					"HP": 16,
+					"MP": 12,
+					"Attack": 20,
+					"Defense": 20,
+					"Agility": 14,
+					"Intelligence": 11
+				},
+				"moves": [
+					"TwinHits",
+					"BugBlow",
+					"RainSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"RockSlime"
+						]
+					}
+				]
+			},
+			"LANDOWL": {
+				"name": "LandOwl",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 5,
+					"HP": 15,
+					"MP": 10,
+					"Attack": 21,
+					"Defense": 13,
+					"Agility": 11,
+					"Intelligence": 18
+				},
+				"moves": [
+					"Infernos",
+					"BoltSlash",
+					"SideStep"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BullBird"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					},
+					{
+						"base": [],
+						"mate": []
+					},
+					{
+						"base": [
+							"Garudian"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
+			},
+			"MADGOOSE": {
+				"name": "MadGoose",
+				"stats": {
+					"MaxLevel": 30,
+					"Experience": 3,
+					"HP": 17,
+					"MP": 6,
+					"Attack": 17,
+					"Defense": 15,
+					"Agility": 20,
+					"Intelligence": 8
+				},
+				"moves": [
+					"Heal",
+					"WindBeast",
+					"CureDance"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Wyvern",
+							"LandOwl",
+							"MadCondor",
+							"Phoenix"
+						],
+						"mate": [
+							"DRAGONFM",
+							"ZOMBIEFM"
+						]
+					},
+					{
+						"base": [],
+						"mate": []
+					},
+					{
+						"base": [
+							"CragDevil"
+						],
+						"mate": [
+							"DuckKite",
+							"MadRaven"
+						]
+					},
+					{
+						"base": [],
+						"mate": []
+					},
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"Droll"
+						]
+					}
+				]
+			},
+			"MADCONDOR": {
+				"name": "MadCondor",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 6,
+					"HP": 14,
+					"MP": 11,
+					"Attack": 18,
+					"Defense": 12,
+					"Agility": 17,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Firebal",
+					"HealUs",
+					"MultiCut"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"LandOwl"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					},
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"CoilBird"
+						]
+					},
+					{
+						"base": [
+							"KiteHawk"
+						],
+						"mate": [
+							"BigRoost"
+						]
+					}
+				]
+			},
+			"EMYU": {
+				"name": "Emyu",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 4,
+					"HP": 9,
+					"MP": 13,
+					"Attack": 20,
+					"Defense": 19,
+					"Agility": 23,
+					"Intelligence": 30
+				},
+				"moves": [
+					"WindBeast",
+					"Hustle",
+					"Errand"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"KiteHawk"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					},
+					{
+						"base": [],
+						"mate": []
+					},
+					{
+						"base": [
+							"MadCondor"
+						],
+						"mate": [
+							"MadPecker"
+						]
+					},
+					{
+						"base": [],
+						"mate": []
+					},
+					{
+						"base": [
+							"MadPecker"
+						],
+						"mate": [
+							"BigEye",
+							"DarkEye"
+						]
+					}
+				]
+			},
+			"BLIZZARDY": {
+				"name": "Blizzardy",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 7,
+					"HP": 20,
+					"MP": 7,
+					"Attack": 11,
+					"Defense": 17,
+					"Agility": 19,
+					"Intelligence": 11
+				},
+				"moves": [
+					"Beat",
+					"FrigidAir",
+					"IceSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"Metaly",
+							"Metabble",
+							"SuperTen",
+							"Yeti",
+							"Goategon",
+							"Trumpeter",
+							"Skullgon",
+							"DeadNoble",
+							"WhiteKing",
+							"Skeletor",
+							"Servant",
+							"IceMan"
+						]
+					}
+				]
+			},
+			"PHOENIX": {
+				"name": "Phoenix",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 7,
+					"HP": 16,
+					"MP": 13,
+					"Attack": 19,
+					"Defense": 8,
+					"Agility": 19,
+					"Intelligence": 12
+				},
+				"moves": [
+					"FireAir",
+					"SquallHit",
+					"TailWind"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"DrakSlime",
+							"GulpBeast",
+							"IronTurt",
+							"Grizzly",
+							"ArcDemon",
+							"CopyCat",
+							"Gismo",
+							"LavaMan"
+						]
+					}
+				]
+			},
+			"ZAPBIRD": {
+				"name": "ZapBird",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 7,
+					"HP": 20,
+					"MP": 7,
+					"Attack": 19,
+					"Defense": 17,
+					"Agility": 22,
+					"Intelligence": 12
+				},
+				"moves": [
+					"HellBlast",
+					"Lightning",
+					"BoltSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MadCondor",
+							"Phoenix",
+							"WhipBird"
+						],
+						"mate": [
+							"Gismo"
+						]
+					},
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					}
+				]
+			},
+			"GARUDIAN": {
+				"name": "Garudian",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 8,
+					"HP": 10,
+					"MP": 7,
+					"Attack": 8,
+					"Defense": 14,
+					"Agility": 22,
+					"Intelligence": 9
+				},
+				"moves": [
+					"Infernos",
+					"WindBeast",
+					"AquaCut"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Blizzardy",
+							"Phoenix",
+							"ZapBird"
+						],
+						"mate": [
+							"Lionex"
+						]
+					},
+					{
+						"base": [
+							"FunkyBird"
+						],
+						"mate": [
+							"Jamirus"
+						]
+					}
+				]
+			},
+			"WHIPBIRD": {
+				"name": "WhipBird",
+				"stats": {
+					"MaxLevel": 60,
+					"Experience": 15,
+					"HP": 27,
+					"MP": 19,
+					"Attack": 12,
+					"Defense": 20,
+					"Agility": 23,
+					"Intelligence": 23
+				},
+				"moves": [
+					"Ironize",
+					"ThickFog",
+					"TatsuCall"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"LandOwl",
+							"MadGoose",
+							"MadCondor",
+							"Blizzardy",
+							"ZapBird"
+						],
+						"mate": [
+							"RockSlime",
+							"SlimeBorg",
+							"Digster",
+							"MetalDrak",
+							"Golem",
+							"StoneMan",
+							"Merman"
+						]
+					},
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"Rayburn",
+							"SnakeBat"
+						]
+					}
+				]
+			},
+			"FUNKYBIRD": {
+				"name": "FunkyBird",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 5,
+					"HP": 14,
+					"MP": 20,
+					"Attack": 8,
+					"Defense": 9,
+					"Agility": 16,
+					"Intelligence": 20
+				},
+				"moves": [
+					"PaniDance",
+					"LifeDance",
+					"Hustle"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"DanceVegi",
+							"TropicGel",
+							"BrusHead",
+							"Pyuro"
+						]
+					},
+					{
+						"base": [
+							"CragDevil"
+						],
+						"mate": [
+							"CragDevil"
+						]
+					}
+				]
+			},
+			"RAINHAWK": {
+				"name": "RainHawk",
+				"stats": {
+					"MaxLevel": 70,
+					"Experience": 24,
+					"HP": 25,
+					"MP": 27,
+					"Attack": 15,
+					"Defense": 24,
+					"Agility": 18,
+					"Intelligence": 24
+				},
+				"moves": [
+					"MegaMagic",
+					"Surge",
+					"StrongD"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Blizzardy"
+						],
+						"mate": [
+							"Phoenix",
+							"Vampirus"
+						]
+					}
+				]
+			},
+			"AZURILE": {
+				"name": "Azurile",
+				"stats": {
+					"MaxLevel": 75,
+					"Experience": 28,
+					"HP": 27,
+					"MP": 24,
+					"Attack": 24,
+					"Defense": 12,
+					"Agility": 24,
+					"Intelligence": 12
+				},
+				"moves": [
+					"HellBlast",
+					"Meditate",
+					"LifeSong"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"RainHawk"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					},
+					{
+						"base": [
+							"Shantak"
+						],
+						"mate": [
+							"GoldGolem"
+						]
+					}
+				]
+			},
+			"SHANTAK": {
+				"name": "Shantak",
+				"stats": {
+					"MaxLevel": 60,
+					"Experience": 22,
+					"HP": 24,
+					"MP": 22,
+					"Attack": 18,
+					"Defense": 20,
+					"Agility": 24,
+					"Intelligence": 22
+				},
+				"moves": [
+					"HealUs",
+					"FireAir",
+					"SealAll"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"WhipBird"
+						],
+						"mate": [
+							"GreatDrak",
+							"Jamirus"
+						]
+					}
+				]
+			},
+			"CRAGDEVIL": {
+				"name": "CragDevil",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 4,
+					"HP": 7,
+					"MP": 8,
+					"Attack": 13,
+					"Defense": 5,
+					"Agility": 14,
+					"Intelligence": 11
+				},
+				"moves": [
+					"Infernos",
+					"PanicAll",
+					"EagleEye"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BigRoost",
+							"Emyu",
+							"MadGoose"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
+			}
+		},
+		"PLANT FAMILY": {
+			"MADPLANT": {
+				"name": "MadPlant",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 10,
+					"HP": 15,
+					"MP": 24,
+					"Attack": 11,
+					"Defense": 13,
+					"Agility": 6,
+					"Intelligence": 18
+				},
+				"moves": [
+					"NumbOff",
+					"Sap",
+					"Slow"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
+			},
+			"FIREWEED": {
+				"name": "FireWeed",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 15,
+					"HP": 14,
+					"MP": 26,
+					"Attack": 10,
+					"Defense": 12,
+					"Agility": 5,
+					"Intelligence": 17
+				},
+				"moves": [
+					"Blaze",
+					"Dechaos",
+					"PalsyAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
+			},
+			"FLORAMAN": {
+				"name": "FloraMan",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 7,
+					"HP": 17,
+					"MP": 20,
+					"Attack": 6,
+					"Defense": 9,
+					"Agility": 2,
+					"Intelligence": 19
+				},
+				"moves": [
+					"Firebal",
+					"Antidote",
+					"CurseOff"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
+			},
+			"WINGTREE": {
+				"name": "WingTree",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 7,
+					"HP": 12,
+					"MP": 20,
+					"Attack": 6,
+					"Defense": 11,
+					"Agility": 14,
+					"Intelligence": 7
+				},
+				"moves": [
+					"Farewell",
+					"ZombieCut",
+					"StepGuard"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
+			},
+			"CACTIBALL": {
+				"name": "CactiBall",
+				"stats": {
+					"MaxLevel": 30,
+					"Experience": 6,
+					"HP": 18,
+					"MP": 18,
+					"Attack": 12,
+					"Defense": 15,
+					"Agility": 9,
+					"Intelligence": 5
+				},
+				"moves": [
+					"Paralyze",
+					"HighJump",
+					"OddDance"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"BUGFM"
+						]
+					}
+				]
+			},
+			"GULPPLE": {
+				"name": "Gulpple",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 11,
+					"HP": 16,
+					"MP": 17,
+					"Attack": 9,
+					"Defense": 6,
+					"Agility": 2,
+					"Intelligence": 14
+				},
+				"moves": [
+					"NapAttack",
+					"HighJump",
+					"SleepAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
+			},
+			"TOADSTOOL": {
+				"name": "Toadstool",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 9,
+					"HP": 14,
+					"MP": 18,
+					"Attack": 8,
+					"Defense": 9,
+					"Agility": 13,
+					"Intelligence": 13
+				},
+				"moves": [
+					"NapAttack",
+					"SleepAir",
+					"MouthShut"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
+			},
+			"AMBERWEED": {
+				"name": "AmberWeed",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 12,
+					"HP": 12,
+					"MP": 24,
+					"Attack": 8,
+					"Defense": 17,
+					"Agility": 12,
+					"Intelligence": 10
+				},
+				"moves": [
+					"TwinHits",
+					"Barrier",
+					"MagicWall"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
+			},
+			"SLURPERON": {
+				"name": "Slurperon",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 3,
+					"HP": 8,
+					"MP": 5,
+					"Attack": 7,
+					"Defense": 2,
+					"Agility": 7,
+					"Intelligence": 2
+				},
+				"moves": [
+					"Sleep",
+					"OddDance",
+					"LushLicks"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"WATERFM"
+						]
+					}
+				]
+			},
+			"STUBSUCK": {
+				"name": "Stubsuck",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 8,
+					"HP": 17,
+					"MP": 11,
+					"Attack": 4,
+					"Defense": 2,
+					"Agility": 9,
+					"Intelligence": 14
+				},
+				"moves": [
+					"Sleep",
+					"ZombieCut",
+					"StepGuard"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"AmberWeed"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					},
+					{
+						"base": [
+							"GhosTree"
+						],
+						"mate": [
+							"GhosTree"
+						]
+					}
+				]
+			},
+			"ONIONO": {
+				"name": "Oniono",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 9,
+					"HP": 13,
+					"MP": 20,
+					"Attack": 14,
+					"Defense": 11,
+					"Agility": 3,
+					"Intelligence": 16
+				},
+				"moves": [
+					"RobMagic",
+					"ChargeUp",
+					"SleepAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"Gophecada"
+						]
+					}
+				]
+			},
+			"DANCEVEGI": {
+				"name": "DanceVegi",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 12,
+					"HP": 11,
+					"MP": 21,
+					"Attack": 7,
+					"Defense": 6,
+					"Agility": 20,
+					"Intelligence": 11
+				},
+				"moves": [
+					"K.O.",
+					"Dance",
+					"CureDance"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MadPlant"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					},
+					{
+						"base": [],
+						"mate": []
+					},
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"Facer"
+						]
+					}
+				]
+			},
+			"TREEBOY": {
+				"name": "TreeBoy",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 11,
+					"HP": 15,
+					"MP": 18,
+					"Attack": 8,
+					"Defense": 3,
+					"Agility": 12,
+					"Intelligence": 15
+				},
+				"moves": [
+					"Mpass",
+					"CurseOff",
+					"Hustle"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"Pixy"
+						]
+					},
+					{
+						"base": [],
+						"mate": []
+					},
+					{
+						"base": [
+							"FooHero"
+						],
+						"mate": [
+							"EvilWand"
+						]
+					}
+				]
+			},
+			"DEVIPINE": {
+				"name": "Devipine",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 10,
+					"HP": 14,
+					"MP": 7,
+					"Attack": 8,
+					"Defense": 4,
+					"Agility": 5,
+					"Intelligence": 3
+				},
+				"moves": [
+					"Beat",
+					"SleepAir",
+					"PoisonGas"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"Gulpple"
+						]
+					}
+				]
+			},
+			"FACETREE": {
+				"name": "FaceTree",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 9,
+					"HP": 12,
+					"MP": 20,
+					"Attack": 11,
+					"Defense": 8,
+					"Agility": 10,
+					"Intelligence": 17
+				},
+				"moves": [
+					"StopSpell",
+					"Curse",
+					"OddDance"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"HerbMan"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					},
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"NiteWhip"
+						]
+					},
+					{
+						"base": [
+							"GhosTree"
+						],
+						"mate": [
+							"Snapper"
+						]
+					}
+				]
+			},
+			"HERBMAN": {
+				"name": "HerbMan",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 13,
+					"HP": 19,
+					"MP": 17,
+					"Attack": 7,
+					"Defense": 10,
+					"Agility": 15,
+					"Intelligence": 23
+				},
+				"moves": [
+					"Curse",
+					"Focus",
+					"DanceShut"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DanceVegi"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					},
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"FunkyBird"
+						]
+					}
+				]
+			},
+			"BEANMAN": {
+				"name": "BeanMan",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 10,
+					"HP": 14,
+					"MP": 15,
+					"Attack": 12,
+					"Defense": 14,
+					"Agility": 15,
+					"Intelligence": 9
+				},
+				"moves": [
+					"TwinHits",
+					"RobMagic",
+					"MapMagic"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"PillowRat",
+							"FishRider"
+						]
+					},
+					{
+						"base": [
+							"Eggplaton"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
+			},
+			"EVILSEED": {
+				"name": "EvilSeed",
+				"stats": {
+					"MaxLevel": 30,
+					"Experience": 6,
+					"HP": 8,
+					"MP": 11,
+					"Attack": 8,
+					"Defense": 5,
+					"Agility": 1,
+					"Intelligence": 3
+				},
+				"moves": [
+					"CleanCut",
+					"Paralyze",
+					"Radiant"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"RockSlime",
+							"BigEye",
+							"DuckKite",
+							"ButterFly",
+							"Eyeder",
+							"DarkEye",
+							"EyeBall",
+							"MadMirror",
+							"Gamanium",
+							"KiteHawk"
+						]
+					},
+					{
+						"base": [],
+						"mate": []
+					},
+					{
+						"base": [
+							"Eggplaton"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
+			},
+			"MANEATER": {
+				"name": "ManEater",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 9,
+					"HP": 14,
+					"MP": 12,
+					"Attack": 19,
+					"Defense": 7,
+					"Agility": 10,
+					"Intelligence": 6
+				},
+				"moves": [
+					"DrakSlash",
+					"PsycheUp",
+					"SleepAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"EvilSeed"
+						],
+						"mate": [
+							"EvilSeed",
+							"Slurperon"
+						]
+					}
+				]
+			},
+			"SNAPPER": {
+				"name": "Snapper",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 11,
+					"HP": 17,
+					"MP": 14,
+					"Attack": 20,
+					"Defense": 13,
+					"Agility": 10,
+					"Intelligence": 16
+				},
+				"moves": [
+					"StopSpell",
+					"CallHelp",
+					"RainSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"ManEater"
+						],
+						"mate": [
+							"ManEater"
+						]
+					}
+				]
+			},
+			"GHOSTREE": {
+				"name": "GhosTree",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 9,
+					"HP": 8,
+					"MP": 13,
+					"Attack": 9,
+					"Defense": 6,
+					"Agility": 7,
+					"Intelligence": 15
+				},
+				"moves": [
+					"RobMagic",
+					"CureDance",
+					"EerieLite"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"StubSuck"
+						],
+						"mate": [
+							"Puppetor",
+							"ZOMBIEFM"
+						]
+					}
+				]
+			},
+			"ROSEVINE": {
+				"name": "Rosevine",
+				"stats": {
+					"MaxLevel": 70,
+					"Experience": 24,
+					"HP": 24,
+					"MP": 30,
+					"Attack": 23,
+					"Defense": 21,
+					"Agility": 18,
+					"Intelligence": 18
+				},
+				"moves": [
+					"BiAttack",
+					"UltraDown",
+					"BladeD"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					}
+				]
+			},
+			"EGDRACIL": {
+				"name": "Egdracil",
+				"stats": {
+					"MaxLevel": 70,
+					"Experience": 24,
+					"HP": 25,
+					"MP": 18,
+					"Attack": 21,
+					"Defense": 24,
+					"Agility": 15,
+					"Intelligence": 23
+				},
+				"moves": [
+					"Vivify",
+					"SleepAir",
+					"SealAll"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Rosevine"
+						],
+						"mate": [
+							"Gigantes"
+						]
+					}
+				]
+			},
+			"WARUBOU": {
+				"name": "Warubou",
+				"stats": {
+					"MaxLevel": 80,
+					"Experience": 15,
+					"HP": 22,
+					"MP": 7,
+					"Attack": 12,
+					"Defense": 13,
+					"Agility": 24,
+					"Intelligence": 4
+				},
+				"moves": [
+					"Mpass",
+					"DeMagic",
+					"Pheromone"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [],
+						"mate": []
+					},
+					{
+						"base": [],
+						"mate": []
+					}
+				]
+			},
+			"WATABOU": {
+				"name": "Watabou",
+				"stats": {
+					"MaxLevel": 80,
+					"Experience": 0,
+					"HP": 10,
+					"MP": 27,
+					"Attack": 11,
+					"Defense": 14,
+					"Agility": 24,
+					"Intelligence": 30
+				},
+				"moves": [
+					"Chance",
+					"Imitate",
+					"Whistle"
+				],
+				"resistances": [],
+				"breeds": []
+			},
+			"EGGPLATON": {
+				"name": "Eggplaton",
+				"stats": {
+					"MaxLevel": 30,
+					"Experience": 3,
+					"HP": 8,
+					"MP": 14,
+					"Attack": 13,
+					"Defense": 19,
+					"Agility": 7,
+					"Intelligence": 14
+				},
+				"moves": [
+					"Mpass",
+					"OddDance",
+					"CureDance"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"Aquarella",
+							"Lipsy",
+							"Droll"
+						]
+					}
+				]
+			},
+			"FOOHERO": {
+				"name": "FooHero",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 16,
+					"HP": 8,
+					"MP": 4,
+					"Attack": 7,
+					"Defense": 4,
+					"Agility": 9,
+					"Intelligence": 7
+				},
+				"moves": [
+					"Bolt",
+					"Heal",
+					"GigaSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"TreeBoy"
+						],
+						"mate": [
+							"BeastNite",
+							"SlimeNite",
+							"HammerMan"
+						]
+					}
+				]
+			}
+		},
+		"BUG FAMILY": {
+			"GIANTSLUG": {
+				"name": "GiantSlug",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 2,
+					"HP": 11,
+					"MP": 8,
+					"Attack": 14,
+					"Defense": 9,
+					"Agility": 11,
+					"Intelligence": 7
+				},
+				"moves": [
+					"LushLicks",
+					"Dodge",
+					"Whistle"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
+			},
+			"CATAPILA": {
+				"name": "Catapila",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 4,
+					"HP": 13,
+					"MP": 5,
+					"Attack": 11,
+					"Defense": 14,
+					"Agility": 11,
+					"Intelligence": 9
+				},
+				"moves": [
+					"Upper",
+					"PoisonHit",
+					"ThickFog"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
+			},
+			"GOPHECADA": {
+				"name": "Gophecada",
+				"stats": {
+					"MaxLevel": 30,
+					"Experience": 1,
+					"HP": 6,
+					"MP": 11,
+					"Attack": 14,
+					"Defense": 18,
+					"Agility": 8,
+					"Intelligence": 7
+				},
+				"moves": [
+					"Beat",
+					"MagicBack",
+					"CallHelp"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
+			},
+			"BUTTERFLY": {
+				"name": "Butterfly",
+				"stats": {
+					"MaxLevel": 30,
+					"Experience": 0,
+					"HP": 11,
+					"MP": 2,
+					"Attack": 13,
+					"Defense": 7,
+					"Agility": 12,
+					"Intelligence": 8
+				},
+				"moves": [
+					"Surround",
+					"CallHelp",
+					"Curse"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
+			},
+			"WEEDBUG": {
+				"name": "WeedBug",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 4,
+					"HP": 17,
+					"MP": 13,
+					"Attack": 10,
+					"Defense": 12,
+					"Agility": 5,
+					"Intelligence": 19
+				},
+				"moves": [
+					"RobMagic",
+					"Barrier",
+					"MagicWall"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
+			},
+			"GIANTWORM": {
+				"name": "GiantWorm",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 6,
+					"HP": 13,
+					"MP": 8,
+					"Attack": 16,
+					"Defense": 8,
+					"Agility": 13,
+					"Intelligence": 14
+				},
+				"moves": [
+					"BeastCut",
+					"OddDance",
+					"StepGuard"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
+			},
+			"LIPSY": {
+				"name": "Lipsy",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 4,
+					"HP": 12,
+					"MP": 8,
+					"Attack": 9,
+					"Defense": 9,
+					"Agility": 4,
+					"Intelligence": 1
+				},
+				"moves": [
+					"LushLicks",
+					"Ahhh",
+					"Pheromone"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
+			},
+			"STAGBUG": {
+				"name": "StagBug",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 3,
+					"HP": 13,
+					"MP": 7,
+					"Attack": 16,
+					"Defense": 20,
+					"Agility": 9,
+					"Intelligence": 7
+				},
+				"moves": [
+					"Sleep",
+					"FireAir",
+					"LegSweep"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
+			},
+			"PYURO": {
+				"name": "Pyuro",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 7,
+					"HP": 8,
+					"MP": 8,
+					"Attack": 7,
+					"Defense": 13,
+					"Agility": 11,
+					"Intelligence": 14
+				},
+				"moves": [
+					"Speed",
+					"WindBeast",
+					"MouthShut"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"WATERFM"
+						]
+					}
+				]
+			},
+			"ARMYANT": {
+				"name": "ArmyAnt",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 2,
+					"HP": 8,
+					"MP": 4,
+					"Attack": 11,
+					"Defense": 17,
+					"Agility": 13,
+					"Intelligence": 1
+				},
+				"moves": [
+					"CallHelp",
+					"NapAttack",
+					"Kamikaze"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"GiantSlug"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
+			},
+			"GOHOPPER": {
+				"name": "GoHopper",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 0,
+					"HP": 11,
+					"MP": 4,
+					"Attack": 8,
+					"Defense": 14,
+					"Agility": 14,
+					"Intelligence": 4
+				},
+				"moves": [
+					"RobMagic",
+					"CallHelp",
+					"ChargeUp"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [],
+						"mate": []
+					}
+				]
+			},
+			"TAILEATER": {
+				"name": "TailEater",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 5,
+					"HP": 12,
+					"MP": 10,
+					"Attack": 16,
+					"Defense": 11,
+					"Agility": 14,
+					"Intelligence": 5
+				},
+				"moves": [
+					"IceSlash",
+					"PoisonGas",
+					"Radiant"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"WeedBug"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					},
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"FloraMan"
+						]
+					}
+				]
+			},
+			"ARMORPEDE": {
+				"name": "ArmorPede",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 6,
+					"HP": 15,
+					"MP": 10,
+					"Attack": 17,
+					"Defense": 20,
+					"Agility": 11,
+					"Intelligence": 2
+				},
+				"moves": [
+					"Upper",
+					"TwinHits",
+					"TwinSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"GiantWorm"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					},
+					{
+						"base": [
+							"Droll"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					},
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"IronTurt"
+						]
+					},
+					{
+						"base": [
+							"MultiEyes"
+						],
+						"mate": [
+							"RockSlime",
+							"Tortragon"
+						]
+					}
+				]
+			},
+			"EYEDER": {
+				"name": "Eyeder",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 4,
+					"HP": 9,
+					"MP": 11,
+					"Attack": 6,
+					"Defense": 3,
+					"Agility": 10,
+					"Intelligence": 9
+				},
+				"moves": [
+					"Firebal",
+					"Heal",
+					"MapMagic"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Catapila"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					},
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"AmberWeed"
+						]
+					}
+				]
+			},
+			"GIANTMOTH": {
+				"name": "GiantMoth",
+				"stats": {
+					"MaxLevel": 30,
+					"Experience": 2,
+					"HP": 14,
+					"MP": 9,
+					"Attack": 16,
+					"Defense": 12,
+					"Agility": 20,
+					"Intelligence": 12
+				},
+				"moves": [
+					"WindBeast",
+					"Paralyze",
+					"Radiant"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"ButterFly"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					},
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"Saccer",
+							"RayGigas"
+						]
+					}
+				]
+			},
+			"DROLL": {
+				"name": "Droll",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 5,
+					"HP": 17,
+					"MP": 10,
+					"Attack": 15,
+					"Defense": 16,
+					"Agility": 7,
+					"Intelligence": 14
+				},
+				"moves": [
+					"Slow",
+					"Shears",
+					"StepGuard"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Eyeder"
+						],
+						"mate": [
+							"Eyeder"
+						]
+					},
+					{
+						"base": [
+							"TailEater"
+						],
+						"mate": [
+							"TailEater"
+						]
+					},
+					{
+						"base": [
+							"ButterFly"
+						],
+						"mate": [
+							"ButterFly"
+						]
+					},
+					{
+						"base": [
+							"Lipsy"
+						],
+						"mate": [
+							"SLIMEFM",
+							"Aquarella",
+							"Octokid",
+							"Angleron"
+						]
+					},
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"Spooky"
+						]
+					}
+				]
+			},
+			"ARMYCRAB": {
+				"name": "ArmyCrab",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 6,
+					"HP": 16,
+					"MP": 8,
+					"Attack": 14,
+					"Defense": 19,
+					"Agility": 5,
+					"Intelligence": 1
+				},
+				"moves": [
+					"Upper",
+					"CallHelp",
+					"MetalCut"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"DarkCrab",
+							"CancerMan"
+						]
+					}
+				]
+			},
+			"MADHORNET": {
+				"name": "MadHornet",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 7,
+					"HP": 20,
+					"MP": 5,
+					"Attack": 19,
+					"Defense": 13,
+					"Agility": 20,
+					"Intelligence": 4
+				},
+				"moves": [
+					"PoisonHit",
+					"Paralyze",
+					"TailWind"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Eyeder",
+							"Droll",
+							"Pyuro"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					},
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"FairyRat"
+						]
+					},
+					{
+						"base": [
+							"Butterfly"
+						],
+						"mate": [
+							"Pyuro"
+						]
+					}
+				]
+			},
+			"BELZEBUB": {
+				"name": "Belzebub",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 12,
+					"HP": 23,
+					"MP": 19,
+					"Attack": 8,
+					"Defense": 7,
+					"Agility": 14,
+					"Intelligence": 3
+				},
+				"moves": [
+					"Firebal",
+					"Farewell",
+					"Ramming"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MadHornet"
+						],
+						"mate": [
+							"GoHopper"
+						]
+					},
+					{
+						"base": [
+							"MultiEyes"
+						],
+						"mate": [
+							"ButterFly",
+							"Pyuro"
+						]
+					}
+				]
+			},
+			"WARMANTIS": {
+				"name": "WarMantis",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 18,
+					"HP": 23,
+					"MP": 16,
+					"Attack": 12,
+					"Defense": 9,
+					"Agility": 11,
+					"Intelligence": 8
+				},
+				"moves": [
+					"VacuSlash",
+					"Shears",
+					"GigaSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Sickler"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
+			},
+			"HORNBEET": {
+				"name": "HornBeet",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 7,
+					"HP": 21,
+					"MP": 19,
+					"Attack": 23,
+					"Defense": 20,
+					"Agility": 12,
+					"Intelligence": 14
+				},
+				"moves": [
+					"RockThrow",
+					"BoltSlash",
+					"DevilCut"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"StagBug"
+						],
+						"mate": [
+							"StagBug"
+						]
+					},
+					{
+						"base": [
+							"ArmorPede",
+							"Warmantis"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
+			},
+			"SICKLER": {
+				"name": "Sickler",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 7,
+					"HP": 19,
+					"MP": 13,
+					"Attack": 9,
+					"Defense": 7,
+					"Agility": 14,
+					"Intelligence": 5
+				},
+				"moves": [
+					"Infernos",
+					"DevilCut",
+					"SquallHit"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"1EyeClown",
+							"Reaper"
+						]
+					},
+					{
+						"base": [
+							"Warmantis"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
+			},
+			"ARMORPION": {
+				"name": "Armorpion",
+				"stats": {
+					"MaxLevel": 55,
+					"Experience": 24,
+					"HP": 22,
+					"MP": 20,
+					"Attack": 24,
+					"Defense": 23,
+					"Agility": 15,
+					"Intelligence": 18
+				},
+				"moves": [
+					"ZombieCut",
+					"RainSlash",
+					"EvilSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"HornBeet"
+						],
+						"mate": [
+							"HornBeet"
+						]
+					},
+					{
+						"base": [
+							"WarMantis"
+						],
+						"mate": [
+							"CancerMan",
+							"RogueNite",
+							"OctoRaid"
+						]
+					}
+				]
+			},
+			"DIGSTER": {
+				"name": "Digster",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 11,
+					"HP": 24,
+					"MP": 10,
+					"Attack": 19,
+					"Defense": 26,
+					"Agility": 1,
+					"Intelligence": 15
+				},
+				"moves": [
+					"Farewell",
+					"StrongD",
+					"SealAll"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					},
+					{
+						"base": [
+							"ArmyCrab"
+						],
+						"mate": [
+							"Clawster"
+						]
+					}
+				]
+			},
+			"SKULARACH": {
+				"name": "Skularach",
+				"stats": {
+					"MaxLevel": 65,
+					"Experience": 25,
+					"HP": 18,
+					"MP": 23,
+					"Attack": 25,
+					"Defense": 24,
+					"Agility": 30,
+					"Intelligence": 21
+				},
+				"moves": [
+					"Lightning",
+					"BiAttack",
+					"PoisonGas"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Armorpion"
+						],
+						"mate": [
+							"WhiteKing"
+						]
+					}
+				]
+			},
+			"MULTIEYES": {
+				"name": "MultiEyes",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 4,
+					"HP": 14,
+					"MP": 15,
+					"Attack": 19,
+					"Defense": 13,
+					"Agility": 2,
+					"Intelligence": 3
+				},
+				"moves": [
+					"Sap",
+					"TwinHits",
+					"PalsyAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Catapila"
+						],
+						"mate": [
+							"Catapila"
+						]
+					},
+					{
+						"base": [
+							"Taileater"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
+			}
+		},
+		"DEVIL FAMILY": {
+			"PIXY": {
+				"name": "Pixy",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 19,
+					"HP": 11,
+					"MP": 7,
+					"Attack": 15,
+					"Defense": 8,
+					"Agility": 15,
+					"Intelligence": 4
+				},
+				"moves": [
+					"Antidote",
+					"TwinHits",
+					"SealPray"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
+			},
+			"MEDUSAEYE": {
+				"name": "MedusaEye",
+				"stats": {
+					"MaxLevel": 30,
+					"Experience": 19,
+					"HP": 11,
+					"MP": 13,
+					"Attack": 14,
+					"Defense": 15,
+					"Agility": 8,
+					"Intelligence": 11
+				},
+				"moves": [
+					"Sap",
+					"Surround",
+					"Shears"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MedusaEye",
+							"1EyeClown",
+							"Gremlin"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					},
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
+			},
+			"AGDEVIL": {
+				"name": "AgDevil",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 16,
+					"HP": 16,
+					"MP": 11,
+					"Attack": 18,
+					"Defense": 12,
+					"Agility": 16,
+					"Intelligence": 19
+				},
+				"moves": [
+					"Firebal",
+					"Sacrifice",
+					"SleepAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"SkulRider",
+							"Evilbeast",
+							"Gremlin",
+							"MedusaEye"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
+			},
+			"DEMONITE": {
+				"name": "Demonite",
+				"stats": {
+					"MaxLevel": 30,
+					"Experience": 13,
+					"HP": 13,
+					"MP": 1,
+					"Attack": 5,
+					"Defense": 4,
+					"Agility": 9,
+					"Intelligence": 20
+				},
+				"moves": [
+					"Blaze",
+					"FireAir",
+					"FrigidAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
+			},
+			"DARKEYE": {
+				"name": "DarkEye",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 18,
+					"HP": 11,
+					"MP": 18,
+					"Attack": 10,
+					"Defense": 16,
+					"Agility": 9,
+					"Intelligence": 12
+				},
+				"moves": [
+					"CleanCut",
+					"PalsyAir",
+					"Radiant"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
+			},
+			"EYEBALL": {
+				"name": "EyeBall",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 16,
+					"HP": 16,
+					"MP": 17,
+					"Attack": 14,
+					"Defense": 14,
+					"Agility": 13,
+					"Intelligence": 8
+				},
+				"moves": [
+					"MagicBack",
+					"WarCry",
+					"Outside"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"BUGFM"
+						]
+					}
+				]
+			},
+			"SKULRIDER": {
+				"name": "SkulRider",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 18,
+					"HP": 17,
+					"MP": 11,
+					"Attack": 17,
+					"Defense": 13,
+					"Agility": 15,
+					"Intelligence": 12
+				},
+				"moves": [
+					"FireSlash",
+					"RainSlash",
+					"LegSweep"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
+			},
+			"EVILBEAST": {
+				"name": "EvilBeast",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 20,
+					"HP": 16,
+					"MP": 10,
+					"Attack": 20,
+					"Defense": 22,
+					"Agility": 4,
+					"Intelligence": 12
+				},
+				"moves": [
+					"Firebal",
+					"Ironize",
+					"FrigidAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
+			},
+			"BUBBLEMON": {
+				"name": "Bubblemon",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 12,
+					"HP": 14,
+					"MP": 13,
+					"Attack": 15,
+					"Defense": 7,
+					"Agility": 7,
+					"Intelligence": 4
+				},
+				"moves": [
+					"Watershot",
+					"IceSlash",
+					"BladeD"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"WATERFM"
+						]
+					}
+				]
+			},
+			"1EYECLOWN": {
+				"name": "1EyeClown",
+				"stats": {
+					"MaxLevel": 25,
+					"Experience": 13,
+					"HP": 10,
+					"MP": 1,
+					"Attack": 5,
+					"Defense": 9,
+					"Agility": 9,
+					"Intelligence": 17
+				},
+				"moves": [
+					"Blaze",
+					"Firebal",
+					"Icebolt"
+				],
+				"resistances": [],
+				"breeds": []
+			},
+			"GREMLIN": {
+				"name": "Gremlin",
+				"stats": {
+					"MaxLevel": 25,
+					"Experience": 13,
+					"HP": 13,
+					"MP": 7,
+					"Attack": 8,
+					"Defense": 4,
+					"Agility": 2,
+					"Intelligence": 18
+				},
+				"moves": [
+					"Firebal",
+					"Heal",
+					"StopSpell"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
+			},
+			"ARCDEMON": {
+				"name": "ArcDemon",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 20,
+					"HP": 14,
+					"MP": 13,
+					"Attack": 17,
+					"Defense": 12,
+					"Agility": 7,
+					"Intelligence": 21
+				},
+				"moves": [
+					"Bang",
+					"VacuSlash",
+					"BoltSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"AgDevil",
+							"Grendal",
+							"Gigantes"
+						],
+						"mate": [
+							"Andreal",
+							"Garudian",
+							"GreatDrak",
+							"KingLeo",
+							"KingSlime",
+							"MetalDrak",
+							"MetalKing",
+							"Orochi",
+							"SpotKing",
+							"Trumpeter",
+							"WhipBird",
+							"ZapBird"
+						]
+					},
+					{
+						"base": [
+							"GateGuard"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					},
+					{
+						"base": [
+							"Ogre"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					},
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					}
+				]
+			},
+			"LIONEX": {
+				"name": "Lionex",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 21,
+					"HP": 15,
+					"MP": 11,
+					"Attack": 14,
+					"Defense": 15,
+					"Agility": 12,
+					"Intelligence": 19
+				},
+				"moves": [
+					"Infernos",
+					"HealUs",
+					"VacuSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"ArcDemon"
+						],
+						"mate": [
+							"ZOMBIEFM",
+							"Garudian"
+						]
+					},
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"LizardMan"
+						]
+					}
+				]
+			},
+			"GOATHORN": {
+				"name": "GoatHorn",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 22,
+					"HP": 20,
+					"MP": 11,
+					"Attack": 17,
+					"Defense": 13,
+					"Agility": 11,
+					"Intelligence": 20
+				},
+				"moves": [
+					"Bang",
+					"Infernos",
+					"Icebolt"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"ArcDemon"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					},
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"DarkHorn"
+						]
+					}
+				]
+			},
+			"ORC": {
+				"name": "Orc",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 17,
+					"HP": 19,
+					"MP": 7,
+					"Attack": 19,
+					"Defense": 13,
+					"Agility": 13,
+					"Intelligence": 18
+				},
+				"moves": [
+					"Vivify",
+					"Sap",
+					"BirdBlow"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"BeanMan"
+						]
+					}
+				]
+			},
+			"OGRE": {
+				"name": "Ogre",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 19,
+					"HP": 15,
+					"MP": 8,
+					"Attack": 20,
+					"Defense": 12,
+					"Agility": 10,
+					"Intelligence": 12
+				},
+				"moves": [
+					"MetalCut",
+					"PsycheUp",
+					"Massacre"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"AgDevil",
+							"Grendal",
+							"Gigantes"
+						],
+						"mate": [
+							"GulpBeast",
+							"Unicorn",
+							"Digster",
+							"Roboster1",
+							"WalrusMan",
+							"MerTiger"
+						]
+					},
+					{
+						"base": [
+							"GateGuard"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					},
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"HammerMan"
+						]
+					}
+				]
+			},
+			"GATEGUARD": {
+				"name": "GateGuard",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 23,
+					"HP": 18,
+					"MP": 12,
+					"Attack": 18,
+					"Defense": 14,
+					"Agility": 10,
+					"Intelligence": 14
+				},
+				"moves": [
+					"Blaze",
+					"CleanCut",
+					"ThickFog"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"AgDevil",
+							"Gigantes",
+							"Grendal"
+						],
+						"mate": [
+							"AxeShark",
+							"Coatol",
+							"Deadnoble",
+							"Giantmoth",
+							"MadCondor",
+							"Mistywing",
+							"Rosevine",
+							"Skullgon",
+							"Slimeborg",
+							"Swordgon",
+							"Whiteking"
+						]
+					},
+					{
+						"base": [
+							"Demonite"
+						],
+						"mate": [
+							"Demonite"
+						]
+					},
+					{
+						"base": [
+							"Ogre"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
+			},
+			"CHOPCLOWN": {
+				"name": "ChopClown",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 22,
+					"HP": 17,
+					"MP": 12,
+					"Attack": 20,
+					"Defense": 11,
+					"Agility": 20,
+					"Intelligence": 15
+				},
+				"moves": [
+					"TwinHits",
+					"VacuSlash",
+					"SquallHit"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"1EyeClown"
+						],
+						"mate": [
+							"1EyeClown"
+						]
+					},
+					{
+						"base": [
+							"Lionex"
+						],
+						"mate": [
+							"MimeSlime"
+						]
+					}
+				]
+			},
+			"BOSSTROLL": {
+				"name": "BossTroll",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 24,
+					"HP": 24,
+					"MP": 3,
+					"Attack": 25,
+					"Defense": 22,
+					"Agility": 4,
+					"Intelligence": 1
+				},
+				"moves": [
+					"Massacre",
+					"Ramming",
+					"Cover"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Ogre",
+							"Centasaur"
+						],
+						"mate": [
+							"GreatDrak",
+							"Balzak",
+							"StoneMan",
+							"WalrusMan"
+						]
+					},
+					{
+						"base": [
+							"GoatHorn"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
+			},
+			"GRENDAL": {
+				"name": "Grendal",
+				"stats": {
+					"MaxLevel": 60,
+					"Experience": 20,
+					"HP": 23,
+					"MP": 1,
+					"Attack": 18,
+					"Defense": 24,
+					"Agility": 12,
+					"Intelligence": 12
+				},
+				"moves": [
+					"FireSlash",
+					"DrakSlash",
+					"Cover"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"SkulRider",
+							"EvilBeast",
+							"Gremlin",
+							"MedusaEye"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					},
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"MadDragon",
+							"BeastNite"
+						]
+					}
+				]
+			},
+			"AKUBAR": {
+				"name": "Akubar",
+				"stats": {
+					"MaxLevel": 70,
+					"Experience": 30,
+					"HP": 24,
+					"MP": 30,
+					"Attack": 23,
+					"Defense": 21,
+					"Agility": 18,
+					"Intelligence": 21
+				},
+				"moves": [
+					"Bang",
+					"FrigidAir",
+					"Focus"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"ArcDemon"
+						],
+						"mate": [
+							"GateGuard"
+						]
+					},
+					{
+						"base": [
+							"Grendal"
+						],
+						"mate": [
+							"Grendal"
+						]
+					}
+				]
+			},
+			"MADKNIGHT": {
+				"name": "MadKnight",
+				"stats": {
+					"MaxLevel": 55,
+					"Experience": 23,
+					"HP": 17,
+					"MP": 9,
+					"Attack": 18,
+					"Defense": 20,
+					"Agility": 10,
+					"Intelligence": 12
+				},
+				"moves": [
+					"BeastCut",
+					"GigaSlash",
+					"Massacre"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"RogueNite"
+						]
+					}
+				]
+			},
+			"EVILWELL": {
+				"name": "EvilWell",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 15,
+					"HP": 23,
+					"MP": 14,
+					"Attack": 10,
+					"Defense": 15,
+					"Agility": 6,
+					"Intelligence": 8
+				},
+				"moves": [
+					"Blaze",
+					"ChargeUp",
+					"WarCry"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BossTroll"
+						],
+						"mate": [
+							"IceMan"
+						]
+					},
+					{
+						"base": [
+							"Ogre"
+						],
+						"mate": [
+							"LavaMan"
+						]
+					}
+				]
+			},
+			"GIGANTES": {
+				"name": "Gigantes",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 22,
+					"HP": 27,
+					"MP": 0,
+					"Attack": 27,
+					"Defense": 7,
+					"Agility": 0,
+					"Intelligence": 0
+				},
+				"moves": [
+					"SlimeBlow",
+					"ChargeUp",
+					"EvilSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"SkulRider",
+							"EvilBeast"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					},
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"BigEye"
+						]
+					}
+				]
+			},
+			"CENTASAUR": {
+				"name": "Centasaur",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 23,
+					"HP": 20,
+					"MP": 1,
+					"Attack": 24,
+					"Defense": 21,
+					"Agility": 18,
+					"Intelligence": 19
+				},
+				"moves": [
+					"StopSpell",
+					"FireSlash",
+					"RainSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"ArcDemon"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					},
+					{
+						"base": [
+							"Ogre",
+							"GateGuard",
+							"BossTroll"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
+			},
+			"EVILARMOR": {
+				"name": "EvilArmor",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 22,
+					"HP": 16,
+					"MP": 1,
+					"Attack": 17,
+					"Defense": 29,
+					"Agility": 5,
+					"Intelligence": 13
+				},
+				"moves": [
+					"FireSlash",
+					"BoltSlash",
+					"AquaCut"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"ArcDemon",
+							"Ogre",
+							"GateGuard"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					},
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"Armorpede"
+						]
+					}
+				]
+			},
+			"JAMIRUS": {
+				"name": "Jamirus",
+				"stats": {
+					"MaxLevel": 60,
+					"Experience": 21,
+					"HP": 24,
+					"MP": 9,
+					"Attack": 21,
+					"Defense": 24,
+					"Agility": 23,
+					"Intelligence": 18
+				},
+				"moves": [
+					"Blaze",
+					"BiAttack",
+					"TailWind"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Akubar"
+						],
+						"mate": [
+							"RainHawk"
+						]
+					}
+				]
+			},
+			"DURRAN": {
+				"name": "Durran",
+				"stats": {
+					"MaxLevel": 70,
+					"Experience": 28,
+					"HP": 25,
+					"MP": 24,
+					"Attack": 23,
+					"Defense": 15,
+					"Agility": 17,
+					"Intelligence": 20
+				},
+				"moves": [
+					"WindBeast",
+					"DrakSlash",
+					"BirdBlow"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Centasaur"
+						],
+						"mate": [
+							"GoldGolem"
+						]
+					},
+					{
+						"base": [
+							"GoldGolem"
+						],
+						"mate": [
+							"Centasaur"
+						]
+					},
+					{
+						"base": [
+							"Jamirus"
+						],
+						"mate": [
+							"Serpentia"
+						]
+					}
+				]
+			},
+			"TITANIS": {
+				"name": "Titanis",
+				"stats": {
+					"MaxLevel": 75,
+					"Experience": 27,
+					"HP": 25,
+					"MP": 24,
+					"Attack": 25,
+					"Defense": 22,
+					"Agility": 23,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Bang",
+					"Beserker",
+					"UltraDown"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Durran"
+						],
+						"mate": [
+							"DarkHorn"
+						]
+					}
+				]
+			},
+			"LAMPGENIE": {
+				"name": "LampGenie",
+				"stats": {
+					"MaxLevel": 60,
+					"Experience": 21,
+					"HP": 10,
+					"MP": 12,
+					"Attack": 11,
+					"Defense": 22,
+					"Agility": 15,
+					"Intelligence": 10
+				},
+				"moves": [
+					"Heal",
+					"Sleep",
+					"TailWind"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Centasaur"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					}
+				]
+			}
+		},
+		"ZOMBIE FAMILY": {
+			"SPOOKY": {
+				"name": "Spooky",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 11,
+					"HP": 11,
+					"MP": 12,
+					"Attack": 13,
+					"Defense": 8,
+					"Agility": 18,
+					"Intelligence": 15
+				},
+				"moves": [
+					"Radiant",
+					"MouthShut",
+					"Outside"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
+			},
+			"SKULLGON": {
+				"name": "Skullgon",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 13,
+					"HP": 6,
+					"MP": 1,
+					"Attack": 23,
+					"Defense": 15,
+					"Agility": 4,
+					"Intelligence": 6
+				},
+				"moves": [
+					"FrigidAir",
+					"IceSlash",
+					"TwinSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Skullgon",
+							"DeadNoble",
+							"WhiteKing",
+							"BoneSlave",
+							"Skeletor",
+							"Skullpent"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					},
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"Swordgon",
+							"Rayburn",
+							"Andreal",
+							"GreatDrak",
+							"Orochi",
+							"BattleRex",
+							"Divinegon"
+						]
+					},
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"Skullgon",
+							"DeadNoble",
+							"WhiteKing",
+							"Servant"
+						]
+					}
+				]
+			},
+			"PUTREPUP": {
+				"name": "PutrePup",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 6,
+					"HP": 17,
+					"MP": 13,
+					"Attack": 17,
+					"Defense": 8,
+					"Agility": 11,
+					"Intelligence": 4
+				},
+				"moves": [
+					"Sap",
+					"Slow",
+					"MagicBack"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
+			},
+			"ROTRAVEN": {
+				"name": "RotRaven",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 5,
+					"HP": 14,
+					"MP": 8,
+					"Attack": 12,
+					"Defense": 11,
+					"Agility": 18,
+					"Intelligence": 9
+				},
+				"moves": [
+					"Lightning",
+					"BoltSlash",
+					"Kamikaze"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
+			},
+			"MUMMY": {
+				"name": "Mummy",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 10,
+					"HP": 15,
+					"MP": 17,
+					"Attack": 12,
+					"Defense": 9,
+					"Agility": 4,
+					"Intelligence": 8
+				},
+				"moves": [
+					"CallHelp",
+					"Paralyze",
+					"EvilSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
+			},
+			"DARKCRAB": {
+				"name": "DarkCrab",
+				"stats": {
+					"MaxLevel": 30,
+					"Experience": 8,
+					"HP": 12,
+					"MP": 8,
+					"Attack": 15,
+					"Defense": 20,
+					"Agility": 1,
+					"Intelligence": 11
+				},
+				"moves": [
+					"Ironize",
+					"MagicWall",
+					"StepGuard"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"BUGFM",
+							"CancerMan",
+							"Clawster",
+							"Gamanian"
+						]
+					}
+				]
+			},
+			"DEADNITE": {
+				"name": "DeadNite",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 13,
+					"HP": 17,
+					"MP": 7,
+					"Attack": 19,
+					"Defense": 9,
+					"Agility": 12,
+					"Intelligence": 8
+				},
+				"moves": [
+					"Heal",
+					"Dechaos",
+					"CurseOff"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
+			},
+			"SHADOW": {
+				"name": "Shadow",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 12,
+					"HP": 9,
+					"MP": 6,
+					"Attack": 6,
+					"Defense": 20,
+					"Agility": 8,
+					"Intelligence": 12
+				},
+				"moves": [
+					"FrigidAir",
+					"K.O.",
+					"Dance"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
+			},
+			"SKULPENT": {
+				"name": "Skulpent",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 9,
+					"HP": 17,
+					"MP": 19,
+					"Attack": 23,
+					"Defense": 9,
+					"Agility": 12,
+					"Intelligence": 10
+				},
+				"moves": [
+					"Beat",
+					"PoisonHit",
+					"Dodge"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"WATERFM"
+						]
+					}
+				]
+			},
+			"HORK": {
+				"name": "Hork",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 8,
+					"HP": 17,
+					"MP": 13,
+					"Attack": 16,
+					"Defense": 8,
+					"Agility": 11,
+					"Intelligence": 10
+				},
+				"moves": [
+					"PoisonGas",
+					"EerieLite",
+					"LushLicks"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Spooky"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
+			},
+			"MUDRON": {
+				"name": "Mudron",
+				"stats": {
+					"MaxLevel": 30,
+					"Experience": 10,
+					"HP": 6,
+					"MP": 10,
+					"Attack": 11,
+					"Defense": 17,
+					"Agility": 7,
+					"Intelligence": 14
+				},
+				"moves": [
+					"Beat",
+					"Mpass",
+					"Vivify"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"BoxSlime",
+							"DanceVegi",
+							"Droll",
+							"FangSlime",
+							"FunkyBird",
+							"GiantSlug",
+							"Lipsy",
+							"MadPlant",
+							"Tonguella",
+							"Yeti"
+						]
+					}
+				]
+			},
+			"NITEWHIP": {
+				"name": "NiteWhip",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 12,
+					"HP": 17,
+					"MP": 4,
+					"Attack": 10,
+					"Defense": 3,
+					"Agility": 15,
+					"Intelligence": 9
+				},
+				"moves": [
+					"WindBeast",
+					"Lightning",
+					"Informer"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DarkCrab",
+							"MadSpirit"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					},
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"MistyWing"
+						]
+					}
+				]
+			},
+			"WINDMERGE": {
+				"name": "WindMerge",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 9,
+					"HP": 16,
+					"MP": 19,
+					"Attack": 19,
+					"Defense": 12,
+					"Agility": 13,
+					"Intelligence": 6
+				},
+				"moves": [
+					"Infernos",
+					"CurseOff",
+					"BirdBlow"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"RotRaven"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					},
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"WindBeast"
+						]
+					}
+				]
+			},
+			"REAPER": {
+				"name": "Reaper",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 10,
+					"HP": 19,
+					"MP": 3,
+					"Attack": 21,
+					"Defense": 17,
+					"Agility": 19,
+					"Intelligence": 6
+				},
+				"moves": [
+					"DevilCut",
+					"Curse",
+					"EerieLite"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Spooky",
+							"Hork"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					},
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"WeedBug"
+						]
+					}
+				]
+			},
+			"INVERZON": {
+				"name": "Inverzon",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 4,
+					"HP": 7,
+					"MP": 2,
+					"Attack": 14,
+					"Defense": 7,
+					"Agility": 4,
+					"Intelligence": 1
+				},
+				"moves": [
+					"Surround",
+					"PoisonGas",
+					"SideStep"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Hork"
+						],
+						"mate": [
+							"Hork"
+						]
+					}
+				]
+			},
+			"FOXFIRE": {
+				"name": "FoxFire",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 7,
+					"HP": 9,
+					"MP": 15,
+					"Attack": 6,
+					"Defense": 8,
+					"Agility": 13,
+					"Intelligence": 4
+				},
+				"moves": [
+					"Blaze",
+					"Firebal",
+					"Outside"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"NiteWhip"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					},
+					{
+						"base": [
+							"PutrePup"
+						],
+						"mate": [
+							"MistyWing"
+						]
+					}
+				]
+			},
+			"CAPTDEAD": {
+				"name": "CaptDead",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 13,
+					"HP": 9,
+					"MP": 20,
+					"Attack": 17,
+					"Defense": 16,
+					"Agility": 8,
+					"Intelligence": 5
+				},
+				"moves": [
+					"CallHelp",
+					"AquaCut",
+					"SquallHit"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"BoneSlave"
+						],
+						"mate": [
+							"WATERFM"
+						]
+					},
+					{
+						"base": [
+							"NiteWhip"
+						],
+						"mate": [
+							"Moray"
+						]
+					}
+				]
+			},
+			"DEADNOBLE": {
+				"name": "DeadNoble",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 16,
+					"HP": 21,
+					"MP": 2,
+					"Attack": 26,
+					"Defense": 19,
+					"Agility": 15,
+					"Intelligence": 13
+				},
+				"moves": [
+					"HealUs",
+					"AquaCut",
+					"TatsuCall"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Mudron",
+							"MadSpirit",
+							"BoneSlave",
+							"Skeletor",
+							"CaptDead"
+						],
+						"mate": [
+							"ArcDemon",
+							"Lionex",
+							"GateGuard",
+							"MetalDrak",
+							"Roboster1"
+						]
+					},
+					{
+						"base": [
+							"Skullgon",
+							"DeadNite",
+							"Mudron",
+							"DeadNoble",
+							"BoneSlave",
+							"Skeletor",
+							"CaptDead"
+						],
+						"mate": [
+							"CopyCat"
+						]
+					},
+					{
+						"base": [
+							"MadSpirit"
+						],
+						"mate": [
+							"Roboster2"
+						]
+					},
+					{
+						"base": [
+							"DeadNite"
+						],
+						"mate": [
+							"DeadNite"
+						]
+					}
+				]
+			},
+			"WHITEKING": {
+				"name": "WhiteKing",
+				"stats": {
+					"MaxLevel": 60,
+					"Experience": 25,
+					"HP": 20,
+					"MP": 24,
+					"Attack": 14,
+					"Defense": 20,
+					"Agility": 15,
+					"Intelligence": 27
+				},
+				"moves": [
+					"Infernos",
+					"Bolt",
+					"Chance"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Skeletor",
+							"Niterich"
+						],
+						"mate": [
+							"Andreal",
+							"GreatDrak",
+							"KingLeo",
+							"Blizzardy",
+							"ZapBird",
+							"WhipBird",
+							"GoldGolem",
+							"WhaleMage",
+							"Grakos"
+						]
+					},
+					{
+						"base": [
+							"Skullgon"
+						],
+						"mate": [
+							"KingSlime"
+						]
+					},
+					{
+						"base": [
+							"BoneSlave"
+						],
+						"mate": [
+							"MetalKing"
+						]
+					},
+					{
+						"base": [
+							"DeadNoble"
+						],
+						"mate": [
+							"SpotKing"
+						]
+					},
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					}
+				]
+			},
+			"BONESLAVE": {
+				"name": "BoneSlave",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 10,
+					"HP": 14,
+					"MP": 13,
+					"Attack": 17,
+					"Defense": 12,
+					"Agility": 7,
+					"Intelligence": 1
+				},
+				"moves": [
+					"Bang",
+					"BoltSlash",
+					"BiAttack"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Mummy",
+							"DeadNite"
+						],
+						"mate": [
+							"RockSlime",
+							"SlimeBorg",
+							"LandOwl",
+							"MadGoose",
+							"FloraMan",
+							"HornBeet",
+							"Gremlin"
+						]
+					}
+				]
+			},
+			"SKELETOR": {
+				"name": "Skeletor",
+				"stats": {
+					"MaxLevel": 55,
+					"Experience": 12,
+					"HP": 16,
+					"MP": 11,
+					"Attack": 18,
+					"Defense": 12,
+					"Agility": 16,
+					"Intelligence": 19
+				},
+				"moves": [
+					"Sap",
+					"BirdBlow",
+					"BiAttack"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Mummy",
+							"DeadNite",
+							"Hork",
+							"Mudron",
+							"CaptDead"
+						],
+						"mate": [
+							"GulpBeast",
+							"Grizzly",
+							"MadCat",
+							"MadRaven",
+							"MadCondor",
+							"EvilBeast",
+							"Ogre",
+							"Golem",
+							"StoneMan"
+						]
+					},
+					{
+						"base": [
+							"BoneSlave"
+						],
+						"mate": [
+							"BoneSlave"
+						]
+					},
+					{
+						"base": [
+							"MadSpirit"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
+			},
+			"SERVANT": {
+				"name": "Servant",
+				"stats": {
+					"MaxLevel": 70,
+					"Experience": 20,
+					"HP": 23,
+					"MP": 21,
+					"Attack": 25,
+					"Defense": 18,
+					"Agility": 15,
+					"Intelligence": 20
+				},
+				"moves": [
+					"Blaze",
+					"Icebolt",
+					"Focus"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Skeletor"
+						],
+						"mate": [
+							"Skeletor"
+						]
+					},
+					{
+						"base": [
+							"WhiteKing"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
+			},
+			"LAZAMANUS": {
+				"name": "Lazamanus",
+				"stats": {
+					"MaxLevel": 75,
+					"Experience": 26,
+					"HP": 24,
+					"MP": 20,
+					"Attack": 30,
+					"Defense": 20,
+					"Agility": 12,
+					"Intelligence": 14
+				},
+				"moves": [
+					"TakeMagic",
+					"K.O.",
+					"Dance"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"WhiteKing"
+						],
+						"mate": [
+							"DracoLord1"
+						]
+					}
+				]
+			},
+			"COPYCAT": {
+				"name": "Copycat",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 1,
+					"HP": 11,
+					"MP": 20,
+					"Attack": 1,
+					"Defense": 2,
+					"Agility": 21,
+					"Intelligence": 5
+				},
+				"moves": [
+					"Transform",
+					"OddDance",
+					"Imitate"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [],
+						"mate": []
+					}
+				]
+			},
+			"MADSPIRIT": {
+				"name": "MadSpirit",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 13,
+					"HP": 14,
+					"MP": 12,
+					"Attack": 15,
+					"Defense": 12,
+					"Agility": 16,
+					"Intelligence": 10
+				},
+				"moves": [
+					"SleepAir",
+					"Radiant",
+					"ThickFog"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Skullgon",
+							"DeadNite",
+							"Mudron",
+							"DeadNoble",
+							"BoneSlave",
+							"Skeletor",
+							"PomPomBom"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					},
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
+			},
+			"POMPOMBOM": {
+				"name": "PomPomBom",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 8,
+					"HP": 5,
+					"MP": 21,
+					"Attack": 13,
+					"Defense": 11,
+					"Agility": 14,
+					"Intelligence": 21
+				},
+				"moves": [
+					"Beat",
+					"ThickFog",
+					"LifeDance"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"CopyCat"
+						],
+						"mate": [
+							"Droll",
+							"Gasgon"
+						]
+					},
+					{
+						"base": [
+							"FoxFire"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
+			},
+			"NITERICH": {
+				"name": "Niterich",
+				"stats": {
+					"MaxLevel": 65,
+					"Experience": 20,
+					"HP": 27,
+					"MP": 13,
+					"Attack": 24,
+					"Defense": 23,
+					"Agility": 19,
+					"Intelligence": 21
+				},
+				"moves": [
+					"Beat",
+					"ThickFog",
+					"BladeD"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DeadNoble",
+							"Skeletor"
+						],
+						"mate": [
+							"Octoraid",
+							"Roboster2",
+							"Serpentia"
+						]
+					}
+				]
+			}
+		},
+		"MATERIAL FAMILY": {
+			"JEWELBAG": {
+				"name": "JewelBag",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 12,
+					"HP": 13,
+					"MP": 11,
+					"Attack": 9,
+					"Defense": 18,
+					"Agility": 17,
+					"Intelligence": 15
+				},
+				"moves": [
+					"Firebal",
+					"StopSpell",
+					"PanicAll"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
+			},
+			"EVILWAND": {
+				"name": "EvilWand",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 14,
+					"HP": 14,
+					"MP": 15,
+					"Attack": 17,
+					"Defense": 12,
+					"Agility": 9,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Dechaos",
+					"FrigidAir",
+					"MapMagic"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
+			},
+			"MADCANDLE": {
+				"name": "MadCandle",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 10,
+					"HP": 12,
+					"MP": 10,
+					"Attack": 14,
+					"Defense": 6,
+					"Agility": 17,
+					"Intelligence": 12
+				},
+				"moves": [
+					"Blaze",
+					"PsycheUp",
+					"Whistle"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
+			},
+			"COILBIRD": {
+				"name": "CoilBird",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 10,
+					"HP": 16,
+					"MP": 13,
+					"Attack": 5,
+					"Defense": 14,
+					"Agility": 14,
+					"Intelligence": 7
+				},
+				"moves": [
+					"Dechaos",
+					"NumbOff",
+					"SealAll"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
+			},
+			"FACER": {
+				"name": "Facer",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 12,
+					"HP": 8,
+					"MP": 23,
+					"Attack": 11,
+					"Defense": 12,
+					"Agility": 3,
+					"Intelligence": 19
+				},
+				"moves": [
+					"Infernos",
+					"Sacrifice",
+					"LifeSong"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
+			},
+			"SPIKYBOY": {
+				"name": "SpikyBoy",
+				"stats": {
+					"MaxLevel": 30,
+					"Experience": 8,
+					"HP": 9,
+					"MP": 13,
+					"Attack": 14,
+					"Defense": 17,
+					"Agility": 7,
+					"Intelligence": 11
+				},
+				"moves": [
+					"Sacrifice",
+					"SlimeBlow",
+					"HighJump"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"BUGFM"
+						]
+					}
+				]
+			},
+			"MADMIRROR": {
+				"name": "MadMirror",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 14,
+					"HP": 15,
+					"MP": 11,
+					"Attack": 8,
+					"Defense": 6,
+					"Agility": 11,
+					"Intelligence": 19
+				},
+				"moves": [
+					"MagicBack",
+					"Transform",
+					"Outside"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
+			},
+			"ROGUENITE": {
+				"name": "RogueNite",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 12,
+					"HP": 14,
+					"MP": 4,
+					"Attack": 20,
+					"Defense": 21,
+					"Agility": 10,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Heal",
+					"MetalCut",
+					"EvilSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
+			},
+			"PUPPETOR": {
+				"name": "Puppetor",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 6,
+					"HP": 13,
+					"MP": 9,
+					"Attack": 7,
+					"Defense": 4,
+					"Agility": 7,
+					"Intelligence": 11
+				},
+				"moves": [
+					"OddDance",
+					"CureDance",
+					"Pheromone"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"Gremlin"
+						]
+					}
+				]
+			},
+			"GOOPI": {
+				"name": "Goopi",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 8,
+					"HP": 8,
+					"MP": 13,
+					"Attack": 11,
+					"Defense": 14,
+					"Agility": 7,
+					"Intelligence": 4
+				},
+				"moves": [
+					"CallHelp",
+					"LegSweep",
+					"Dodge"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"JewelBag"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
+			},
+			"VOODOLL": {
+				"name": "Voodoll",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 11,
+					"HP": 14,
+					"MP": 17,
+					"Attack": 12,
+					"Defense": 12,
+					"Agility": 8,
+					"Intelligence": 14
+				},
+				"moves": [
+					"Sap",
+					"Surround",
+					"PanicAll"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Golem",
+							"StoneMan"
+						],
+						"mate": [
+							"DrakSlime",
+							"Snaily",
+							"SlimeNite",
+							"RockSlime"
+						]
+					},
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"Lipsy"
+						]
+					}
+				]
+			},
+			"METALDRAK": {
+				"name": "MetalDrak",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 15,
+					"HP": 18,
+					"MP": 13,
+					"Attack": 20,
+					"Defense": 23,
+					"Agility": 9,
+					"Intelligence": 10
+				},
+				"moves": [
+					"FireAir",
+					"Massacre",
+					"SandStorm"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Mimic"
+						],
+						"mate": [
+							"Andreal",
+							"Spikerous",
+							"GreatDrak"
+						]
+					},
+					{
+						"base": [
+							"MetalDrak",
+							"Roboster1"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					},
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"Andreal"
+						]
+					}
+				]
+			},
+			"BALZAK": {
+				"name": "Balzak",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 13,
+					"HP": 21,
+					"MP": 11,
+					"Attack": 23,
+					"Defense": 21,
+					"Agility": 18,
+					"Intelligence": 19
+				},
+				"moves": [
+					"Bang",
+					"Bolt",
+					"MultiCut"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"LavaMan",
+							"IceMan"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					},
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					}
+				]
+			},
+			"SABREMAN": {
+				"name": "SabreMan",
+				"stats": {
+					"MaxLevel": 30,
+					"Experience": 11,
+					"HP": 8,
+					"MP": 3,
+					"Attack": 9,
+					"Defense": 11,
+					"Agility": 12,
+					"Intelligence": 6
+				},
+				"moves": [
+					"RobMagic",
+					"DevilCut",
+					"Paralyze"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"EvilWand",
+							"Voodoll",
+							"Golem",
+							"StoneMan"
+						],
+						"mate": [
+							"LandOwl",
+							"MadGoose",
+							"Phoenix",
+							"FunkyBird"
+						]
+					},
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"GiantWorm"
+						]
+					}
+				]
+			},
+			"CURSELAMP": {
+				"name": "CurseLamp",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 9,
+					"HP": 12,
+					"MP": 18,
+					"Attack": 9,
+					"Defense": 19,
+					"Agility": 13,
+					"Intelligence": 15
+				},
+				"moves": [
+					"Upper",
+					"Speed",
+					"TwinHits"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Roboster1"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					},
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"WingTree"
+						]
+					}
+				]
+			},
+			"BRUSHEAD": {
+				"name": "Brushead",
+				"stats": {
+					"MaxLevel": 30,
+					"Experience": 8,
+					"HP": 7,
+					"MP": 6,
+					"Attack": 14,
+					"Defense": 4,
+					"Agility": 4,
+					"Intelligence": 3
+				},
+				"moves": [
+					"OddDance",
+					"SandStorm",
+					"LoveRain"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"WATERFM"
+						]
+					},
+					{
+						"base": [
+							"Puppetor"
+						],
+						"mate": [
+							"Demonite",
+							"Pixy"
+						]
+					}
+				]
+			},
+			"ROBOSTER": {
+				"name": "Roboster",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 13,
+					"HP": 12,
+					"MP": 5,
+					"Attack": 21,
+					"Defense": 22,
+					"Agility": 24,
+					"Intelligence": 17
+				},
+				"moves": [
+					"SquallHit",
+					"BiAttack",
+					"RainSlash"
+				],
+				"resistances": [],
+				"breeds": []
+			},
+			"ROBOSTER2": {
+				"name": "Roboster2",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 22,
+					"HP": 23,
+					"MP": 13,
+					"Attack": 24,
+					"Defense": 26,
+					"Agility": 22,
+					"Intelligence": 12
+				},
+				"moves": [
+					"BoltSlash",
+					"MetalCut",
+					"GigaSlash"
+				],
+				"resistances": [],
+				"breeds": []
+			},
+			"EVILPOT": {
+				"name": "EvilPot",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 11,
+					"HP": 18,
+					"MP": 19,
+					"Attack": 15,
+					"Defense": 18,
+					"Agility": 9,
+					"Intelligence": 19
+				},
+				"moves": [
+					"Beat",
+					"Massacre",
+					"Outside"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Gismo"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					},
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"Snaily"
+						]
+					},
+					{
+						"base": [
+							"Mimic"
+						],
+						"mate": [
+							"Scallopa"
+						]
+					}
+				]
+			},
+			"GISMO": {
+				"name": "Gismo",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 9,
+					"HP": 13,
+					"MP": 15,
+					"Attack": 11,
+					"Defense": 14,
+					"Agility": 20,
+					"Intelligence": 18
+				},
+				"moves": [
+					"FireAir",
+					"FrigidAir",
+					"SuckAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MadCandle",
+							"MadMirror",
+							"Goopi"
+						],
+						"mate": [
+							"DrakSlime",
+							"Wyvern",
+							"MistyWing",
+							"Phoenix",
+							"FireWeed",
+							"EvilSeed"
+						]
+					}
+				]
+			},
+			"LAVAMAN": {
+				"name": "LavaMan",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 13,
+					"HP": 18,
+					"MP": 12,
+					"Attack": 17,
+					"Defense": 24,
+					"Agility": 4,
+					"Intelligence": 7
+				},
+				"moves": [
+					"Blaze",
+					"FireAir",
+					"Cover"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MetalDrak"
+						],
+						"mate": [
+							"Orochi",
+							"KingLeo",
+							"ZapBird",
+							"ArcDemon",
+							"Centasaur",
+							"BossTroll"
+						]
+					}
+				]
+			},
+			"ICEMAN": {
+				"name": "IceMan",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 13,
+					"HP": 16,
+					"MP": 6,
+					"Attack": 18,
+					"Defense": 24,
+					"Agility": 4,
+					"Intelligence": 7
+				},
+				"moves": [
+					"Icebolt",
+					"FrigidAir",
+					"StrongD"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MetalDrak"
+						],
+						"mate": [
+							"Skullgon",
+							"WhiteKing"
+						]
+					},
+					{
+						"base": [
+							"Roboster1",
+							"Roboster2"
+						],
+						"mate": [
+							"KingLeo"
+						]
+					}
+				]
+			},
+			"MIMIC": {
+				"name": "Mimic",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 11,
+					"HP": 25,
+					"MP": 10,
+					"Attack": 20,
+					"Defense": 12,
+					"Agility": 1,
+					"Intelligence": 20
+				},
+				"moves": [
+					"Blaze",
+					"Beat",
+					"EagleEye"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Roboster1"
+						],
+						"mate": [
+							"ZOMBIEFM",
+							"RushFish"
+						]
+					},
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"BoxSlime"
+						]
+					}
+				]
+			},
+			"EXAUCERS": {
+				"name": "Exaucers",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 11,
+					"HP": 20,
+					"MP": 13,
+					"Attack": 15,
+					"Defense": 6,
+					"Agility": 7,
+					"Intelligence": 4
+				},
+				"moves": [
+					"TakeMagic",
+					"WindBeast",
+					"PaniDance"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"Dracky"
+						]
+					}
+				]
+			},
+			"MUDDOLL": {
+				"name": "MudDoll",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 8,
+					"HP": 12,
+					"MP": 3,
+					"Attack": 13,
+					"Defense": 14,
+					"Agility": 1,
+					"Intelligence": 15
+				},
+				"moves": [
+					"OddDance",
+					"Hustle",
+					"SideStep"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Goopi"
+						],
+						"mate": [
+							"Goopi",
+							"CancerMan"
+						]
+					}
+				]
+			},
+			"GOLEM": {
+				"name": "Golem",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 18,
+					"HP": 17,
+					"MP": 4,
+					"Attack": 12,
+					"Defense": 21,
+					"Agility": 4,
+					"Intelligence": 6
+				},
+				"moves": [
+					"ChargeUp",
+					"PsycheUp",
+					"Meditate"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MudDoll"
+						],
+						"mate": [
+							"MudDoll"
+						]
+					}
+				]
+			},
+			"STONEMAN": {
+				"name": "StoneMan",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 15,
+					"HP": 24,
+					"MP": 10,
+					"Attack": 23,
+					"Defense": 24,
+					"Agility": 1,
+					"Intelligence": 14
+				},
+				"moves": [
+					"StrongD",
+					"Cover",
+					"SealAll"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Golem"
+						],
+						"mate": [
+							"Golem"
+						]
+					},
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"HornBeet",
+							"Digster"
+						]
+					}
+				]
+			},
+			"BOMBCRAG": {
+				"name": "BombCrag",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 14,
+					"HP": 15,
+					"MP": 11,
+					"Attack": 17,
+					"Defense": 20,
+					"Agility": 0,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Sacrifice",
+					"Farewell",
+					"RockThrow"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"SpikyBoy"
+						],
+						"mate": [
+							"SpikyBoy"
+						]
+					},
+					{
+						"base": [
+							"Roboster1",
+							"DarkMate"
+						],
+						"mate": [
+							"BUGFM"
+						]
+					}
+				]
+			},
+			"GOLDGOLEM": {
+				"name": "GoldGolem",
+				"stats": {
+					"MaxLevel": 75,
+					"Experience": 18,
+					"HP": 24,
+					"MP": 21,
+					"Attack": 24,
+					"Defense": 27,
+					"Agility": 17,
+					"Intelligence": 23
+				},
+				"moves": [
+					"BigBang",
+					"Surge",
+					"TatsuCall"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"IceMan"
+						],
+						"mate": [
+							"LavaMan"
+						]
+					},
+					{
+						"base": [
+							"LavaMan"
+						],
+						"mate": [
+							"BossTroll"
+						]
+					}
+				]
+			},
+			"DARKMATE": {
+				"name": "DarkMate",
+				"stats": {
+					"MaxLevel": 70,
+					"Experience": 24,
+					"HP": 24,
+					"MP": 21,
+					"Attack": 12,
+					"Defense": 25,
+					"Agility": 21,
+					"Intelligence": 10
+				},
+				"moves": [
+					"Beat",
+					"HellBlast",
+					"EerieLite"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"GoldGolem"
+						],
+						"mate": [
+							"MetalKing"
+						]
+					}
+				]
+			},
+			"PROTOMECH": {
+				"name": "ProtoMech",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 5,
+					"HP": 3,
+					"MP": 2,
+					"Attack": 6,
+					"Defense": 3,
+					"Agility": 4,
+					"Intelligence": 6
+				},
+				"moves": [
+					"SlimeBlow",
+					"ChargeUp",
+					"Ramming"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"EvilArmor"
+						]
+					},
+					{
+						"base": [
+							"Roboster1"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					},
+					{
+						"base": [
+							"RogueNite"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
+			},
+			"CLOUDKING": {
+				"name": "CloudKing",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 8,
+					"HP": 8,
+					"MP": 24,
+					"Attack": 14,
+					"Defense": 16,
+					"Agility": 11,
+					"Intelligence": 26
+				},
+				"moves": [
+					"Infernos",
+					"Barrier",
+					"Surge"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Gismo"
+						],
+						"mate": [
+							"KingSlime",
+							"SpotKing",
+							"SkyDragon",
+							"LampGenie",
+							"WhiteKing",
+							"KingSquid",
+							"WhaleMage",
+							"DracoLord1"
+						]
+					}
+				]
+			}
+		},
+		"WATER FAMILY": {
+			"PETITEEL": {
+				"name": "Petiteel",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 3,
+					"HP": 15,
+					"MP": 17,
+					"Attack": 12,
+					"Defense": 9,
+					"Agility": 14,
+					"Intelligence": 10
+				},
+				"moves": [
+					"Speed",
+					"TwinHits",
+					"Ramming"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
+			},
+			"MORAY": {
+				"name": "Moray",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 5,
+					"HP": 12,
+					"MP": 17,
+					"Attack": 18,
+					"Defense": 19,
+					"Agility": 22,
+					"Intelligence": 9
+				},
+				"moves": [
+					"Sleep",
+					"PsycheUp",
+					"PoisonGas"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
+			},
+			"WALRUSMAN": {
+				"name": "WalrusMan",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 13,
+					"HP": 23,
+					"MP": 8,
+					"Attack": 23,
+					"Defense": 16,
+					"Agility": 7,
+					"Intelligence": 8
+				},
+				"moves": [
+					"BugBlow",
+					"EvilSlash",
+					"Massacre"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
+			},
+			"RAYGIGAS": {
+				"name": "RayGigas",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 10,
+					"HP": 22,
+					"MP": 9,
+					"Attack": 24,
+					"Defense": 19,
+					"Agility": 9,
+					"Intelligence": 7
+				},
+				"moves": [
+					"Firebal",
+					"MouthShut",
+					"AquaWall"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
+			},
+			"ANEMON": {
+				"name": "Anemon",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 4,
+					"HP": 9,
+					"MP": 14,
+					"Attack": 10,
+					"Defense": 13,
+					"Agility": 5,
+					"Intelligence": 7
+				},
+				"moves": [
+					"Firebal",
+					"Paralyze",
+					"PoisonGas"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
+			},
+			"AQUARELLA": {
+				"name": "Aquarella",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 6,
+					"HP": 11,
+					"MP": 8,
+					"Attack": 17,
+					"Defense": 14,
+					"Agility": 6,
+					"Intelligence": 4
+				},
+				"moves": [
+					"Barrier",
+					"SquallHit",
+					"Geyser"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"BUGFM"
+						]
+					}
+				]
+			},
+			"MERMAN": {
+				"name": "Merman",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 9,
+					"HP": 16,
+					"MP": 17,
+					"Attack": 14,
+					"Defense": 18,
+					"Agility": 20,
+					"Intelligence": 19
+				},
+				"moves": [
+					"Vivify",
+					"Sap",
+					"SleepAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
+			},
+			"OCTOKID": {
+				"name": "Octokid",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 10,
+					"HP": 7,
+					"MP": 15,
+					"Attack": 7,
+					"Defense": 13,
+					"Agility": 17,
+					"Intelligence": 21
+				},
+				"moves": [
+					"Heal",
+					"Mpass",
+					"CureDance"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
+			},
+			"PUTREFISH": {
+				"name": "PutreFish",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 4,
+					"HP": 5,
+					"MP": 4,
+					"Attack": 8,
+					"Defense": 3,
+					"Agility": 14,
+					"Intelligence": 7
+				},
+				"moves": [
+					"PanicAll",
+					"Watershot",
+					"Ramming"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
+			},
+			"OCTOREACH": {
+				"name": "Octoreach",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 14,
+					"HP": 23,
+					"MP": 21,
+					"Attack": 24,
+					"Defense": 20,
+					"Agility": 8,
+					"Intelligence": 14
+				},
+				"moves": [
+					"OddDance",
+					"PaniDance",
+					"Geyser"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Petiteel"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
+			},
+			"ANGLERON": {
+				"name": "Angleron",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 12,
+					"HP": 17,
+					"MP": 16,
+					"Attack": 23,
+					"Defense": 20,
+					"Agility": 9,
+					"Intelligence": 19
+				},
+				"moves": [
+					"Bolt",
+					"Surround",
+					"SleepAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Petiteel"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
+			},
+			"FISHRIDER": {
+				"name": "FishRider",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 13,
+					"HP": 18,
+					"MP": 19,
+					"Attack": 16,
+					"Defense": 22,
+					"Agility": 13,
+					"Intelligence": 7
+				},
+				"moves": [
+					"BoltSlash",
+					"RainSlash",
+					"Dodge"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Angleron"
+						],
+						"mate": [
+							"Pixy",
+							"Demonite",
+							"SkulRider",
+							"Gremlin"
+						]
+					}
+				]
+			},
+			"RUSHFISH": {
+				"name": "RushFish",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 8,
+					"HP": 9,
+					"MP": 6,
+					"Attack": 12,
+					"Defense": 7,
+					"Agility": 18,
+					"Intelligence": 6
+				},
+				"moves": [
+					"Upper",
+					"Kamikaze",
+					"SandStorm"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Angleron"
+						],
+						"mate": [
+							"Gulpbeast",
+							"Droll",
+							"DRAGONFM"
+						]
+					}
+				]
+			},
+			"GAMANIAN": {
+				"name": "Gamanian",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 14,
+					"HP": 11,
+					"MP": 10,
+					"Attack": 21,
+					"Defense": 17,
+					"Agility": 22,
+					"Intelligence": 15
+				},
+				"moves": [
+					"Firebal",
+					"NapAttack",
+					"LushLicks"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Aquarella"
+						],
+						"mate": [
+							"DarkEye",
+							"MedusaEye",
+							"BUGFM"
+						]
+					}
+				]
+			},
+			"CLAWSTER": {
+				"name": "Clawster",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 11,
+					"HP": 12,
+					"MP": 20,
+					"Attack": 24,
+					"Defense": 18,
+					"Agility": 20,
+					"Intelligence": 14
+				},
+				"moves": [
+					"DrakSlash",
+					"MetalCut",
+					"BiAttack"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Gamanian"
+						],
+						"mate": [
+							"ArmyCrab",
+							"DEVILFM"
+						]
+					}
+				]
+			},
+			"CANCERMAN": {
+				"name": "CancerMan",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 15,
+					"HP": 23,
+					"MP": 13,
+					"Attack": 24,
+					"Defense": 21,
+					"Agility": 14,
+					"Intelligence": 9
+				},
+				"moves": [
+					"BoltSlash",
+					"BeastCut",
+					"RainSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Clawster"
+						],
+						"mate": [
+							"Clawster",
+							"DEVILFM"
+						]
+					}
+				]
+			},
+			"ROGUEWAVE": {
+				"name": "RogueWave",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 9,
+					"HP": 11,
+					"MP": 7,
+					"Attack": 18,
+					"Defense": 9,
+					"Agility": 24,
+					"Intelligence": 19
+				},
+				"moves": [
+					"Watershot",
+					"PoisonGas",
+					"AquaWall"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"JewelBag"
+						]
+					}
+				]
+			},
+			"SCALLOPA": {
+				"name": "Scallopa",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 10,
+					"HP": 17,
+					"MP": 19,
+					"Attack": 9,
+					"Defense": 23,
+					"Agility": 7,
+					"Intelligence": 19
+				},
+				"moves": [
+					"Upper",
+					"MagicWall",
+					"Radiant"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"RogueWave"
+						],
+						"mate": [
+							"Mimic",
+							"DEVILFM"
+						]
+					}
+				]
+			},
+			"SEAHORSE": {
+				"name": "SeaHorse",
+				"stats": {
+					"MaxLevel": 40,
+					"Experience": 12,
+					"HP": 21,
+					"MP": 9,
+					"Attack": 17,
+					"Defense": 14,
+					"Agility": 15,
+					"Intelligence": 8
+				},
+				"moves": [
+					"FrigidAir",
+					"Geyser",
+					"BladeD"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Petiteel"
+						],
+						"mate": [
+							"DRAGONFM",
+							"DEVILFM"
+						]
+					}
+				]
+			},
+			"HOODSQUID": {
+				"name": "HoodSquid",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 17,
+					"HP": 11,
+					"MP": 21,
+					"Attack": 16,
+					"Defense": 10,
+					"Agility": 14,
+					"Intelligence": 19
+				},
+				"moves": [
+					"CallHelp",
+					"BiAttack",
+					"CureDance"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"CancerMan"
+						],
+						"mate": [
+							"WhaleMage",
+							"EvilWand"
+						]
+					}
+				]
+			},
+			"MERTIGER": {
+				"name": "MerTiger",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 16,
+					"HP": 23,
+					"MP": 5,
+					"Attack": 26,
+					"Defense": 24,
+					"Agility": 10,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Icebolt",
+					"Sleep",
+					"WarCry"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Merman"
+						],
+						"mate": [
+							"GulpBeast",
+							"MadCat"
+						]
+					}
+				]
+			},
+			"AXESHARK": {
+				"name": "AxeShark",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 25,
+					"HP": 25,
+					"MP": 20,
+					"Attack": 28,
+					"Defense": 21,
+					"Agility": 14,
+					"Intelligence": 13
+				},
+				"moves": [
+					"Sap",
+					"RainSlash",
+					"Cover"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"CancerMan"
+						],
+						"mate": [
+							"BattleRex",
+							"ArcDemon"
+						]
+					}
+				]
+			},
+			"OCTOGON": {
+				"name": "Octogon",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 19,
+					"HP": 24,
+					"MP": 9,
+					"Attack": 25,
+					"Defense": 18,
+					"Agility": 9,
+					"Intelligence": 20
+				},
+				"moves": [
+					"Mpass",
+					"BiAttack",
+					"Hustle"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Octoreach"
+						],
+						"mate": [
+							"Octoreach†5",
+							"or",
+							"better"
+						]
+					}
+				]
+			},
+			"KINGSQUID": {
+				"name": "KingSquid",
+				"stats": {
+					"MaxLevel": 55,
+					"Experience": 24,
+					"HP": 25,
+					"MP": 14,
+					"Attack": 26,
+					"Defense": 23,
+					"Agility": 12,
+					"Intelligence": 21
+				},
+				"moves": [
+					"Vivify",
+					"RainSlash",
+					"PsycheUp"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Octogon"
+						],
+						"mate": [
+							"Octogon",
+							"Mudou"
+						]
+					}
+				]
+			},
+			"DIGONG": {
+				"name": "Digong",
+				"stats": {
+					"MaxLevel": 55,
+					"Experience": 21,
+					"HP": 18,
+					"MP": 23,
+					"Attack": 25,
+					"Defense": 11,
+					"Agility": 10,
+					"Intelligence": 10
+				},
+				"moves": [
+					"FireAir",
+					"Ramming",
+					"PoisonGas"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"RushFish"
+						],
+						"mate": [
+							"Spikerous",
+							"RogueWave",
+							"MadGoose",
+							"Gigantes",
+							"Golem"
+						]
+					}
+				]
+			},
+			"WHALEMAGE": {
+				"name": "WhaleMage",
+				"stats": {
+					"MaxLevel": 45,
+					"Experience": 30,
+					"HP": 29,
+					"MP": 21,
+					"Attack": 23,
+					"Defense": 18,
+					"Agility": 3,
+					"Intelligence": 10
+				},
+				"moves": [
+					"Antidote",
+					"Watershot",
+					"Geyser"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"HoodSquid"
+						],
+						"mate": [
+							"1EyeClown",
+							"Reaper",
+							"RushFish"
+						]
+					}
+				]
+			},
+			"AQUADON": {
+				"name": "Aquadon",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 24,
+					"HP": 24,
+					"MP": 20,
+					"Attack": 26,
+					"Defense": 10,
+					"Agility": 17,
+					"Intelligence": 9
+				},
+				"moves": [
+					"RobMagic",
+					"WindBeast",
+					"Beserker"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Digong"
+						],
+						"mate": [
+							"GreatDrak",
+							"Coatol",
+							"Orligon"
+						]
+					}
+				]
+			},
+			"OCTORAID": {
+				"name": "Octoraid",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 26,
+					"HP": 18,
+					"MP": 9,
+					"Attack": 27,
+					"Defense": 21,
+					"Agility": 21,
+					"Intelligence": 13
+				},
+				"moves": [
+					"DrakSlash",
+					"SquallHit",
+					"GigaSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Octogon"
+						],
+						"mate": [
+							"ChopClown",
+							"EvilArmor",
+							"GateGuard",
+							"Lionex"
+						]
+					}
+				]
+			},
+			"GRAKOS": {
+				"name": "Grakos",
+				"stats": {
+					"MaxLevel": 55,
+					"Experience": 21,
+					"HP": 23,
+					"MP": 18,
+					"Attack": 25,
+					"Defense": 18,
+					"Agility": 16,
+					"Intelligence": 10
+				},
+				"moves": [
+					"TwinHits",
+					"HighJump",
+					"SandStorm"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					}
+				]
+			},
+			"POSEIDON": {
+				"name": "Poseidon",
+				"stats": {
+					"MaxLevel": 65,
+					"Experience": 30,
+					"HP": 28,
+					"MP": 22,
+					"Attack": 23,
+					"Defense": 24,
+					"Agility": 13,
+					"Intelligence": 9
+				},
+				"moves": [
+					"Bolt",
+					"Focus",
+					"Dodge"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Grakos"
+						],
+						"mate": [
+							"Mudou"
+						]
+					}
+				]
+			},
+			"PUMPOISE": {
+				"name": "Pumpoise",
+				"stats": {
+					"MaxLevel": 35,
+					"Experience": 12,
+					"HP": 17,
+					"MP": 8,
+					"Attack": 13,
+					"Defense": 22,
+					"Agility": 7,
+					"Intelligence": 8
+				},
+				"moves": [
+					"CallHelp",
+					"SuckAir",
+					"Dodge"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"Mommonja",
+							"DuckKite",
+							"MadPecker",
+							"MadGoose",
+							"CragDevil",
+							"SpikyBoy",
+							"BombCrag"
+						]
+					}
+				]
+			},
+			"STARFISH": {
+				"name": "Starfish",
+				"stats": {
+					"MaxLevel": 30,
+					"Experience": 5,
+					"HP": 7,
+					"MP": 19,
+					"Attack": 5,
+					"Defense": 9,
+					"Agility": 9,
+					"Intelligence": 15
+				},
+				"moves": [
+					"Upper",
+					"PoisonHit",
+					"OddDance"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"HoodSquid",
+							"OctoReach",
+							"Octogon",
+							"KingSquid"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
+			}
+		},
+		"???? FAMILY": {
+			"DRACOLORD": {
+				"name": "DracoLord",
+				"stats": {
+					"MaxLevel": 50,
+					"Experience": 24,
+					"HP": 20,
+					"MP": 30,
+					"Attack": 21,
+					"Defense": 20,
+					"Agility": 23,
+					"Intelligence": 23
+				},
+				"moves": [
+					"Firebal",
+					"BeDragon",
+					"Meditate"
+				],
+				"resistances": [],
+				"breeds": []
+			},
+			"DRACOLORD2": {
+				"name": "DracoLord2",
+				"stats": {
+					"MaxLevel": 70,
+					"Experience": 25,
+					"HP": 21,
+					"MP": 30,
+					"Attack": 24,
+					"Defense": 21,
+					"Agility": 23,
+					"Intelligence": 21
+				},
+				"moves": [
+					"FireAir",
+					"Massacre",
+					"Surge"
+				],
+				"resistances": [],
+				"breeds": []
+			},
+			"LORDDRACO": {
+				"name": "LordDraco",
+				"stats": {
+					"MaxLevel": 80,
+					"Experience": 27,
+					"HP": 22,
+					"MP": 31,
+					"Attack": 24,
+					"Defense": 22,
+					"Agility": 24,
+					"Intelligence": 22
+				},
+				"moves": [
+					"Bolt",
+					"HellBlast",
+					"Focus"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DracoLord1"
+						],
+						"mate": [
+							"Orligon"
+						]
+					}
+				]
+			},
+			"HARGON": {
+				"name": "Hargon",
+				"stats": {
+					"MaxLevel": 60,
+					"Experience": 24,
+					"HP": 19,
+					"MP": 30,
+					"Attack": 20,
+					"Defense": 21,
+					"Agility": 23,
+					"Intelligence": 23
+				},
+				"moves": [
+					"Firebal",
+					"Bang",
+					"TatsuCall"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"WhiteKing"
+						],
+						"mate": [
+							"MetalKing"
+						]
+					}
+				]
+			},
+			"SIDOH": {
+				"name": "Sidoh",
+				"stats": {
+					"MaxLevel": 70,
+					"Experience": 25,
+					"HP": 24,
+					"MP": 30,
+					"Attack": 24,
+					"Defense": 21,
+					"Agility": 23,
+					"Intelligence": 23
+				},
+				"moves": [
+					"HellBlast",
+					"FireAir",
+					"FrigidAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Jamirus"
+						],
+						"mate": [
+							"Rosevine"
+						]
+					}
+				]
+			},
+			"GENOSIDOH": {
+				"name": "Genosidoh",
+				"stats": {
+					"MaxLevel": 80,
+					"Experience": 30,
+					"HP": 25,
+					"MP": 31,
+					"Attack": 25,
+					"Defense": 17,
+					"Agility": 18,
+					"Intelligence": 22
+				},
+				"moves": [
+					"Barrier",
+					"WindBeast",
+					"MultiCut"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Sidoh"
+						],
+						"mate": [
+							"Titanis"
+						]
+					}
+				]
+			},
+			"BARAMOS": {
+				"name": "Baramos",
+				"stats": {
+					"MaxLevel": 60,
+					"Experience": 24,
+					"HP": 20,
+					"MP": 30,
+					"Attack": 20,
+					"Defense": 20,
+					"Agility": 22,
+					"Intelligence": 21
+				},
+				"moves": [
+					"Bang",
+					"HellBlast",
+					"RockThrow"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Hargon"
+						],
+						"mate": [
+							"Orochi"
+						]
+					}
+				]
+			},
+			"ZOMA": {
+				"name": "Zoma",
+				"stats": {
+					"MaxLevel": 70,
+					"Experience": 25,
+					"HP": 24,
+					"MP": 30,
+					"Attack": 26,
+					"Defense": 21,
+					"Agility": 23,
+					"Intelligence": 23
+				},
+				"moves": [
+					"BigBang",
+					"FrigidAir",
+					"DeMagic"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DracoLord1",
+							"DracoLord2"
+						],
+						"mate": [
+							"Sidoh"
+						]
+					}
+				]
+			},
+			"ASURAZOMA": {
+				"name": "AsuraZoma",
+				"stats": {
+					"MaxLevel": 80,
+					"Experience": 29,
+					"HP": 26,
+					"MP": 30,
+					"Attack": 29,
+					"Defense": 22,
+					"Agility": 23,
+					"Intelligence": 12
+				},
+				"moves": [
+					"FireAir",
+					"GigaSlash",
+					"Focus"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Zoma"
+						],
+						"mate": [
+							"PsychoPiz"
+						]
+					}
+				]
+			},
+			"PIZZARO": {
+				"name": "Pizzaro",
+				"stats": {
+					"MaxLevel": 70,
+					"Experience": 24,
+					"HP": 21,
+					"MP": 30,
+					"Attack": 26,
+					"Defense": 21,
+					"Agility": 23,
+					"Intelligence": 23
+				},
+				"moves": [
+					"HellBlast",
+					"FireAir",
+					"BiAttack"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Durran"
+						],
+						"mate": [
+							"Divinegon"
+						]
+					}
+				]
+			},
+			"PSYCHOPIZ": {
+				"name": "PsychoPiz",
+				"stats": {
+					"MaxLevel": 80,
+					"Experience": 29,
+					"HP": 30,
+					"MP": 30,
+					"Attack": 27,
+					"Defense": 18,
+					"Agility": 24,
+					"Intelligence": 21
+				},
+				"moves": [
+					"BigBang",
+					"FrigidAir",
+					"DeMagic"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Pizzaro"
+						],
+						"mate": [
+							"Esterk"
+						]
+					}
+				]
+			},
+			"ESTERK": {
+				"name": "Esterk",
+				"stats": {
+					"MaxLevel": 80,
+					"Experience": 31,
+					"HP": 29,
+					"MP": 30,
+					"Attack": 26,
+					"Defense": 24,
+					"Agility": 23,
+					"Intelligence": 23
+				},
+				"moves": [
+					"BiAttack",
+					"RainSlash",
+					"GigaSlash"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Pizzaro"
+						],
+						"mate": [
+							"Gorago",
+							"KingLeo"
+						]
+					}
+				]
+			},
+			"MIRUDRAAS": {
+				"name": "Mirudraas",
+				"stats": {
+					"MaxLevel": 70,
+					"Experience": 30,
+					"HP": 21,
+					"MP": 30,
+					"Attack": 26,
+					"Defense": 21,
+					"Agility": 23,
+					"Intelligence": 23
+				},
+				"moves": [
+					"Blaze",
+					"Bang",
+					"Bolt"
+				],
+				"resistances": [],
+				"breeds": []
+			},
+			"MIRUDRAAS2": {
+				"name": "Mirudraas2",
+				"stats": {
+					"MaxLevel": 80,
+					"Experience": 31,
+					"HP": 29,
+					"MP": 30,
+					"Attack": 26,
+					"Defense": 21,
+					"Agility": 23,
+					"Intelligence": 23
+				},
+				"moves": [
+					"FireAir",
+					"DeMagic",
+					"SuckAir"
+				],
+				"resistances": [],
+				"breeds": []
+			},
+			"MUDOU": {
+				"name": "Mudou",
+				"stats": {
+					"MaxLevel": 60,
+					"Experience": 28,
+					"HP": 21,
+					"MP": 30,
+					"Attack": 26,
+					"Defense": 24,
+					"Agility": 23,
+					"Intelligence": 23
+				},
+				"moves": [
+					"FireAir",
+					"FrigidAir",
+					"PoisonGas"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"Baramos"
+						],
+						"mate": [
+							"Gorago"
+						]
+					}
+				]
+			},
+			"DEATHMORE": {
+				"name": "DeathMore",
+				"stats": {
+					"MaxLevel": 60,
+					"Experience": 27,
+					"HP": 21,
+					"MP": 30,
+					"Attack": 26,
+					"Defense": 21,
+					"Agility": 23,
+					"Intelligence": 23
+				},
+				"moves": [
+					"BigBang",
+					"HellBlast",
+					"TatsuCall"
+				],
+				"resistances": [],
+				"breeds": []
+			},
+			"DEATHMORE2": {
+				"name": "DeathMore2",
+				"stats": {
+					"MaxLevel": 70,
+					"Experience": 29,
+					"HP": 24,
+					"MP": 30,
+					"Attack": 26,
+					"Defense": 21,
+					"Agility": 23,
+					"Intelligence": 23
+				},
+				"moves": [
+					"FireAir",
+					"Ramming",
+					"UltraDown"
+				],
+				"resistances": [],
+				"breeds": []
+			},
+			"DEATHMORE3": {
+				"name": "DeathMore3",
+				"stats": {
+					"MaxLevel": 80,
+					"Experience": 31,
+					"HP": 29,
+					"MP": 30,
+					"Attack": 30,
+					"Defense": 24,
+					"Agility": 23,
+					"Intelligence": 23
+				},
+				"moves": [
+					"BigBang",
+					"DeMagic",
+					"Focus"
+				],
+				"resistances": [],
+				"breeds": []
+			},
+			"DARKDRIUM": {
+				"name": "Darkdrium",
+				"stats": {
+					"MaxLevel": 80,
+					"Experience": 30,
+					"HP": 31,
+					"MP": 30,
+					"Attack": 31,
+					"Defense": 24,
+					"Agility": 23,
+					"Intelligence": 23
+				},
+				"moves": [
+					"Bolt",
+					"FireAir",
+					"FrigidAir"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [
+							"DeathMore3"
+						],
+						"mate": [
+							"Watabou",
+							"GranSlime",
+							"AsuraZoma"
+						]
+					}
+				]
+			},
+			"ORGODEMIR": {
+				"name": "Orgodemir",
+				"stats": {
+					"MaxLevel": 65,
+					"Experience": 30,
+					"HP": 24,
+					"MP": 25,
+					"Attack": 26,
+					"Defense": 23,
+					"Agility": 22,
+					"Intelligence": 31
+				},
+				"moves": [
+					"Bang",
+					"EvilSlash",
+					"Focus"
+				],
+				"resistances": [],
+				"breeds": []
+			},
+			"ORGODEMIR2": {
+				"name": "Orgodemir2",
+				"stats": {
+					"MaxLevel": 70,
+					"Experience": 31,
+					"HP": 27,
+					"MP": 31,
+					"Attack": 30,
+					"Defense": 23,
+					"Agility": 24,
+					"Intelligence": 31
+				},
+				"moves": [
+					"MegaMagic",
+					"DeMagic",
+					"LifeSong"
+				],
+				"resistances": [],
+				"breeds": []
+			},
+			"DARCK": {
+				"name": "Darck",
+				"stats": {
+					"MaxLevel": 60,
+					"Experience": 26,
+					"HP": 23,
+					"MP": 25,
+					"Attack": 18,
+					"Defense": 23,
+					"Agility": 14,
+					"Intelligence": 17
+				},
+				"moves": [
+					"Firebal",
+					"Bang",
+					"ChargeUp"
+				],
+				"resistances": [],
+				"breeds": [
+					{
+						"base": [],
+						"mate": []
+					}
+				]
+			}
+		}
+	}
+}
