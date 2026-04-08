@@ -1,33 +1,5 @@
+import { Monster, MonsterData, Stat, STAT_NAMES } from '@/types/types';
 import fs from 'fs';
-
-const STAT_NAMES = ['MaxLevel', 'Experience', 'HP', 'MP', 'Attack', 'Defense', 'Agility', 'Intelligence'];
-
-type Stat = {
-    [K in string]: number
-}
-
-type Monster = {
-    name: string
-    stats: Stat
-    moves: string[]
-    resistances: number[]
-    breeds: Breed[]
-}
-
-type Family = {
-    [monsterName: string]: Monster
-}
-
-type MonsterData = {
-    families: {
-        [familityName: string]: Family
-    }
-}
-
-type Breed = {
-    base: string[],
-    mate: string[],
-}
 
 const data: MonsterData = { families: {} };
 
@@ -86,6 +58,7 @@ function parseMonsterData() {
                 });
                 data.families[currentFamily][splits[0].toUpperCase()] = {
                     name: splits[0],
+                    family: currentFamily.replace(" FAMILY", "").toLowerCase().replace(/^\w/, (c) => c.toUpperCase()),
                     stats: stats,
                     moves: splits.slice(9, 12),
                     resistances: [],
@@ -93,8 +66,8 @@ function parseMonsterData() {
                 };
             }
             if (currentHeader == "MONSTER RESISTANCES") {
-                if (data.families[currentFamily][splits[0] as string]) {
-                    data.families[currentFamily][splits[0] as string].resistances =
+                if (data.families[currentFamily][splits[0].toUpperCase()]) {
+                    data.families[currentFamily][splits[0].toUpperCase()].resistances =
                         splits.slice(1, 28).map(x => parseInt(x));
                 }
             }
@@ -167,3 +140,5 @@ export default function GetMonsterData() {
         }
     });
 }
+
+GetMonsterData();
