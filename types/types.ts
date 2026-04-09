@@ -1,13 +1,14 @@
-export const STAT_NAMES = ['MaxLevel', 'Experience', 'HP', 'MP', 'Attack', 'Defense', 'Agility', 'Intelligence'];
+export const STAT_NAMES = ['MaxLevel', 'LV', 'Experience', 'HP', 'MP', 'Attack', 'Defense', 'Agility', 'Intelligence', 'From'];
+export const MOVE_REQS = ['LV', 'HP', 'MP', 'Attack', 'Defense', 'Agility', 'Intelligence', 'From'];
 
-export type Stat = {
+export type Stats = {
     [K in string]: number
 }
 
 export type Monster = {
     name: string
     family: string
-    stats: Stat
+    stats: Stats
     moves: string[]
     resistances: number[]
     breeds: Breed[]
@@ -26,4 +27,12 @@ export type MonsterData = {
     families: {
         [familityName: string]: Family
     }
+}
+
+export type MoveRequirements = {
+    [moveName: string] : string[]
+}
+
+export type ResistanceData = {
+    [K in string]: string[]
 }

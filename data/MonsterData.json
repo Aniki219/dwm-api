@@ -247,7 +247,7 @@
 					"Intelligence": 8
 				},
 				"moves": [
-					"Icebolt",
+					"IceBolt",
 					"NumbOff",
 					"CallHelp"
 				],
@@ -927,7 +927,7 @@
 					"Intelligence": 15
 				},
 				"moves": [
-					"Mpass",
+					"MPass",
 					"Barrier",
 					"Vivify"
 				],
@@ -1016,7 +1016,7 @@
 				},
 				"moves": [
 					"Blaze",
-					"Icebolt",
+					"IceBolt",
 					"Beat"
 				],
 				"resistances": [
@@ -1213,7 +1213,7 @@
 					"Intelligence": 15
 				},
 				"moves": [
-					"Mpass",
+					"MPass",
 					"SleepAir",
 					"LushLicks"
 				],
@@ -1873,7 +1873,7 @@
 				"moves": [
 					"Sacrifice",
 					"Farewell",
-					"Beserker"
+					"Berserker"
 				],
 				"resistances": [
 					2,
@@ -2221,7 +2221,7 @@
 				"moves": [
 					"FireAir",
 					"FireSlash",
-					"SealAll"
+					"SuckAll"
 				],
 				"resistances": [
 					2,
@@ -2337,7 +2337,7 @@
 				"moves": [
 					"EvilSlash",
 					"Massacre",
-					"CureDance"
+					"LureDance"
 				],
 				"resistances": [
 					1,
@@ -2671,7 +2671,7 @@
 				"moves": [
 					"PoisonHit",
 					"Curse",
-					"K.O."
+					"K.O.Dance"
 				],
 				"resistances": [
 					1,
@@ -2864,7 +2864,7 @@
 				},
 				"moves": [
 					"RockThrow",
-					"Beserker",
+					"Berserker",
 					"Kamikaze"
 				],
 				"resistances": [
@@ -2924,7 +2924,7 @@
 				"moves": [
 					"FrigidAir",
 					"IceSlash",
-					"SealAll"
+					"SuckAll"
 				],
 				"resistances": [
 					2,
@@ -3510,7 +3510,7 @@
 				},
 				"moves": [
 					"TwinHits",
-					"Beserker",
+					"Berserker",
 					"StrongD"
 				],
 				"resistances": [
@@ -3692,7 +3692,7 @@
 				"moves": [
 					"Sleep",
 					"ChargeUp",
-					"Beserker"
+					"Berserker"
 				],
 				"resistances": [
 					1,
@@ -4085,7 +4085,7 @@
 				},
 				"moves": [
 					"Infernos",
-					"Icebolt",
+					"IceBolt",
 					"VacuSlash"
 				],
 				"resistances": [
@@ -4150,7 +4150,7 @@
 					"Intelligence": 7
 				},
 				"moves": [
-					"Icebolt",
+					"IceBolt",
 					"ChargeUp",
 					"Geyser"
 				],
@@ -4266,8 +4266,8 @@
 					"Intelligence": 7
 				},
 				"moves": [
-					"K.O.",
-					"Dance",
+					"K.O.Dance",
+					"Imitate",
 					"Hustle"
 				],
 				"resistances": [
@@ -4410,7 +4410,7 @@
 					"Intelligence": 8
 				},
 				"moves": [
-					"CureDance",
+					"LureDance",
 					"MouthShut",
 					"EagleEye"
 				],
@@ -4590,7 +4590,7 @@
 					"Intelligence": 8
 				},
 				"moves": [
-					"Icebolt",
+					"IceBolt",
 					"IceSlash",
 					"WarCry"
 				],
@@ -5176,7 +5176,7 @@
 					"Intelligence": 13
 				},
 				"moves": [
-					"Beserker",
+					"Berserker",
 					"SandStorm",
 					"WarCry"
 				],
@@ -5457,7 +5457,7 @@
 					"Intelligence": 9
 				},
 				"moves": [
-					"Icebolt",
+					"IceBolt",
 					"FrigidAir",
 					"LoveRain"
 				],
@@ -6547,7 +6547,7 @@
 				"moves": [
 					"Heal",
 					"WindBeast",
-					"CureDance"
+					"LureDance"
 				],
 				"resistances": [
 					0,
@@ -7332,7 +7332,7 @@
 				"moves": [
 					"HealUs",
 					"FireAir",
-					"SealAll"
+					"SuckAll"
 				],
 				"resistances": [
 					1,
@@ -7510,7 +7510,7 @@
 				},
 				"moves": [
 					"Blaze",
-					"Dechaos",
+					"DeChaos",
 					"PalsyAir"
 				],
 				"resistances": [
@@ -8097,9 +8097,9 @@
 					"Intelligence": 11
 				},
 				"moves": [
-					"K.O.",
-					"Dance",
-					"CureDance"
+					"K.O.Dance",
+					"SideStep",
+					"LureDance"
 				],
 				"resistances": [
 					1,
@@ -8167,7 +8167,7 @@
 					"Intelligence": 15
 				},
 				"moves": [
-					"Mpass",
+					"MPass",
 					"CurseOff",
 					"Hustle"
 				],
@@ -8699,7 +8699,7 @@
 				},
 				"moves": [
 					"RobMagic",
-					"CureDance",
+					"LureDance",
 					"EerieLite"
 				],
 				"resistances": [
@@ -8817,7 +8817,7 @@
 				"moves": [
 					"Vivify",
 					"SleepAir",
-					"SealAll"
+					"SuckAll"
 				],
 				"resistances": [
 					1,
@@ -8873,7 +8873,7 @@
 					"Intelligence": 4
 				},
 				"moves": [
-					"Mpass",
+					"MPass",
 					"DeMagic",
 					"Pheromone"
 				],
@@ -8980,9 +8980,9 @@
 					"Intelligence": 14
 				},
 				"moves": [
-					"Mpass",
+					"MPass",
 					"OddDance",
-					"CureDance"
+					"LureDance"
 				],
 				"resistances": [
 					0,
@@ -10575,7 +10575,7 @@
 				"moves": [
 					"Farewell",
 					"StrongD",
-					"SealAll"
+					"SuckAll"
 				],
 				"resistances": [
 					1,
@@ -11302,7 +11302,7 @@
 				"moves": [
 					"Blaze",
 					"Firebal",
-					"Icebolt"
+					"IceBolt"
 				],
 				"resistances": [
 					1,
@@ -11571,7 +11571,7 @@
 				"moves": [
 					"Bang",
 					"Infernos",
-					"Icebolt"
+					"IceBolt"
 				],
 				"resistances": [
 					2,
@@ -12592,7 +12592,7 @@
 				},
 				"moves": [
 					"Bang",
-					"Beserker",
+					"Berserker",
 					"UltraDown"
 				],
 				"resistances": [
@@ -13091,7 +13091,7 @@
 				},
 				"moves": [
 					"Heal",
-					"Dechaos",
+					"DeChaos",
 					"CurseOff"
 				],
 				"resistances": [
@@ -13149,8 +13149,8 @@
 				},
 				"moves": [
 					"FrigidAir",
-					"K.O.",
-					"Dance"
+					"K.O.Dance",
+					"ThickFog"
 				],
 				"resistances": [
 					0,
@@ -13323,7 +13323,7 @@
 				},
 				"moves": [
 					"Beat",
-					"Mpass",
+					"MPass",
 					"Vivify"
 				],
 				"resistances": [
@@ -14126,7 +14126,7 @@
 				},
 				"moves": [
 					"Blaze",
-					"Icebolt",
+					"IceBolt",
 					"Focus"
 				],
 				"resistances": [
@@ -14192,8 +14192,8 @@
 				},
 				"moves": [
 					"TakeMagic",
-					"K.O.",
-					"Dance"
+					"K.O.Dance",
+					"LifeDance"
 				],
 				"resistances": [
 					2,
@@ -14563,7 +14563,7 @@
 					"Intelligence": 13
 				},
 				"moves": [
-					"Dechaos",
+					"DeChaos",
 					"FrigidAir",
 					"MapMagic"
 				],
@@ -14679,9 +14679,9 @@
 					"Intelligence": 7
 				},
 				"moves": [
-					"Dechaos",
+					"DeChaos",
 					"NumbOff",
-					"SealAll"
+					"SuckAll"
 				],
 				"resistances": [
 					0,
@@ -14970,7 +14970,7 @@
 				},
 				"moves": [
 					"OddDance",
-					"CureDance",
+					"LureDance",
 					"Pheromone"
 				],
 				"resistances": [
@@ -15804,7 +15804,7 @@
 					"Intelligence": 7
 				},
 				"moves": [
-					"Icebolt",
+					"IceBolt",
 					"FrigidAir",
 					"StrongD"
 				],
@@ -16116,7 +16116,7 @@
 				"moves": [
 					"StrongD",
 					"Cover",
-					"SealAll"
+					"SuckAll"
 				],
 				"resistances": [
 					0,
@@ -16920,8 +16920,8 @@
 				},
 				"moves": [
 					"Heal",
-					"Mpass",
-					"CureDance"
+					"MPass",
+					"LureDance"
 				],
 				"resistances": [
 					1,
@@ -17628,7 +17628,7 @@
 				"moves": [
 					"CallHelp",
 					"BiAttack",
-					"CureDance"
+					"LureDance"
 				],
 				"resistances": [
 					2,
@@ -17685,7 +17685,7 @@
 					"Intelligence": 13
 				},
 				"moves": [
-					"Icebolt",
+					"IceBolt",
 					"Sleep",
 					"WarCry"
 				],
@@ -17803,7 +17803,7 @@
 					"Intelligence": 20
 				},
 				"moves": [
-					"Mpass",
+					"MPass",
 					"BiAttack",
 					"Hustle"
 				],
@@ -18046,7 +18046,7 @@
 				"moves": [
 					"RobMagic",
 					"WindBeast",
-					"Beserker"
+					"Berserker"
 				],
 				"resistances": [
 					3,

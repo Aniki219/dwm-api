@@ -1,10 +1,22 @@
 import Database from 'better-sqlite3';
 import path from 'path';
 import { promises as fs } from 'fs';
-import { Monster, MonsterData } from '@/types/types';
+import { Monster, MonsterData, MOVE_REQS, MoveRequirements, ResistanceData, STAT_NAMES } from '@/types/types';
 
-const db = new Database(path.join(process.cwd(), 'dwm.db'));
-const tables = ["monsters", "stats", "resistances", "moves"]; //do we need to include the join tables?
+const verbose = false;
+const db = new Database(path.join(process.cwd(), 'dwm.db'), {verbose: verbose ? console.log : () => {}});
+const tables = [
+    "monster_moves",
+    "monster_stats",
+    "monster_resistances",
+    "move_requirements",
+    "resistance_moves",
+
+    "monsters",
+    "moves",
+    "stats",
+    "resistances"
+];
 
 async function seed() {
     
@@ -25,12 +37,6 @@ async function seed() {
 
         CREATE TABLE IF NOT EXISTS moves (
             name TEXT PRIMARY KEY
-        );
-
-        CREATE TABLE IF NOT EXISTS resistance_moves (
-            resistance_name TEXT REFERENCES resistances(name),
-            move_name TEXT REFERENCES moves(name),
-            PRIMARY KEY (resistance_name, move_name)
         );
 
         CREATE TABLE IF NOT EXISTS monsters (
@@ -57,32 +63,102 @@ async function seed() {
             value INT NOT NULL,
             PRIMARY KEY (monster_name, resistance_name)
         );
+
+        CREATE TABLE IF NOT EXISTS move_requirements (
+            move_name TEXT REFERENCES moves(name),
+            stat_name TEXT REFERENCES stats(name),
+            value TEXT,
+            PRIMARY KEY (move_name, stat_name)
+        );
+
+        CREATE TABLE IF NOT EXISTS resistance_moves (
+            resistance_name TEXT REFERENCES resistances(name),
+            move_name TEXT REFERENCES moves(name),
+            PRIMARY KEY (resistance_name, move_name)
+        )
     `);
 
-    const raw = await readMonsterData();
+    const monsterData = await readData<MonsterData>('MonsterData');
+    const moveData = await readData<MoveRequirements>('Moves');
+    const resistanceData = await readData<ResistanceData>('Resistances');
 
     const insertMonster = db.prepare('INSERT INTO monsters (name, family) VALUES (?, ?)');
+    const insertStat = db.prepare('INSERT INTO stats (name) VALUES (?)');
+    const insertMove = db.prepare('INSERT INTO moves (name) VALUES (?)');
+    const insertResistance = db.prepare('INSERT INTO resistances (name) VALUES (?)');
+    const insertMonsterStat = db.prepare('INSERT INTO monster_stats (monster_name, stat_name, value) VALUES (?, ?, ?)');
+    const insertMoveRequirement = db.prepare('INSERT INTO move_requirements (move_name, stat_name, value) VALUES (?, ?, ?)');
+    const insertMonsterMove = db.prepare('INSERT INTO monster_moves (monster_name, move_name) VALUES (?, ?)');
+    const insertMonsterResistance = db.prepare('INSERT INTO monster_resistances (monster_name, resistance_name, value) VALUES (?, ?, ?)');
+    const insertResistanceMove = db.prepare('INSERT INTO resistance_moves (resistance_name, move_name) VALUES (?, ?)');
 
     const transaction = db.transaction((monsterData: MonsterData) => {
+
+        // Stats
+        for (const stat of STAT_NAMES) {
+            insertStat.run(stat);
+        }
+
+        // Moves
+        for (const move in moveData) {
+            insertMove.run(move);
+
+            // Move Requirements
+            const moveStats = moveData[move];
+            for (let i = 0; i < MOVE_REQS.length; i++) {
+                const statName = MOVE_REQS[i];
+                const value = moveStats[i];
+
+                if (value) {
+                    insertMoveRequirement.run(move, statName, value);
+                }
+            }
+        }
+
+        // Resistances
+        for (const resName in resistanceData) {
+            insertResistance.run(resName);
+            for (const move of resistanceData[resName]) {
+                insertResistanceMove.run(resName, move);
+            }
+        }
+        
+        // Monsters
         for (const f in monsterData.families) {
             for (const m in monsterData.families[f]) {
-                const {name, family} = monsterData.families[f][m] as Monster;
+                const {name, family, stats, moves, resistances} = monsterData.families[f][m] as Monster;
                 insertMonster.run(name, family);
+                
+                // Monster Stats
+                for (const stat in stats) {
+                    insertMonsterStat.run(name, stat, stats[stat])
+                }
+                
+                // Monster Moves
+                for (const move of moves) {
+                    insertMonsterMove.run(name, move);
+                }
 
-                // "SKILL", "LV", "HPs", "MPs", "ATK", "DEF", "AGL", "INT", "FROM"
+                // Monster Resitances
+                for (let i = 0; i < resistances.length; i++) {
+                    const resName = Object.keys(resistanceData)[i];
+                    const value = resistances[i];
+
+                    insertMonsterResistance.run(name, resName, value);
+                }
             }
         }
     });
 
-    transaction(raw);
+    transaction(monsterData);
 };
 
-async function readMonsterData(): Promise<MonsterData> {
+async function readData<T>(fn: string): Promise<T> {
   try {
-    const data = await fs.readFile('data/MonsterData.json', 'utf8');
+    const data = await fs.readFile(`data/${fn}.json`, 'utf8');
     return JSON.parse(data);
   } catch (err) {
-    throw new Error(`Failed to read or parse monster data: ${err}`);
+    throw new Error(`Failed to read or parse ${fn}.json: ${err}`);
   }
 }
 

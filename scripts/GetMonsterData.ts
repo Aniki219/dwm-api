@@ -1,4 +1,4 @@
-import { Monster, MonsterData, Stat, STAT_NAMES } from '@/types/types';
+import { Monster, MonsterData, Stats, STAT_NAMES } from '@/types/types';
 import fs from 'fs';
 
 const data: MonsterData = { families: {} };
@@ -52,7 +52,7 @@ function parseMonsterData() {
             if (!splits[0]) continue;
             if (!data.families[currentFamily]) continue;
             if (currentHeader == "MONSTER DATA") {
-                const stats = {} as Stat;
+                const stats = {} as Stats;
                 STAT_NAMES.forEach((name, i) => {
                     stats[name] = parseInt(splits[i + 1]);
                 });
