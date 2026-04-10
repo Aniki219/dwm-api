@@ -44,6 +44,13 @@ async function seed() {
             family TEXT NOT NULL
         );
 
+        CREATE TABLE IF NOT EXISTS monster_breeds (
+            base_name TEXT REFERENCES monsters(name),
+            mate_name TEXT REFERENCES monsters(name),
+            result_name TEXT REFERENCES monsters(name),
+            PRIMARY KEY (base_name, mate_name)
+        );
+
         CREATE TABLE IF NOT EXISTS monster_moves (
             monster_name TEXT REFERENCES monsters(name),
             move_name TEXT REFERENCES moves(name),
@@ -87,6 +94,7 @@ async function seed() {
     const insertMove = db.prepare('INSERT INTO moves (name) VALUES (?)');
     const insertResistance = db.prepare('INSERT INTO resistances (name) VALUES (?)');
     const insertMonsterStat = db.prepare('INSERT INTO monster_stats (monster_name, stat_name, value) VALUES (?, ?, ?)');
+    const insertMonsterBreeds = db.prepare('INSERT INTO monster_breeds (base_name, mate_name, result_name) VALUES (?, ?, ?)');
     const insertMoveRequirement = db.prepare('INSERT INTO move_requirements (move_name, stat_name, value) VALUES (?, ?, ?)');
     const insertMonsterMove = db.prepare('INSERT INTO monster_moves (monster_name, move_name) VALUES (?, ?)');
     const insertMonsterResistance = db.prepare('INSERT INTO monster_resistances (monster_name, resistance_name, value) VALUES (?, ?, ?)');
@@ -126,16 +134,24 @@ async function seed() {
         // Monsters
         for (const f in monsterData.families) {
             for (const m in monsterData.families[f]) {
-                const {name, family, stats, moves, resistances} = monsterData.families[f][m] as Monster;
+                const {name, family, stats, moves, resistances, breeds} = monsterData.families[f][m] as Monster;
                 insertMonster.run(name, family);
+
+                // Monster Breeds
+                // console.log(name);
+                // for (const breedPair of breeds) {
+                //     console.log(breedPair.base, breedPair.mate);
+                // }
                 
                 // Monster Stats
                 for (const stat in stats) {
+                    if (!stats[stat]) continue;
                     insertMonsterStat.run(name, stat, stats[stat])
                 }
                 
                 // Monster Moves
                 for (const move of moves) {
+                    console.log(move)
                     insertMonsterMove.run(name, move);
                 }
 

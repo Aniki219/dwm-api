@@ -6,13 +6,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 13,
-					"HP": 16,
-					"MP": 10,
-					"Attack": 13,
-					"Defense": 8,
-					"Agility": 20,
-					"Intelligence": 16
+					"LV": 13,
+					"Experience": 16,
+					"HP": 10,
+					"MP": 13,
+					"Attack": 8,
+					"Defense": 20,
+					"Agility": 16,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"BeDragon",
@@ -64,13 +66,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 10,
-					"HP": 17,
-					"MP": 1,
-					"Attack": 17,
-					"Defense": 4,
-					"Agility": 17,
-					"Intelligence": 8
+					"LV": 10,
+					"Experience": 17,
+					"HP": 1,
+					"MP": 17,
+					"Attack": 4,
+					"Defense": 17,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"CallHelp",
@@ -122,13 +126,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 10,
-					"HP": 13,
-					"MP": 2,
+					"LV": 10,
+					"Experience": 13,
+					"HP": 2,
+					"MP": 11,
 					"Attack": 11,
-					"Defense": 11,
-					"Agility": 24,
-					"Intelligence": 8
+					"Defense": 24,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"WindBeast",
@@ -180,13 +186,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 11,
-					"HP": 13,
-					"MP": 11,
-					"Attack": 8,
-					"Defense": 14,
+					"LV": 11,
+					"Experience": 13,
+					"HP": 11,
+					"MP": 8,
+					"Attack": 14,
+					"Defense": 17,
 					"Agility": 17,
-					"Intelligence": 17
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sap",
@@ -238,16 +246,18 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 8,
-					"HP": 11,
-					"MP": 10,
-					"Attack": 17,
+					"LV": 8,
+					"Experience": 11,
+					"HP": 10,
+					"MP": 17,
+					"Attack": 20,
 					"Defense": 20,
-					"Agility": 20,
-					"Intelligence": 8
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
-					"IceBolt",
+					"Icebolt",
 					"NumbOff",
 					"CallHelp"
 				],
@@ -296,13 +306,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 15,
-					"HP": 14,
-					"MP": 1,
-					"Attack": 15,
-					"Defense": 14,
-					"Agility": 20,
-					"Intelligence": 14
+					"LV": 15,
+					"Experience": 14,
+					"HP": 1,
+					"MP": 15,
+					"Attack": 14,
+					"Defense": 20,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Heal",
@@ -354,13 +366,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 12,
-					"HP": 17,
-					"MP": 7,
-					"Attack": 17,
-					"Defense": 8,
-					"Agility": 14,
-					"Intelligence": 13
+					"LV": 12,
+					"Experience": 17,
+					"HP": 7,
+					"MP": 17,
+					"Attack": 8,
+					"Defense": 14,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Surround",
@@ -414,13 +428,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 50,
+					"LV": 11,
 					"Experience": 11,
-					"HP": 11,
-					"MP": 10,
-					"Attack": 14,
-					"Defense": 19,
-					"Agility": 14,
-					"Intelligence": 13
+					"HP": 10,
+					"MP": 14,
+					"Attack": 19,
+					"Defense": 14,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Blaze",
@@ -472,13 +488,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 40,
+					"LV": 10,
 					"Experience": 10,
-					"HP": 10,
-					"MP": 16,
-					"Attack": 8,
-					"Defense": 22,
-					"Agility": 14,
-					"Intelligence": 9
+					"HP": 16,
+					"MP": 8,
+					"Attack": 22,
+					"Defense": 14,
+					"Agility": 9,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Upper",
@@ -530,13 +548,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 16,
-					"HP": 22,
-					"MP": 11,
-					"Attack": 14,
-					"Defense": 17,
-					"Agility": 11,
-					"Intelligence": 13
+					"LV": 16,
+					"Experience": 22,
+					"HP": 11,
+					"MP": 14,
+					"Attack": 17,
+					"Defense": 11,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",
@@ -584,13 +604,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 50,
+					"LV": 11,
 					"Experience": 11,
-					"HP": 11,
-					"MP": 15,
+					"HP": 15,
+					"MP": 11,
 					"Attack": 11,
-					"Defense": 11,
-					"Agility": 20,
-					"Intelligence": 18
+					"Defense": 20,
+					"Agility": 18,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Heal",
@@ -645,13 +667,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 10,
-					"HP": 25,
-					"MP": 1,
-					"Attack": 18,
-					"Defense": 13,
-					"Agility": 20,
-					"Intelligence": 13
+					"LV": 10,
+					"Experience": 25,
+					"HP": 1,
+					"MP": 18,
+					"Attack": 13,
+					"Defense": 20,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"CallHelp",
@@ -708,13 +732,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 11,
-					"HP": 13,
-					"MP": 10,
-					"Attack": 14,
-					"Defense": 23,
-					"Agility": 16,
-					"Intelligence": 14
+					"LV": 11,
+					"Experience": 13,
+					"HP": 10,
+					"MP": 14,
+					"Attack": 23,
+					"Defense": 16,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"HighJump",
@@ -769,13 +795,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 11,
-					"HP": 18,
-					"MP": 11,
-					"Attack": 20,
-					"Defense": 15,
-					"Agility": 14,
-					"Intelligence": 13
+					"LV": 11,
+					"Experience": 18,
+					"HP": 11,
+					"MP": 20,
+					"Attack": 15,
+					"Defense": 14,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Lightning",
@@ -817,7 +845,7 @@
 							"SLIMEFM"
 						],
 						"mate": [
-							"Roboster1"
+							"Roboster"
 						]
 					},
 					{
@@ -860,13 +888,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 10,
-					"HP": 15,
-					"MP": 7,
-					"Attack": 14,
-					"Defense": 8,
-					"Agility": 21,
-					"Intelligence": 15
+					"LV": 10,
+					"Experience": 15,
+					"HP": 7,
+					"MP": 14,
+					"Attack": 8,
+					"Defense": 21,
+					"Agility": 15,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"SideStep",
@@ -918,16 +948,18 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 12,
-					"HP": 18,
-					"MP": 14,
-					"Attack": 15,
-					"Defense": 14,
-					"Agility": 20,
-					"Intelligence": 15
+					"LV": 12,
+					"Experience": 18,
+					"HP": 14,
+					"MP": 15,
+					"Attack": 14,
+					"Defense": 20,
+					"Agility": 15,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
-					"MPass",
+					"Mpass",
 					"Barrier",
 					"Vivify"
 				],
@@ -1006,17 +1038,19 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 20,
-					"Experience": 25,
-					"HP": 0,
-					"MP": 30,
-					"Attack": 11,
-					"Defense": 30,
-					"Agility": 31,
-					"Intelligence": 13
+					"LV": 25,
+					"Experience": 0,
+					"HP": 30,
+					"MP": 11,
+					"Attack": 30,
+					"Defense": 31,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Blaze",
-					"IceBolt",
+					"Icebolt",
 					"Beat"
 				],
 				"resistances": [
@@ -1064,13 +1098,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 27,
-					"HP": 0,
-					"MP": 30,
-					"Attack": 14,
+					"LV": 27,
+					"Experience": 0,
+					"HP": 30,
+					"MP": 14,
+					"Attack": 31,
 					"Defense": 31,
-					"Agility": 31,
-					"Intelligence": 15
+					"Agility": 15,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",
@@ -1123,13 +1159,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 9,
-					"HP": 18,
-					"MP": 11,
-					"Attack": 18,
-					"Defense": 11,
-					"Agility": 20,
-					"Intelligence": 15
+					"LV": 9,
+					"Experience": 18,
+					"HP": 11,
+					"MP": 18,
+					"Attack": 11,
+					"Defense": 20,
+					"Agility": 15,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"CleanCut",
@@ -1204,16 +1242,18 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 14,
-					"HP": 15,
-					"MP": 20,
-					"Attack": 19,
-					"Defense": 9,
-					"Agility": 14,
-					"Intelligence": 15
+					"LV": 14,
+					"Experience": 15,
+					"HP": 20,
+					"MP": 19,
+					"Attack": 9,
+					"Defense": 14,
+					"Agility": 15,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
-					"MPass",
+					"Mpass",
 					"SleepAir",
 					"LushLicks"
 				],
@@ -1279,13 +1319,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 17,
-					"HP": 10,
-					"MP": 12,
-					"Attack": 8,
-					"Defense": 19,
-					"Agility": 20,
-					"Intelligence": 17
+					"LV": 17,
+					"Experience": 10,
+					"HP": 12,
+					"MP": 8,
+					"Attack": 19,
+					"Defense": 20,
+					"Agility": 17,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"PanicAll",
@@ -1347,13 +1389,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 16,
-					"HP": 9,
-					"MP": 20,
-					"Attack": 11,
-					"Defense": 13,
-					"Agility": 12,
-					"Intelligence": 22
+					"LV": 16,
+					"Experience": 9,
+					"HP": 20,
+					"MP": 11,
+					"Attack": 13,
+					"Defense": 12,
+					"Agility": 22,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sleep",
@@ -1423,13 +1467,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 55,
-					"Experience": 29,
-					"HP": 0,
-					"MP": 31,
-					"Attack": 15,
+					"LV": 29,
+					"Experience": 0,
+					"HP": 31,
+					"MP": 15,
+					"Attack": 31,
 					"Defense": 31,
-					"Agility": 31,
-					"Intelligence": 18
+					"Agility": 18,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Bolt",
@@ -1491,13 +1537,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 70,
-					"Experience": 31,
-					"HP": 0,
-					"MP": 31,
-					"Attack": 19,
+					"LV": 31,
+					"Experience": 0,
+					"HP": 31,
+					"MP": 19,
+					"Attack": 31,
 					"Defense": 31,
-					"Agility": 31,
-					"Intelligence": 18
+					"Agility": 18,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Chance",
@@ -1560,13 +1608,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 80,
-					"Experience": 30,
-					"HP": 25,
-					"MP": 29,
-					"Attack": 27,
-					"Defense": 31,
-					"Agility": 6,
-					"Intelligence": 31
+					"LV": 30,
+					"Experience": 25,
+					"HP": 29,
+					"MP": 27,
+					"Attack": 31,
+					"Defense": 6,
+					"Agility": 31,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Farewell",
@@ -1610,7 +1660,7 @@
 						"mate": [
 							"Darkmate",
 							"GoldSlime",
-							"Deathmore1"
+							"Deathmore"
 						]
 					},
 					{
@@ -1628,13 +1678,15 @@
 				"family": "Slime",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 4,
-					"HP": 8,
-					"MP": 13,
-					"Attack": 11,
-					"Defense": 19,
-					"Agility": 11,
-					"Intelligence": 20
+					"LV": 4,
+					"Experience": 8,
+					"HP": 13,
+					"MP": 11,
+					"Attack": 19,
+					"Defense": 11,
+					"Agility": 20,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sacrifice",
@@ -1688,13 +1740,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 30,
-					"Experience": 7,
-					"HP": 10,
-					"MP": 3,
-					"Attack": 17,
-					"Defense": 2,
+					"LV": 7,
+					"Experience": 10,
+					"HP": 3,
+					"MP": 17,
+					"Attack": 2,
+					"Defense": 5,
 					"Agility": 5,
-					"Intelligence": 5
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FireAir",
@@ -1746,13 +1800,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 17,
-					"HP": 15,
-					"MP": 11,
-					"Attack": 18,
-					"Defense": 6,
-					"Agility": 7,
-					"Intelligence": 13
+					"LV": 17,
+					"Experience": 15,
+					"HP": 11,
+					"MP": 18,
+					"Attack": 6,
+					"Defense": 7,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Ironize",
@@ -1804,13 +1860,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 16,
-					"HP": 14,
-					"MP": 11,
-					"Attack": 18,
-					"Defense": 2,
-					"Agility": 20,
-					"Intelligence": 4
+					"LV": 16,
+					"Experience": 14,
+					"HP": 11,
+					"MP": 18,
+					"Attack": 2,
+					"Defense": 20,
+					"Agility": 4,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",
@@ -1862,18 +1920,20 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 18,
-					"HP": 17,
-					"MP": 15,
-					"Attack": 13,
-					"Defense": 11,
-					"Agility": 7,
-					"Intelligence": 18
+					"LV": 18,
+					"Experience": 17,
+					"HP": 15,
+					"MP": 13,
+					"Attack": 11,
+					"Defense": 7,
+					"Agility": 18,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sacrifice",
 					"Farewell",
-					"Berserker"
+					"Beserker"
 				],
 				"resistances": [
 					2,
@@ -1920,13 +1980,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 30,
-					"Experience": 15,
-					"HP": 9,
-					"MP": 13,
-					"Attack": 17,
-					"Defense": 16,
-					"Agility": 14,
-					"Intelligence": 4
+					"LV": 15,
+					"Experience": 9,
+					"HP": 13,
+					"MP": 17,
+					"Attack": 16,
+					"Defense": 14,
+					"Agility": 4,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Surround",
@@ -1978,13 +2040,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 20,
-					"HP": 17,
-					"MP": 10,
-					"Attack": 19,
-					"Defense": 13,
-					"Agility": 5,
-					"Intelligence": 16
+					"LV": 20,
+					"Experience": 17,
+					"HP": 10,
+					"MP": 19,
+					"Attack": 13,
+					"Defense": 5,
+					"Agility": 16,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"AquaCut",
@@ -2036,13 +2100,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 19,
-					"HP": 21,
-					"MP": 16,
-					"Attack": 15,
-					"Defense": 13,
-					"Agility": 7,
-					"Intelligence": 1
+					"LV": 19,
+					"Experience": 21,
+					"HP": 16,
+					"MP": 15,
+					"Attack": 13,
+					"Defense": 7,
+					"Agility": 1,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"PoisonHit",
@@ -2094,13 +2160,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 20,
-					"HP": 9,
-					"MP": 3,
-					"Attack": 23,
-					"Defense": 6,
-					"Agility": 1,
-					"Intelligence": 5
+					"LV": 20,
+					"Experience": 9,
+					"HP": 3,
+					"MP": 23,
+					"Attack": 6,
+					"Defense": 1,
+					"Agility": 5,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"CleanCut",
@@ -2152,13 +2220,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 16,
-					"HP": 11,
-					"MP": 2,
-					"Attack": 19,
-					"Defense": 13,
-					"Agility": 7,
-					"Intelligence": 5
+					"LV": 16,
+					"Experience": 11,
+					"HP": 2,
+					"MP": 19,
+					"Attack": 13,
+					"Defense": 7,
+					"Agility": 5,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sap",
@@ -2210,18 +2280,20 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 20,
-					"HP": 17,
-					"MP": 1,
-					"Attack": 20,
-					"Defense": 16,
-					"Agility": 7,
-					"Intelligence": 4
+					"LV": 20,
+					"Experience": 17,
+					"HP": 1,
+					"MP": 20,
+					"Attack": 16,
+					"Defense": 7,
+					"Agility": 4,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FireAir",
 					"FireSlash",
-					"SuckAll"
+					"SealAll"
 				],
 				"resistances": [
 					2,
@@ -2268,13 +2340,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 16,
-					"HP": 14,
-					"MP": 8,
-					"Attack": 17,
-					"Defense": 14,
-					"Agility": 18,
-					"Intelligence": 10
+					"LV": 16,
+					"Experience": 14,
+					"HP": 8,
+					"MP": 17,
+					"Attack": 14,
+					"Defense": 18,
+					"Agility": 10,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"CallHelp",
@@ -2326,18 +2400,20 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 35,
+					"LV": 19,
 					"Experience": 19,
-					"HP": 19,
-					"MP": 0,
-					"Attack": 21,
-					"Defense": 5,
-					"Agility": 8,
-					"Intelligence": 0
+					"HP": 0,
+					"MP": 21,
+					"Attack": 5,
+					"Defense": 8,
+					"Agility": 0,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"EvilSlash",
 					"Massacre",
-					"LureDance"
+					"CureDance"
 				],
 				"resistances": [
 					1,
@@ -2392,13 +2468,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 17,
-					"HP": 14,
-					"MP": 2,
-					"Attack": 17,
-					"Defense": 16,
-					"Agility": 15,
-					"Intelligence": 5
+					"LV": 17,
+					"Experience": 14,
+					"HP": 2,
+					"MP": 17,
+					"Attack": 16,
+					"Defense": 15,
+					"Agility": 5,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"VacuSlash",
@@ -2465,13 +2543,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 19,
-					"HP": 17,
-					"MP": 18,
-					"Attack": 11,
-					"Defense": 6,
-					"Agility": 8,
-					"Intelligence": 13
+					"LV": 19,
+					"Experience": 17,
+					"HP": 18,
+					"MP": 11,
+					"Attack": 6,
+					"Defense": 8,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"PanicAll",
@@ -2523,13 +2603,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 30,
-					"Experience": 16,
+					"LV": 16,
+					"Experience": 11,
 					"HP": 11,
-					"MP": 11,
+					"MP": 17,
 					"Attack": 17,
-					"Defense": 17,
-					"Agility": 13,
-					"Intelligence": 5
+					"Defense": 13,
+					"Agility": 5,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",
@@ -2581,13 +2663,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 22,
-					"HP": 21,
-					"MP": 15,
-					"Attack": 19,
-					"Defense": 17,
-					"Agility": 19,
-					"Intelligence": 12
+					"LV": 22,
+					"Experience": 21,
+					"HP": 15,
+					"MP": 19,
+					"Attack": 17,
+					"Defense": 19,
+					"Agility": 12,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Infernos",
@@ -2660,18 +2744,20 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 20,
-					"HP": 18,
-					"MP": 8,
-					"Attack": 16,
-					"Defense": 13,
-					"Agility": 19,
-					"Intelligence": 11
+					"LV": 20,
+					"Experience": 18,
+					"HP": 8,
+					"MP": 16,
+					"Attack": 13,
+					"Defense": 19,
+					"Agility": 11,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"PoisonHit",
 					"Curse",
-					"K.O.Dance"
+					"K.O."
 				],
 				"resistances": [
 					1,
@@ -2718,13 +2804,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 8,
-					"HP": 14,
-					"MP": 7,
-					"Attack": 10,
-					"Defense": 8,
-					"Agility": 19,
-					"Intelligence": 8
+					"LV": 8,
+					"Experience": 14,
+					"HP": 7,
+					"MP": 10,
+					"Attack": 8,
+					"Defense": 19,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Infernos",
@@ -2788,13 +2876,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 7,
-					"HP": 10,
-					"MP": 9,
-					"Attack": 21,
-					"Defense": 15,
-					"Agility": 9,
-					"Intelligence": 8
+					"LV": 7,
+					"Experience": 10,
+					"HP": 9,
+					"MP": 21,
+					"Attack": 15,
+					"Defense": 9,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"RockThrow",
@@ -2854,17 +2944,19 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 19,
-					"HP": 20,
-					"MP": 8,
-					"Attack": 19,
-					"Defense": 24,
-					"Agility": 1,
-					"Intelligence": 2
+					"LV": 19,
+					"Experience": 20,
+					"HP": 8,
+					"MP": 19,
+					"Attack": 24,
+					"Defense": 1,
+					"Agility": 2,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"RockThrow",
-					"Berserker",
+					"Beserker",
 					"Kamikaze"
 				],
 				"resistances": [
@@ -2913,18 +3005,20 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 60,
-					"Experience": 23,
-					"HP": 21,
-					"MP": 5,
-					"Attack": 23,
-					"Defense": 14,
-					"Agility": 16,
-					"Intelligence": 11
+					"LV": 23,
+					"Experience": 21,
+					"HP": 5,
+					"MP": 23,
+					"Attack": 14,
+					"Defense": 16,
+					"Agility": 11,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FrigidAir",
 					"IceSlash",
-					"SuckAll"
+					"SealAll"
 				],
 				"resistances": [
 					2,
@@ -3003,13 +3097,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 18,
-					"HP": 14,
-					"MP": 4,
-					"Attack": 15,
-					"Defense": 5,
-					"Agility": 19,
-					"Intelligence": 8
+					"LV": 18,
+					"Experience": 14,
+					"HP": 4,
+					"MP": 15,
+					"Attack": 5,
+					"Defense": 19,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"StopSpell",
@@ -3061,13 +3157,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 20,
-					"HP": 15,
-					"MP": 8,
-					"Attack": 20,
-					"Defense": 17,
-					"Agility": 14,
-					"Intelligence": 11
+					"LV": 20,
+					"Experience": 15,
+					"HP": 8,
+					"MP": 20,
+					"Attack": 17,
+					"Defense": 14,
+					"Agility": 11,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"SquallHit",
@@ -3119,13 +3217,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 60,
-					"Experience": 23,
-					"HP": 25,
-					"MP": 14,
-					"Attack": 20,
-					"Defense": 22,
-					"Agility": 18,
-					"Intelligence": 14
+					"LV": 23,
+					"Experience": 25,
+					"HP": 14,
+					"MP": 20,
+					"Attack": 22,
+					"Defense": 18,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Bang",
@@ -3194,13 +3294,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 60,
-					"Experience": 22,
-					"HP": 24,
-					"MP": 13,
-					"Attack": 24,
-					"Defense": 21,
-					"Agility": 11,
-					"Intelligence": 8
+					"LV": 22,
+					"Experience": 24,
+					"HP": 13,
+					"MP": 24,
+					"Attack": 21,
+					"Defense": 11,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FireAir",
@@ -3261,13 +3363,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 60,
-					"Experience": 22,
-					"HP": 23,
-					"MP": 16,
-					"Attack": 26,
-					"Defense": 20,
-					"Agility": 17,
-					"Intelligence": 16
+					"LV": 22,
+					"Experience": 23,
+					"HP": 16,
+					"MP": 26,
+					"Attack": 20,
+					"Defense": 17,
+					"Agility": 16,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FireAir",
@@ -3323,13 +3427,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 18,
-					"HP": 15,
-					"MP": 11,
-					"Attack": 20,
-					"Defense": 14,
-					"Agility": 18,
-					"Intelligence": 8
+					"LV": 18,
+					"Experience": 15,
+					"HP": 11,
+					"MP": 20,
+					"Attack": 14,
+					"Defense": 18,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FireAir",
@@ -3381,13 +3487,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 55,
-					"Experience": 24,
-					"HP": 23,
-					"MP": 7,
-					"Attack": 24,
-					"Defense": 21,
-					"Agility": 18,
-					"Intelligence": 8
+					"LV": 24,
+					"Experience": 23,
+					"HP": 7,
+					"MP": 24,
+					"Attack": 21,
+					"Defense": 18,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"SlimeBlow",
@@ -3441,13 +3549,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 70,
-					"Experience": 28,
-					"HP": 26,
-					"MP": 25,
-					"Attack": 28,
-					"Defense": 24,
-					"Agility": 20,
-					"Intelligence": 23
+					"LV": 28,
+					"Experience": 26,
+					"HP": 25,
+					"MP": 28,
+					"Attack": 24,
+					"Defense": 20,
+					"Agility": 23,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"BigBang",
@@ -3500,17 +3610,19 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 75,
-					"Experience": 29,
-					"HP": 25,
-					"MP": 24,
-					"Attack": 28,
-					"Defense": 25,
-					"Agility": 21,
-					"Intelligence": 24
+					"LV": 29,
+					"Experience": 25,
+					"HP": 24,
+					"MP": 28,
+					"Attack": 25,
+					"Defense": 21,
+					"Agility": 24,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"TwinHits",
-					"Berserker",
+					"Beserker",
 					"StrongD"
 				],
 				"resistances": [
@@ -3559,13 +3671,15 @@
 				"family": "Dragon",
 				"stats": {
 					"MaxLevel": 70,
-					"Experience": 24,
-					"HP": 30,
-					"MP": 24,
-					"Attack": 29,
-					"Defense": 12,
-					"Agility": 6,
-					"Intelligence": 11
+					"LV": 24,
+					"Experience": 30,
+					"HP": 24,
+					"MP": 29,
+					"Attack": 12,
+					"Defense": 6,
+					"Agility": 11,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FireAir",
@@ -3623,13 +3737,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 12,
-					"HP": 14,
-					"MP": 5,
-					"Attack": 15,
-					"Defense": 12,
-					"Agility": 11,
-					"Intelligence": 16
+					"LV": 12,
+					"Experience": 14,
+					"HP": 5,
+					"MP": 15,
+					"Attack": 12,
+					"Defense": 11,
+					"Agility": 16,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"NapAttack",
@@ -3681,18 +3797,20 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 13,
-					"HP": 18,
-					"MP": 5,
-					"Attack": 14,
-					"Defense": 9,
-					"Agility": 15,
-					"Intelligence": 4
+					"LV": 13,
+					"Experience": 18,
+					"HP": 5,
+					"MP": 14,
+					"Attack": 9,
+					"Defense": 15,
+					"Agility": 4,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sleep",
 					"ChargeUp",
-					"Berserker"
+					"Beserker"
 				],
 				"resistances": [
 					1,
@@ -3739,13 +3857,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 10,
-					"HP": 11,
-					"MP": 10,
-					"Attack": 13,
-					"Defense": 8,
-					"Agility": 18,
-					"Intelligence": 14
+					"LV": 10,
+					"Experience": 11,
+					"HP": 10,
+					"MP": 13,
+					"Attack": 8,
+					"Defense": 18,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Slow",
@@ -3797,13 +3917,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 11,
-					"HP": 14,
-					"MP": 17,
+					"LV": 11,
+					"Experience": 14,
+					"HP": 17,
+					"MP": 8,
 					"Attack": 8,
-					"Defense": 8,
-					"Agility": 19,
-					"Intelligence": 13
+					"Defense": 19,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Slow",
@@ -3855,13 +3977,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 9,
-					"HP": 16,
-					"MP": 5,
-					"Attack": 9,
-					"Defense": 17,
-					"Agility": 0,
-					"Intelligence": 13
+					"LV": 9,
+					"Experience": 16,
+					"HP": 5,
+					"MP": 9,
+					"Attack": 17,
+					"Defense": 0,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Upper",
@@ -3913,13 +4037,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 13,
-					"HP": 24,
-					"MP": 1,
-					"Attack": 26,
-					"Defense": 13,
-					"Agility": 7,
-					"Intelligence": 1
+					"LV": 13,
+					"Experience": 24,
+					"HP": 1,
+					"MP": 26,
+					"Attack": 13,
+					"Defense": 7,
+					"Agility": 1,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Massacre",
@@ -3984,8 +4110,7 @@
 							"WhiteKing",
 							"Skeletor",
 							"MetalDrak",
-							"Roboster1",
-							"LavaMan",
+							"RobosterLavaMan",
 							"IceMan",
 							"Golem",
 							"StoneMan"
@@ -4017,13 +4142,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 12,
-					"HP": 14,
-					"MP": 10,
-					"Attack": 11,
-					"Defense": 8,
-					"Agility": 16,
-					"Intelligence": 2
+					"LV": 12,
+					"Experience": 14,
+					"HP": 10,
+					"MP": 11,
+					"Attack": 8,
+					"Defense": 16,
+					"Agility": 2,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"ChargeUp",
@@ -4075,17 +4202,19 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 12,
-					"HP": 13,
-					"MP": 20,
-					"Attack": 13,
+					"LV": 12,
+					"Experience": 13,
+					"HP": 20,
+					"MP": 13,
+					"Attack": 15,
 					"Defense": 15,
-					"Agility": 15,
-					"Intelligence": 13
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Infernos",
-					"IceBolt",
+					"Icebolt",
 					"VacuSlash"
 				],
 				"resistances": [
@@ -4141,16 +4270,18 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 14,
-					"HP": 22,
+					"LV": 14,
+					"Experience": 22,
+					"HP": 8,
 					"MP": 8,
-					"Attack": 8,
-					"Defense": 21,
-					"Agility": 10,
-					"Intelligence": 7
+					"Attack": 21,
+					"Defense": 10,
+					"Agility": 7,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
-					"IceBolt",
+					"Icebolt",
 					"ChargeUp",
 					"Geyser"
 				],
@@ -4199,13 +4330,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 8,
-					"HP": 14,
-					"MP": 7,
-					"Attack": 17,
-					"Defense": 11,
-					"Agility": 9,
-					"Intelligence": 11
+					"LV": 8,
+					"Experience": 14,
+					"HP": 7,
+					"MP": 17,
+					"Attack": 11,
+					"Defense": 9,
+					"Agility": 11,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"MetalCut",
@@ -4257,17 +4390,19 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 9,
-					"HP": 18,
-					"MP": 7,
-					"Attack": 13,
-					"Defense": 12,
-					"Agility": 11,
-					"Intelligence": 7
+					"LV": 9,
+					"Experience": 18,
+					"HP": 7,
+					"MP": 13,
+					"Attack": 12,
+					"Defense": 11,
+					"Agility": 7,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
-					"K.O.Dance",
-					"Imitate",
+					"K.O.",
+					"Dance",
 					"Hustle"
 				],
 				"resistances": [
@@ -4343,13 +4478,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 10,
-					"HP": 18,
-					"MP": 5,
-					"Attack": 17,
-					"Defense": 23,
-					"Agility": 2,
-					"Intelligence": 11
+					"LV": 10,
+					"Experience": 18,
+					"HP": 5,
+					"MP": 17,
+					"Attack": 23,
+					"Defense": 2,
+					"Agility": 11,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"MagicWall",
@@ -4401,16 +4538,18 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 9,
-					"HP": 14,
-					"MP": 11,
-					"Attack": 16,
-					"Defense": 14,
-					"Agility": 20,
-					"Intelligence": 8
+					"LV": 9,
+					"Experience": 14,
+					"HP": 11,
+					"MP": 16,
+					"Attack": 14,
+					"Defense": 20,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
-					"LureDance",
+					"CureDance",
 					"MouthShut",
 					"EagleEye"
 				],
@@ -4459,13 +4598,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 11,
-					"HP": 17,
-					"MP": 19,
-					"Attack": 17,
-					"Defense": 11,
-					"Agility": 17,
-					"Intelligence": 10
+					"LV": 11,
+					"Experience": 17,
+					"HP": 19,
+					"MP": 17,
+					"Attack": 11,
+					"Defense": 17,
+					"Agility": 10,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"ChargeUp",
@@ -4517,13 +4658,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 14,
-					"HP": 20,
-					"MP": 0,
-					"Attack": 27,
-					"Defense": 7,
-					"Agility": 9,
-					"Intelligence": 1
+					"LV": 14,
+					"Experience": 20,
+					"HP": 0,
+					"MP": 27,
+					"Attack": 7,
+					"Defense": 9,
+					"Agility": 1,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"SquallHit",
@@ -4567,7 +4710,7 @@
 						"mate": [
 							"DEVILFM",
 							"MetalDrak",
-							"Roboster1",
+							"Roboster",
 							"LavaMan",
 							"IceMan",
 							"Golem",
@@ -4581,16 +4724,18 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 13,
-					"HP": 18,
-					"MP": 11,
-					"Attack": 15,
-					"Defense": 9,
-					"Agility": 10,
-					"Intelligence": 8
+					"LV": 13,
+					"Experience": 18,
+					"HP": 11,
+					"MP": 15,
+					"Attack": 9,
+					"Defense": 10,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
-					"IceBolt",
+					"Icebolt",
 					"IceSlash",
 					"WarCry"
 				],
@@ -4655,13 +4800,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 5,
-					"HP": 9,
-					"MP": 7,
-					"Attack": 21,
-					"Defense": 19,
-					"Agility": 13,
-					"Intelligence": 14
+					"LV": 5,
+					"Experience": 9,
+					"HP": 7,
+					"MP": 21,
+					"Attack": 19,
+					"Defense": 13,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Blaze",
@@ -4713,13 +4860,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 13,
-					"HP": 22,
-					"MP": 13,
-					"Attack": 18,
-					"Defense": 15,
-					"Agility": 20,
-					"Intelligence": 8
+					"LV": 13,
+					"Experience": 22,
+					"HP": 13,
+					"MP": 18,
+					"Attack": 15,
+					"Defense": 20,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Surround",
@@ -4772,13 +4921,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 8,
-					"HP": 21,
-					"MP": 4,
-					"Attack": 22,
-					"Defense": 14,
-					"Agility": 8,
-					"Intelligence": 6
+					"LV": 8,
+					"Experience": 21,
+					"HP": 4,
+					"MP": 22,
+					"Attack": 14,
+					"Defense": 8,
+					"Agility": 6,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sleep",
@@ -4854,13 +5005,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 12,
-					"HP": 14,
-					"MP": 13,
-					"Attack": 17,
-					"Defense": 9,
-					"Agility": 8,
-					"Intelligence": 11
+					"LV": 12,
+					"Experience": 14,
+					"HP": 13,
+					"MP": 17,
+					"Attack": 9,
+					"Defense": 8,
+					"Agility": 11,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"BirdBlow",
@@ -4912,13 +5065,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 11,
-					"HP": 12,
-					"MP": 5,
-					"Attack": 13,
-					"Defense": 14,
-					"Agility": 17,
-					"Intelligence": 7
+					"LV": 11,
+					"Experience": 12,
+					"HP": 5,
+					"MP": 13,
+					"Attack": 14,
+					"Defense": 17,
+					"Agility": 7,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Slow",
@@ -4970,13 +5125,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 14,
-					"HP": 19,
-					"MP": 21,
-					"Attack": 14,
-					"Defense": 13,
-					"Agility": 12,
-					"Intelligence": 25
+					"LV": 14,
+					"Experience": 19,
+					"HP": 21,
+					"MP": 14,
+					"Attack": 13,
+					"Defense": 12,
+					"Agility": 25,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Heal",
@@ -5042,13 +5199,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 11,
-					"HP": 19,
-					"MP": 9,
-					"Attack": 17,
-					"Defense": 13,
-					"Agility": 17,
-					"Intelligence": 3
+					"LV": 11,
+					"Experience": 19,
+					"HP": 9,
+					"MP": 17,
+					"Attack": 13,
+					"Defense": 17,
+					"Agility": 3,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",
@@ -5101,13 +5260,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 35,
+					"LV": 13,
 					"Experience": 13,
-					"HP": 13,
-					"MP": 1,
-					"Attack": 20,
-					"Defense": 10,
-					"Agility": 8,
-					"Intelligence": 4
+					"HP": 1,
+					"MP": 20,
+					"Attack": 10,
+					"Defense": 8,
+					"Agility": 4,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"TwinSlash",
@@ -5167,16 +5328,18 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 14,
-					"HP": 17,
-					"MP": 8,
-					"Attack": 21,
-					"Defense": 17,
-					"Agility": 14,
-					"Intelligence": 13
+					"LV": 14,
+					"Experience": 17,
+					"HP": 8,
+					"MP": 21,
+					"Attack": 17,
+					"Defense": 14,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
-					"Berserker",
+					"Beserker",
 					"SandStorm",
 					"WarCry"
 				],
@@ -5235,7 +5398,7 @@
 							"IceMan",
 							"Golem",
 							"StoneMan",
-							"Roboster1"
+							"Roboster"
 						]
 					},
 					{
@@ -5261,13 +5424,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 60,
-					"Experience": 15,
-					"HP": 20,
-					"MP": 14,
-					"Attack": 24,
-					"Defense": 23,
-					"Agility": 17,
-					"Intelligence": 14
+					"LV": 15,
+					"Experience": 20,
+					"HP": 14,
+					"MP": 24,
+					"Attack": 23,
+					"Defense": 17,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",
@@ -5323,13 +5488,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 13,
-					"HP": 17,
-					"MP": 4,
-					"Attack": 19,
-					"Defense": 18,
-					"Agility": 10,
-					"Intelligence": 12
+					"LV": 13,
+					"Experience": 17,
+					"HP": 4,
+					"MP": 19,
+					"Attack": 18,
+					"Defense": 10,
+					"Agility": 12,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sleep",
@@ -5381,13 +5548,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 12,
-					"HP": 15,
-					"MP": 7,
-					"Attack": 18,
-					"Defense": 14,
-					"Agility": 17,
-					"Intelligence": 11
+					"LV": 12,
+					"Experience": 15,
+					"HP": 7,
+					"MP": 18,
+					"Attack": 14,
+					"Defense": 17,
+					"Agility": 11,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"VacuSlash",
@@ -5448,16 +5617,18 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 11,
-					"HP": 14,
-					"MP": 8,
-					"Attack": 14,
-					"Defense": 11,
-					"Agility": 7,
-					"Intelligence": 9
+					"LV": 11,
+					"Experience": 14,
+					"HP": 8,
+					"MP": 14,
+					"Attack": 11,
+					"Defense": 7,
+					"Agility": 9,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
-					"IceBolt",
+					"Icebolt",
 					"FrigidAir",
 					"LoveRain"
 				],
@@ -5507,13 +5678,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 65,
+					"LV": 29,
 					"Experience": 29,
-					"HP": 29,
-					"MP": 28,
-					"Attack": 30,
+					"HP": 28,
+					"MP": 30,
+					"Attack": 24,
 					"Defense": 24,
-					"Agility": 24,
-					"Intelligence": 6
+					"Agility": 6,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Bang",
@@ -5566,13 +5739,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 4,
-					"HP": 7,
-					"MP": 6,
-					"Attack": 10,
-					"Defense": 4,
-					"Agility": 6,
-					"Intelligence": 15
+					"LV": 4,
+					"Experience": 7,
+					"HP": 6,
+					"MP": 10,
+					"Attack": 4,
+					"Defense": 6,
+					"Agility": 15,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Blaze",
@@ -5630,13 +5805,15 @@
 				"family": "Beast",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 7,
-					"HP": 15,
-					"MP": 10,
-					"Attack": 9,
-					"Defense": 8,
-					"Agility": 14,
-					"Intelligence": 7
+					"LV": 7,
+					"Experience": 15,
+					"HP": 10,
+					"MP": 9,
+					"Attack": 8,
+					"Defense": 14,
+					"Agility": 7,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"MetalCut",
@@ -5708,13 +5885,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 4,
-					"HP": 11,
-					"MP": 12,
-					"Attack": 14,
-					"Defense": 8,
-					"Agility": 18,
-					"Intelligence": 13
+					"LV": 4,
+					"Experience": 11,
+					"HP": 12,
+					"MP": 14,
+					"Attack": 8,
+					"Defense": 18,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sap",
@@ -5766,13 +5945,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 6,
-					"HP": 17,
-					"MP": 13,
-					"Attack": 19,
-					"Defense": 11,
-					"Agility": 16,
-					"Intelligence": 20
+					"LV": 6,
+					"Experience": 17,
+					"HP": 13,
+					"MP": 19,
+					"Attack": 11,
+					"Defense": 16,
+					"Agility": 20,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Heal",
@@ -5824,13 +6005,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 5,
-					"HP": 14,
-					"MP": 8,
-					"Attack": 17,
-					"Defense": 9,
-					"Agility": 6,
-					"Intelligence": 4
+					"LV": 5,
+					"Experience": 14,
+					"HP": 8,
+					"MP": 17,
+					"Attack": 9,
+					"Defense": 6,
+					"Agility": 4,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Shears",
@@ -5882,13 +6065,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 5,
-					"HP": 6,
-					"MP": 18,
-					"Attack": 12,
-					"Defense": 3,
-					"Agility": 21,
-					"Intelligence": 19
+					"LV": 5,
+					"Experience": 6,
+					"HP": 18,
+					"MP": 12,
+					"Attack": 3,
+					"Defense": 21,
+					"Agility": 19,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Speed",
@@ -5940,13 +6125,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 30,
-					"Experience": 3,
+					"LV": 3,
+					"Experience": 11,
 					"HP": 11,
-					"MP": 11,
-					"Attack": 9,
-					"Defense": 12,
-					"Agility": 18,
-					"Intelligence": 7
+					"MP": 9,
+					"Attack": 12,
+					"Defense": 18,
+					"Agility": 7,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sleep",
@@ -5998,13 +6185,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 4,
-					"HP": 9,
-					"MP": 7,
-					"Attack": 20,
-					"Defense": 14,
-					"Agility": 23,
-					"Intelligence": 13
+					"LV": 4,
+					"Experience": 9,
+					"HP": 7,
+					"MP": 20,
+					"Attack": 14,
+					"Defense": 23,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Infernos",
@@ -6056,13 +6245,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 5,
-					"HP": 6,
-					"MP": 14,
-					"Attack": 17,
-					"Defense": 12,
-					"Agility": 18,
-					"Intelligence": 5
+					"LV": 5,
+					"Experience": 6,
+					"HP": 14,
+					"MP": 17,
+					"Attack": 12,
+					"Defense": 18,
+					"Agility": 5,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"HighJump",
@@ -6114,13 +6305,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 5,
-					"HP": 12,
-					"MP": 17,
-					"Attack": 8,
-					"Defense": 15,
-					"Agility": 22,
-					"Intelligence": 13
+					"LV": 5,
+					"Experience": 12,
+					"HP": 17,
+					"MP": 8,
+					"Attack": 15,
+					"Defense": 22,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Barrier",
@@ -6172,13 +6365,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 12,
-					"HP": 7,
-					"MP": 8,
-					"Attack": 6,
-					"Defense": 13,
-					"Agility": 14,
-					"Intelligence": 19
+					"LV": 12,
+					"Experience": 7,
+					"HP": 8,
+					"MP": 6,
+					"Attack": 13,
+					"Defense": 14,
+					"Agility": 19,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"CurseOff",
@@ -6230,13 +6425,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 2,
-					"HP": 11,
-					"MP": 4,
-					"Attack": 8,
-					"Defense": 13,
-					"Agility": 17,
-					"Intelligence": 11
+					"LV": 2,
+					"Experience": 11,
+					"HP": 4,
+					"MP": 8,
+					"Attack": 13,
+					"Defense": 17,
+					"Agility": 11,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Antidote",
@@ -6288,13 +6485,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 5,
-					"HP": 13,
+					"LV": 5,
+					"Experience": 13,
+					"HP": 8,
 					"MP": 8,
-					"Attack": 8,
-					"Defense": 7,
-					"Agility": 9,
-					"Intelligence": 1
+					"Attack": 7,
+					"Defense": 9,
+					"Agility": 1,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"MagicWall",
@@ -6354,13 +6553,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 3,
-					"HP": 8,
-					"MP": 5,
-					"Attack": 14,
-					"Defense": 12,
-					"Agility": 17,
-					"Intelligence": 8
+					"LV": 3,
+					"Experience": 8,
+					"HP": 5,
+					"MP": 14,
+					"Attack": 12,
+					"Defense": 17,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"VacuSlash",
@@ -6408,13 +6609,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 6,
-					"HP": 16,
-					"MP": 12,
+					"LV": 6,
+					"Experience": 16,
+					"HP": 12,
+					"MP": 20,
 					"Attack": 20,
-					"Defense": 20,
-					"Agility": 14,
-					"Intelligence": 11
+					"Defense": 14,
+					"Agility": 11,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"TwinHits",
@@ -6466,13 +6669,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 5,
-					"HP": 15,
-					"MP": 10,
-					"Attack": 21,
-					"Defense": 13,
-					"Agility": 11,
-					"Intelligence": 18
+					"LV": 5,
+					"Experience": 15,
+					"HP": 10,
+					"MP": 21,
+					"Attack": 13,
+					"Defense": 11,
+					"Agility": 18,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Infernos",
@@ -6536,18 +6741,20 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 30,
-					"Experience": 3,
-					"HP": 17,
-					"MP": 6,
-					"Attack": 17,
-					"Defense": 15,
-					"Agility": 20,
-					"Intelligence": 8
+					"LV": 3,
+					"Experience": 17,
+					"HP": 6,
+					"MP": 17,
+					"Attack": 15,
+					"Defense": 20,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Heal",
 					"WindBeast",
-					"LureDance"
+					"CureDance"
 				],
 				"resistances": [
 					0,
@@ -6623,13 +6830,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 6,
-					"HP": 14,
-					"MP": 11,
-					"Attack": 18,
-					"Defense": 12,
-					"Agility": 17,
-					"Intelligence": 13
+					"LV": 6,
+					"Experience": 14,
+					"HP": 11,
+					"MP": 18,
+					"Attack": 12,
+					"Defense": 17,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",
@@ -6697,13 +6906,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 4,
-					"HP": 9,
-					"MP": 13,
-					"Attack": 20,
-					"Defense": 19,
-					"Agility": 23,
-					"Intelligence": 30
+					"LV": 4,
+					"Experience": 9,
+					"HP": 13,
+					"MP": 20,
+					"Attack": 19,
+					"Defense": 23,
+					"Agility": 30,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"WindBeast",
@@ -6780,13 +6991,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 7,
-					"HP": 20,
-					"MP": 7,
-					"Attack": 11,
-					"Defense": 17,
-					"Agility": 19,
-					"Intelligence": 11
+					"LV": 7,
+					"Experience": 20,
+					"HP": 7,
+					"MP": 11,
+					"Attack": 17,
+					"Defense": 19,
+					"Agility": 11,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Beat",
@@ -6849,13 +7062,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 7,
-					"HP": 16,
-					"MP": 13,
-					"Attack": 19,
-					"Defense": 8,
-					"Agility": 19,
-					"Intelligence": 12
+					"LV": 7,
+					"Experience": 16,
+					"HP": 13,
+					"MP": 19,
+					"Attack": 8,
+					"Defense": 19,
+					"Agility": 12,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FireAir",
@@ -6914,13 +7129,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 7,
-					"HP": 20,
-					"MP": 7,
-					"Attack": 19,
-					"Defense": 17,
-					"Agility": 22,
-					"Intelligence": 12
+					"LV": 7,
+					"Experience": 20,
+					"HP": 7,
+					"MP": 19,
+					"Attack": 17,
+					"Defense": 22,
+					"Agility": 12,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"HellBlast",
@@ -6982,13 +7199,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 8,
-					"HP": 10,
-					"MP": 7,
-					"Attack": 8,
-					"Defense": 14,
-					"Agility": 22,
-					"Intelligence": 9
+					"LV": 8,
+					"Experience": 10,
+					"HP": 7,
+					"MP": 8,
+					"Attack": 14,
+					"Defense": 22,
+					"Agility": 9,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Infernos",
@@ -7050,13 +7269,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 60,
-					"Experience": 15,
-					"HP": 27,
-					"MP": 19,
-					"Attack": 12,
-					"Defense": 20,
+					"LV": 15,
+					"Experience": 27,
+					"HP": 19,
+					"MP": 12,
+					"Attack": 20,
+					"Defense": 23,
 					"Agility": 23,
-					"Intelligence": 23
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Ironize",
@@ -7127,13 +7348,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 5,
-					"HP": 14,
-					"MP": 20,
-					"Attack": 8,
-					"Defense": 9,
-					"Agility": 16,
-					"Intelligence": 20
+					"LV": 5,
+					"Experience": 14,
+					"HP": 20,
+					"MP": 8,
+					"Attack": 9,
+					"Defense": 16,
+					"Agility": 20,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"PaniDance",
@@ -7196,13 +7419,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 70,
-					"Experience": 24,
-					"HP": 25,
-					"MP": 27,
-					"Attack": 15,
-					"Defense": 24,
-					"Agility": 18,
-					"Intelligence": 24
+					"LV": 24,
+					"Experience": 25,
+					"HP": 27,
+					"MP": 15,
+					"Attack": 24,
+					"Defense": 18,
+					"Agility": 24,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"MegaMagic",
@@ -7255,13 +7480,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 75,
-					"Experience": 28,
-					"HP": 27,
+					"LV": 28,
+					"Experience": 27,
+					"HP": 24,
 					"MP": 24,
-					"Attack": 24,
-					"Defense": 12,
-					"Agility": 24,
-					"Intelligence": 12
+					"Attack": 12,
+					"Defense": 24,
+					"Agility": 12,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"HellBlast",
@@ -7321,18 +7548,20 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 60,
-					"Experience": 22,
-					"HP": 24,
-					"MP": 22,
-					"Attack": 18,
-					"Defense": 20,
-					"Agility": 24,
-					"Intelligence": 22
+					"LV": 22,
+					"Experience": 24,
+					"HP": 22,
+					"MP": 18,
+					"Attack": 20,
+					"Defense": 24,
+					"Agility": 22,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"HealUs",
 					"FireAir",
-					"SuckAll"
+					"SealAll"
 				],
 				"resistances": [
 					1,
@@ -7380,13 +7609,15 @@
 				"family": "Bird",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 4,
-					"HP": 7,
-					"MP": 8,
-					"Attack": 13,
-					"Defense": 5,
-					"Agility": 14,
-					"Intelligence": 11
+					"LV": 4,
+					"Experience": 7,
+					"HP": 8,
+					"MP": 13,
+					"Attack": 5,
+					"Defense": 14,
+					"Agility": 11,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Infernos",
@@ -7442,13 +7673,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 10,
-					"HP": 15,
-					"MP": 24,
-					"Attack": 11,
-					"Defense": 13,
-					"Agility": 6,
-					"Intelligence": 18
+					"LV": 10,
+					"Experience": 15,
+					"HP": 24,
+					"MP": 11,
+					"Attack": 13,
+					"Defense": 6,
+					"Agility": 18,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"NumbOff",
@@ -7500,17 +7733,19 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 15,
-					"HP": 14,
-					"MP": 26,
-					"Attack": 10,
-					"Defense": 12,
-					"Agility": 5,
-					"Intelligence": 17
+					"LV": 15,
+					"Experience": 14,
+					"HP": 26,
+					"MP": 10,
+					"Attack": 12,
+					"Defense": 5,
+					"Agility": 17,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Blaze",
-					"DeChaos",
+					"Dechaos",
 					"PalsyAir"
 				],
 				"resistances": [
@@ -7558,13 +7793,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 7,
-					"HP": 17,
-					"MP": 20,
-					"Attack": 6,
-					"Defense": 9,
-					"Agility": 2,
-					"Intelligence": 19
+					"LV": 7,
+					"Experience": 17,
+					"HP": 20,
+					"MP": 6,
+					"Attack": 9,
+					"Defense": 2,
+					"Agility": 19,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",
@@ -7616,13 +7853,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 7,
-					"HP": 12,
-					"MP": 20,
-					"Attack": 6,
-					"Defense": 11,
-					"Agility": 14,
-					"Intelligence": 7
+					"LV": 7,
+					"Experience": 12,
+					"HP": 20,
+					"MP": 6,
+					"Attack": 11,
+					"Defense": 14,
+					"Agility": 7,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Farewell",
@@ -7674,13 +7913,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 30,
-					"Experience": 6,
+					"LV": 6,
+					"Experience": 18,
 					"HP": 18,
-					"MP": 18,
-					"Attack": 12,
-					"Defense": 15,
-					"Agility": 9,
-					"Intelligence": 5
+					"MP": 12,
+					"Attack": 15,
+					"Defense": 9,
+					"Agility": 5,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Paralyze",
@@ -7732,13 +7973,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 11,
-					"HP": 16,
-					"MP": 17,
-					"Attack": 9,
-					"Defense": 6,
-					"Agility": 2,
-					"Intelligence": 14
+					"LV": 11,
+					"Experience": 16,
+					"HP": 17,
+					"MP": 9,
+					"Attack": 6,
+					"Defense": 2,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"NapAttack",
@@ -7790,13 +8033,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 9,
-					"HP": 14,
-					"MP": 18,
-					"Attack": 8,
-					"Defense": 9,
+					"LV": 9,
+					"Experience": 14,
+					"HP": 18,
+					"MP": 8,
+					"Attack": 9,
+					"Defense": 13,
 					"Agility": 13,
-					"Intelligence": 13
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"NapAttack",
@@ -7848,13 +8093,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 50,
+					"LV": 12,
 					"Experience": 12,
-					"HP": 12,
-					"MP": 24,
-					"Attack": 8,
-					"Defense": 17,
-					"Agility": 12,
-					"Intelligence": 10
+					"HP": 24,
+					"MP": 8,
+					"Attack": 17,
+					"Defense": 12,
+					"Agility": 10,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"TwinHits",
@@ -7906,13 +8153,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 3,
-					"HP": 8,
-					"MP": 5,
-					"Attack": 7,
-					"Defense": 2,
-					"Agility": 7,
-					"Intelligence": 2
+					"LV": 3,
+					"Experience": 8,
+					"HP": 5,
+					"MP": 7,
+					"Attack": 2,
+					"Defense": 7,
+					"Agility": 2,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sleep",
@@ -7964,13 +8213,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 8,
-					"HP": 17,
-					"MP": 11,
-					"Attack": 4,
-					"Defense": 2,
-					"Agility": 9,
-					"Intelligence": 14
+					"LV": 8,
+					"Experience": 17,
+					"HP": 11,
+					"MP": 4,
+					"Attack": 2,
+					"Defense": 9,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sleep",
@@ -8030,13 +8281,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 9,
-					"HP": 13,
-					"MP": 20,
-					"Attack": 14,
-					"Defense": 11,
-					"Agility": 3,
-					"Intelligence": 16
+					"LV": 9,
+					"Experience": 13,
+					"HP": 20,
+					"MP": 14,
+					"Attack": 11,
+					"Defense": 3,
+					"Agility": 16,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"RobMagic",
@@ -8088,18 +8341,20 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 12,
-					"HP": 11,
-					"MP": 21,
-					"Attack": 7,
-					"Defense": 6,
-					"Agility": 20,
-					"Intelligence": 11
+					"LV": 12,
+					"Experience": 11,
+					"HP": 21,
+					"MP": 7,
+					"Attack": 6,
+					"Defense": 20,
+					"Agility": 11,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
-					"K.O.Dance",
-					"SideStep",
-					"LureDance"
+					"K.O.",
+					"Dance",
+					"CureDance"
 				],
 				"resistances": [
 					1,
@@ -8158,16 +8413,18 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 11,
-					"HP": 15,
-					"MP": 18,
-					"Attack": 8,
-					"Defense": 3,
-					"Agility": 12,
-					"Intelligence": 15
+					"LV": 11,
+					"Experience": 15,
+					"HP": 18,
+					"MP": 8,
+					"Attack": 3,
+					"Defense": 12,
+					"Agility": 15,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
-					"MPass",
+					"Mpass",
 					"CurseOff",
 					"Hustle"
 				],
@@ -8228,13 +8485,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 10,
-					"HP": 14,
-					"MP": 7,
-					"Attack": 8,
-					"Defense": 4,
-					"Agility": 5,
-					"Intelligence": 3
+					"LV": 10,
+					"Experience": 14,
+					"HP": 7,
+					"MP": 8,
+					"Attack": 4,
+					"Defense": 5,
+					"Agility": 3,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Beat",
@@ -8286,13 +8545,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 9,
-					"HP": 12,
-					"MP": 20,
-					"Attack": 11,
-					"Defense": 8,
-					"Agility": 10,
-					"Intelligence": 17
+					"LV": 9,
+					"Experience": 12,
+					"HP": 20,
+					"MP": 11,
+					"Attack": 8,
+					"Defense": 10,
+					"Agility": 17,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"StopSpell",
@@ -8360,13 +8621,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 13,
-					"HP": 19,
-					"MP": 17,
-					"Attack": 7,
-					"Defense": 10,
-					"Agility": 15,
-					"Intelligence": 23
+					"LV": 13,
+					"Experience": 19,
+					"HP": 17,
+					"MP": 7,
+					"Attack": 10,
+					"Defense": 15,
+					"Agility": 23,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Curse",
@@ -8426,13 +8689,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 10,
-					"HP": 14,
-					"MP": 15,
-					"Attack": 12,
-					"Defense": 14,
-					"Agility": 15,
-					"Intelligence": 9
+					"LV": 10,
+					"Experience": 14,
+					"HP": 15,
+					"MP": 12,
+					"Attack": 14,
+					"Defense": 15,
+					"Agility": 9,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"TwinHits",
@@ -8493,13 +8758,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 30,
-					"Experience": 6,
-					"HP": 8,
-					"MP": 11,
-					"Attack": 8,
-					"Defense": 5,
-					"Agility": 1,
-					"Intelligence": 3
+					"LV": 6,
+					"Experience": 8,
+					"HP": 11,
+					"MP": 8,
+					"Attack": 5,
+					"Defense": 1,
+					"Agility": 3,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"CleanCut",
@@ -8572,13 +8839,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 9,
-					"HP": 14,
-					"MP": 12,
-					"Attack": 19,
-					"Defense": 7,
-					"Agility": 10,
-					"Intelligence": 6
+					"LV": 9,
+					"Experience": 14,
+					"HP": 12,
+					"MP": 19,
+					"Attack": 7,
+					"Defense": 10,
+					"Agility": 6,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"DrakSlash",
@@ -8631,13 +8900,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 11,
-					"HP": 17,
-					"MP": 14,
-					"Attack": 20,
-					"Defense": 13,
-					"Agility": 10,
-					"Intelligence": 16
+					"LV": 11,
+					"Experience": 17,
+					"HP": 14,
+					"MP": 20,
+					"Attack": 13,
+					"Defense": 10,
+					"Agility": 16,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"StopSpell",
@@ -8689,17 +8960,19 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 9,
-					"HP": 8,
-					"MP": 13,
-					"Attack": 9,
-					"Defense": 6,
-					"Agility": 7,
-					"Intelligence": 15
+					"LV": 9,
+					"Experience": 8,
+					"HP": 13,
+					"MP": 9,
+					"Attack": 6,
+					"Defense": 7,
+					"Agility": 15,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"RobMagic",
-					"LureDance",
+					"CureDance",
 					"EerieLite"
 				],
 				"resistances": [
@@ -8748,13 +9021,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 70,
+					"LV": 24,
 					"Experience": 24,
-					"HP": 24,
-					"MP": 30,
-					"Attack": 23,
-					"Defense": 21,
+					"HP": 30,
+					"MP": 23,
+					"Attack": 21,
+					"Defense": 18,
 					"Agility": 18,
-					"Intelligence": 18
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"BiAttack",
@@ -8806,18 +9081,20 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 70,
-					"Experience": 24,
-					"HP": 25,
-					"MP": 18,
-					"Attack": 21,
-					"Defense": 24,
-					"Agility": 15,
-					"Intelligence": 23
+					"LV": 24,
+					"Experience": 25,
+					"HP": 18,
+					"MP": 21,
+					"Attack": 24,
+					"Defense": 15,
+					"Agility": 23,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Vivify",
 					"SleepAir",
-					"SuckAll"
+					"SealAll"
 				],
 				"resistances": [
 					1,
@@ -8864,16 +9141,18 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 80,
-					"Experience": 15,
-					"HP": 22,
-					"MP": 7,
-					"Attack": 12,
-					"Defense": 13,
-					"Agility": 24,
-					"Intelligence": 4
+					"LV": 15,
+					"Experience": 22,
+					"HP": 7,
+					"MP": 12,
+					"Attack": 13,
+					"Defense": 24,
+					"Agility": 4,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
-					"MPass",
+					"Mpass",
 					"DeMagic",
 					"Pheromone"
 				],
@@ -8922,13 +9201,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 80,
-					"Experience": 0,
-					"HP": 10,
-					"MP": 27,
-					"Attack": 11,
-					"Defense": 14,
-					"Agility": 24,
-					"Intelligence": 30
+					"LV": 0,
+					"Experience": 10,
+					"HP": 27,
+					"MP": 11,
+					"Attack": 14,
+					"Defense": 24,
+					"Agility": 30,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Chance",
@@ -8971,18 +9252,20 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 30,
-					"Experience": 3,
-					"HP": 8,
-					"MP": 14,
-					"Attack": 13,
-					"Defense": 19,
-					"Agility": 7,
-					"Intelligence": 14
+					"LV": 3,
+					"Experience": 8,
+					"HP": 14,
+					"MP": 13,
+					"Attack": 19,
+					"Defense": 7,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
-					"MPass",
+					"Mpass",
 					"OddDance",
-					"LureDance"
+					"CureDance"
 				],
 				"resistances": [
 					0,
@@ -9031,13 +9314,15 @@
 				"family": "Plant",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 16,
-					"HP": 8,
-					"MP": 4,
-					"Attack": 7,
-					"Defense": 4,
-					"Agility": 9,
-					"Intelligence": 7
+					"LV": 16,
+					"Experience": 8,
+					"HP": 4,
+					"MP": 7,
+					"Attack": 4,
+					"Defense": 9,
+					"Agility": 7,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Bolt",
@@ -9093,13 +9378,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 2,
-					"HP": 11,
-					"MP": 8,
-					"Attack": 14,
-					"Defense": 9,
-					"Agility": 11,
-					"Intelligence": 7
+					"LV": 2,
+					"Experience": 11,
+					"HP": 8,
+					"MP": 14,
+					"Attack": 9,
+					"Defense": 11,
+					"Agility": 7,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"LushLicks",
@@ -9151,13 +9438,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 4,
-					"HP": 13,
-					"MP": 5,
-					"Attack": 11,
-					"Defense": 14,
-					"Agility": 11,
-					"Intelligence": 9
+					"LV": 4,
+					"Experience": 13,
+					"HP": 5,
+					"MP": 11,
+					"Attack": 14,
+					"Defense": 11,
+					"Agility": 9,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Upper",
@@ -9209,13 +9498,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 30,
-					"Experience": 1,
-					"HP": 6,
-					"MP": 11,
-					"Attack": 14,
-					"Defense": 18,
-					"Agility": 8,
-					"Intelligence": 7
+					"LV": 1,
+					"Experience": 6,
+					"HP": 11,
+					"MP": 14,
+					"Attack": 18,
+					"Defense": 8,
+					"Agility": 7,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Beat",
@@ -9267,13 +9558,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 30,
-					"Experience": 0,
-					"HP": 11,
-					"MP": 2,
-					"Attack": 13,
-					"Defense": 7,
-					"Agility": 12,
-					"Intelligence": 8
+					"LV": 0,
+					"Experience": 11,
+					"HP": 2,
+					"MP": 13,
+					"Attack": 7,
+					"Defense": 12,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Surround",
@@ -9325,13 +9618,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 4,
-					"HP": 17,
-					"MP": 13,
-					"Attack": 10,
-					"Defense": 12,
-					"Agility": 5,
-					"Intelligence": 19
+					"LV": 4,
+					"Experience": 17,
+					"HP": 13,
+					"MP": 10,
+					"Attack": 12,
+					"Defense": 5,
+					"Agility": 19,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"RobMagic",
@@ -9383,13 +9678,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 6,
-					"HP": 13,
-					"MP": 8,
-					"Attack": 16,
-					"Defense": 8,
-					"Agility": 13,
-					"Intelligence": 14
+					"LV": 6,
+					"Experience": 13,
+					"HP": 8,
+					"MP": 16,
+					"Attack": 8,
+					"Defense": 13,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"BeastCut",
@@ -9441,13 +9738,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 4,
-					"HP": 12,
-					"MP": 8,
+					"LV": 4,
+					"Experience": 12,
+					"HP": 8,
+					"MP": 9,
 					"Attack": 9,
-					"Defense": 9,
-					"Agility": 4,
-					"Intelligence": 1
+					"Defense": 4,
+					"Agility": 1,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"LushLicks",
@@ -9499,13 +9798,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 3,
-					"HP": 13,
-					"MP": 7,
-					"Attack": 16,
-					"Defense": 20,
-					"Agility": 9,
-					"Intelligence": 7
+					"LV": 3,
+					"Experience": 13,
+					"HP": 7,
+					"MP": 16,
+					"Attack": 20,
+					"Defense": 9,
+					"Agility": 7,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sleep",
@@ -9557,13 +9858,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 7,
+					"LV": 7,
+					"Experience": 8,
 					"HP": 8,
-					"MP": 8,
-					"Attack": 7,
-					"Defense": 13,
-					"Agility": 11,
-					"Intelligence": 14
+					"MP": 7,
+					"Attack": 13,
+					"Defense": 11,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Speed",
@@ -9615,13 +9918,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 2,
-					"HP": 8,
-					"MP": 4,
-					"Attack": 11,
-					"Defense": 17,
-					"Agility": 13,
-					"Intelligence": 1
+					"LV": 2,
+					"Experience": 8,
+					"HP": 4,
+					"MP": 11,
+					"Attack": 17,
+					"Defense": 13,
+					"Agility": 1,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"CallHelp",
@@ -9673,13 +9978,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 0,
-					"HP": 11,
-					"MP": 4,
-					"Attack": 8,
+					"LV": 0,
+					"Experience": 11,
+					"HP": 4,
+					"MP": 8,
+					"Attack": 14,
 					"Defense": 14,
-					"Agility": 14,
-					"Intelligence": 4
+					"Agility": 4,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"RobMagic",
@@ -9727,13 +10034,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 5,
-					"HP": 12,
-					"MP": 10,
-					"Attack": 16,
-					"Defense": 11,
-					"Agility": 14,
-					"Intelligence": 5
+					"LV": 5,
+					"Experience": 12,
+					"HP": 10,
+					"MP": 16,
+					"Attack": 11,
+					"Defense": 14,
+					"Agility": 5,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"IceSlash",
@@ -9793,13 +10102,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 6,
-					"HP": 15,
-					"MP": 10,
-					"Attack": 17,
-					"Defense": 20,
-					"Agility": 11,
-					"Intelligence": 2
+					"LV": 6,
+					"Experience": 15,
+					"HP": 10,
+					"MP": 17,
+					"Attack": 20,
+					"Defense": 11,
+					"Agility": 2,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Upper",
@@ -9876,13 +10187,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 4,
-					"HP": 9,
-					"MP": 11,
-					"Attack": 6,
-					"Defense": 3,
-					"Agility": 10,
-					"Intelligence": 9
+					"LV": 4,
+					"Experience": 9,
+					"HP": 11,
+					"MP": 6,
+					"Attack": 3,
+					"Defense": 10,
+					"Agility": 9,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",
@@ -9942,13 +10255,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 30,
-					"Experience": 2,
-					"HP": 14,
-					"MP": 9,
-					"Attack": 16,
-					"Defense": 12,
-					"Agility": 20,
-					"Intelligence": 12
+					"LV": 2,
+					"Experience": 14,
+					"HP": 9,
+					"MP": 16,
+					"Attack": 12,
+					"Defense": 20,
+					"Agility": 12,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"WindBeast",
@@ -10009,13 +10324,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 5,
-					"HP": 17,
-					"MP": 10,
-					"Attack": 15,
-					"Defense": 16,
-					"Agility": 7,
-					"Intelligence": 14
+					"LV": 5,
+					"Experience": 17,
+					"HP": 10,
+					"MP": 15,
+					"Attack": 16,
+					"Defense": 7,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Slow",
@@ -10102,13 +10419,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 6,
-					"HP": 16,
-					"MP": 8,
-					"Attack": 14,
-					"Defense": 19,
-					"Agility": 5,
-					"Intelligence": 1
+					"LV": 6,
+					"Experience": 16,
+					"HP": 8,
+					"MP": 14,
+					"Attack": 19,
+					"Defense": 5,
+					"Agility": 1,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Upper",
@@ -10161,13 +10480,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 7,
-					"HP": 20,
-					"MP": 5,
-					"Attack": 19,
-					"Defense": 13,
-					"Agility": 20,
-					"Intelligence": 4
+					"LV": 7,
+					"Experience": 20,
+					"HP": 5,
+					"MP": 19,
+					"Attack": 13,
+					"Defense": 20,
+					"Agility": 4,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"PoisonHit",
@@ -10237,13 +10558,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 12,
-					"HP": 23,
-					"MP": 19,
-					"Attack": 8,
-					"Defense": 7,
-					"Agility": 14,
-					"Intelligence": 3
+					"LV": 12,
+					"Experience": 23,
+					"HP": 19,
+					"MP": 8,
+					"Attack": 7,
+					"Defense": 14,
+					"Agility": 3,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",
@@ -10304,13 +10627,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 18,
-					"HP": 23,
-					"MP": 16,
-					"Attack": 12,
-					"Defense": 9,
-					"Agility": 11,
-					"Intelligence": 8
+					"LV": 18,
+					"Experience": 23,
+					"HP": 16,
+					"MP": 12,
+					"Attack": 9,
+					"Defense": 11,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"VacuSlash",
@@ -10362,13 +10687,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 7,
-					"HP": 21,
-					"MP": 19,
-					"Attack": 23,
-					"Defense": 20,
-					"Agility": 12,
-					"Intelligence": 14
+					"LV": 7,
+					"Experience": 21,
+					"HP": 19,
+					"MP": 23,
+					"Attack": 20,
+					"Defense": 12,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"RockThrow",
@@ -10429,13 +10756,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 7,
-					"HP": 19,
-					"MP": 13,
-					"Attack": 9,
-					"Defense": 7,
-					"Agility": 14,
-					"Intelligence": 5
+					"LV": 7,
+					"Experience": 19,
+					"HP": 13,
+					"MP": 9,
+					"Attack": 7,
+					"Defense": 14,
+					"Agility": 5,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Infernos",
@@ -10496,13 +10825,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 55,
-					"Experience": 24,
-					"HP": 22,
-					"MP": 20,
-					"Attack": 24,
-					"Defense": 23,
-					"Agility": 15,
-					"Intelligence": 18
+					"LV": 24,
+					"Experience": 22,
+					"HP": 20,
+					"MP": 24,
+					"Attack": 23,
+					"Defense": 15,
+					"Agility": 18,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"ZombieCut",
@@ -10564,18 +10895,20 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 11,
-					"HP": 24,
-					"MP": 10,
-					"Attack": 19,
-					"Defense": 26,
-					"Agility": 1,
-					"Intelligence": 15
+					"LV": 11,
+					"Experience": 24,
+					"HP": 10,
+					"MP": 19,
+					"Attack": 26,
+					"Defense": 1,
+					"Agility": 15,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Farewell",
 					"StrongD",
-					"SuckAll"
+					"SealAll"
 				],
 				"resistances": [
 					1,
@@ -10630,13 +10963,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 65,
-					"Experience": 25,
-					"HP": 18,
-					"MP": 23,
-					"Attack": 25,
-					"Defense": 24,
-					"Agility": 30,
-					"Intelligence": 21
+					"LV": 25,
+					"Experience": 18,
+					"HP": 23,
+					"MP": 25,
+					"Attack": 24,
+					"Defense": 30,
+					"Agility": 21,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Lightning",
@@ -10688,13 +11023,15 @@
 				"family": "Bug",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 4,
-					"HP": 14,
-					"MP": 15,
-					"Attack": 19,
-					"Defense": 13,
-					"Agility": 2,
-					"Intelligence": 3
+					"LV": 4,
+					"Experience": 14,
+					"HP": 15,
+					"MP": 19,
+					"Attack": 13,
+					"Defense": 2,
+					"Agility": 3,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sap",
@@ -10756,13 +11093,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 19,
-					"HP": 11,
-					"MP": 7,
-					"Attack": 15,
-					"Defense": 8,
-					"Agility": 15,
-					"Intelligence": 4
+					"LV": 19,
+					"Experience": 11,
+					"HP": 7,
+					"MP": 15,
+					"Attack": 8,
+					"Defense": 15,
+					"Agility": 4,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Antidote",
@@ -10814,13 +11153,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 30,
-					"Experience": 19,
-					"HP": 11,
-					"MP": 13,
-					"Attack": 14,
-					"Defense": 15,
-					"Agility": 8,
-					"Intelligence": 11
+					"LV": 19,
+					"Experience": 11,
+					"HP": 13,
+					"MP": 14,
+					"Attack": 15,
+					"Defense": 8,
+					"Agility": 11,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sap",
@@ -10882,13 +11223,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 35,
+					"LV": 16,
 					"Experience": 16,
-					"HP": 16,
-					"MP": 11,
-					"Attack": 18,
-					"Defense": 12,
-					"Agility": 16,
-					"Intelligence": 19
+					"HP": 11,
+					"MP": 18,
+					"Attack": 12,
+					"Defense": 16,
+					"Agility": 19,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",
@@ -10943,13 +11286,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 30,
+					"LV": 13,
 					"Experience": 13,
-					"HP": 13,
-					"MP": 1,
-					"Attack": 5,
-					"Defense": 4,
-					"Agility": 9,
-					"Intelligence": 20
+					"HP": 1,
+					"MP": 5,
+					"Attack": 4,
+					"Defense": 9,
+					"Agility": 20,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Blaze",
@@ -11001,13 +11346,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 18,
-					"HP": 11,
-					"MP": 18,
-					"Attack": 10,
-					"Defense": 16,
-					"Agility": 9,
-					"Intelligence": 12
+					"LV": 18,
+					"Experience": 11,
+					"HP": 18,
+					"MP": 10,
+					"Attack": 16,
+					"Defense": 9,
+					"Agility": 12,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"CleanCut",
@@ -11059,13 +11406,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 35,
+					"LV": 16,
 					"Experience": 16,
-					"HP": 16,
-					"MP": 17,
+					"HP": 17,
+					"MP": 14,
 					"Attack": 14,
-					"Defense": 14,
-					"Agility": 13,
-					"Intelligence": 8
+					"Defense": 13,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"MagicBack",
@@ -11117,13 +11466,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 18,
-					"HP": 17,
-					"MP": 11,
-					"Attack": 17,
-					"Defense": 13,
-					"Agility": 15,
-					"Intelligence": 12
+					"LV": 18,
+					"Experience": 17,
+					"HP": 11,
+					"MP": 17,
+					"Attack": 13,
+					"Defense": 15,
+					"Agility": 12,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FireSlash",
@@ -11175,13 +11526,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 20,
-					"HP": 16,
-					"MP": 10,
-					"Attack": 20,
-					"Defense": 22,
-					"Agility": 4,
-					"Intelligence": 12
+					"LV": 20,
+					"Experience": 16,
+					"HP": 10,
+					"MP": 20,
+					"Attack": 22,
+					"Defense": 4,
+					"Agility": 12,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",
@@ -11233,13 +11586,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 12,
-					"HP": 14,
-					"MP": 13,
-					"Attack": 15,
+					"LV": 12,
+					"Experience": 14,
+					"HP": 13,
+					"MP": 15,
+					"Attack": 7,
 					"Defense": 7,
-					"Agility": 7,
-					"Intelligence": 4
+					"Agility": 4,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Watershot",
@@ -11291,18 +11646,20 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 25,
-					"Experience": 13,
-					"HP": 10,
-					"MP": 1,
-					"Attack": 5,
+					"LV": 13,
+					"Experience": 10,
+					"HP": 1,
+					"MP": 5,
+					"Attack": 9,
 					"Defense": 9,
-					"Agility": 9,
-					"Intelligence": 17
+					"Agility": 17,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Blaze",
 					"Firebal",
-					"IceBolt"
+					"Icebolt"
 				],
 				"resistances": [
 					1,
@@ -11333,20 +11690,33 @@
 					0,
 					0
 				],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Pixy",
+							"Demonite",
+							"EyeBall"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
 			},
 			"GREMLIN": {
 				"name": "Gremlin",
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 25,
+					"LV": 13,
 					"Experience": 13,
-					"HP": 13,
-					"MP": 7,
-					"Attack": 8,
-					"Defense": 4,
-					"Agility": 2,
-					"Intelligence": 18
+					"HP": 7,
+					"MP": 8,
+					"Attack": 4,
+					"Defense": 2,
+					"Agility": 18,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",
@@ -11398,13 +11768,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 20,
-					"HP": 14,
-					"MP": 13,
-					"Attack": 17,
-					"Defense": 12,
-					"Agility": 7,
-					"Intelligence": 21
+					"LV": 20,
+					"Experience": 14,
+					"HP": 13,
+					"MP": 17,
+					"Attack": 12,
+					"Defense": 7,
+					"Agility": 21,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Bang",
@@ -11493,13 +11865,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 21,
-					"HP": 15,
-					"MP": 11,
-					"Attack": 14,
-					"Defense": 15,
-					"Agility": 12,
-					"Intelligence": 19
+					"LV": 21,
+					"Experience": 15,
+					"HP": 11,
+					"MP": 14,
+					"Attack": 15,
+					"Defense": 12,
+					"Agility": 19,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Infernos",
@@ -11560,18 +11934,20 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 22,
-					"HP": 20,
-					"MP": 11,
-					"Attack": 17,
-					"Defense": 13,
-					"Agility": 11,
-					"Intelligence": 20
+					"LV": 22,
+					"Experience": 20,
+					"HP": 11,
+					"MP": 17,
+					"Attack": 13,
+					"Defense": 11,
+					"Agility": 20,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Bang",
 					"Infernos",
-					"IceBolt"
+					"Icebolt"
 				],
 				"resistances": [
 					2,
@@ -11626,13 +12002,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 17,
-					"HP": 19,
-					"MP": 7,
-					"Attack": 19,
+					"LV": 17,
+					"Experience": 19,
+					"HP": 7,
+					"MP": 19,
+					"Attack": 13,
 					"Defense": 13,
-					"Agility": 13,
-					"Intelligence": 18
+					"Agility": 18,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Vivify",
@@ -11684,13 +12062,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 19,
-					"HP": 15,
-					"MP": 8,
-					"Attack": 20,
-					"Defense": 12,
-					"Agility": 10,
-					"Intelligence": 12
+					"LV": 19,
+					"Experience": 15,
+					"HP": 8,
+					"MP": 20,
+					"Attack": 12,
+					"Defense": 10,
+					"Agility": 12,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"MetalCut",
@@ -11737,8 +12117,7 @@
 							"GulpBeast",
 							"Unicorn",
 							"Digster",
-							"Roboster1",
-							"WalrusMan",
+							"RobosterWalrusMan",
 							"MerTiger"
 						]
 					},
@@ -11765,13 +12144,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 23,
-					"HP": 18,
-					"MP": 12,
-					"Attack": 18,
-					"Defense": 14,
-					"Agility": 10,
-					"Intelligence": 14
+					"LV": 23,
+					"Experience": 18,
+					"HP": 12,
+					"MP": 18,
+					"Attack": 14,
+					"Defense": 10,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Blaze",
@@ -11851,13 +12232,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 22,
-					"HP": 17,
-					"MP": 12,
-					"Attack": 20,
-					"Defense": 11,
-					"Agility": 20,
-					"Intelligence": 15
+					"LV": 22,
+					"Experience": 17,
+					"HP": 12,
+					"MP": 20,
+					"Attack": 11,
+					"Defense": 20,
+					"Agility": 15,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"TwinHits",
@@ -11917,13 +12300,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 50,
+					"LV": 24,
 					"Experience": 24,
-					"HP": 24,
-					"MP": 3,
-					"Attack": 25,
-					"Defense": 22,
-					"Agility": 4,
-					"Intelligence": 1
+					"HP": 3,
+					"MP": 25,
+					"Attack": 22,
+					"Defense": 4,
+					"Agility": 1,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Massacre",
@@ -11987,13 +12372,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 60,
-					"Experience": 20,
-					"HP": 23,
-					"MP": 1,
-					"Attack": 18,
-					"Defense": 24,
+					"LV": 20,
+					"Experience": 23,
+					"HP": 1,
+					"MP": 18,
+					"Attack": 24,
+					"Defense": 12,
 					"Agility": 12,
-					"Intelligence": 12
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FireSlash",
@@ -12057,13 +12444,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 70,
-					"Experience": 30,
-					"HP": 24,
-					"MP": 30,
-					"Attack": 23,
-					"Defense": 21,
-					"Agility": 18,
-					"Intelligence": 21
+					"LV": 30,
+					"Experience": 24,
+					"HP": 30,
+					"MP": 23,
+					"Attack": 21,
+					"Defense": 18,
+					"Agility": 21,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Bang",
@@ -12123,13 +12512,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 55,
-					"Experience": 23,
-					"HP": 17,
-					"MP": 9,
-					"Attack": 18,
-					"Defense": 20,
-					"Agility": 10,
-					"Intelligence": 12
+					"LV": 23,
+					"Experience": 17,
+					"HP": 9,
+					"MP": 18,
+					"Attack": 20,
+					"Defense": 10,
+					"Agility": 12,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"BeastCut",
@@ -12181,13 +12572,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 15,
-					"HP": 23,
-					"MP": 14,
-					"Attack": 10,
-					"Defense": 15,
-					"Agility": 6,
-					"Intelligence": 8
+					"LV": 15,
+					"Experience": 23,
+					"HP": 14,
+					"MP": 10,
+					"Attack": 15,
+					"Defense": 6,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Blaze",
@@ -12247,13 +12640,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 22,
-					"HP": 27,
-					"MP": 0,
-					"Attack": 27,
-					"Defense": 7,
+					"LV": 22,
+					"Experience": 27,
+					"HP": 0,
+					"MP": 27,
+					"Attack": 7,
+					"Defense": 0,
 					"Agility": 0,
-					"Intelligence": 0
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"SlimeBlow",
@@ -12314,13 +12709,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 23,
-					"HP": 20,
-					"MP": 1,
-					"Attack": 24,
-					"Defense": 21,
-					"Agility": 18,
-					"Intelligence": 19
+					"LV": 23,
+					"Experience": 20,
+					"HP": 1,
+					"MP": 24,
+					"Attack": 21,
+					"Defense": 18,
+					"Agility": 19,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"StopSpell",
@@ -12382,13 +12779,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 22,
-					"HP": 16,
-					"MP": 1,
-					"Attack": 17,
-					"Defense": 29,
-					"Agility": 5,
-					"Intelligence": 13
+					"LV": 22,
+					"Experience": 16,
+					"HP": 1,
+					"MP": 17,
+					"Attack": 29,
+					"Defense": 5,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FireSlash",
@@ -12450,13 +12849,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 60,
-					"Experience": 21,
-					"HP": 24,
-					"MP": 9,
-					"Attack": 21,
-					"Defense": 24,
-					"Agility": 23,
-					"Intelligence": 18
+					"LV": 21,
+					"Experience": 24,
+					"HP": 9,
+					"MP": 21,
+					"Attack": 24,
+					"Defense": 23,
+					"Agility": 18,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Blaze",
@@ -12508,13 +12909,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 70,
-					"Experience": 28,
-					"HP": 25,
-					"MP": 24,
-					"Attack": 23,
-					"Defense": 15,
-					"Agility": 17,
-					"Intelligence": 20
+					"LV": 28,
+					"Experience": 25,
+					"HP": 24,
+					"MP": 23,
+					"Attack": 15,
+					"Defense": 17,
+					"Agility": 20,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"WindBeast",
@@ -12582,17 +12985,19 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 75,
-					"Experience": 27,
-					"HP": 25,
-					"MP": 24,
-					"Attack": 25,
-					"Defense": 22,
-					"Agility": 23,
-					"Intelligence": 13
+					"LV": 27,
+					"Experience": 25,
+					"HP": 24,
+					"MP": 25,
+					"Attack": 22,
+					"Defense": 23,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Bang",
-					"Berserker",
+					"Beserker",
 					"UltraDown"
 				],
 				"resistances": [
@@ -12640,13 +13045,15 @@
 				"family": "Devil",
 				"stats": {
 					"MaxLevel": 60,
-					"Experience": 21,
-					"HP": 10,
-					"MP": 12,
-					"Attack": 11,
-					"Defense": 22,
-					"Agility": 15,
-					"Intelligence": 10
+					"LV": 21,
+					"Experience": 10,
+					"HP": 12,
+					"MP": 11,
+					"Attack": 22,
+					"Defense": 15,
+					"Agility": 10,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Heal",
@@ -12700,13 +13107,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 40,
+					"LV": 11,
 					"Experience": 11,
-					"HP": 11,
-					"MP": 12,
-					"Attack": 13,
-					"Defense": 8,
-					"Agility": 18,
-					"Intelligence": 15
+					"HP": 12,
+					"MP": 13,
+					"Attack": 8,
+					"Defense": 18,
+					"Agility": 15,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Radiant",
@@ -12758,13 +13167,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 13,
-					"HP": 6,
-					"MP": 1,
-					"Attack": 23,
-					"Defense": 15,
-					"Agility": 4,
-					"Intelligence": 6
+					"LV": 13,
+					"Experience": 6,
+					"HP": 1,
+					"MP": 23,
+					"Attack": 15,
+					"Defense": 4,
+					"Agility": 6,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FrigidAir",
@@ -12846,13 +13257,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 6,
-					"HP": 17,
-					"MP": 13,
-					"Attack": 17,
-					"Defense": 8,
-					"Agility": 11,
-					"Intelligence": 4
+					"LV": 6,
+					"Experience": 17,
+					"HP": 13,
+					"MP": 17,
+					"Attack": 8,
+					"Defense": 11,
+					"Agility": 4,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sap",
@@ -12904,13 +13317,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 5,
-					"HP": 14,
-					"MP": 8,
-					"Attack": 12,
-					"Defense": 11,
-					"Agility": 18,
-					"Intelligence": 9
+					"LV": 5,
+					"Experience": 14,
+					"HP": 8,
+					"MP": 12,
+					"Attack": 11,
+					"Defense": 18,
+					"Agility": 9,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Lightning",
@@ -12962,13 +13377,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 10,
-					"HP": 15,
-					"MP": 17,
-					"Attack": 12,
-					"Defense": 9,
-					"Agility": 4,
-					"Intelligence": 8
+					"LV": 10,
+					"Experience": 15,
+					"HP": 17,
+					"MP": 12,
+					"Attack": 9,
+					"Defense": 4,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"CallHelp",
@@ -13020,13 +13437,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 30,
-					"Experience": 8,
-					"HP": 12,
-					"MP": 8,
-					"Attack": 15,
-					"Defense": 20,
-					"Agility": 1,
-					"Intelligence": 11
+					"LV": 8,
+					"Experience": 12,
+					"HP": 8,
+					"MP": 15,
+					"Attack": 20,
+					"Defense": 1,
+					"Agility": 11,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Ironize",
@@ -13081,17 +13500,19 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 13,
-					"HP": 17,
-					"MP": 7,
-					"Attack": 19,
-					"Defense": 9,
-					"Agility": 12,
-					"Intelligence": 8
+					"LV": 13,
+					"Experience": 17,
+					"HP": 7,
+					"MP": 19,
+					"Attack": 9,
+					"Defense": 12,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Heal",
-					"DeChaos",
+					"Dechaos",
 					"CurseOff"
 				],
 				"resistances": [
@@ -13139,18 +13560,20 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 12,
-					"HP": 9,
+					"LV": 12,
+					"Experience": 9,
+					"HP": 6,
 					"MP": 6,
-					"Attack": 6,
-					"Defense": 20,
-					"Agility": 8,
-					"Intelligence": 12
+					"Attack": 20,
+					"Defense": 8,
+					"Agility": 12,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FrigidAir",
-					"K.O.Dance",
-					"ThickFog"
+					"K.O.",
+					"Dance"
 				],
 				"resistances": [
 					0,
@@ -13197,13 +13620,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 9,
-					"HP": 17,
-					"MP": 19,
-					"Attack": 23,
-					"Defense": 9,
-					"Agility": 12,
-					"Intelligence": 10
+					"LV": 9,
+					"Experience": 17,
+					"HP": 19,
+					"MP": 23,
+					"Attack": 9,
+					"Defense": 12,
+					"Agility": 10,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Beat",
@@ -13255,13 +13680,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 8,
-					"HP": 17,
-					"MP": 13,
-					"Attack": 16,
-					"Defense": 8,
-					"Agility": 11,
-					"Intelligence": 10
+					"LV": 8,
+					"Experience": 17,
+					"HP": 13,
+					"MP": 16,
+					"Attack": 8,
+					"Defense": 11,
+					"Agility": 10,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"PoisonGas",
@@ -13313,17 +13740,19 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 30,
-					"Experience": 10,
-					"HP": 6,
-					"MP": 10,
-					"Attack": 11,
-					"Defense": 17,
-					"Agility": 7,
-					"Intelligence": 14
+					"LV": 10,
+					"Experience": 6,
+					"HP": 10,
+					"MP": 11,
+					"Attack": 17,
+					"Defense": 7,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Beat",
-					"MPass",
+					"Mpass",
 					"Vivify"
 				],
 				"resistances": [
@@ -13380,13 +13809,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 12,
-					"HP": 17,
-					"MP": 4,
-					"Attack": 10,
-					"Defense": 3,
-					"Agility": 15,
-					"Intelligence": 9
+					"LV": 12,
+					"Experience": 17,
+					"HP": 4,
+					"MP": 10,
+					"Attack": 3,
+					"Defense": 15,
+					"Agility": 9,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"WindBeast",
@@ -13447,13 +13878,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 9,
-					"HP": 16,
+					"LV": 9,
+					"Experience": 16,
+					"HP": 19,
 					"MP": 19,
-					"Attack": 19,
-					"Defense": 12,
-					"Agility": 13,
-					"Intelligence": 6
+					"Attack": 12,
+					"Defense": 13,
+					"Agility": 6,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Infernos",
@@ -13513,13 +13946,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 10,
-					"HP": 19,
-					"MP": 3,
-					"Attack": 21,
-					"Defense": 17,
-					"Agility": 19,
-					"Intelligence": 6
+					"LV": 10,
+					"Experience": 19,
+					"HP": 3,
+					"MP": 21,
+					"Attack": 17,
+					"Defense": 19,
+					"Agility": 6,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"DevilCut",
@@ -13580,13 +14015,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 4,
-					"HP": 7,
-					"MP": 2,
-					"Attack": 14,
-					"Defense": 7,
-					"Agility": 4,
-					"Intelligence": 1
+					"LV": 4,
+					"Experience": 7,
+					"HP": 2,
+					"MP": 14,
+					"Attack": 7,
+					"Defense": 4,
+					"Agility": 1,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Surround",
@@ -13638,13 +14075,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 7,
-					"HP": 9,
-					"MP": 15,
-					"Attack": 6,
-					"Defense": 8,
-					"Agility": 13,
-					"Intelligence": 4
+					"LV": 7,
+					"Experience": 9,
+					"HP": 15,
+					"MP": 6,
+					"Attack": 8,
+					"Defense": 13,
+					"Agility": 4,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Blaze",
@@ -13704,13 +14143,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 13,
-					"HP": 9,
-					"MP": 20,
-					"Attack": 17,
-					"Defense": 16,
-					"Agility": 8,
-					"Intelligence": 5
+					"LV": 13,
+					"Experience": 9,
+					"HP": 20,
+					"MP": 17,
+					"Attack": 16,
+					"Defense": 8,
+					"Agility": 5,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"CallHelp",
@@ -13770,13 +14211,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 16,
-					"HP": 21,
-					"MP": 2,
-					"Attack": 26,
-					"Defense": 19,
-					"Agility": 15,
-					"Intelligence": 13
+					"LV": 16,
+					"Experience": 21,
+					"HP": 2,
+					"MP": 26,
+					"Attack": 19,
+					"Defense": 15,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"HealUs",
@@ -13826,7 +14269,7 @@
 							"Lionex",
 							"GateGuard",
 							"MetalDrak",
-							"Roboster1"
+							"Roboster"
 						]
 					},
 					{
@@ -13866,13 +14309,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 60,
-					"Experience": 25,
-					"HP": 20,
-					"MP": 24,
-					"Attack": 14,
-					"Defense": 20,
-					"Agility": 15,
-					"Intelligence": 27
+					"LV": 25,
+					"Experience": 20,
+					"HP": 24,
+					"MP": 14,
+					"Attack": 20,
+					"Defense": 15,
+					"Agility": 27,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Infernos",
@@ -13965,13 +14410,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 10,
-					"HP": 14,
-					"MP": 13,
-					"Attack": 17,
-					"Defense": 12,
-					"Agility": 7,
-					"Intelligence": 1
+					"LV": 10,
+					"Experience": 14,
+					"HP": 13,
+					"MP": 17,
+					"Attack": 12,
+					"Defense": 7,
+					"Agility": 1,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Bang",
@@ -14030,13 +14477,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 55,
-					"Experience": 12,
-					"HP": 16,
-					"MP": 11,
-					"Attack": 18,
-					"Defense": 12,
-					"Agility": 16,
-					"Intelligence": 19
+					"LV": 12,
+					"Experience": 16,
+					"HP": 11,
+					"MP": 18,
+					"Attack": 12,
+					"Defense": 16,
+					"Agility": 19,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sap",
@@ -14116,17 +14565,19 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 70,
-					"Experience": 20,
-					"HP": 23,
-					"MP": 21,
-					"Attack": 25,
-					"Defense": 18,
-					"Agility": 15,
-					"Intelligence": 20
+					"LV": 20,
+					"Experience": 23,
+					"HP": 21,
+					"MP": 25,
+					"Attack": 18,
+					"Defense": 15,
+					"Agility": 20,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Blaze",
-					"IceBolt",
+					"Icebolt",
 					"Focus"
 				],
 				"resistances": [
@@ -14182,18 +14633,20 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 75,
-					"Experience": 26,
-					"HP": 24,
-					"MP": 20,
-					"Attack": 30,
-					"Defense": 20,
-					"Agility": 12,
-					"Intelligence": 14
+					"LV": 26,
+					"Experience": 24,
+					"HP": 20,
+					"MP": 30,
+					"Attack": 20,
+					"Defense": 12,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"TakeMagic",
-					"K.O.Dance",
-					"LifeDance"
+					"K.O.",
+					"Dance"
 				],
 				"resistances": [
 					2,
@@ -14230,7 +14683,7 @@
 							"WhiteKing"
 						],
 						"mate": [
-							"DracoLord1"
+							"DracoLord"
 						]
 					}
 				]
@@ -14240,13 +14693,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 1,
-					"HP": 11,
-					"MP": 20,
-					"Attack": 1,
-					"Defense": 2,
-					"Agility": 21,
-					"Intelligence": 5
+					"LV": 1,
+					"Experience": 11,
+					"HP": 20,
+					"MP": 1,
+					"Attack": 2,
+					"Defense": 21,
+					"Agility": 5,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Transform",
@@ -14294,13 +14749,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 13,
-					"HP": 14,
-					"MP": 12,
-					"Attack": 15,
-					"Defense": 12,
-					"Agility": 16,
-					"Intelligence": 10
+					"LV": 13,
+					"Experience": 14,
+					"HP": 12,
+					"MP": 15,
+					"Attack": 12,
+					"Defense": 16,
+					"Agility": 10,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"SleepAir",
@@ -14366,13 +14823,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 8,
-					"HP": 5,
-					"MP": 21,
-					"Attack": 13,
-					"Defense": 11,
-					"Agility": 14,
-					"Intelligence": 21
+					"LV": 8,
+					"Experience": 5,
+					"HP": 21,
+					"MP": 13,
+					"Attack": 11,
+					"Defense": 14,
+					"Agility": 21,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Beat",
@@ -14433,13 +14892,15 @@
 				"family": "Zombie",
 				"stats": {
 					"MaxLevel": 65,
-					"Experience": 20,
-					"HP": 27,
-					"MP": 13,
-					"Attack": 24,
-					"Defense": 23,
-					"Agility": 19,
-					"Intelligence": 21
+					"LV": 20,
+					"Experience": 27,
+					"HP": 13,
+					"MP": 24,
+					"Attack": 23,
+					"Defense": 19,
+					"Agility": 21,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Beat",
@@ -14496,13 +14957,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 12,
-					"HP": 13,
-					"MP": 11,
-					"Attack": 9,
-					"Defense": 18,
-					"Agility": 17,
-					"Intelligence": 15
+					"LV": 12,
+					"Experience": 13,
+					"HP": 11,
+					"MP": 9,
+					"Attack": 18,
+					"Defense": 17,
+					"Agility": 15,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",
@@ -14554,16 +15017,18 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 50,
+					"LV": 14,
 					"Experience": 14,
-					"HP": 14,
-					"MP": 15,
-					"Attack": 17,
-					"Defense": 12,
-					"Agility": 9,
-					"Intelligence": 13
+					"HP": 15,
+					"MP": 17,
+					"Attack": 12,
+					"Defense": 9,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
-					"DeChaos",
+					"Dechaos",
 					"FrigidAir",
 					"MapMagic"
 				],
@@ -14612,13 +15077,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 10,
-					"HP": 12,
-					"MP": 10,
-					"Attack": 14,
-					"Defense": 6,
-					"Agility": 17,
-					"Intelligence": 12
+					"LV": 10,
+					"Experience": 12,
+					"HP": 10,
+					"MP": 14,
+					"Attack": 6,
+					"Defense": 17,
+					"Agility": 12,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Blaze",
@@ -14670,18 +15137,20 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 10,
-					"HP": 16,
-					"MP": 13,
-					"Attack": 5,
+					"LV": 10,
+					"Experience": 16,
+					"HP": 13,
+					"MP": 5,
+					"Attack": 14,
 					"Defense": 14,
-					"Agility": 14,
-					"Intelligence": 7
+					"Agility": 7,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
-					"DeChaos",
+					"Dechaos",
 					"NumbOff",
-					"SuckAll"
+					"SealAll"
 				],
 				"resistances": [
 					0,
@@ -14728,13 +15197,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 12,
-					"HP": 8,
-					"MP": 23,
-					"Attack": 11,
-					"Defense": 12,
-					"Agility": 3,
-					"Intelligence": 19
+					"LV": 12,
+					"Experience": 8,
+					"HP": 23,
+					"MP": 11,
+					"Attack": 12,
+					"Defense": 3,
+					"Agility": 19,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Infernos",
@@ -14786,13 +15257,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 30,
-					"Experience": 8,
-					"HP": 9,
-					"MP": 13,
-					"Attack": 14,
-					"Defense": 17,
-					"Agility": 7,
-					"Intelligence": 11
+					"LV": 8,
+					"Experience": 9,
+					"HP": 13,
+					"MP": 14,
+					"Attack": 17,
+					"Defense": 7,
+					"Agility": 11,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sacrifice",
@@ -14844,13 +15317,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 14,
-					"HP": 15,
-					"MP": 11,
-					"Attack": 8,
-					"Defense": 6,
-					"Agility": 11,
-					"Intelligence": 19
+					"LV": 14,
+					"Experience": 15,
+					"HP": 11,
+					"MP": 8,
+					"Attack": 6,
+					"Defense": 11,
+					"Agility": 19,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"MagicBack",
@@ -14902,13 +15377,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 12,
-					"HP": 14,
-					"MP": 4,
-					"Attack": 20,
-					"Defense": 21,
-					"Agility": 10,
-					"Intelligence": 13
+					"LV": 12,
+					"Experience": 14,
+					"HP": 4,
+					"MP": 20,
+					"Attack": 21,
+					"Defense": 10,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Heal",
@@ -14960,17 +15437,19 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 6,
-					"HP": 13,
-					"MP": 9,
-					"Attack": 7,
-					"Defense": 4,
-					"Agility": 7,
-					"Intelligence": 11
+					"LV": 6,
+					"Experience": 13,
+					"HP": 9,
+					"MP": 7,
+					"Attack": 4,
+					"Defense": 7,
+					"Agility": 11,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"OddDance",
-					"LureDance",
+					"CureDance",
 					"Pheromone"
 				],
 				"resistances": [
@@ -15018,13 +15497,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 40,
+					"LV": 8,
 					"Experience": 8,
-					"HP": 8,
-					"MP": 13,
-					"Attack": 11,
-					"Defense": 14,
-					"Agility": 7,
-					"Intelligence": 4
+					"HP": 13,
+					"MP": 11,
+					"Attack": 14,
+					"Defense": 7,
+					"Agility": 4,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"CallHelp",
@@ -15076,13 +15557,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 11,
-					"HP": 14,
-					"MP": 17,
+					"LV": 11,
+					"Experience": 14,
+					"HP": 17,
+					"MP": 12,
 					"Attack": 12,
-					"Defense": 12,
-					"Agility": 8,
-					"Intelligence": 14
+					"Defense": 8,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sap",
@@ -15146,13 +15629,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 15,
-					"HP": 18,
-					"MP": 13,
-					"Attack": 20,
-					"Defense": 23,
-					"Agility": 9,
-					"Intelligence": 10
+					"LV": 15,
+					"Experience": 18,
+					"HP": 13,
+					"MP": 20,
+					"Attack": 23,
+					"Defense": 9,
+					"Agility": 10,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FireAir",
@@ -15202,7 +15687,7 @@
 					{
 						"base": [
 							"MetalDrak",
-							"Roboster1"
+							"Roboster"
 						],
 						"mate": [
 							"DRAGONFM"
@@ -15223,13 +15708,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 13,
-					"HP": 21,
-					"MP": 11,
-					"Attack": 23,
-					"Defense": 21,
-					"Agility": 18,
-					"Intelligence": 19
+					"LV": 13,
+					"Experience": 21,
+					"HP": 11,
+					"MP": 23,
+					"Attack": 21,
+					"Defense": 18,
+					"Agility": 19,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Bang",
@@ -15290,13 +15777,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 30,
-					"Experience": 11,
-					"HP": 8,
-					"MP": 3,
-					"Attack": 9,
-					"Defense": 11,
-					"Agility": 12,
-					"Intelligence": 6
+					"LV": 11,
+					"Experience": 8,
+					"HP": 3,
+					"MP": 9,
+					"Attack": 11,
+					"Defense": 12,
+					"Agility": 6,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"RobMagic",
@@ -15362,13 +15851,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 9,
-					"HP": 12,
-					"MP": 18,
-					"Attack": 9,
-					"Defense": 19,
-					"Agility": 13,
-					"Intelligence": 15
+					"LV": 9,
+					"Experience": 12,
+					"HP": 18,
+					"MP": 9,
+					"Attack": 19,
+					"Defense": 13,
+					"Agility": 15,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Upper",
@@ -15407,7 +15898,7 @@
 				"breeds": [
 					{
 						"base": [
-							"Roboster1"
+							"Roboster"
 						],
 						"mate": [
 							"BIRDFM"
@@ -15428,13 +15919,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 30,
-					"Experience": 8,
-					"HP": 7,
-					"MP": 6,
-					"Attack": 14,
+					"LV": 8,
+					"Experience": 7,
+					"HP": 6,
+					"MP": 14,
+					"Attack": 4,
 					"Defense": 4,
-					"Agility": 4,
-					"Intelligence": 3
+					"Agility": 3,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"OddDance",
@@ -15495,13 +15988,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 13,
-					"HP": 12,
-					"MP": 5,
-					"Attack": 21,
-					"Defense": 22,
-					"Agility": 24,
-					"Intelligence": 17
+					"LV": 13,
+					"Experience": 12,
+					"HP": 5,
+					"MP": 21,
+					"Attack": 22,
+					"Defense": 24,
+					"Agility": 17,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"SquallHit",
@@ -15537,20 +16032,50 @@
 					0,
 					0
 				],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SabreMan"
+						],
+						"mate": [
+							"SlimeBorg",
+							"GreatDrak",
+							"Unicorn",
+							"Ogre",
+							"Grendal",
+							"EvilArmor",
+							"DeadNoble",
+							"Skeletor"
+						]
+					},
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"GulpBeast",
+							"Grizzly",
+							"Trumpeter",
+							"KingLeo",
+							"SkulRider"
+						]
+					}
+				]
 			},
 			"ROBOSTER2": {
 				"name": "Roboster2",
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 22,
-					"HP": 23,
-					"MP": 13,
-					"Attack": 24,
-					"Defense": 26,
-					"Agility": 22,
-					"Intelligence": 12
+					"LV": 22,
+					"Experience": 23,
+					"HP": 13,
+					"MP": 24,
+					"Attack": 26,
+					"Defense": 22,
+					"Agility": 12,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"BoltSlash",
@@ -15586,20 +16111,31 @@
 					0,
 					1
 				],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Roboster"
+						],
+						"mate": [
+							"Roboster"
+						]
+					}
+				]
 			},
 			"EVILPOT": {
 				"name": "EvilPot",
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 11,
-					"HP": 18,
-					"MP": 19,
-					"Attack": 15,
-					"Defense": 18,
-					"Agility": 9,
-					"Intelligence": 19
+					"LV": 11,
+					"Experience": 18,
+					"HP": 19,
+					"MP": 15,
+					"Attack": 18,
+					"Defense": 9,
+					"Agility": 19,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Beat",
@@ -15667,13 +16203,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 9,
-					"HP": 13,
-					"MP": 15,
-					"Attack": 11,
-					"Defense": 14,
-					"Agility": 20,
-					"Intelligence": 18
+					"LV": 9,
+					"Experience": 13,
+					"HP": 15,
+					"MP": 11,
+					"Attack": 14,
+					"Defense": 20,
+					"Agility": 18,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FireAir",
@@ -15732,13 +16270,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 13,
-					"HP": 18,
-					"MP": 12,
-					"Attack": 17,
-					"Defense": 24,
-					"Agility": 4,
-					"Intelligence": 7
+					"LV": 13,
+					"Experience": 18,
+					"HP": 12,
+					"MP": 17,
+					"Attack": 24,
+					"Defense": 4,
+					"Agility": 7,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Blaze",
@@ -15795,16 +16335,18 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 13,
-					"HP": 16,
-					"MP": 6,
-					"Attack": 18,
-					"Defense": 24,
-					"Agility": 4,
-					"Intelligence": 7
+					"LV": 13,
+					"Experience": 16,
+					"HP": 6,
+					"MP": 18,
+					"Attack": 24,
+					"Defense": 4,
+					"Agility": 7,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
-					"IceBolt",
+					"Icebolt",
 					"FrigidAir",
 					"StrongD"
 				],
@@ -15849,8 +16391,7 @@
 					},
 					{
 						"base": [
-							"Roboster1",
-							"Roboster2"
+							"RobosterRoboster2"
 						],
 						"mate": [
 							"KingLeo"
@@ -15863,13 +16404,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 11,
-					"HP": 25,
-					"MP": 10,
-					"Attack": 20,
-					"Defense": 12,
-					"Agility": 1,
-					"Intelligence": 20
+					"LV": 11,
+					"Experience": 25,
+					"HP": 10,
+					"MP": 20,
+					"Attack": 12,
+					"Defense": 1,
+					"Agility": 20,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Blaze",
@@ -15908,7 +16451,7 @@
 				"breeds": [
 					{
 						"base": [
-							"Roboster1"
+							"Roboster"
 						],
 						"mate": [
 							"ZOMBIEFM",
@@ -15930,13 +16473,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 11,
-					"HP": 20,
-					"MP": 13,
-					"Attack": 15,
-					"Defense": 6,
-					"Agility": 7,
-					"Intelligence": 4
+					"LV": 11,
+					"Experience": 20,
+					"HP": 13,
+					"MP": 15,
+					"Attack": 6,
+					"Defense": 7,
+					"Agility": 4,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"TakeMagic",
@@ -15988,13 +16533,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 8,
-					"HP": 12,
-					"MP": 3,
-					"Attack": 13,
-					"Defense": 14,
-					"Agility": 1,
-					"Intelligence": 15
+					"LV": 8,
+					"Experience": 12,
+					"HP": 3,
+					"MP": 13,
+					"Attack": 14,
+					"Defense": 1,
+					"Agility": 15,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"OddDance",
@@ -16047,13 +16594,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 18,
-					"HP": 17,
-					"MP": 4,
-					"Attack": 12,
-					"Defense": 21,
-					"Agility": 4,
-					"Intelligence": 6
+					"LV": 18,
+					"Experience": 17,
+					"HP": 4,
+					"MP": 12,
+					"Attack": 21,
+					"Defense": 4,
+					"Agility": 6,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"ChargeUp",
@@ -16105,18 +16654,20 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 15,
-					"HP": 24,
-					"MP": 10,
-					"Attack": 23,
-					"Defense": 24,
-					"Agility": 1,
-					"Intelligence": 14
+					"LV": 15,
+					"Experience": 24,
+					"HP": 10,
+					"MP": 23,
+					"Attack": 24,
+					"Defense": 1,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"StrongD",
 					"Cover",
-					"SuckAll"
+					"SealAll"
 				],
 				"resistances": [
 					0,
@@ -16172,13 +16723,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 14,
-					"HP": 15,
-					"MP": 11,
-					"Attack": 17,
-					"Defense": 20,
-					"Agility": 0,
-					"Intelligence": 13
+					"LV": 14,
+					"Experience": 15,
+					"HP": 11,
+					"MP": 17,
+					"Attack": 20,
+					"Defense": 0,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sacrifice",
@@ -16225,8 +16778,7 @@
 					},
 					{
 						"base": [
-							"Roboster1",
-							"DarkMate"
+							"RobosterDarkMate"
 						],
 						"mate": [
 							"BUGFM"
@@ -16239,13 +16791,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 75,
-					"Experience": 18,
-					"HP": 24,
-					"MP": 21,
-					"Attack": 24,
-					"Defense": 27,
-					"Agility": 17,
-					"Intelligence": 23
+					"LV": 18,
+					"Experience": 24,
+					"HP": 21,
+					"MP": 24,
+					"Attack": 27,
+					"Defense": 17,
+					"Agility": 23,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"BigBang",
@@ -16305,13 +16859,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 70,
+					"LV": 24,
 					"Experience": 24,
-					"HP": 24,
-					"MP": 21,
-					"Attack": 12,
-					"Defense": 25,
-					"Agility": 21,
-					"Intelligence": 10
+					"HP": 21,
+					"MP": 12,
+					"Attack": 25,
+					"Defense": 21,
+					"Agility": 10,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Beat",
@@ -16363,13 +16919,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 5,
-					"HP": 3,
-					"MP": 2,
-					"Attack": 6,
-					"Defense": 3,
-					"Agility": 4,
-					"Intelligence": 6
+					"LV": 5,
+					"Experience": 3,
+					"HP": 2,
+					"MP": 6,
+					"Attack": 3,
+					"Defense": 4,
+					"Agility": 6,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"SlimeBlow",
@@ -16416,7 +16974,7 @@
 					},
 					{
 						"base": [
-							"Roboster1"
+							"Roboster"
 						],
 						"mate": [
 							"SLIMEFM"
@@ -16437,13 +16995,15 @@
 				"family": "Material",
 				"stats": {
 					"MaxLevel": 45,
+					"LV": 8,
 					"Experience": 8,
-					"HP": 8,
-					"MP": 24,
-					"Attack": 14,
-					"Defense": 16,
-					"Agility": 11,
-					"Intelligence": 26
+					"HP": 24,
+					"MP": 14,
+					"Attack": 16,
+					"Defense": 11,
+					"Agility": 26,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Infernos",
@@ -16492,7 +17052,7 @@
 							"WhiteKing",
 							"KingSquid",
 							"WhaleMage",
-							"DracoLord1"
+							"DracoLord"
 						]
 					}
 				]
@@ -16504,13 +17064,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 3,
-					"HP": 15,
-					"MP": 17,
-					"Attack": 12,
-					"Defense": 9,
-					"Agility": 14,
-					"Intelligence": 10
+					"LV": 3,
+					"Experience": 15,
+					"HP": 17,
+					"MP": 12,
+					"Attack": 9,
+					"Defense": 14,
+					"Agility": 10,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Speed",
@@ -16562,13 +17124,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 5,
-					"HP": 12,
-					"MP": 17,
-					"Attack": 18,
-					"Defense": 19,
-					"Agility": 22,
-					"Intelligence": 9
+					"LV": 5,
+					"Experience": 12,
+					"HP": 17,
+					"MP": 18,
+					"Attack": 19,
+					"Defense": 22,
+					"Agility": 9,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sleep",
@@ -16620,13 +17184,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 13,
-					"HP": 23,
-					"MP": 8,
-					"Attack": 23,
-					"Defense": 16,
-					"Agility": 7,
-					"Intelligence": 8
+					"LV": 13,
+					"Experience": 23,
+					"HP": 8,
+					"MP": 23,
+					"Attack": 16,
+					"Defense": 7,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"BugBlow",
@@ -16678,13 +17244,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 10,
-					"HP": 22,
-					"MP": 9,
-					"Attack": 24,
-					"Defense": 19,
-					"Agility": 9,
-					"Intelligence": 7
+					"LV": 10,
+					"Experience": 22,
+					"HP": 9,
+					"MP": 24,
+					"Attack": 19,
+					"Defense": 9,
+					"Agility": 7,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",
@@ -16736,13 +17304,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 4,
-					"HP": 9,
-					"MP": 14,
-					"Attack": 10,
-					"Defense": 13,
-					"Agility": 5,
-					"Intelligence": 7
+					"LV": 4,
+					"Experience": 9,
+					"HP": 14,
+					"MP": 10,
+					"Attack": 13,
+					"Defense": 5,
+					"Agility": 7,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",
@@ -16794,13 +17364,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 6,
-					"HP": 11,
-					"MP": 8,
-					"Attack": 17,
-					"Defense": 14,
-					"Agility": 6,
-					"Intelligence": 4
+					"LV": 6,
+					"Experience": 11,
+					"HP": 8,
+					"MP": 17,
+					"Attack": 14,
+					"Defense": 6,
+					"Agility": 4,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Barrier",
@@ -16852,13 +17424,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 9,
-					"HP": 16,
-					"MP": 17,
-					"Attack": 14,
-					"Defense": 18,
-					"Agility": 20,
-					"Intelligence": 19
+					"LV": 9,
+					"Experience": 16,
+					"HP": 17,
+					"MP": 14,
+					"Attack": 18,
+					"Defense": 20,
+					"Agility": 19,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Vivify",
@@ -16910,18 +17484,20 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 10,
-					"HP": 7,
-					"MP": 15,
-					"Attack": 7,
-					"Defense": 13,
-					"Agility": 17,
-					"Intelligence": 21
+					"LV": 10,
+					"Experience": 7,
+					"HP": 15,
+					"MP": 7,
+					"Attack": 13,
+					"Defense": 17,
+					"Agility": 21,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Heal",
-					"MPass",
-					"LureDance"
+					"Mpass",
+					"CureDance"
 				],
 				"resistances": [
 					1,
@@ -16968,13 +17544,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 4,
-					"HP": 5,
-					"MP": 4,
-					"Attack": 8,
-					"Defense": 3,
-					"Agility": 14,
-					"Intelligence": 7
+					"LV": 4,
+					"Experience": 5,
+					"HP": 4,
+					"MP": 8,
+					"Attack": 3,
+					"Defense": 14,
+					"Agility": 7,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"PanicAll",
@@ -17026,13 +17604,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 14,
-					"HP": 23,
-					"MP": 21,
-					"Attack": 24,
-					"Defense": 20,
-					"Agility": 8,
-					"Intelligence": 14
+					"LV": 14,
+					"Experience": 23,
+					"HP": 21,
+					"MP": 24,
+					"Attack": 20,
+					"Defense": 8,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"OddDance",
@@ -17084,13 +17664,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 12,
-					"HP": 17,
-					"MP": 16,
-					"Attack": 23,
-					"Defense": 20,
-					"Agility": 9,
-					"Intelligence": 19
+					"LV": 12,
+					"Experience": 17,
+					"HP": 16,
+					"MP": 23,
+					"Attack": 20,
+					"Defense": 9,
+					"Agility": 19,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Bolt",
@@ -17142,13 +17724,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 13,
-					"HP": 18,
-					"MP": 19,
-					"Attack": 16,
-					"Defense": 22,
-					"Agility": 13,
-					"Intelligence": 7
+					"LV": 13,
+					"Experience": 18,
+					"HP": 19,
+					"MP": 16,
+					"Attack": 22,
+					"Defense": 13,
+					"Agility": 7,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"BoltSlash",
@@ -17203,13 +17787,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 8,
-					"HP": 9,
-					"MP": 6,
-					"Attack": 12,
-					"Defense": 7,
-					"Agility": 18,
-					"Intelligence": 6
+					"LV": 8,
+					"Experience": 9,
+					"HP": 6,
+					"MP": 12,
+					"Attack": 7,
+					"Defense": 18,
+					"Agility": 6,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Upper",
@@ -17263,13 +17849,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 14,
-					"HP": 11,
-					"MP": 10,
-					"Attack": 21,
-					"Defense": 17,
-					"Agility": 22,
-					"Intelligence": 15
+					"LV": 14,
+					"Experience": 11,
+					"HP": 10,
+					"MP": 21,
+					"Attack": 17,
+					"Defense": 22,
+					"Agility": 15,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",
@@ -17323,13 +17911,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 11,
-					"HP": 12,
-					"MP": 20,
-					"Attack": 24,
-					"Defense": 18,
-					"Agility": 20,
-					"Intelligence": 14
+					"LV": 11,
+					"Experience": 12,
+					"HP": 20,
+					"MP": 24,
+					"Attack": 18,
+					"Defense": 20,
+					"Agility": 14,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"DrakSlash",
@@ -17382,13 +17972,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 15,
-					"HP": 23,
-					"MP": 13,
-					"Attack": 24,
-					"Defense": 21,
-					"Agility": 14,
-					"Intelligence": 9
+					"LV": 15,
+					"Experience": 23,
+					"HP": 13,
+					"MP": 24,
+					"Attack": 21,
+					"Defense": 14,
+					"Agility": 9,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"BoltSlash",
@@ -17441,13 +18033,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 9,
-					"HP": 11,
-					"MP": 7,
-					"Attack": 18,
-					"Defense": 9,
-					"Agility": 24,
-					"Intelligence": 19
+					"LV": 9,
+					"Experience": 11,
+					"HP": 7,
+					"MP": 18,
+					"Attack": 9,
+					"Defense": 24,
+					"Agility": 19,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Watershot",
@@ -17499,13 +18093,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 10,
-					"HP": 17,
-					"MP": 19,
-					"Attack": 9,
-					"Defense": 23,
-					"Agility": 7,
-					"Intelligence": 19
+					"LV": 10,
+					"Experience": 17,
+					"HP": 19,
+					"MP": 9,
+					"Attack": 23,
+					"Defense": 7,
+					"Agility": 19,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Upper",
@@ -17558,13 +18154,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 40,
-					"Experience": 12,
-					"HP": 21,
-					"MP": 9,
-					"Attack": 17,
-					"Defense": 14,
-					"Agility": 15,
-					"Intelligence": 8
+					"LV": 12,
+					"Experience": 21,
+					"HP": 9,
+					"MP": 17,
+					"Attack": 14,
+					"Defense": 15,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FrigidAir",
@@ -17617,18 +18215,20 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 17,
-					"HP": 11,
-					"MP": 21,
-					"Attack": 16,
-					"Defense": 10,
-					"Agility": 14,
-					"Intelligence": 19
+					"LV": 17,
+					"Experience": 11,
+					"HP": 21,
+					"MP": 16,
+					"Attack": 10,
+					"Defense": 14,
+					"Agility": 19,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"CallHelp",
 					"BiAttack",
-					"LureDance"
+					"CureDance"
 				],
 				"resistances": [
 					2,
@@ -17676,16 +18276,18 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 16,
-					"HP": 23,
-					"MP": 5,
-					"Attack": 26,
-					"Defense": 24,
-					"Agility": 10,
-					"Intelligence": 13
+					"LV": 16,
+					"Experience": 23,
+					"HP": 5,
+					"MP": 26,
+					"Attack": 24,
+					"Defense": 10,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
-					"IceBolt",
+					"Icebolt",
 					"Sleep",
 					"WarCry"
 				],
@@ -17735,13 +18337,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 50,
+					"LV": 25,
 					"Experience": 25,
-					"HP": 25,
-					"MP": 20,
-					"Attack": 28,
-					"Defense": 21,
-					"Agility": 14,
-					"Intelligence": 13
+					"HP": 20,
+					"MP": 28,
+					"Attack": 21,
+					"Defense": 14,
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Sap",
@@ -17794,16 +18398,18 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 19,
-					"HP": 24,
-					"MP": 9,
-					"Attack": 25,
-					"Defense": 18,
-					"Agility": 9,
-					"Intelligence": 20
+					"LV": 19,
+					"Experience": 24,
+					"HP": 9,
+					"MP": 25,
+					"Attack": 18,
+					"Defense": 9,
+					"Agility": 20,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
-					"MPass",
+					"Mpass",
 					"BiAttack",
 					"Hustle"
 				],
@@ -17854,13 +18460,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 55,
-					"Experience": 24,
-					"HP": 25,
-					"MP": 14,
-					"Attack": 26,
-					"Defense": 23,
-					"Agility": 12,
-					"Intelligence": 21
+					"LV": 24,
+					"Experience": 25,
+					"HP": 14,
+					"MP": 26,
+					"Attack": 23,
+					"Defense": 12,
+					"Agility": 21,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Vivify",
@@ -17913,13 +18521,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 55,
-					"Experience": 21,
-					"HP": 18,
-					"MP": 23,
-					"Attack": 25,
-					"Defense": 11,
+					"LV": 21,
+					"Experience": 18,
+					"HP": 23,
+					"MP": 25,
+					"Attack": 11,
+					"Defense": 10,
 					"Agility": 10,
-					"Intelligence": 10
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FireAir",
@@ -17975,13 +18585,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 45,
-					"Experience": 30,
-					"HP": 29,
-					"MP": 21,
-					"Attack": 23,
-					"Defense": 18,
-					"Agility": 3,
-					"Intelligence": 10
+					"LV": 30,
+					"Experience": 29,
+					"HP": 21,
+					"MP": 23,
+					"Attack": 18,
+					"Defense": 3,
+					"Agility": 10,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Antidote",
@@ -18035,18 +18647,20 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 50,
+					"LV": 24,
 					"Experience": 24,
-					"HP": 24,
-					"MP": 20,
-					"Attack": 26,
-					"Defense": 10,
-					"Agility": 17,
-					"Intelligence": 9
+					"HP": 20,
+					"MP": 26,
+					"Attack": 10,
+					"Defense": 17,
+					"Agility": 9,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"RobMagic",
 					"WindBeast",
-					"Berserker"
+					"Beserker"
 				],
 				"resistances": [
 					3,
@@ -18095,13 +18709,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 26,
-					"HP": 18,
-					"MP": 9,
-					"Attack": 27,
+					"LV": 26,
+					"Experience": 18,
+					"HP": 9,
+					"MP": 27,
+					"Attack": 21,
 					"Defense": 21,
-					"Agility": 21,
-					"Intelligence": 13
+					"Agility": 13,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"DrakSlash",
@@ -18156,13 +18772,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 55,
-					"Experience": 21,
-					"HP": 23,
-					"MP": 18,
-					"Attack": 25,
-					"Defense": 18,
-					"Agility": 16,
-					"Intelligence": 10
+					"LV": 21,
+					"Experience": 23,
+					"HP": 18,
+					"MP": 25,
+					"Attack": 18,
+					"Defense": 16,
+					"Agility": 10,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"TwinHits",
@@ -18214,13 +18832,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 65,
-					"Experience": 30,
-					"HP": 28,
-					"MP": 22,
-					"Attack": 23,
-					"Defense": 24,
-					"Agility": 13,
-					"Intelligence": 9
+					"LV": 30,
+					"Experience": 28,
+					"HP": 22,
+					"MP": 23,
+					"Attack": 24,
+					"Defense": 13,
+					"Agility": 9,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Bolt",
@@ -18272,13 +18892,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 35,
-					"Experience": 12,
-					"HP": 17,
-					"MP": 8,
-					"Attack": 13,
-					"Defense": 22,
-					"Agility": 7,
-					"Intelligence": 8
+					"LV": 12,
+					"Experience": 17,
+					"HP": 8,
+					"MP": 13,
+					"Attack": 22,
+					"Defense": 7,
+					"Agility": 8,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"CallHelp",
@@ -18336,13 +18958,15 @@
 				"family": "Water",
 				"stats": {
 					"MaxLevel": 30,
-					"Experience": 5,
-					"HP": 7,
-					"MP": 19,
-					"Attack": 5,
+					"LV": 5,
+					"Experience": 7,
+					"HP": 19,
+					"MP": 5,
+					"Attack": 9,
 					"Defense": 9,
-					"Agility": 9,
-					"Intelligence": 15
+					"Agility": 15,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Upper",
@@ -18399,13 +19023,15 @@
 				"family": "????",
 				"stats": {
 					"MaxLevel": 50,
-					"Experience": 24,
-					"HP": 20,
-					"MP": 30,
-					"Attack": 21,
-					"Defense": 20,
+					"LV": 24,
+					"Experience": 20,
+					"HP": 30,
+					"MP": 21,
+					"Attack": 20,
+					"Defense": 23,
 					"Agility": 23,
-					"Intelligence": 23
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",
@@ -18441,20 +19067,32 @@
 					0,
 					0
 				],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Servant"
+						],
+						"mate": [
+							"Andreal",
+							"GreatDrak"
+						]
+					}
+				]
 			},
 			"DRACOLORD2": {
 				"name": "DracoLord2",
 				"family": "????",
 				"stats": {
 					"MaxLevel": 70,
-					"Experience": 25,
-					"HP": 21,
-					"MP": 30,
-					"Attack": 24,
-					"Defense": 21,
-					"Agility": 23,
-					"Intelligence": 21
+					"LV": 25,
+					"Experience": 21,
+					"HP": 30,
+					"MP": 24,
+					"Attack": 21,
+					"Defense": 23,
+					"Agility": 21,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FireAir",
@@ -18490,20 +19128,31 @@
 					1,
 					1
 				],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DracoLord"
+						],
+						"mate": [
+							"Divinegon"
+						]
+					}
+				]
 			},
 			"LORDDRACO": {
 				"name": "LordDraco",
 				"family": "????",
 				"stats": {
 					"MaxLevel": 80,
-					"Experience": 27,
-					"HP": 22,
-					"MP": 31,
-					"Attack": 24,
-					"Defense": 22,
-					"Agility": 24,
-					"Intelligence": 22
+					"LV": 27,
+					"Experience": 22,
+					"HP": 31,
+					"MP": 24,
+					"Attack": 22,
+					"Defense": 24,
+					"Agility": 22,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Bolt",
@@ -18542,7 +19191,7 @@
 				"breeds": [
 					{
 						"base": [
-							"DracoLord1"
+							"DracoLord"
 						],
 						"mate": [
 							"Orligon"
@@ -18555,13 +19204,15 @@
 				"family": "????",
 				"stats": {
 					"MaxLevel": 60,
-					"Experience": 24,
-					"HP": 19,
-					"MP": 30,
-					"Attack": 20,
-					"Defense": 21,
+					"LV": 24,
+					"Experience": 19,
+					"HP": 30,
+					"MP": 20,
+					"Attack": 21,
+					"Defense": 23,
 					"Agility": 23,
-					"Intelligence": 23
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",
@@ -18613,13 +19264,15 @@
 				"family": "????",
 				"stats": {
 					"MaxLevel": 70,
-					"Experience": 25,
-					"HP": 24,
-					"MP": 30,
-					"Attack": 24,
-					"Defense": 21,
+					"LV": 25,
+					"Experience": 24,
+					"HP": 30,
+					"MP": 24,
+					"Attack": 21,
+					"Defense": 23,
 					"Agility": 23,
-					"Intelligence": 23
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"HellBlast",
@@ -18671,13 +19324,15 @@
 				"family": "????",
 				"stats": {
 					"MaxLevel": 80,
-					"Experience": 30,
-					"HP": 25,
-					"MP": 31,
-					"Attack": 25,
-					"Defense": 17,
-					"Agility": 18,
-					"Intelligence": 22
+					"LV": 30,
+					"Experience": 25,
+					"HP": 31,
+					"MP": 25,
+					"Attack": 17,
+					"Defense": 18,
+					"Agility": 22,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Barrier",
@@ -18729,13 +19384,15 @@
 				"family": "????",
 				"stats": {
 					"MaxLevel": 60,
-					"Experience": 24,
-					"HP": 20,
-					"MP": 30,
+					"LV": 24,
+					"Experience": 20,
+					"HP": 30,
+					"MP": 20,
 					"Attack": 20,
-					"Defense": 20,
-					"Agility": 22,
-					"Intelligence": 21
+					"Defense": 22,
+					"Agility": 21,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Bang",
@@ -18787,13 +19444,15 @@
 				"family": "????",
 				"stats": {
 					"MaxLevel": 70,
-					"Experience": 25,
-					"HP": 24,
-					"MP": 30,
-					"Attack": 26,
-					"Defense": 21,
+					"LV": 25,
+					"Experience": 24,
+					"HP": 30,
+					"MP": 26,
+					"Attack": 21,
+					"Defense": 23,
 					"Agility": 23,
-					"Intelligence": 23
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"BigBang",
@@ -18832,8 +19491,7 @@
 				"breeds": [
 					{
 						"base": [
-							"DracoLord1",
-							"DracoLord2"
+							"DracoLordDracoLord2"
 						],
 						"mate": [
 							"Sidoh"
@@ -18846,13 +19504,15 @@
 				"family": "????",
 				"stats": {
 					"MaxLevel": 80,
-					"Experience": 29,
-					"HP": 26,
-					"MP": 30,
-					"Attack": 29,
-					"Defense": 22,
-					"Agility": 23,
-					"Intelligence": 12
+					"LV": 29,
+					"Experience": 26,
+					"HP": 30,
+					"MP": 29,
+					"Attack": 22,
+					"Defense": 23,
+					"Agility": 12,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FireAir",
@@ -18904,13 +19564,15 @@
 				"family": "????",
 				"stats": {
 					"MaxLevel": 70,
-					"Experience": 24,
-					"HP": 21,
-					"MP": 30,
-					"Attack": 26,
-					"Defense": 21,
+					"LV": 24,
+					"Experience": 21,
+					"HP": 30,
+					"MP": 26,
+					"Attack": 21,
+					"Defense": 23,
 					"Agility": 23,
-					"Intelligence": 23
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"HellBlast",
@@ -18962,13 +19624,15 @@
 				"family": "????",
 				"stats": {
 					"MaxLevel": 80,
-					"Experience": 29,
+					"LV": 29,
+					"Experience": 30,
 					"HP": 30,
-					"MP": 30,
-					"Attack": 27,
-					"Defense": 18,
-					"Agility": 24,
-					"Intelligence": 21
+					"MP": 27,
+					"Attack": 18,
+					"Defense": 24,
+					"Agility": 21,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"BigBang",
@@ -19020,13 +19684,15 @@
 				"family": "????",
 				"stats": {
 					"MaxLevel": 80,
-					"Experience": 31,
-					"HP": 29,
-					"MP": 30,
-					"Attack": 26,
-					"Defense": 24,
+					"LV": 31,
+					"Experience": 29,
+					"HP": 30,
+					"MP": 26,
+					"Attack": 24,
+					"Defense": 23,
 					"Agility": 23,
-					"Intelligence": 23
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"BiAttack",
@@ -19079,13 +19745,15 @@
 				"family": "????",
 				"stats": {
 					"MaxLevel": 70,
-					"Experience": 30,
-					"HP": 21,
-					"MP": 30,
-					"Attack": 26,
-					"Defense": 21,
+					"LV": 30,
+					"Experience": 21,
+					"HP": 30,
+					"MP": 26,
+					"Attack": 21,
+					"Defense": 23,
 					"Agility": 23,
-					"Intelligence": 23
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Blaze",
@@ -19121,20 +19789,31 @@
 					1,
 					1
 				],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Esterk"
+						],
+						"mate": [
+							"GoldSlime"
+						]
+					}
+				]
 			},
 			"MIRUDRAAS2": {
 				"name": "Mirudraas2",
 				"family": "????",
 				"stats": {
 					"MaxLevel": 80,
-					"Experience": 31,
-					"HP": 29,
-					"MP": 30,
-					"Attack": 26,
-					"Defense": 21,
+					"LV": 31,
+					"Experience": 29,
+					"HP": 30,
+					"MP": 26,
+					"Attack": 21,
+					"Defense": 23,
 					"Agility": 23,
-					"Intelligence": 23
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FireAir",
@@ -19170,20 +19849,31 @@
 					1,
 					2
 				],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Mirurraas"
+						],
+						"mate": [
+							"Orligon"
+						]
+					}
+				]
 			},
 			"MUDOU": {
 				"name": "Mudou",
 				"family": "????",
 				"stats": {
 					"MaxLevel": 60,
-					"Experience": 28,
-					"HP": 21,
-					"MP": 30,
-					"Attack": 26,
-					"Defense": 24,
+					"LV": 28,
+					"Experience": 21,
+					"HP": 30,
+					"MP": 26,
+					"Attack": 24,
+					"Defense": 23,
 					"Agility": 23,
-					"Intelligence": 23
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FireAir",
@@ -19235,13 +19925,15 @@
 				"family": "????",
 				"stats": {
 					"MaxLevel": 60,
-					"Experience": 27,
-					"HP": 21,
-					"MP": 30,
-					"Attack": 26,
-					"Defense": 21,
+					"LV": 27,
+					"Experience": 21,
+					"HP": 30,
+					"MP": 26,
+					"Attack": 21,
+					"Defense": 23,
 					"Agility": 23,
-					"Intelligence": 23
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"BigBang",
@@ -19277,20 +19969,48 @@
 					0,
 					2
 				],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Mirudraas"
+						],
+						"mate": [
+							"Azurile"
+						]
+					},
+					{
+						"base": [
+							"Mirudraas2"
+						],
+						"mate": [
+							"Zoma"
+						]
+					},
+					{
+						"base": [
+							"Zoma"
+						],
+						"mate": [
+							"Azurile",
+							"MirudraasMirudraas2"
+						]
+					}
+				]
 			},
 			"DEATHMORE2": {
 				"name": "DeathMore2",
 				"family": "????",
 				"stats": {
 					"MaxLevel": 70,
-					"Experience": 29,
-					"HP": 24,
-					"MP": 30,
-					"Attack": 26,
-					"Defense": 21,
+					"LV": 29,
+					"Experience": 24,
+					"HP": 30,
+					"MP": 26,
+					"Attack": 21,
+					"Defense": 23,
 					"Agility": 23,
-					"Intelligence": 23
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"FireAir",
@@ -19326,20 +20046,32 @@
 					1,
 					3
 				],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DeathMore"
+						],
+						"mate": [
+							"Armorpion",
+							"Titanis"
+						]
+					}
+				]
 			},
 			"DEATHMORE3": {
 				"name": "DeathMore3",
 				"family": "????",
 				"stats": {
 					"MaxLevel": 80,
-					"Experience": 31,
-					"HP": 29,
+					"LV": 31,
+					"Experience": 29,
+					"HP": 30,
 					"MP": 30,
-					"Attack": 30,
-					"Defense": 24,
+					"Attack": 24,
+					"Defense": 23,
 					"Agility": 23,
-					"Intelligence": 23
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"BigBang",
@@ -19375,20 +20107,33 @@
 					2,
 					3
 				],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DeathMore2"
+						],
+						"mate": [
+							"DarkMate",
+							"Mudou",
+							"Poseidon"
+						]
+					}
+				]
 			},
 			"DARKDRIUM": {
 				"name": "Darkdrium",
 				"family": "????",
 				"stats": {
 					"MaxLevel": 80,
-					"Experience": 30,
-					"HP": 31,
-					"MP": 30,
-					"Attack": 31,
-					"Defense": 24,
+					"LV": 30,
+					"Experience": 31,
+					"HP": 30,
+					"MP": 31,
+					"Attack": 24,
+					"Defense": 23,
 					"Agility": 23,
-					"Intelligence": 23
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Bolt",
@@ -19442,13 +20187,15 @@
 				"family": "????",
 				"stats": {
 					"MaxLevel": 65,
-					"Experience": 30,
-					"HP": 24,
-					"MP": 25,
-					"Attack": 26,
-					"Defense": 23,
-					"Agility": 22,
-					"Intelligence": 31
+					"LV": 30,
+					"Experience": 24,
+					"HP": 25,
+					"MP": 26,
+					"Attack": 23,
+					"Defense": 22,
+					"Agility": 31,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Bang",
@@ -19484,20 +20231,31 @@
 					2,
 					2
 				],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"PsychoPiz"
+						],
+						"mate": [
+							"NiteRich"
+						]
+					}
+				]
 			},
 			"ORGODEMIR2": {
 				"name": "Orgodemir2",
 				"family": "????",
 				"stats": {
 					"MaxLevel": 70,
-					"Experience": 31,
-					"HP": 27,
-					"MP": 31,
-					"Attack": 30,
-					"Defense": 23,
-					"Agility": 24,
-					"Intelligence": 31
+					"LV": 31,
+					"Experience": 27,
+					"HP": 31,
+					"MP": 30,
+					"Attack": 23,
+					"Defense": 24,
+					"Agility": 31,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"MegaMagic",
@@ -19533,20 +20291,32 @@
 					1,
 					2
 				],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Orgodemir"
+						],
+						"mate": [
+							"LordDraco",
+							"GigaDraco"
+						]
+					}
+				]
 			},
 			"DARCK": {
 				"name": "Darck",
 				"family": "????",
 				"stats": {
 					"MaxLevel": 60,
-					"Experience": 26,
-					"HP": 23,
-					"MP": 25,
-					"Attack": 18,
-					"Defense": 23,
-					"Agility": 14,
-					"Intelligence": 17
+					"LV": 26,
+					"Experience": 23,
+					"HP": 25,
+					"MP": 18,
+					"Attack": 23,
+					"Defense": 14,
+					"Agility": 17,
+					"Intelligence": null,
+					"From": null
 				},
 				"moves": [
 					"Firebal",

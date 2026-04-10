@@ -84,29 +84,30 @@ function parseBreedsData() {
     let startCountingRows = false;
 
     for (const line of lines) {
-        const monster = line.match(/\|  ([A-Z]+)\s*:/);
+        const monster = line.match(/\|  ([A-Z 1-5†]+)\s*:/);
         if (monster) {
-            currentMonster = monster[1];
+            currentMonster = monster[1].trim();
             continue;
         }
-
+        
         if (line.match(/-+\^-+/)) {
             currentMonster = "";
             startCountingRows = false;
         }
-
+        
         const familyMatch = line.match(/_\|[ 0-9\.]+([A-Z\?]+ FAMILY)/);
         if (familyMatch) {
-            currentFamily = familyMatch[1];
+            currentFamily = familyMatch[1].trim();
         }
-
+        
         if (currentMonster == "") continue;
-
+        
         const baseMates = data.families[currentFamily][currentMonster]?.breeds;
         if (!baseMates) continue;
-
+        
         const baseMatePair = line.match(/¦ ([A-Z 1-5†]+)\s*¦\s*([A-Z 1-5†]+)¦/i);
         if (baseMatePair) {
+            console.log(currentMonster);
             if (baseMatePair[1].trim() == "Base") {
                 startCountingRows = true;
                 continue;
@@ -126,6 +127,8 @@ function parseBreedsData() {
             data.families[currentFamily][currentMonster].breeds.push({ base: [], mate: [] });
         }
     }
+
+    console.log(data);
 }
 
 export default function GetMonsterData() {

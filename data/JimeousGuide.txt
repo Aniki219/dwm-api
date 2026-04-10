@@ -4640,7 +4640,7 @@
     ,----------------------------------+----------------------------------.
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ Goldslime                        ¦ Darkmate GoldSlime Deathmore1    ¦
+    ¦ Goldslime                        ¦ Darkmate GoldSlime Deathmore   ¦
     ¦----------------------------------+----------------------------------¦
     ¦ WonderEgg                        ¦ Goldslime                        ¦
     ‘----------------------------------^----------------------------------’
@@ -4768,7 +4768,7 @@
     ,----------------------------------+----------------------------------.
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ SLIMEFM                          ¦ Roboster1                        ¦
+    ¦ SLIMEFM                          ¦ Roboster                       ¦
     ¦----------------------------------+----------------------------------¦
     ¦ DrakSlime                        ¦ Swordgon                         ¦
     ¦----------------------------------+----------------------------------¦
@@ -5358,7 +5358,7 @@
     ¦----------------------------------+----------------------------------¦
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ BEASTFM                          ¦ DEVILFM MetalDrak Roboster1      ¦
+    ¦ BEASTFM                          ¦ DEVILFM MetalDrak Roboster     ¦
     ¦                                  ¦ LavaMan IceMan Golem StoneMan    ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
@@ -5372,7 +5372,7 @@
     ¦----------------------------------+----------------------------------¦
     ¦ WildApe Grizzly Yeti Unicorn     ¦ Digster Skullgon DeadNoble       ¦
     ¦ Dumbira Trumpeter                ¦ WhiteKing Skeletor MetalDrak     ¦
-    ¦                                  ¦ Roboster1 LavaMan IceMan Golem   ¦
+    ¦                                  ¦ RobosterLavaMan IceMan Golem   ¦
     ¦                                  ¦ StoneMan                         ¦
     ¦----------------------------------+----------------------------------¦
     ¦ Grizzly Yeti Trumpeter BigEye    ¦ DRAGONFM                         ¦
@@ -5506,7 +5506,7 @@
     ¦ Yeti                             ¦ WhipBird                         ¦
     ¦----------------------------------+----------------------------------¦
     ¦ GulpBeast                        ¦ MetalDrak Balzak LavaMan IceMan  ¦
-    ¦                                  ¦ Golem StoneMan Roboster1         ¦
+    ¦                                  ¦ Golem StoneMan Roboster        ¦
     ¦----------------------------------+----------------------------------¦
     ¦ WildApe                          ¦ WildApe                          ¦
     ¦----------------------------------+----------------------------------¦
@@ -6744,7 +6744,7 @@
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
     ¦ AgDevil Grendal Gigantes         ¦ GulpBeast Unicorn Digster        ¦
-    ¦                                  ¦ Roboster1 WalrusMan MerTiger     ¦
+    ¦                                  ¦ RobosterWalrusMan MerTiger     ¦
     ¦----------------------------------+----------------------------------¦
     ¦ GateGuard                        ¦ DRAGONFM                         ¦
     ¦----------------------------------+----------------------------------¦
@@ -6858,7 +6858,7 @@
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
     ¦ Mudron MadSpirit BoneSlave       ¦ ArcDemon Lionex GateGuard        ¦
-    ¦ Skeletor CaptDead                ¦ MetalDrak Roboster1              ¦
+    ¦ Skeletor CaptDead                ¦ MetalDrak Roboster             ¦
     ¦----------------------------------+----------------------------------¦
     ¦ Skullgon DeadNite Mudron         ¦  CopyCat                         ¦
     ¦ DeadNoble BoneSlave Skeletor     ¦                                  ¦
@@ -6902,7 +6902,7 @@
     ,----------------------------------+----------------------------------.
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ WhiteKing                        ¦ DracoLord1                       ¦
+    ¦ WhiteKing                        ¦ DracoLord                      ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
     |  MADSPIRIT       : SleepAir  Radiant   ThickFog   |
@@ -7133,7 +7133,7 @@
     ¦----------------------------------+----------------------------------¦
     ¦ SpikyBoy                         ¦ SpikyBoy                         ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ Roboster1 DarkMate               ¦ BUGFM                            ¦
+    ¦ RobosterDarkMate               ¦ BUGFM                            ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
     |  BRUSHEAD        : OddDance  SandStorm LoveRain   |
@@ -7156,7 +7156,7 @@
     ¦ Gismo                            ¦ KingSlime SpotKing SkyDragon     ¦
     ¦                                  ¦ LampGenie WhiteKing KingSquid    ¦
     ¦                                  ¦ WhaleMage                        ¦
-    ¦                                  ¦ DracoLord1                       ¦
+    ¦                                  ¦ DracoLord                      ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
     |  COILBIRD        : DeChaos   NumbOff   SuckAll    |
@@ -7176,7 +7176,7 @@
     ¦----------------------------------+----------------------------------¦
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ Roboster1                        ¦ BIRDFM                           ¦
+    ¦ Roboster                       ¦ BIRDFM                           ¦
     ¦----------------------------------+----------------------------------¦
     ¦ MATERIALFM                       ¦ WingTree                         ¦
     ‘----------------------------------^----------------------------------’
@@ -7277,7 +7277,7 @@
     ¦----------------------------------+----------------------------------¦
     ¦ MetalDrak                        ¦ Skullgon WhiteKing               ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ Roboster1 Roboster2              ¦ KingLeo                          ¦
+    ¦ RobosterRoboster2              ¦ KingLeo                          ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
     |  JEWELBAG        : Firebal   StopSpell PanicAll   |
@@ -7324,7 +7324,7 @@
     ¦----------------------------------+----------------------------------¦
     ¦ Mimic                            ¦ Andreal Spikerous GreatDrak      ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ MetalDrak Roboster1              ¦ DRAGONFM                         ¦
+    ¦ MetalDrak Roboster             ¦ DRAGONFM                         ¦
     ¦----------------------------------+----------------------------------¦
     ¦ MATERIALFM                       ¦ Andreal                          ¦
     ‘----------------------------------^----------------------------------’
@@ -7336,7 +7336,7 @@
     ¦----------------------------------+----------------------------------¦
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ Roboster1                        ¦ ZOMBIEFM RushFish                ¦
+    ¦ Roboster                       ¦ ZOMBIEFM RushFish                ¦
     ¦----------------------------------+----------------------------------¦
     ¦ MATERIALFM                       ¦ BoxSlime                         ¦
     ‘----------------------------------^----------------------------------’
@@ -7356,7 +7356,7 @@
     ¦----------------------------------+----------------------------------¦
     ¦ MATERIALFM                       ¦ EvilArmor                        ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ Roboster1                        ¦ SLIMEFM                          ¦
+    ¦ Roboster                       ¦ SLIMEFM                          ¦
     ¦----------------------------------+----------------------------------¦
     ¦ RogueNite                        ¦ DEVILFM                          ¦
     ‘----------------------------------^----------------------------------’
@@ -7371,7 +7371,7 @@
     ¦ MATERIALFM                       ¦ Gremlin                          ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
-    |  ROBOSTER1       : SquallHit BiAttack  RainSlash  |
+    |  ROBOSTER      : SquallHit BiAttack  RainSlash  |
     ‘———————————————————————————————————————————————————’
     ,----------------------------------+----------------------------------.
     ¦ Base                             ¦ Mate                             ¦
@@ -7390,7 +7390,7 @@
     ,----------------------------------+----------------------------------.
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ Roboster1                        ¦ Roboster                         ¦
+    ¦ Roboster                       ¦ Roboster                         ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
     |  ROGUENITE       : Heal      MetalCut  EvilSlash  |
@@ -7802,16 +7802,16 @@
     ¦ DeathMore3                       ¦ Watabou GranSlime AsuraZoma      ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
-    |  DEATHMORE1      : BigBang   Hellblast TatsuCall  |
+    |  DEATHMORE     : BigBang   Hellblast TatsuCall  |
     ‘———————————————————————————————————————————————————’
     ,----------------------------------+----------------------------------.
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ Mirudraas1                       ¦ Azurile                          ¦
+    ¦ Mirudraas                      ¦ Azurile                          ¦
     ¦----------------------------------+----------------------------------¦
     ¦ Mirudraas2                       ¦ Zoma                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ Zoma                             ¦ Azurile Mirudraas1 Mirudraas2    ¦
+    ¦ Zoma                             ¦ Azurile MirudraasMirudraas2    ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
     |  DEATHMORE2      : FireAir   Ramming   UltraDown  |
@@ -7819,7 +7819,7 @@
     ,----------------------------------+----------------------------------.
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ DeathMore1                       ¦ Armorpion Titanis                ¦
+    ¦ DeathMore                      ¦ Armorpion Titanis                ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
     |  DEATHMORE3      : BigBang   DeMagic   Focus      |
@@ -7830,7 +7830,7 @@
     ¦ DeathMore2                       ¦ DarkMate Mudou Poseidon          ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
-    |  DRACOLORD1      : Firebal   BeDragon  Meditate   |
+    |  DRACOLORD     : Firebal   BeDragon  Meditate   |
     ‘———————————————————————————————————————————————————’
     ,----------------------------------+----------------------------------.
     ¦ Base                             ¦ Mate                             ¦
@@ -7843,7 +7843,7 @@
     ,----------------------------------+----------------------------------.
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ DracoLord1                       ¦ Divinegon                        ¦
+    ¦ DracoLord                      ¦ Divinegon                        ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
     |  ESTERK          : BiAttack  RainSlash GigaSlash  |
@@ -7875,10 +7875,10 @@
     ,----------------------------------+----------------------------------.
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ DracoLord1                       ¦ Orligon                          ¦
+    ¦ DracoLord                      ¦ Orligon                          ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
-    |  MIRUDRAAS1      : Blaze     Bang      Bolt       |
+    |  MIRUDRAAS     : Blaze     Bang      Bolt       |
     ‘———————————————————————————————————————————————————’
     ,----------------------------------+----------------------------------.
     ¦ Base                             ¦ Mate                             ¦
@@ -7891,7 +7891,7 @@
     ,----------------------------------+----------------------------------.
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ Mirurraas1                       ¦ Orligon                          ¦
+    ¦ Mirurraas                      ¦ Orligon                          ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
     |  MUDOU           : FireAir   FrigidAir PoisonGas  |
@@ -7902,7 +7902,7 @@
     ¦ Baramos                          ¦ Gorago                           ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
-    |  ORGODEMIR1      : Bang      EvilSlash Focus      |
+    |  ORGODEMIR     : Bang      EvilSlash Focus      |
     ‘———————————————————————————————————————————————————’
     ,----------------------------------+----------------------------------.
     ¦ Base                             ¦ Mate                             ¦
@@ -7915,7 +7915,7 @@
     ,----------------------------------+----------------------------------.
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ Orgodemir1                       ¦ LordDraco GigaDraco              ¦
+    ¦ Orgodemir                      ¦ LordDraco GigaDraco              ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
     |  PIZZARO         : Hellblast FireAir   BiAttack   |
@@ -7947,7 +7947,7 @@
     ,----------------------------------+----------------------------------.
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ DracoLord1 DracoLord2            ¦ Sidoh                            ¦
+    ¦ DracoLordDracoLord2            ¦ Sidoh                            ¦
     ‘----------------------------------^----------------------------------’
 
   __________________________________________________________________________
@@ -7989,7 +7989,7 @@
     ARROWDOG   : Noctoking 
     ASURAZOMA  : Darkdrium 
     AXESHARK   : Gateguard 
-    AZURILE    : Deathmore1 
+    AZURILE    : Deathmore
    
     BABBLE     : Kingcobra 
     BALZAK     : Kingleo Trumpeter Bosstroll 
@@ -8035,7 +8035,7 @@
     DEADNITE   : Rockslime Boneslave Deadnoble Madspirit Skeletor 
     DEADNOBLE  : Kingslime Spotking Andreal Gulpbeast Blizzardy Gateguard 
                  Deadnoble Madspirit Niterich Skullgon Whiteking Roboster1
-    DEATHMORE1 : Granslime Deathmore2 
+    DEATHMORE: Granslime Deathmore2 
     DEATHMORE2 : Deathmore3 
     DEATHMORE3 : Darkdrium 
     DEMONITE   : Superten 1Eyeclown Gateguard Brushead Fishrider 
@@ -8043,7 +8043,7 @@
     DIGSTER    : Spikerous Gulpbeast Whipbird Ogre Stoneman 
     DIVINEGON  : Kingslime Spotking Orligon Skullgon Dracolord2 Pizzaro 
     DRACKY     : Snakebat Noctoking Exaucers 
-    DRACOLORD1 : Lazamanus Cloudking Dracolord2 Lorddraco Zoma 
+    DRACOLORD: Lazamanus Cloudking Dracolord2 Lorddraco Zoma 
     DRACOLORD2 : Zoma 
     DRAGON     : Greatdrak Madcat 
     DRAGONKID  : Dragon Greatdrak 
@@ -8057,8 +8057,8 @@
    
     EGGPLATON  : Beanman Evilseed 
     EMYU       : Cragdevil 
-    ESTERK     : Mirudraas1 Psychopiz 
-    EVILARMOR  : Battlerex Beastnite Protomech Roboster1 Octoraid 
+    ESTERK     : MirudraasPsychopiz 
+    EVILARMOR  : Battlerex Beastnite Protomech RobosterOctoraid 
     EVILBEAST  : Agdevil Gigantes Grendal Skeletor 
     EVILSEED   : Maneater Gismo 
     EVILWAND   : Mimeslime Catmage Treeboy Sabreman Hoodsquid 
@@ -8094,7 +8094,7 @@
     GOHOPPER   : Lizardfly Belzebub 
     GOLDGOLEM  : Goldslime Orligon Kingleo Azurile Durran Whiteking 
                  Darkmate 
-    GOLDSLIME  : Granslime Mirudraas1 
+    GOLDSLIME  : Granslime Mirudraas
     GOLEM      : Rockslime Andreal Grizzly Gulpbeast Trumpeter Whipbird 
                  Skeletor Sabreman Stoneman Voodoll Digong 
     GOOPI      : Gismo Muddoll 
@@ -8104,13 +8104,13 @@
     GRANSLIME  : Darkdrium 
     GREATDRAK  : Kingslime Slimeborg Spotking Gigadraco Orochi Serpentia 
                  Shantak Arcdemon Bosstroll Skullgon Whiteking Metaldrak
-                 Roboster1 Aquadon Dracolord1 
+                 RobosterAquadon Dracolord
     GREMLIN    : Superten Agdevil Grendal Medusaeye Boneslave Puppetor 
                  Fishrider 
-    GRENDAL    : Akubar Arcdemon Gateguard Ogre Roboster1 
-    GRIZZLY    : Gulpbeast Trumpeter Unicorn Phoenix Skeletor Roboster1 
+    GRENDAL    : Akubar Arcdemon Gateguard Ogre Roboster
+    GRIZZLY    : Gulpbeast Trumpeter Unicorn Phoenix Skeletor Roboster
     GULPBEAST  : Fangslime Maddragon Superten Trumpeter Unicorn Phoenix 
-                 Ogre Skeletor Roboster1 Mertiger Rushfish 
+                 Ogre Skeletor RobosterMertiger Rushfish 
     GULPPLE    : Andreal Devipine 
    
     HAMMERMAN  : Foohero Ogre 
@@ -8130,7 +8130,7 @@
    
     KINGCOBRA  : Snakebat 
     KINGLEO    : Fangslime Kingslime Spotking Battlerex Arcdemon 
-                 Whiteking Iceman Lavaman Roboster1 Esterk 
+                 Whiteking Iceman Lavaman RobosterEsterk 
     KINGSLIME  : Goldslime Metalking Spotking Greatdrak Arcdemon 
                  Whiteking Cloudking 
     KINGSQUID  : Cloudking Starfish 
@@ -8174,8 +8174,8 @@
     METALY     : Metabble Blizzardy 
     MIMESLIME  : Haloslime Catmage Chopclown 
     MIMIC      : Superten Evilpot Metaldrak Scallopa 
-    MIRUDRAAS1 : Deathmore1 
-    MIRUDRAAS2 : Deathmore1 
+    MIRUDRAAS: Deathmore
+    MIRUDRAAS2 : Deathmore
     MISTYWING  : Gateguard Foxfire Nitewhip Gismo 
     MOMMONJA   : Tropicgel Pumpoise 
     MORAY      : Captdead 
@@ -8185,7 +8185,7 @@
     MULTIEYES  : Armorpede Belzebub 
     MUMMY      : Boneslave Skeletor 
    
-    NITERICH   : Whiteking Orgodemir1 
+    NITERICH   : Whiteking Orgodemir
     NITEWHIP   : Facetree Captdead Foxfire 
     NOCTOKING  : Dumbira 
    
@@ -8194,9 +8194,9 @@
     OCTORAID   : Serpentia Armorpion Niterich 
     OCTOREACH  : Octogon Starfish 
     OGRE       : Andreal Battlerex Arcdemon Bosstroll Centasaur Evilarmor 
-                 Evilwell Gateguard Skeletor Roboster1 
+                 Evilwell Gateguard Skeletor Roboster
     ORC        : Dumbira Yeti 
-    ORGODEMIR1 : Orgodemir2 
+    ORGODEMIR: Orgodemir2 
     ORLIGON    : Aquadon Lorddraco Mirudraas2 
     OROCHI     : Divinegon Gorago Arcdemon Skullgon Lavaman Baramos 
    
@@ -8210,7 +8210,7 @@
     POISONGON  : Babble 
     POMPOMBOM  : Madspirit 
     POSEIDON   : Deathmore3 
-    PSYCHOPIZ  : Asurazoma Orgodemir1 
+    PSYCHOPIZ  : Asurazoma Orgodemir
     PTERANOD   : Coatol Vampirus Yeti 
     PUPPETOR   : Ghostree Brushead 
     PUTREPUP   : Arrowdog Foxfire 
@@ -8220,7 +8220,7 @@
     RAYBURN    : Whipbird Skullgon 
     RAYGIGAS   : Giantmoth 
     REAPER     : Catmage Sickler Whalemage 
-    ROBOSTER1  : SlimeBorg Grizzly GulpBeast Trumpeter Ogre Deadnoble 
+    ROBOSTER : SlimeBorg Grizzly GulpBeast Trumpeter Ogre Deadnoble 
                  Bombcrag CurseLamp IceMan MetalDrak Mimic ProtoMech
                  Roboster2 
     ROBOSTER2  : Deadnoble Niterich Iceman 
@@ -8232,25 +8232,25 @@
     ROTRAVEN   : Windmerge 
     RUSHFISH   : Mimic Digong Whalemage 
    
-    SABREMAN   : Madgopher Roboster1 
+    SABREMAN   : Madgopher Roboster
     SACCER     : Antbear Giantmoth 
     SCALLOPA   : Evilpot 
     SERPENTIA  : Divinegon Durran Niterich 
-    SERVANT    : Blizzardy Skullgon Dracolord1 
+    SERVANT    : Blizzardy Skullgon Dracolord
     SHADOW     : Noctoking 
     SHANTAK    : Azurile 
     SICKLER    : Catmage Warmantis 
     SIDOH      : Genosidoh Zoma 
     SKELETOR   : Serpentia Gulpbeast Blizzardy Deadnoble Madspirit 
-                 Niterich Servant Skullgon Whiteking Roboster1 
+                 Niterich Servant Skullgon Whiteking Roboster
     SKULLGON   : Gulpbeast Blizzardy Gateguard Deadnoble Madspirit 
                  Skullgon Whiteking Iceman 
     SKULLROO   : Slabbit 
-    SKULRIDER  : Agdevil Gigantes Grendal Roboster1 Fishrider 
+    SKULRIDER  : Agdevil Gigantes Grendal RobosterFishrider 
     SKYDRAGON  : Slimeborg Andreal Coatol Divinegon Gigadraco Yeti 
                  Cloudking 
     SLIME      : Haloslime Kingslime Tropicgel Wonderegg 
-    SLIMEBORG  : Whipbird Gateguard Boneslave Roboster1 
+    SLIMEBORG  : Whipbird Gateguard Boneslave Roboster
     SLIMENITE  : Slimeborg Foohero Voodoll 
     SLURPERON  : Maneater 
     SNAILY     : Evilpot Voodoll 
@@ -8278,10 +8278,10 @@
     TREESLIME  : Tropicgel Superten 
     TROPICGEL  : Funkybird 
     TRUMPETER  : Fangslime Andreal Rayburn Gulpbeast Kingleo Unicorn 
-                 Blizzardy Arcdemon Roboster1 
+                 Blizzardy Arcdemon Roboster
    
     UNICORN    : Kingslime Spotking Greatdrak Gulpbeast Madcat Ogre 
-                 Roboster1 
+                 Roboster
    
     VAMPIRUS   : Coatol Rainhawk 
     VOODOLL    : Chamelgon Sabreman 
@@ -8310,7 +8310,7 @@
    
     ZAPBIRD    : Kingslime Spotking Greatdrak Trumpeter Garudian Whipbird 
                  Arcdemon Whiteking Lavaman 
-    ZOMA       : Asurazoma Deathmore1 
+    ZOMA       : Asurazoma Deathmore
 
 
 ——————————————————————————————————————————————————————————————————————————————
