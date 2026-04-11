@@ -11,6 +11,7 @@ const tables = [
     "monster_resistances",
     "move_requirements",
     "resistance_moves",
+    "monster_breeds",
 
     "monsters",
     "moves",
@@ -101,7 +102,6 @@ async function seed() {
     const insertResistanceMove = db.prepare('INSERT INTO resistance_moves (resistance_name, move_name) VALUES (?, ?)');
 
     const transaction = db.transaction((monsterData: MonsterData) => {
-
         // Stats
         for (const stat of STAT_NAMES) {
             insertStat.run(stat);
@@ -130,18 +130,19 @@ async function seed() {
                 insertResistanceMove.run(resName, move);
             }
         }
+
+        // Family Monsters
+        for (const f of ["SLIMEFM", "DRAGONFM", "BEASTFM", "BUGFM", "PLANTFM", "BIRDFM", "MATERIALFM", "ZOMBIEFM", "DEVILFM", "WATERFM", "BOSSFM"]) {
+            let family = f.split("FM")[0];
+            family = family.slice(0, 1).concat(family.slice(1).toLowerCase());
+            insertMonster.run(f, family);
+        }
         
         // Monsters
         for (const f in monsterData.families) {
             for (const m in monsterData.families[f]) {
-                const {name, family, stats, moves, resistances, breeds} = monsterData.families[f][m] as Monster;
+                const {name, family, stats, moves, resistances} = monsterData.families[f][m] as Monster;
                 insertMonster.run(name, family);
-
-                // Monster Breeds
-                // console.log(name);
-                // for (const breedPair of breeds) {
-                //     console.log(breedPair.base, breedPair.mate);
-                // }
                 
                 // Monster Stats
                 for (const stat in stats) {
@@ -151,7 +152,6 @@ async function seed() {
                 
                 // Monster Moves
                 for (const move of moves) {
-                    console.log(move)
                     insertMonsterMove.run(name, move);
                 }
 
@@ -164,6 +164,23 @@ async function seed() {
                 }
             }
         }
+
+        // Monster Breeds
+        let count = 0;
+        for (const f in monsterData.families) {
+            for (const m in monsterData.families[f]) {
+                const {name, breeds} = monsterData.families[f][m] as Monster;
+                for (const breedPair of breeds) {
+                    for (const base of breedPair.base) {
+                        for (const mate of breedPair.mate) {
+                            count++;
+                            insertMonsterBreeds.run(base, mate, name);
+                        }
+                    }
+                }
+            }
+        }
+        console.log(`Inserted ${count} breeds`)
     });
 
     transaction(monsterData);

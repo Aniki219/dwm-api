@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "seed": "tsx scripts/seed.ts",
-    "monster": "tsx scripts/GetMonsterData.ts"
+    "monster": "tsx scripts/GetMonsterData.ts",
+    "fix": "tsx scripts/JimeousFixer.ts"
   },
   "dependencies": {
     "better-sqlite3": "^12.8.0",

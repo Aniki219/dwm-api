@@ -56,7 +56,7 @@ function parseMonsterData() {
                 STAT_NAMES.forEach((name, i) => {
                     stats[name] = parseInt(splits[i + 1]);
                 });
-                data.families[currentFamily][splits[0].toUpperCase()] = {
+                data.families[currentFamily][splits[0]] = {
                     name: splits[0],
                     family: currentFamily.replace(" FAMILY", "").toLowerCase().replace(/^\w/, (c) => c.toUpperCase()),
                     stats: stats,
@@ -73,6 +73,7 @@ function parseMonsterData() {
             }
         }
     }
+    //console.log(data);
 }
 
 function parseBreedsData() {
@@ -84,7 +85,7 @@ function parseBreedsData() {
     let startCountingRows = false;
 
     for (const line of lines) {
-        const monster = line.match(/\|  ([A-Z 1-5†]+)\s*:/);
+        const monster = line.match(/\|  ([A-Za-z 1-5†]+)\s*:/);
         if (monster) {
             currentMonster = monster[1].trim();
             continue;
@@ -102,13 +103,17 @@ function parseBreedsData() {
         
         if (currentMonster == "") continue;
         
+        console.log(currentFamily, currentMonster);
         const baseMates = data.families[currentFamily][currentMonster]?.breeds;
         if (!baseMates) continue;
         
         const baseMatePair = line.match(/¦ ([A-Z 1-5†]+)\s*¦\s*([A-Z 1-5†]+)¦/i);
         if (baseMatePair) {
-            console.log(currentMonster);
+            // console.log(currentMonster);
             if (baseMatePair[1].trim() == "Base") {
+                if (startCountingRows) {
+                    data.families[currentFamily][currentMonster].breeds.pop();
+                }
                 startCountingRows = true;
                 continue;
             }
@@ -128,7 +133,7 @@ function parseBreedsData() {
         }
     }
 
-    console.log(data);
+    //console.log(data);
 }
 
 export default function GetMonsterData() {

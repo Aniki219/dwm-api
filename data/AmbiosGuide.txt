@@ -149,7 +149,7 @@ DrakSlime  45 13 16 10 13  8 20 16 BeDragon  FireAir   SuckAir
 SpotSlime  35 10 17  1 17  4 17  8 CallHelp  LushLicks Imitate
 WingSlime  35 10 13  2 11 11 24  8 WindBeast SquallHit TailWind
 TreeSlime  50 11 13 11  8 14 17 17 Sap       Paralyze  SleepAir
-Snaily     35  8 11 10 17 20 20  8 Icebolt   NumbOff   CallHelp
+Snaily     35  8 11 10 17 20 20  8 IceBolt   NumbOff   CallHelp
 SlimeNite  40 15 14  1 15 14 20 14 Heal      Upper     BeastCut
 Babble     45 12 17  7 17  8 14 13 Surround  PoisonHit EerieLite
 BoxSlime   50 11 11 10 14 19 14 13 Blaze     Upper     Ramming
@@ -160,11 +160,11 @@ FangSlime  35 10 25  1 18 13 20 13 CallHelp  ChargeUp  WarCry
 RockSlime  45 11 13 10 14 23 16 14 HighJump  Ramming   StrongD
 SlimeBorg  50 11 18 11 20 15 14 13 Lightning RainSlash BladeD
 Slabbit    35 10 15  7 14  8 21 15 SideStep  LegSweep  Whistle
-KingSlime  45 12 18 14 15 14 20 15 Mpass     Barrier   Vivify
-Metaly     20 25  0 30 11 30 31 13 Blaze     Icebolt   Beat
+KingSlime  45 12 18 14 15 14 20 15 MPass     Barrier   Vivify
+Metaly     20 25  0 30 11 30 31 13 Blaze     IceBolt   Beat
 Metabble   35 27  0 30 14 31 31 15 Firebal   Bang      Sacrifice
 SpotKing   45  9 18 11 18 11 20 15 CleanCut  NapAttack MouthShut
-TropicGel  40 14 15 20 19  9 14 15 Mpass     SleepAir  LushLicks
+TropicGel  40 14 15 20 19  9 14 15 MPass     SleepAir  LushLicks
 MimeSlime  40 17 10 12  8 19 20 17 PanicAll  Ahhh      LoveRain
 HaloSlime  35 16  9 20 11 13 12 22 Sleep     SealPray  LifeSong
 MetalKing  55 29  0 31 15 31 31 18 Bolt      Ironize   HellBlast
@@ -181,24 +181,24 @@ Name       ML EP HP MP AT DF AG IN SkillA    SkillB    SkillC
 DragonKid  30  7 10  3 17  2  5  5 FireAir   SleepAir  Dodge
 Tortragon  35 17 15 11 18  6  7 13 Ironize   MagicBack Lightning
 Pteranod   35 16 14 11 18  2 20  4 Firebal   WindBeast TailWind
-Gasgon     50 18 17 15 13 11  7 18 Sacrifice Farewell  Beserker
+Gasgon     50 18 17 15 13 11  7 18 Sacrifice Farewell  Berserker
 FairyDrak  30 15  9 13 17 16 14  4 Surround  SleepAir  LushLicks
 LizardMan  45 20 17 10 19 13  5 16 AquaCut   GigaSlash EvilSlash
 Poisongon  45 19 21 16 15 13  7  1 PoisonHit PoisonGas LushLicks
 Swordgon   50 20  9  3 23  6  1  5 CleanCut  RainSlash BladeD
 Drygon     35 16 11  2 19 13  7  5 Sap       Ramming   WarCry
-Dragon     40 20 17  1 20 16  7  4 FireAir   FireSlash SealAll
+Dragon     40 20 17  1 20 16  7  4 FireAir   FireSlash SuckAll
 MiniDrak   35 16 14  8 17 14 18 10 CallHelp  Ramming   SandStorm
-MadDragon  35 19 19  0 21  5  8  0 EvilSlash Massacre  CureDance
+MadDragon  35 19 19  0 21  5  8  0 EvilSlash Massacre  LureDance
 Rayburn    35 17 14  2 17 16 15  5 VacuSlash DevilCut  PoisonHit
 Chamelgon  40 19 17 18 11  6  8 13 PanicAll  Paralyze  PalsyAir
 LizardFly  30 16 11 11 17 17 13  5 Firebal   Sap       FireAir
 Andreal    50 22 21 15 19 17 19 12 Infernos  Surround  PoisonGas
-KingCobra  40 20 18  8 16 13 19 11 PoisonHit Curse     K.O. Dance
+KingCobra  40 20 18  8 16 13 19 11 PoisonHit Curse     K.O.Dance
 Vampirus   35  8 14  7 10  8 19  8 Infernos  CallHelp  BiAttack
 SnakeBat   35  7 10  9 21 15  9  8 RockThrow LushLicks Errand
-Spikerous  35 19 20  8 19 24  1  2 RockThrow Beserker  Kamikaze
-GreatDrak  60 23 21  5 23 14 16 11 FrigidAir IceSlash  SealAll
+Spikerous  35 19 20  8 19 24  1  2 RockThrow Berserker  Kamikaze
+GreatDrak  60 23 21  5 23 14 16 11 FrigidAir IceSlash  SuckAll
 Crestpent  35 18 14  4 15  5 19  8 StopSpell BeDragon  PoisonHit
 WingSnake  45 20 15  8 20 17 14 11 SquallHit HighJump  PoisonGas
 Coatol     60 23 25 14 20 22 18 14 Bang      BoltSlash EvilSlash
@@ -207,7 +207,7 @@ BattleRex  60 22 23 16 26 20 17 16 FireAir   MetalCut  EvilSlash
 SkyDragon  40 18 15 11 20 14 18  8 FireAir   MultiCut  SuckAir
 Serpentia  55 24 23  7 24 21 18  8 SlimeBlow DevilCut  RainSlash
 Divinegon  70 28 26 25 28 24 20 23 BigBang   FrigidAir Meditate
-Orligon    75 29 25 24 28 25 21 24 TwinHits  Beserker  StrongD
+Orligon    75 29 25 24 28 25 21 24 TwinHits  Berserker  StrongD
 GigaDraco  70 24 30 24 29 12  6 11 FireAir   RockThrow Massacre
 ----------------------------------------------------------------
 
@@ -217,21 +217,21 @@ iii. Beast Family
 Name       ML EP HP MP AT DF AG IN SkillA    SkillB    SkillC
 ----------------------------------------------------------------
 Tonguella  40 12 14  5 15 12 11 16 NapAttack SleepAir  LushLicks
-Almiraj    45 13 18  5 14  9 15  4 Sleep     ChargeUp  Beserker
+Almiraj    45 13 18  5 14  9 15  4 Sleep     ChargeUp  Berserker
 CatFly     35 10 11 10 13  8 18 14 Slow      StopSpell OddDance
 PillowRat  35 11 14 17  8  8 19 13 Slow      Ramming   SideStep
 Saccer     40  9 16  5  9 17  0 13 Upper     PsycheUp  PalsyAir
 GulpBeast  45 13 24  1 26 13  7  1 Massacre  Ramming   WarCry
 Skullroo   45 12 14 10 11  8 16  2 ChargeUp  PaniDance EagleEye
-WindBeast  50 12 13 20 13 15 15 13 Infernos  Icebolt   VacuSlash
-Beavern    40 14 22  8  8 21 10  7 Icebolt   ChargeUp  Geyser
+WindBeast  50 12 13 20 13 15 15 13 Infernos  IceBolt   VacuSlash
+Beavern    40 14 22  8  8 21 10  7 IceBolt   ChargeUp  Geyser
 Antbear    40  8 14  7 17 11  9 11 MetalCut  SquallHit LushLicks
-SuperTen   45  9 18  7 13 12 11  7 K.O. Dance Hustle    Imitate
+SuperTen   45  9 18  7 13 12 11  7 K.O.Dance Hustle    Imitate
 IronTurt   45 10 18  5 17 23  2 11 MagicWall StrongD   Cover
-Mommonja   35  9 14 11 16 14 20  8 CureDance MouthShut EagleEye
+Mommonja   35  9 14 11 16 14 20  8 LureDance MouthShut EagleEye
 HammerMan  50 11 17 19 17 11 17 10 ChargeUp  EvilSlash Kamikaze
 Grizzly    45 14 20  0 27  7  9  1 SquallHit BiAttack  LegSweep
-Yeti       40 13 18 11 15  9 10  8 Icebolt   IceSlash  WarCry
+Yeti       40 13 18 11 15  9 10  8 IceBolt   IceSlash  WarCry
 ArrowDog   40  5  9  7 21 19 13 14 Blaze     CallHelp  MouthShut
 NoctoKing  40 13 22 13 18 15 20  8 Surround  SleepAir  ThickFog
 BeastNite  40  8 21  4 22 14  8  6 Sleep     RainSlash GigaSlash
@@ -240,11 +240,11 @@ FairyRat   45 11 12  5 13 14 17  7 Slow      Surround  SlimeBlow
 Unicorn    50 14 19 21 14 13 12 25 Heal      Vivify    Errand
 Goategon   40 11 19  9 17 13 17  3 Firebal   Slow      SleepAir
 WildApe    35 13 13  1 20 10  8  4 TwinSlash SideStep  Errand
-Trumpeter  50 14 17  8 21 17 14 13 Beserker  SandStorm WarCry
+Trumpeter  50 14 17  8 21 17 14 13 Berserker  SandStorm WarCry
 KingLeo    60 15 20 14 24 23 17 14 Firebal   FrigidAir BiAttack
 DarkHorn   50 13 17  4 19 18 10 12 Sleep     StopSpell PsycheUp
 MadCat     40 12 15  7 18 14 17 11 VacuSlash SquallHit LegSweep
-BigEye     40 11 14  8 14 11  7  9 Icebolt   FrigidAir LoveRain
+BigEye     40 11 14  8 14 11  7  9 IceBolt   FrigidAir LoveRain
 Gorago     65 29 29 28 30 24 24  6 Bang      Massacre  EerieLite
 CatMage    40  4  7  6 10  4  6 15 Blaze     Surround  Transform
 Dumbira    45  7 15 10  9  8 14  7 MetalCut  RainSlash TwinSlash
@@ -269,7 +269,7 @@ KiteHawk   40  5 13  8  8  7  9  1 MagicWall Curse     TailWind
 BigRoost   40  3  8  5 14 12 17  8 VacuSlash SandStorm Dodge
 StubBird   40  6 16 12 20 20 14 11 TwinHits  BugBlow   RainSlash
 LandOwl    35  5 15 10 21 13 11 18 Infernos  BoltSlash SideStep
-MadGoose   30  3 17  6 17 15 20  8 Heal      WindBeast CureDance
+MadGoose   30  3 17  6 17 15 20  8 Heal      WindBeast LureDance
 MadCondor  45  6 14 11 18 12 17 13 Firebal   HealUs    MultiCut
 Emyu       40  4  9 13 20 19 23 30 WindBeast Hustle    Errand
 Blizzardy  50  7 20  7 11 17 19 11 Beat      FrigidAir IceSlash
@@ -280,7 +280,7 @@ WhipBird   60 15 27 19 12 20 23 23 Ironize   ThickFog  TatsuCall
 FunkyBird  50  5 14 20  8  9 16 20 PaniDance LifeDance Hustle
 RainHawk   70 24 25 27 15 24 18 24 MegaMagic Surge     StrongD
 Azurile    75 28 27 24 24 12 24 12 HellBlast Meditate  LifeSong
-Shantak    60 22 24 22 18 20 24 22 HealUs    FireAir   SealAll
+Shantak    60 22 24 22 18 20 24 22 HealUs    FireAir   SuckAll
 CragDevil  35  4  7  8 13  5 14 11 Infernos  PanicAll  EagleEye
 ----------------------------------------------------------------
 
@@ -290,7 +290,7 @@ v. Plant Family
 Name       ML EP HP MP AT DF AG IN SkillA    SkillB    SkillC
 ----------------------------------------------------------------
 MadPlant   40 10 15 24 11 13  6 18 NumbOff   Sap       Slow
-FireWeed   45 15 14 26 10 12  5 17 Blaze     Dechaos   PalsyAir
+FireWeed   45 15 14 26 10 12  5 17 Blaze     DeChaos   PalsyAir
 FloraMan   40  7 17 20  6  9  2 19 Firebal   Antidote  CurseOff
 WingTree   35  7 12 20  6 11 14  7 Farewell  ZombieCut StepGuard
 CactiBall  30  6 18 18 12 15  9  5 Paralyze  HighJump  OddDance
@@ -300,8 +300,8 @@ AmberWeed  50 12 12 24  8 17 12 10 TwinHits  Barrier   MagicWall
 Slurperon  40  3  8  5  7  2  7  2 Sleep     OddDance  LushLicks
 Stubsuck   40  8 17 11  4  2  9 14 Sleep     ZombieCut StepGuard
 Oniono     35  9 13 20 14 11  3 16 RobMagic  ChargeUp  SleepAir
-DanceVegi  40 12 11 21  7  6 20 11 K.O. Dance CureDance SideStep
-TreeBoy    40 11 15 18  8  3 12 15 Mpass     CurseOff  Hustle
+DanceVegi  40 12 11 21  7  6 20 11 K.O.Dance LureDance SideStep
+TreeBoy    40 11 15 18  8  3 12 15 MPass     CurseOff  Hustle
 Devipine   40 10 14  7  8  4  5  3 Beat      SleepAir  PoisonGas
 FaceTree   45  9 12 20 11  8 10 17 StopSpell Curse     OddDance
 HerbMan    40 13 19 17  7 10 15 23 Curse     Focus     DanceShut
@@ -309,12 +309,12 @@ BeanMan    35 10 14 15 12 14 15  9 TwinHits  RobMagic  MapMagic
 EvilSeed   30  6  8 11  8  5  1  3 CleanCut  Paralyze  Radiant
 ManEater   45  9 14 12 19  7 10  6 DrakSlash PsycheUp  SleepAir
 Snapper    50 11 17 14 20 13 10 16 StopSpell CallHelp  RainSlash
-GhosTree   50  9  8 13  9  6  7 15 RobMagic  CureDance EerieLite
+GhosTree   50  9  8 13  9  6  7 15 RobMagic  LureDance EerieLite
 Rosevine   70 24 24 30 23 21 18 18 BiAttack  UltraDown BladeD
-Egdracil   70 24 25 18 21 24 15 23 Vivify    SleepAir  SealAll
-Warubou    80 15 22  7 12 13 24  4 Mpass     DeMagic   Pheromone
+Egdracil   70 24 25 18 21 24 15 23 Vivify    SleepAir  SuckAll
+Warubou    80 15 22  7 12 13 24  4 MPass     DeMagic   Pheromone
 Watabou    80  0 10 27 11 14 24 30 Chance    Imitate   Whistle
-Eggplaton  30  3  8 14 13 19  7 14 Mpass     OddDance  CureDance
+Eggplaton  30  3  8 14 13 19  7 14 MPass     OddDance  LureDance
 FooHero    45 16  8  4  7  4  9  7 Bolt      Heal      GigaSlash
 ----------------------------------------------------------------
 
@@ -346,7 +346,7 @@ WarMantis  50 18 23 16 12  9 11  8 VacuSlash Shears    GigaSlash
 HornBeet   50  7 21 19 23 20 12 14 RockThrow BoltSlash DevilCut
 Sickler    45  7 19 13  9  7 14  5 Infernos  DevilCut  SquallHit
 Armorpion  55 24 22 20 24 23 15 18 ZombieCut RainSlash EvilSlash
-Digster    50 11 24 10 19 26  1 15 Farewell  StrongD   SealAll
+Digster    50 11 24 10 19 26  1 15 Farewell  StrongD   SuckAll
 Skularach  65 25 18 23 25 24 30 21 Lightning BiAttack  PoisonGas
 MultiEyes  35  4 14 15 19 13  2  3 Sap       TwinHits  PalsyAir
 ----------------------------------------------------------------
@@ -365,11 +365,11 @@ EyeBall    35 16 16 17 14 14 13  8 MagicBack WarCry    Outside
 SkulRider  45 18 17 11 17 13 15 12 FireSlash RainSlash LegSweep
 EvilBeast  50 20 16 10 20 22  4 12 Firebal   Ironize   FrigidAir
 Bubblemon  45 12 14 13 15  7  7  4 Watershot IceSlash  BladeD
-1EyeClown  25 13 10  1  5  9  9 17 Blaze     Firebal   Icebolt
+1EyeClown  25 13 10  1  5  9  9 17 Blaze     Firebal   IceBolt
 Gremlin    25 13 13  7  8  4  2 18 Firebal   Heal      StopSpell
 ArcDemon   45 20 14 13 17 12  7 21 Bang      VacuSlash BoltSlash
 Lionex     45 21 15 11 14 15 12 19 Infernos  HealUs    VacuSlash
-GoatHorn   40 22 20 11 17 13 11 20 Bang      Infernos  Icebolt
+GoatHorn   40 22 20 11 17 13 11 20 Bang      Infernos  IceBolt
 Orc        50 17 19  7 19 13 13 18 Vivify    Sap       BirdBlow
 Ogre       40 19 15  8 20 12 10 12 MetalCut  PsycheUp  Massacre
 GateGuard  50 23 18 12 18 14 10 14 Blaze     CleanCut  ThickFog
@@ -384,7 +384,7 @@ Centasaur  45 23 20  1 24 21 18 19 StopSpell FireSlash RainSlash
 EvilArmor  40 22 16  1 17 29  5 13 FireSlash BoltSlash AquaCut
 Jamirus    60 21 24  9 21 24 23 18 Blaze     BiAttack  TailWind
 Durran     70 28 25 24 23 15 17 20 WindBeast DrakSlash BirdBlow
-Titanis    75 27 25 24 25 22 23 13 Bang      Beserker  UltraDown
+Titanis    75 27 25 24 25 22 23 13 Bang      Berserker  UltraDown
 LampGenie  60 21 10 12 11 22 15 10 Heal      Sleep     TailWind
 ----------------------------------------------------------------
 
@@ -399,11 +399,11 @@ PutrePup   35  6 17 13 17  8 11  4 Sap       Slow      MagicBack
 RotRaven   35  5 14  8 12 11 18  9 Lightning BoltSlash Kamikaze
 Mummy      50 10 15 17 12  9  4  8 CallHelp  Paralyze  EvilSlash
 DarkCrab   30  8 12  8 15 20  1 11 Ironize   MagicWall StepGuard
-DeadNite   45 13 17  7 19  9 12  8 Heal      Dechaos   CurseOff
-Shadow     50 12  9  6  6 20  8 12 FrigidAir K.O. Dance ThickFog
+DeadNite   45 13 17  7 19  9 12  8 Heal      DeChaos   CurseOff
+Shadow     50 12  9  6  6 20  8 12 FrigidAir K.O.Dance ThickFog
 Skulpent   45  9 17 19 23  9 12 10 Beat      PoisonHit Dodge
 Hork       40  8 17 13 16  8 11 10 PoisonGas EerieLite LushLicks
-Mudron     30 10  6 10 11 17  7 14 Beat      Mpass     Vivify
+Mudron     30 10  6 10 11 17  7 14 Beat      MPass     Vivify
 NiteWhip   35 12 17  4 10  3 15  9 WindBeast Lightning Informer
 WindMerge  35  9 16 19 19 12 13  6 Infernos  CurseOff  BirdBlow
 Reaper     40 10 19  3 21 17 19  6 DevilCut  Curse     EerieLite
@@ -414,8 +414,8 @@ DeadNoble  50 16 21  2 26 19 15 13 HealUs    AquaCut   TatsuCall
 WhiteKing  60 25 20 24 14 20 15 27 Infernos  Bolt      Chance
 BoneSlave  40 10 14 13 17 12  7  1 Bang      BoltSlash BiAttack
 Skeletor   55 12 16 11 18 12 16 19 Sap       BirdBlow  BiAttack
-Servant    70 20 23 21 25 18 15 20 Blaze     Icebolt   Focus
-Lazamanus  75 26 24 20 30 20 12 14 TakeMagic K.O. Dance LifeDance
+Servant    70 20 23 21 25 18 15 20 Blaze     IceBolt   Focus
+Lazamanus  75 26 24 20 30 20 12 14 TakeMagic K.O.Dance LifeDance
 Copycat    40  1 11 20  1  2 21  5 Transform OddDance  Imitate
 MadSpirit  50 13 14 12 15 12 16 10 SleepAir  Radiant   ThickFog
 PomPomBom  40  8  5 21 13 11 14 21 Beat      ThickFog  LifeDance
@@ -428,14 +428,14 @@ ix. Material Family
 Name       ML EP HP MP AT DF AG IN SkillA    SkillB    SkillC
 ----------------------------------------------------------------
 JewelBag   40 12 13 11  9 18 17 15 Firebal   StopSpell PanicAll
-EvilWand   50 14 14 15 17 12  9 13 Dechaos   FrigidAir MapMagic
+EvilWand   50 14 14 15 17 12  9 13 DeChaos   FrigidAir MapMagic
 MadCandle  35 10 12 10 14  6 17 12 Blaze     PsycheUp  Whistle
-CoilBird   35 10 16 13  5 14 14  7 Dechaos   NumbOff   SealAll
+CoilBird   35 10 16 13  5 14 14  7 DeChaos   NumbOff   SuckAll
 Facer      45 12  8 23 11 12  3 19 Infernos  Sacrifice LifeSong
 SpikyBoy   30  8  9 13 14 17  7 11 Sacrifice SlimeBlow HighJump
 MadMirror  45 14 15 11  8  6 11 19 MagicBack Transform Outside
 RogueNite  45 12 14  4 20 21 10 13 Heal      MetalCut  EvilSlash
-Puppetor   35  6 13  9  7  4  7 11 OddDance  CureDance Pheromone
+Puppetor   35  6 13  9  7  4  7 11 OddDance  LureDance Pheromone
 Goopi      40  8  8 13 11 14  7  4 CallHelp  LegSweep  Dodge
 Voodoll    35 11 14 17 12 12  8 14 Sap       Surround  PanicAll
 MetalDrak  45 15 18 13 20 23  9 10 FireAir   Massacre  SandStorm
@@ -448,12 +448,12 @@ Roboster2  45 22 23 13 24 26 22 12 BoltSlash MetalCut  GigaSlash
 EvilPot    40 11 18 19 15 18  9 19 Beat      Massacre  Outside
 Gismo      40  9 13 15 11 14 20 18 FireAir   FrigidAir SuckAir
 LavaMan    45 13 18 12 17 24  4  7 Blaze     FireAir   Cover
-IceMan     45 13 16  6 18 24  4  7 Icebolt   FrigidAir StrongD
+IceMan     45 13 16  6 18 24  4  7 IceBolt   FrigidAir StrongD
 Mimic      40 11 25 10 20 12  1 20 Blaze     Beat      EagleEye
 Exaucers   45 11 20 13 15  6  7  4 TakeMagic WindBeast PaniDance
 MudDoll    40  8 12  3 13 14  1 15 OddDance  Hustle    SideStep
 Golem      45 18 17  4 12 21  4  6 ChargeUp  PsycheUp  Meditate
-StoneMan   50 15 24 10 23 24  1 14 StrongD   Cover     SealAll
+StoneMan   50 15 24 10 23 24  1 14 StrongD   Cover     SuckAll
 BombCrag   50 14 15 11 17 20  0 13 Sacrifice Farewell  RockThrow
 GoldGolem  75 18 24 21 24 27 17 23 BigBang   Surge     TatsuCall
 DarkMate   70 24 24 21 12 25 21 10 Beat      HellBlast EerieLite
@@ -473,7 +473,7 @@ RayGigas   40 10 22  9 24 19  9  7 Firebal   MouthShut AquaWall
 Anemon     40  4  9 14 10 13  5  7 Firebal   Paralyze  PoisonGas
 Aquarella  45  6 11  8 17 14  6  4 Barrier   SquallHit Geyser
 Merman     35  9 16 17 14 18 20 19 Vivify    Sap       SleepAir
-Octokid    35 10  7 15  7 13 17 21 Heal      Mpass     CureDance
+Octokid    35 10  7 15  7 13 17 21 Heal      MPass     LureDance
 PutreFish  35  4  5  4  8  3 14  7 PanicAll  Watershot Ramming
 Octoreach  40 14 23 21 24 20  8 14 OddDance  PaniDance Geyser
 Angleron   45 12 17 16 23 20  9 19 Bolt      Surround  SleepAir
@@ -485,14 +485,14 @@ CancerMan  45 15 23 13 24 21 14  9 BoltSlash BeastCut  RainSlash
 RogueWave  40  9 11  7 18  9 24 19 Watershot PoisonGas AquaWall
 Scallopa   35 10 17 19  9 23  7 19 Upper     MagicWall Radiant
 SeaHorse   40 12 21  9 17 14 15  8 FrigidAir Geyser    BladeD
-HoodSquid  45 17 11 21 16 10 14 19 CallHelp  BiAttack  CureDance
-MerTiger   50 16 23  5 26 24 10 13 Icebolt   Sleep     WarCry
+HoodSquid  45 17 11 21 16 10 14 19 CallHelp  BiAttack  LureDance
+MerTiger   50 16 23  5 26 24 10 13 IceBolt   Sleep     WarCry
 AxeShark   50 25 25 20 28 21 14 13 Sap       RainSlash Cover
-Octogon    45 19 24  9 25 18  9 20 Mpass     BiAttack  Hustle
+Octogon    45 19 24  9 25 18  9 20 MPass     BiAttack  Hustle
 KingSquid  55 24 25 14 26 23 12 21 Vivify    RainSlash PsycheUp
 Digong     55 21 18 23 25 11 10 10 FireAir   Ramming   PoisonGas
 WhaleMage  45 30 29 21 23 18  3 10 Antidote  Watershot Geyser
-Aquadon    50 24 24 20 26 10 17  9 RobMagic  WindBeast Beserker
+Aquadon    50 24 24 20 26 10 17  9 RobMagic  WindBeast Berserker
 Octoraid   50 26 18  9 27 21 21 13 DrakSlash SquallHit GigaSlash
 Grakos     55 21 23 18 25 18 16 10 TwinHits  HighJump  SandStorm
 Poseidon   65 30 28 22 23 24 13  9 Bolt      Focus     Dodge
@@ -540,7 +540,7 @@ resistance to that group of spells. The groups are as follows:
  B: Firebal, Firebane, Firebolt
  C: Bang, Boom, Explodet
  D: WindBeast, Vacuum, Infernos, Infermore, Infermost, MultiCut, VacuSlash
- E: Lightning, Bolt, Zap, Thordain, Hellblast, BoltSlash
+ E: Lightning, Bolt, Zap, Thordain, HellBlast, BoltSlash
  F: IceBolt, SnowStorm, Blizzard, IceSlash
  G: Radiant, Surround, SandStorm
  H: Sleep, NapAttack, SleepAir, SleepAll
