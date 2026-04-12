@@ -1024,7 +1024,16 @@
 					"Dodge"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
 			},
 			"Tortragon": {
 				"name": "Tortragon",
@@ -1047,7 +1056,16 @@
 					"Lightning"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
 			},
 			"Pteranod": {
 				"name": "Pteranod",
@@ -1070,7 +1088,16 @@
 					"TailWind"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
 			},
 			"Gasgon": {
 				"name": "Gasgon",
@@ -1093,7 +1120,16 @@
 					"Berserker"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
 			},
 			"FairyDrak": {
 				"name": "FairyDrak",
@@ -1116,7 +1152,16 @@
 					"LushLicks"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"BUGFM"
+						]
+					}
+				]
 			},
 			"LizardMan": {
 				"name": "LizardMan",
@@ -1139,7 +1184,16 @@
 					"EvilSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
 			},
 			"Poisongon": {
 				"name": "Poisongon",
@@ -1162,7 +1216,16 @@
 					"LushLicks"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
 			},
 			"Swordgon": {
 				"name": "Swordgon",
@@ -1185,7 +1248,16 @@
 					"BladeD"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
 			},
 			"Drygon": {
 				"name": "Drygon",
@@ -1208,7 +1280,16 @@
 					"WarCry"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"WATERFM"
+						]
+					}
+				]
 			},
 			"Dragon": {
 				"name": "Dragon",
@@ -1231,7 +1312,16 @@
 					"SuckAll"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DragonKid"
+						],
+						"mate": [
+							"DragonKid"
+						]
+					}
+				]
 			},
 			"MiniDrak": {
 				"name": "MiniDrak",
@@ -1254,7 +1344,16 @@
 					"SandStorm"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"Picky"
+						]
+					}
+				]
 			},
 			"MadDragon": {
 				"name": "MadDragon",
@@ -1277,7 +1376,24 @@
 					"LureDance"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"GulpBeast"
+						]
+					},
+					{
+						"base": [
+							"Gasgon"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
 			},
 			"Rayburn": {
 				"name": "Rayburn",
@@ -1300,7 +1416,31 @@
 					"PoisonHit"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"MadCondor"
+						]
+					},
+					{
+						"base": [
+							"LizardMan"
+						],
+						"mate": [
+							"FaceTree",
+							"GateGuard",
+							"Gigantes",
+							"GoatHorn",
+							"Lionex",
+							"MadCat",
+							"Trumpeter",
+							"WingSlime"
+						]
+					}
+				]
 			},
 			"Chamelgon": {
 				"name": "Chamelgon",
@@ -1323,7 +1463,16 @@
 					"PalsyAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"Voodoll"
+						]
+					}
+				]
 			},
 			"LizardFly": {
 				"name": "LizardFly",
@@ -1346,7 +1495,16 @@
 					"FireAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"GoHopper"
+						]
+					}
+				]
 			},
 			"Andreal": {
 				"name": "Andreal",
@@ -1369,7 +1527,37 @@
 					"PoisonGas"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"Gulpple"
+						]
+					},
+					{
+						"base": [
+							"BattleRex",
+							"Gasgon",
+							"MadDragon",
+							"SkyDragon"
+						],
+						"mate": [
+							"Akubar",
+							"ArcDemon",
+							"DeadNoble",
+							"FunkyBird",
+							"GoatHorn",
+							"Goategon",
+							"Golem",
+							"Lionex",
+							"MadCondor",
+							"Ogre",
+							"Trumpeter"
+						]
+					}
+				]
 			},
 			"KingCobra": {
 				"name": "KingCobra",
@@ -1392,7 +1580,16 @@
 					"K.O.Dance"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"Babble"
+						]
+					}
+				]
 			},
 			"Vampirus": {
 				"name": "Vampirus",
@@ -1415,7 +1612,24 @@
 					"BiAttack"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"MadGoose"
+						]
+					},
+					{
+						"base": [
+							"Pteranod"
+						],
+						"mate": [
+							"Pteranod"
+						]
+					}
+				]
 			},
 			"SnakeBat": {
 				"name": "SnakeBat",
@@ -1438,7 +1652,24 @@
 					"Errand"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"CatFly"
+						]
+					},
+					{
+						"base": [
+							"KingCobra"
+						],
+						"mate": [
+							"Dracky"
+						]
+					}
+				]
 			},
 			"Spikerous": {
 				"name": "Spikerous",
@@ -1461,7 +1692,17 @@
 					"Kamikaze"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"ArmyCrab",
+							"Digster"
+						]
+					}
+				]
 			},
 			"GreatDrak": {
 				"name": "GreatDrak",
@@ -1484,7 +1725,40 @@
 					"SuckAll"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"BattleRex",
+							"Gigantes",
+							"MetalKing",
+							"Unicorn",
+							"ZapBird",
+							"Centasaur",
+							"KingSlime",
+							"SpotKing",
+							"WhipBird"
+						]
+					},
+					{
+						"base": [
+							"Dragon"
+						],
+						"mate": [
+							"Dragon†5"
+						]
+					},
+					{
+						"base": [
+							"DragonKid"
+						],
+						"mate": [
+							"DragonKid†5"
+						]
+					}
+				]
 			},
 			"Crestpent": {
 				"name": "Crestpent",
@@ -1507,7 +1781,16 @@
 					"PoisonHit"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"BigRoost"
+						]
+					}
+				]
 			},
 			"WingSnake": {
 				"name": "WingSnake",
@@ -1530,7 +1813,16 @@
 					"PoisonGas"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Crestpent"
+						],
+						"mate": [
+							"Crestpent"
+						]
+					}
+				]
 			},
 			"Coatol": {
 				"name": "Coatol",
@@ -1553,7 +1845,33 @@
 					"EvilSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"WingSnake"
+						],
+						"mate": [
+							"WingSnake"
+						]
+					},
+					{
+						"base": [
+							"BattleRex",
+							"Gasgon",
+							"LizardMan",
+							"Pteranod",
+							"SkyDragon",
+							"Vampirus"
+						],
+						"mate": [
+							"Copycat",
+							"DarkHorn",
+							"MadKnight",
+							"StoneMan",
+							"WhipBird"
+						]
+					}
+				]
 			},
 			"Orochi": {
 				"name": "Orochi",
@@ -1576,7 +1894,25 @@
 					"BiAttack"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					},
+					{
+						"base": [
+							"Andreal",
+							"GreatDrak"
+						],
+						"mate": [
+							"MedusaEye"
+						]
+					}
+				]
 			},
 			"BattleRex": {
 				"name": "BattleRex",
@@ -1599,7 +1935,20 @@
 					"EvilSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"KingLeo",
+							"MadKnight",
+							"EvilArmor",
+							"Lionex",
+							"Ogre"
+						]
+					}
+				]
 			},
 			"SkyDragon": {
 				"name": "SkyDragon",
@@ -1622,7 +1971,16 @@
 					"SuckAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"Phoenix"
+						]
+					}
+				]
 			},
 			"Serpentia": {
 				"name": "Serpentia",
@@ -1645,7 +2003,18 @@
 					"RainSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"GreatDrak"
+						],
+						"mate": [
+							"Lionex",
+							"Skeletor",
+							"Octoraid"
+						]
+					}
+				]
 			},
 			"Divinegon": {
 				"name": "Divinegon",
@@ -1668,7 +2037,17 @@
 					"Meditate"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SkyDragon"
+						],
+						"mate": [
+							"Orochi",
+							"Serpentia"
+						]
+					}
+				]
 			},
 			"Orligon": {
 				"name": "Orligon",
@@ -1691,7 +2070,17 @@
 					"StrongD"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Divinegon"
+						],
+						"mate": [
+							"GigaDraco",
+							"GoldGolem"
+						]
+					}
+				]
 			},
 			"GigaDraco": {
 				"name": "GigaDraco",
@@ -1714,7 +2103,20 @@
 					"Massacre"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Andreal",
+							"BattleRex",
+							"GreatDrak",
+							"SkyDragon"
+						],
+						"mate": [
+							"BossTroll",
+							"Gigantes"
+						]
+					}
+				]
 			}
 		},
 		"BEAST FAMILY": {

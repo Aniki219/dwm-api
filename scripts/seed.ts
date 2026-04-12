@@ -1,10 +1,7 @@
-import Database from 'better-sqlite3';
-import path from 'path';
+import db from '@/lib/db'
 import { promises as fs } from 'fs';
 import { Monster, MonsterData, MOVE_REQS, MoveRequirements, ResistanceData, STAT_NAMES } from '@/types/types';
 
-const verbose = false;
-const db = new Database(path.join(process.cwd(), 'dwm.db'), {verbose: verbose ? console.log : () => {}});
 const tables = [
     "monster_moves",
     "monster_stats",
@@ -50,7 +47,7 @@ async function seed() {
             mate_name TEXT REFERENCES monsters(name),
             result_name TEXT REFERENCES monsters(name),
             plus_five BOOLEAN DEFAULT false,
-            PRIMARY KEY (base_name, mate_name)
+            PRIMARY KEY (base_name, mate_name, plus_five)
         );
 
         CREATE TABLE IF NOT EXISTS monster_moves (
