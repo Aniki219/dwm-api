@@ -22,7 +22,16 @@
 					"SuckAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
 			},
 			"SpotSlime": {
 				"name": "SpotSlime",
@@ -45,7 +54,16 @@
 					"Imitate"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
 			},
 			"WingSlime": {
 				"name": "WingSlime",
@@ -68,7 +86,16 @@
 					"TailWind"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
 			},
 			"TreeSlime": {
 				"name": "TreeSlime",
@@ -91,7 +118,16 @@
 					"SleepAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
 			},
 			"Snaily": {
 				"name": "Snaily",
@@ -114,7 +150,16 @@
 					"CallHelp"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"BUGFM"
+						]
+					}
+				]
 			},
 			"SlimeNite": {
 				"name": "SlimeNite",
@@ -137,7 +182,16 @@
 					"BeastCut"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
 			},
 			"Babble": {
 				"name": "Babble",
@@ -160,7 +214,18 @@
 					"EerieLite"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"ZOMBIEFM",
+							"GiantMoth",
+							"Poisongon"
+						]
+					}
+				]
 			},
 			"BoxSlime": {
 				"name": "BoxSlime",
@@ -183,7 +248,16 @@
 					"Ramming"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
 			},
 			"PearlGel": {
 				"name": "PearlGel",
@@ -206,7 +280,16 @@
 					"Radiant"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"WATERFM"
+						]
+					}
+				]
 			},
 			"Slime": {
 				"name": "Slime",
@@ -229,7 +312,12 @@
 					"Radiant"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [],
+						"mate": []
+					}
+				]
 			},
 			"Healer": {
 				"name": "Healer",
@@ -252,7 +340,19 @@
 					"Upper"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"Copycat",
+							"MadPlant",
+							"FunkyBird",
+							"PillowRat"
+						]
+					}
+				]
 			},
 			"FangSlime": {
 				"name": "FangSlime",
@@ -275,7 +375,21 @@
 					"WarCry"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"Almiraj",
+							"DarkHorn",
+							"GulpBeast",
+							"KingLeo",
+							"MadCat",
+							"Trumpeter"
+						]
+					}
+				]
 			},
 			"RockSlime": {
 				"name": "RockSlime",
@@ -298,7 +412,19 @@
 					"StrongD"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"BombCrag",
+							"Golem",
+							"DeadNite",
+							"StoneMan"
+						]
+					}
+				]
 			},
 			"SlimeBorg": {
 				"name": "SlimeBorg",
@@ -321,7 +447,49 @@
 					"BladeD"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"Roboster"
+						]
+					},
+					{
+						"base": [
+							"DrakSlime"
+						],
+						"mate": [
+							"Swordgon"
+						]
+					},
+					{
+						"base": [
+							"Metabble"
+						],
+						"mate": [
+							"BattleRex",
+							"SkyDragon"
+						]
+					},
+					{
+						"base": [
+							"RockSlime"
+						],
+						"mate": [
+							"GreatDrak"
+						]
+					},
+					{
+						"base": [
+							"SlimeNite"
+						],
+						"mate": [
+							"Spikerous"
+						]
+					}
+				]
 			},
 			"Slabbit": {
 				"name": "Slabbit",
@@ -344,7 +512,16 @@
 					"Whistle"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"Skullroo"
+						]
+					}
+				]
 			},
 			"KingSlime": {
 				"name": "KingSlime",
@@ -367,7 +544,44 @@
 					"Vivify"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Slime"
+						],
+						"mate": [
+							"Slime†5"
+						]
+					},
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					},
+					{
+						"base": [
+							"SpotKing"
+						],
+						"mate": [
+							"BattleRex",
+							"BossTroll",
+							"Centasaur",
+							"DeadNoble",
+							"Divinegon",
+							"Gigantes",
+							"GreatDrak",
+							"KingLeo",
+							"MadCondor",
+							"Unicorn",
+							"WhipBird",
+							"WhiteKing",
+							"ZapBird"
+						]
+					}
+				]
 			},
 			"Metaly": {
 				"name": "Metaly",
@@ -390,7 +604,16 @@
 					"Beat"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SLIMEFM"
+						],
+						"mate": [
+							"MetalDrak"
+						]
+					}
+				]
 			},
 			"Metabble": {
 				"name": "Metabble",
@@ -413,7 +636,17 @@
 					"Sacrifice"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Metaly"
+						],
+						"mate": [
+							"Metaly",
+							"WonderEgg"
+						]
+					}
+				]
 			},
 			"SpotKing": {
 				"name": "SpotKing",
@@ -436,7 +669,37 @@
 					"MouthShut"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"KingSlime",
+							"MetalKing"
+						],
+						"mate": [
+							"BattleRex",
+							"BossTroll",
+							"Centasaur",
+							"DeadNoble",
+							"Divinegon",
+							"Gigantes",
+							"GreatDrak",
+							"KingLeo",
+							"MadCondor",
+							"Unicorn",
+							"WhipBird",
+							"WhiteKing",
+							"ZapBird"
+						]
+					},
+					{
+						"base": [
+							"SpotSlime"
+						],
+						"mate": [
+							"SpotSlime†5"
+						]
+					}
+				]
 			},
 			"TropicGel": {
 				"name": "TropicGel",
@@ -459,7 +722,33 @@
 					"LushLicks"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Slime"
+						],
+						"mate": [
+							"Mommonja",
+							"PillowRat"
+						]
+					},
+					{
+						"base": [
+							"TreeSlime"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					},
+					{
+						"base": [
+							"WonderEgg"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
 			},
 			"MimeSlime": {
 				"name": "MimeSlime",
@@ -482,7 +771,26 @@
 					"LoveRain"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Healer"
+						],
+						"mate": [
+							"1EyeClown",
+							"TreeBoy",
+							"EvilWand"
+						]
+					},
+					{
+						"base": [
+							"WonderEgg"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
 			},
 			"HaloSlime": {
 				"name": "HaloSlime",
@@ -505,7 +813,34 @@
 					"LifeSong"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MimeSlime"
+						],
+						"mate": [
+							"ZOMBIEFM",
+							"Pixy",
+							"StubBird"
+						]
+					},
+					{
+						"base": [
+							"Slime"
+						],
+						"mate": [
+							"Copycat"
+						]
+					},
+					{
+						"base": [
+							"WonderEgg"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
 			},
 			"MetalKing": {
 				"name": "MetalKing",
@@ -528,7 +863,26 @@
 					"HellBlast"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"KingSlime",
+							"SpotKing"
+						],
+						"mate": [
+							"MetalDrak"
+						]
+					},
+					{
+						"base": [
+							"Metabble",
+							"WonderEgg"
+						],
+						"mate": [
+							"Metabble"
+						]
+					}
+				]
 			},
 			"GoldSlime": {
 				"name": "GoldSlime",
@@ -551,7 +905,27 @@
 					"Surge"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"KingSlime",
+							"SpotKing",
+							"MetalKing"
+						],
+						"mate": [
+							"GoldGolem"
+						]
+					},
+					{
+						"base": [
+							"MetalKing",
+							"WonderEgg"
+						],
+						"mate": [
+							"MetalKing"
+						]
+					}
+				]
 			},
 			"GranSlime": {
 				"name": "GranSlime",
@@ -574,7 +948,26 @@
 					"Informer"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"GoldSlime"
+						],
+						"mate": [
+							"DarkMate",
+							"GoldSlime",
+							"DeathMore"
+						]
+					},
+					{
+						"base": [
+							"WonderEgg"
+						],
+						"mate": [
+							"GoldSlime"
+						]
+					}
+				]
 			},
 			"WonderEgg": {
 				"name": "WonderEgg",
@@ -597,7 +990,16 @@
 					"Chance"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Slime"
+						],
+						"mate": [
+							"BigRoost"
+						]
+					}
+				]
 			}
 		},
 		"DRAGON FAMILY": {
@@ -1337,7 +1739,16 @@
 					"LushLicks"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
 			},
 			"Almiraj": {
 				"name": "Almiraj",
@@ -1360,7 +1771,16 @@
 					"Berserker"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
 			},
 			"CatFly": {
 				"name": "CatFly",
@@ -1383,7 +1803,16 @@
 					"OddDance"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
 			},
 			"PillowRat": {
 				"name": "PillowRat",
@@ -1406,7 +1835,16 @@
 					"SideStep"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
 			},
 			"Saccer": {
 				"name": "Saccer",
@@ -1429,7 +1867,16 @@
 					"PalsyAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"BUGFM"
+						]
+					}
+				]
 			},
 			"GulpBeast": {
 				"name": "GulpBeast",
@@ -1452,7 +1899,62 @@
 					"WarCry"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Tonguella"
+						],
+						"mate": [
+							"Digster",
+							"Skullgon",
+							"DeadNoble",
+							"WhiteKing",
+							"Skeletor"
+						]
+					},
+					{
+						"base": [
+							"WildApe",
+							"Grizzly",
+							"Yeti",
+							"Unicorn",
+							"Dumbira",
+							"Goategon"
+						],
+						"mate": [
+							"Digster",
+							"Skullgon",
+							"DeadNoble",
+							"WhiteKing",
+							"Skeletor",
+							"MetalDrak",
+							"Roboster",
+							"LavaMan",
+							"IceMan",
+							"Golem",
+							"StoneMan"
+						]
+					},
+					{
+						"base": [
+							"Grizzly",
+							"Yeti",
+							"Trumpeter",
+							"BigEye"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					},
+					{
+						"base": [
+							"Grizzly"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
 			},
 			"Skullroo": {
 				"name": "Skullroo",
@@ -1475,7 +1977,16 @@
 					"EagleEye"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
 			},
 			"WindBeast": {
 				"name": "WindBeast",
@@ -1498,7 +2009,24 @@
 					"VacuSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"CatFly"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					},
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
 			},
 			"Beavern": {
 				"name": "Beavern",
@@ -1521,7 +2049,16 @@
 					"Geyser"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"WATERFM"
+						]
+					}
+				]
 			},
 			"Antbear": {
 				"name": "Antbear",
@@ -1544,7 +2081,16 @@
 					"LushLicks"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Saccer"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
 			},
 			"SuperTen": {
 				"name": "SuperTen",
@@ -1567,7 +2113,44 @@
 					"Imitate"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Tonguella",
+							"GulpBeast"
+						],
+						"mate": [
+							"TreeSlime",
+							"FangSlime",
+							"MadDragon",
+							"FunkyBird",
+							"MadPlant",
+							"FaceTree",
+							"Lipsy",
+							"Demonite",
+							"Gremlin",
+							"Copycat",
+							"JewelBag",
+							"Mimic"
+						]
+					},
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"Mudron"
+						]
+					},
+					{
+						"base": [
+							"Dumbira"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
 			},
 			"IronTurt": {
 				"name": "IronTurt",
@@ -1590,7 +2173,16 @@
 					"Cover"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"Tortragon"
+						]
+					}
+				]
 			},
 			"Mommonja": {
 				"name": "Mommonja",
@@ -1613,7 +2205,16 @@
 					"EagleEye"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"DuckKite"
+						]
+					}
+				]
 			},
 			"HammerMan": {
 				"name": "HammerMan",
@@ -1636,7 +2237,16 @@
 					"Kamikaze"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"Stubsuck"
+						]
+					}
+				]
 			},
 			"Grizzly": {
 				"name": "Grizzly",
@@ -1659,7 +2269,22 @@
 					"LegSweep"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"DEVILFM",
+							"MetalDrak",
+							"Roboster",
+							"LavaMan",
+							"IceMan",
+							"Golem",
+							"StoneMan"
+						]
+					}
+				]
 			},
 			"Yeti": {
 				"name": "Yeti",
@@ -1682,7 +2307,32 @@
 					"WarCry"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"IronTurt",
+							"Goategon",
+							"WildApe",
+							"MadCat"
+						],
+						"mate": [
+							"Pteranod",
+							"Gasgon",
+							"Swordgon",
+							"MadDragon",
+							"BattleRex",
+							"SkyDragon"
+						]
+					},
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"Orc"
+						]
+					}
+				]
 			},
 			"ArrowDog": {
 				"name": "ArrowDog",
@@ -1705,7 +2355,16 @@
 					"MouthShut"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"PutrePup"
+						]
+					}
+				]
 			},
 			"NoctoKing": {
 				"name": "NoctoKing",
@@ -1728,7 +2387,17 @@
 					"ThickFog"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"ArrowDog"
+						],
+						"mate": [
+							"Dracky",
+							"Shadow"
+						]
+					}
+				]
 			},
 			"BeastNite": {
 				"name": "BeastNite",
@@ -1751,7 +2420,32 @@
 					"GigaSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"EvilArmor"
+						]
+					},
+					{
+						"base": [
+							"CatMage"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					},
+					{
+						"base": [
+							"MadGopher"
+						],
+						"mate": [
+							"Dumbira"
+						]
+					}
+				]
 			},
 			"MadGopher": {
 				"name": "MadGopher",
@@ -1774,7 +2468,16 @@
 					"Informer"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"SabreMan"
+						]
+					}
+				]
 			},
 			"FairyRat": {
 				"name": "FairyRat",
@@ -1797,7 +2500,16 @@
 					"SlimeBlow"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"LizardFly"
+						]
+					}
+				]
 			},
 			"Unicorn": {
 				"name": "Unicorn",
@@ -1820,7 +2532,30 @@
 					"Errand"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Tonguella",
+							"GulpBeast",
+							"Grizzly",
+							"Yeti",
+							"Goategon",
+							"WildApe",
+							"Trumpeter"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					},
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"FangSlime"
+						]
+					}
+				]
 			},
 			"Goategon": {
 				"name": "Goategon",
@@ -1843,7 +2578,17 @@
 					"SleepAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"DrakSlime",
+							"LizardMan"
+						]
+					}
+				]
 			},
 			"WildApe": {
 				"name": "WildApe",
@@ -1866,7 +2611,24 @@
 					"Errand"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Almiraj"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					},
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"MadPecker"
+						]
+					}
+				]
 			},
 			"Trumpeter": {
 				"name": "Trumpeter",
@@ -1889,7 +2651,52 @@
 					"WarCry"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Tonguella",
+							"GulpBeast",
+							"Grizzly",
+							"Yeti"
+						],
+						"mate": [
+							"LandOwl",
+							"MadCondor",
+							"ZapBird",
+							"WhipBird"
+						]
+					},
+					{
+						"base": [
+							"GulpBeast"
+						],
+						"mate": [
+							"MetalDrak",
+							"Balzak",
+							"LavaMan",
+							"IceMan",
+							"Golem",
+							"StoneMan",
+							"Roboster"
+						]
+					},
+					{
+						"base": [
+							"WildApe"
+						],
+						"mate": [
+							"WildApe"
+						]
+					},
+					{
+						"base": [
+							"SuperTen"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
 			},
 			"KingLeo": {
 				"name": "KingLeo",
@@ -1912,7 +2719,20 @@
 					"BiAttack"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Trumpeter"
+						],
+						"mate": [
+							"Trumpeter",
+							"MetalDrak",
+							"Balzak",
+							"GoldGolem",
+							"BossTroll"
+						]
+					}
+				]
 			},
 			"DarkHorn": {
 				"name": "DarkHorn",
@@ -1935,7 +2755,16 @@
 					"PsycheUp"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					}
+				]
 			},
 			"MadCat": {
 				"name": "MadCat",
@@ -1958,7 +2787,25 @@
 					"LegSweep"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"Dragon"
+						]
+					},
+					{
+						"base": [
+							"CatMage"
+						],
+						"mate": [
+							"Goategon",
+							"Unicorn"
+						]
+					}
+				]
 			},
 			"BigEye": {
 				"name": "BigEye",
@@ -1981,7 +2828,17 @@
 					"LoveRain"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BEASTFM"
+						],
+						"mate": [
+							"EyeBall",
+							"Drygon"
+						]
+					}
+				]
 			},
 			"Gorago": {
 				"name": "Gorago",
@@ -2004,7 +2861,17 @@
 					"EerieLite"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DarkHorn"
+						],
+						"mate": [
+							"BOSSFM",
+							"Orochi"
+						]
+					}
+				]
 			},
 			"CatMage": {
 				"name": "CatMage",
@@ -2027,7 +2894,22 @@
 					"Transform"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"CatFly"
+						],
+						"mate": [
+							"MimeSlime",
+							"CatMage",
+							"TreeBoy",
+							"Sickler",
+							"1EyeClown",
+							"Reaper",
+							"EvilWand"
+						]
+					}
+				]
 			},
 			"Dumbira": {
 				"name": "Dumbira",
@@ -2050,7 +2932,30 @@
 					"TwinSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"NoctoKing"
+						],
+						"mate": [
+							"Gigantes"
+						]
+					},
+					{
+						"base": [
+							"SuperTen"
+						],
+						"mate": [
+							"BeastNite",
+							"LizardMan",
+							"Orc",
+							"WalrusMan",
+							"Bubblemon",
+							"MerTiger",
+							"SabreMan"
+						]
+					}
+				]
 			}
 		},
 		"BIRD FAMILY": {
@@ -2075,7 +2980,16 @@
 					"BugBlow"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
 			},
 			"Wyvern": {
 				"name": "Wyvern",
@@ -2098,7 +3012,16 @@
 					"FrigidAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
 			},
 			"BullBird": {
 				"name": "BullBird",
@@ -2121,7 +3044,16 @@
 					"Ramming"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
 			},
 			"Florajay": {
 				"name": "Florajay",
@@ -2144,7 +3076,16 @@
 					"LifeSong"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
 			},
 			"DuckKite": {
 				"name": "DuckKite",
@@ -2167,7 +3108,16 @@
 					"Curse"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"BUGFM"
+						]
+					}
+				]
 			},
 			"MadPecker": {
 				"name": "MadPecker",
@@ -2190,7 +3140,16 @@
 					"VacuSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
 			},
 			"MadRaven": {
 				"name": "MadRaven",
@@ -2213,7 +3172,16 @@
 					"EagleEye"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
 			},
 			"MistyWing": {
 				"name": "MistyWing",
@@ -2236,7 +3204,16 @@
 					"Informer"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
 			},
 			"AquaHawk": {
 				"name": "AquaHawk",
@@ -2259,7 +3236,16 @@
 					"AquaWall"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"WATERFM"
+						]
+					}
+				]
 			},
 			"Dracky": {
 				"name": "Dracky",
@@ -2282,7 +3268,16 @@
 					"RobMagic"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Picky"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
 			},
 			"KiteHawk": {
 				"name": "KiteHawk",
@@ -2305,7 +3300,24 @@
 					"TailWind"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"Facer"
+						]
+					},
+					{
+						"base": [
+							"DuckKite"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
 			},
 			"BigRoost": {
 				"name": "BigRoost",
@@ -2328,7 +3340,12 @@
 					"Dodge"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [],
+						"mate": []
+					}
+				]
 			},
 			"StubBird": {
 				"name": "StubBird",
@@ -2351,7 +3368,16 @@
 					"RainSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"RockSlime"
+						]
+					}
+				]
 			},
 			"LandOwl": {
 				"name": "LandOwl",
@@ -2374,7 +3400,24 @@
 					"SideStep"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BullBird"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					},
+					{
+						"base": [
+							"Garudian"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
 			},
 			"MadGoose": {
 				"name": "MadGoose",
@@ -2397,7 +3440,37 @@
 					"LureDance"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Wyvern",
+							"LandOwl",
+							"MadCondor",
+							"Phoenix"
+						],
+						"mate": [
+							"DRAGONFM",
+							"ZOMBIEFM"
+						]
+					},
+					{
+						"base": [
+							"CragDevil"
+						],
+						"mate": [
+							"DuckKite",
+							"MadRaven"
+						]
+					},
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"Droll"
+						]
+					}
+				]
 			},
 			"MadCondor": {
 				"name": "MadCondor",
@@ -2420,7 +3493,32 @@
 					"MultiCut"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"LandOwl"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					},
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"CoilBird"
+						]
+					},
+					{
+						"base": [
+							"KiteHawk"
+						],
+						"mate": [
+							"BigRoost"
+						]
+					}
+				]
 			},
 			"Emyu": {
 				"name": "Emyu",
@@ -2443,7 +3541,33 @@
 					"Errand"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"KiteHawk"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					},
+					{
+						"base": [
+							"MadCondor"
+						],
+						"mate": [
+							"MadPecker"
+						]
+					},
+					{
+						"base": [
+							"MadPecker"
+						],
+						"mate": [
+							"BigEye",
+							"DarkEye"
+						]
+					}
+				]
 			},
 			"Blizzardy": {
 				"name": "Blizzardy",
@@ -2466,7 +3590,27 @@
 					"IceSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"Metaly",
+							"Metabble",
+							"SuperTen",
+							"Yeti",
+							"Goategon",
+							"Trumpeter",
+							"Skullgon",
+							"DeadNoble",
+							"WhiteKing",
+							"Skeletor",
+							"Servant",
+							"IceMan"
+						]
+					}
+				]
 			},
 			"Phoenix": {
 				"name": "Phoenix",
@@ -2489,7 +3633,23 @@
 					"TailWind"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"DrakSlime",
+							"GulpBeast",
+							"IronTurt",
+							"Grizzly",
+							"ArcDemon",
+							"Copycat",
+							"Gismo",
+							"LavaMan"
+						]
+					}
+				]
 			},
 			"ZapBird": {
 				"name": "ZapBird",
@@ -2512,7 +3672,26 @@
 					"BoltSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MadCondor",
+							"Phoenix",
+							"WhipBird"
+						],
+						"mate": [
+							"Gismo"
+						]
+					},
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					}
+				]
 			},
 			"Garudian": {
 				"name": "Garudian",
@@ -2535,7 +3714,26 @@
 					"AquaCut"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Blizzardy",
+							"Phoenix",
+							"ZapBird"
+						],
+						"mate": [
+							"Lionex"
+						]
+					},
+					{
+						"base": [
+							"FunkyBird"
+						],
+						"mate": [
+							"Jamirus"
+						]
+					}
+				]
 			},
 			"WhipBird": {
 				"name": "WhipBird",
@@ -2558,7 +3756,35 @@
 					"TatsuCall"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"LandOwl",
+							"MadGoose",
+							"MadCondor",
+							"Blizzardy",
+							"ZapBird"
+						],
+						"mate": [
+							"RockSlime",
+							"SlimeBorg",
+							"Digster",
+							"MetalDrak",
+							"Golem",
+							"StoneMan",
+							"Merman"
+						]
+					},
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"Rayburn",
+							"SnakeBat"
+						]
+					}
+				]
 			},
 			"FunkyBird": {
 				"name": "FunkyBird",
@@ -2581,7 +3807,27 @@
 					"Hustle"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BIRDFM"
+						],
+						"mate": [
+							"DanceVegi",
+							"TropicGel",
+							"Brushead",
+							"Pyuro"
+						]
+					},
+					{
+						"base": [
+							"CragDevil"
+						],
+						"mate": [
+							"CragDevil"
+						]
+					}
+				]
 			},
 			"RainHawk": {
 				"name": "RainHawk",
@@ -2604,7 +3850,17 @@
 					"StrongD"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Blizzardy"
+						],
+						"mate": [
+							"Phoenix",
+							"Vampirus"
+						]
+					}
+				]
 			},
 			"Azurile": {
 				"name": "Azurile",
@@ -2627,7 +3883,24 @@
 					"LifeSong"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"RainHawk"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					},
+					{
+						"base": [
+							"Shantak"
+						],
+						"mate": [
+							"GoldGolem"
+						]
+					}
+				]
 			},
 			"Shantak": {
 				"name": "Shantak",
@@ -2650,7 +3923,17 @@
 					"SuckAll"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"WhipBird"
+						],
+						"mate": [
+							"GreatDrak",
+							"Jamirus"
+						]
+					}
+				]
 			},
 			"CragDevil": {
 				"name": "CragDevil",
@@ -2673,7 +3956,18 @@
 					"EagleEye"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BigRoost",
+							"Emyu",
+							"MadGoose"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
 			}
 		},
 		"PLANT FAMILY": {
@@ -2698,7 +3992,16 @@
 					"Slow"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
 			},
 			"FireWeed": {
 				"name": "FireWeed",
@@ -2721,7 +4024,16 @@
 					"PalsyAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
 			},
 			"FloraMan": {
 				"name": "FloraMan",
@@ -2744,7 +4056,16 @@
 					"CurseOff"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
 			},
 			"WingTree": {
 				"name": "WingTree",
@@ -2767,7 +4088,16 @@
 					"StepGuard"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
 			},
 			"CactiBall": {
 				"name": "CactiBall",
@@ -2790,7 +4120,16 @@
 					"OddDance"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"BUGFM"
+						]
+					}
+				]
 			},
 			"Gulpple": {
 				"name": "Gulpple",
@@ -2813,7 +4152,16 @@
 					"SleepAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
 			},
 			"Toadstool": {
 				"name": "Toadstool",
@@ -2836,7 +4184,16 @@
 					"MouthShut"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
 			},
 			"AmberWeed": {
 				"name": "AmberWeed",
@@ -2859,7 +4216,16 @@
 					"MagicWall"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
 			},
 			"Slurperon": {
 				"name": "Slurperon",
@@ -2882,7 +4248,16 @@
 					"LushLicks"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"WATERFM"
+						]
+					}
+				]
 			},
 			"Stubsuck": {
 				"name": "Stubsuck",
@@ -2905,7 +4280,24 @@
 					"StepGuard"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"AmberWeed"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					},
+					{
+						"base": [
+							"GhosTree"
+						],
+						"mate": [
+							"GhosTree"
+						]
+					}
+				]
 			},
 			"Oniono": {
 				"name": "Oniono",
@@ -2928,7 +4320,16 @@
 					"SleepAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"Gophecada"
+						]
+					}
+				]
 			},
 			"DanceVegi": {
 				"name": "DanceVegi",
@@ -2951,7 +4352,24 @@
 					"SideStep"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MadPlant"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					},
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"Facer"
+						]
+					}
+				]
 			},
 			"TreeBoy": {
 				"name": "TreeBoy",
@@ -2974,7 +4392,24 @@
 					"Hustle"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"Pixy"
+						]
+					},
+					{
+						"base": [
+							"FooHero"
+						],
+						"mate": [
+							"EvilWand"
+						]
+					}
+				]
 			},
 			"Devipine": {
 				"name": "Devipine",
@@ -2997,7 +4432,16 @@
 					"PoisonGas"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"Gulpple"
+						]
+					}
+				]
 			},
 			"FaceTree": {
 				"name": "FaceTree",
@@ -3020,7 +4464,32 @@
 					"OddDance"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"HerbMan"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					},
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"NiteWhip"
+						]
+					},
+					{
+						"base": [
+							"GhosTree"
+						],
+						"mate": [
+							"Snapper"
+						]
+					}
+				]
 			},
 			"HerbMan": {
 				"name": "HerbMan",
@@ -3043,7 +4512,24 @@
 					"DanceShut"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DanceVegi"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					},
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"FunkyBird"
+						]
+					}
+				]
 			},
 			"BeanMan": {
 				"name": "BeanMan",
@@ -3066,7 +4552,25 @@
 					"MapMagic"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"PillowRat",
+							"FishRider"
+						]
+					},
+					{
+						"base": [
+							"Eggplaton"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
 			},
 			"EvilSeed": {
 				"name": "EvilSeed",
@@ -3089,7 +4593,33 @@
 					"Radiant"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"RockSlime",
+							"BigEye",
+							"DuckKite",
+							"Butterfly",
+							"Eyeder",
+							"DarkEye",
+							"EyeBall",
+							"MadMirror",
+							"Gamanian",
+							"KiteHawk"
+						]
+					},
+					{
+						"base": [
+							"Eggplaton"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
 			},
 			"ManEater": {
 				"name": "ManEater",
@@ -3112,7 +4642,17 @@
 					"SleepAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"EvilSeed"
+						],
+						"mate": [
+							"EvilSeed",
+							"Slurperon"
+						]
+					}
+				]
 			},
 			"Snapper": {
 				"name": "Snapper",
@@ -3135,7 +4675,16 @@
 					"RainSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"ManEater"
+						],
+						"mate": [
+							"ManEater"
+						]
+					}
+				]
 			},
 			"GhosTree": {
 				"name": "GhosTree",
@@ -3158,7 +4707,17 @@
 					"EerieLite"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Stubsuck"
+						],
+						"mate": [
+							"Puppetor",
+							"ZOMBIEFM"
+						]
+					}
+				]
 			},
 			"Rosevine": {
 				"name": "Rosevine",
@@ -3181,7 +4740,16 @@
 					"BladeD"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					}
+				]
 			},
 			"Egdracil": {
 				"name": "Egdracil",
@@ -3204,7 +4772,16 @@
 					"SuckAll"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Rosevine"
+						],
+						"mate": [
+							"Gigantes"
+						]
+					}
+				]
 			},
 			"Warubou": {
 				"name": "Warubou",
@@ -3227,7 +4804,16 @@
 					"Pheromone"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [],
+						"mate": []
+					},
+					{
+						"base": [],
+						"mate": []
+					}
+				]
 			},
 			"Watabou": {
 				"name": "Watabou",
@@ -3273,7 +4859,18 @@
 					"LureDance"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"PLANTFM"
+						],
+						"mate": [
+							"Aquarella",
+							"Lipsy",
+							"Droll"
+						]
+					}
+				]
 			},
 			"FooHero": {
 				"name": "FooHero",
@@ -3296,7 +4893,18 @@
 					"GigaSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"TreeBoy"
+						],
+						"mate": [
+							"BeastNite",
+							"SlimeNite",
+							"HammerMan"
+						]
+					}
+				]
 			}
 		},
 		"BUG FAMILY": {
@@ -3321,7 +4929,16 @@
 					"Whistle"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
 			},
 			"Catapila": {
 				"name": "Catapila",
@@ -3344,7 +4961,16 @@
 					"ThickFog"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
 			},
 			"Gophecada": {
 				"name": "Gophecada",
@@ -3367,7 +4993,16 @@
 					"CallHelp"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
 			},
 			"Butterfly": {
 				"name": "Butterfly",
@@ -3390,7 +5025,16 @@
 					"Curse"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
 			},
 			"WeedBug": {
 				"name": "WeedBug",
@@ -3413,7 +5057,16 @@
 					"MagicWall"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
 			},
 			"GiantWorm": {
 				"name": "GiantWorm",
@@ -3436,7 +5089,16 @@
 					"StepGuard"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
 			},
 			"Lipsy": {
 				"name": "Lipsy",
@@ -3459,7 +5121,16 @@
 					"Pheromone"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
 			},
 			"StagBug": {
 				"name": "StagBug",
@@ -3482,7 +5153,16 @@
 					"LegSweep"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
 			},
 			"Pyuro": {
 				"name": "Pyuro",
@@ -3505,7 +5185,16 @@
 					"MouthShut"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"WATERFM"
+						]
+					}
+				]
 			},
 			"ArmyAnt": {
 				"name": "ArmyAnt",
@@ -3528,7 +5217,16 @@
 					"Kamikaze"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"GiantSlug"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
 			},
 			"GoHopper": {
 				"name": "GoHopper",
@@ -3551,7 +5249,12 @@
 					"ChargeUp"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [],
+						"mate": []
+					}
+				]
 			},
 			"TailEater": {
 				"name": "TailEater",
@@ -3574,7 +5277,24 @@
 					"Radiant"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"WeedBug"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					},
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"FloraMan"
+						]
+					}
+				]
 			},
 			"ArmorPede": {
 				"name": "ArmorPede",
@@ -3597,7 +5317,41 @@
 					"TwinSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"GiantWorm"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					},
+					{
+						"base": [
+							"Droll"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					},
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"IronTurt"
+						]
+					},
+					{
+						"base": [
+							"MultiEyes"
+						],
+						"mate": [
+							"RockSlime",
+							"Tortragon"
+						]
+					}
+				]
 			},
 			"Eyeder": {
 				"name": "Eyeder",
@@ -3620,7 +5374,24 @@
 					"MapMagic"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Catapila"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					},
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"AmberWeed"
+						]
+					}
+				]
 			},
 			"GiantMoth": {
 				"name": "GiantMoth",
@@ -3643,7 +5414,25 @@
 					"Radiant"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Butterfly"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					},
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"Saccer",
+							"RayGigas"
+						]
+					}
+				]
 			},
 			"Droll": {
 				"name": "Droll",
@@ -3666,7 +5455,51 @@
 					"StepGuard"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Eyeder"
+						],
+						"mate": [
+							"Eyeder"
+						]
+					},
+					{
+						"base": [
+							"TailEater"
+						],
+						"mate": [
+							"TailEater"
+						]
+					},
+					{
+						"base": [
+							"Butterfly"
+						],
+						"mate": [
+							"Butterfly"
+						]
+					},
+					{
+						"base": [
+							"Lipsy"
+						],
+						"mate": [
+							"SLIMEFM",
+							"Aquarella",
+							"Octokid",
+							"Angleron"
+						]
+					},
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"Spooky"
+						]
+					}
+				]
 			},
 			"ArmyCrab": {
 				"name": "ArmyCrab",
@@ -3689,7 +5522,17 @@
 					"MetalCut"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"DarkCrab",
+							"CancerMan"
+						]
+					}
+				]
 			},
 			"MadHornet": {
 				"name": "MadHornet",
@@ -3712,7 +5555,34 @@
 					"TailWind"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Eyeder",
+							"Droll",
+							"Pyuro"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					},
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"FairyRat"
+						]
+					},
+					{
+						"base": [
+							"Butterfly"
+						],
+						"mate": [
+							"Pyuro"
+						]
+					}
+				]
 			},
 			"Belzebub": {
 				"name": "Belzebub",
@@ -3735,7 +5605,25 @@
 					"Ramming"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MadHornet"
+						],
+						"mate": [
+							"GoHopper"
+						]
+					},
+					{
+						"base": [
+							"MultiEyes"
+						],
+						"mate": [
+							"Butterfly",
+							"Pyuro"
+						]
+					}
+				]
 			},
 			"WarMantis": {
 				"name": "WarMantis",
@@ -3758,7 +5646,16 @@
 					"GigaSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Sickler"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
 			},
 			"HornBeet": {
 				"name": "HornBeet",
@@ -3781,7 +5678,25 @@
 					"DevilCut"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"StagBug"
+						],
+						"mate": [
+							"StagBug"
+						]
+					},
+					{
+						"base": [
+							"ArmorPede",
+							"WarMantis"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
 			},
 			"Sickler": {
 				"name": "Sickler",
@@ -3804,7 +5719,25 @@
 					"SquallHit"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"1EyeClown",
+							"Reaper"
+						]
+					},
+					{
+						"base": [
+							"WarMantis"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
 			},
 			"Armorpion": {
 				"name": "Armorpion",
@@ -3827,7 +5760,26 @@
 					"EvilSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"HornBeet"
+						],
+						"mate": [
+							"HornBeet"
+						]
+					},
+					{
+						"base": [
+							"WarMantis"
+						],
+						"mate": [
+							"CancerMan",
+							"RogueNite",
+							"Octoraid"
+						]
+					}
+				]
 			},
 			"Digster": {
 				"name": "Digster",
@@ -3850,7 +5802,24 @@
 					"SuckAll"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BUGFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					},
+					{
+						"base": [
+							"ArmyCrab"
+						],
+						"mate": [
+							"Clawster"
+						]
+					}
+				]
 			},
 			"Skularach": {
 				"name": "Skularach",
@@ -3873,7 +5842,16 @@
 					"PoisonGas"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Armorpion"
+						],
+						"mate": [
+							"WhiteKing"
+						]
+					}
+				]
 			},
 			"MultiEyes": {
 				"name": "MultiEyes",
@@ -3896,7 +5874,24 @@
 					"PalsyAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Catapila"
+						],
+						"mate": [
+							"Catapila"
+						]
+					},
+					{
+						"base": [
+							"TailEater"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
 			}
 		},
 		"DEVIL FAMILY": {
@@ -3921,7 +5916,16 @@
 					"SealPray"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
 			},
 			"MedusaEye": {
 				"name": "MedusaEye",
@@ -3944,7 +5948,26 @@
 					"Shears"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MedusaEye",
+							"1EyeClown",
+							"Gremlin"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					},
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
 			},
 			"AgDevil": {
 				"name": "AgDevil",
@@ -3967,7 +5990,19 @@
 					"SleepAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SkulRider",
+							"EvilBeast",
+							"Gremlin",
+							"MedusaEye"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
 			},
 			"Demonite": {
 				"name": "Demonite",
@@ -3990,7 +6025,16 @@
 					"FrigidAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
 			},
 			"DarkEye": {
 				"name": "DarkEye",
@@ -4013,7 +6057,16 @@
 					"Radiant"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
 			},
 			"EyeBall": {
 				"name": "EyeBall",
@@ -4036,7 +6089,16 @@
 					"Outside"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"BUGFM"
+						]
+					}
+				]
 			},
 			"SkulRider": {
 				"name": "SkulRider",
@@ -4059,7 +6121,16 @@
 					"LegSweep"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
 			},
 			"EvilBeast": {
 				"name": "EvilBeast",
@@ -4082,7 +6153,16 @@
 					"FrigidAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
 			},
 			"Bubblemon": {
 				"name": "Bubblemon",
@@ -4105,7 +6185,16 @@
 					"BladeD"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"WATERFM"
+						]
+					}
+				]
 			},
 			"1EyeClown": {
 				"name": "1EyeClown",
@@ -4128,7 +6217,18 @@
 					"IceBolt"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Pixy",
+							"Demonite",
+							"EyeBall"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
 			},
 			"Gremlin": {
 				"name": "Gremlin",
@@ -4151,7 +6251,16 @@
 					"StopSpell"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
 			},
 			"ArcDemon": {
 				"name": "ArcDemon",
@@ -4174,7 +6283,53 @@
 					"BoltSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"AgDevil",
+							"Grendal",
+							"Gigantes"
+						],
+						"mate": [
+							"Andreal",
+							"Garudian",
+							"GreatDrak",
+							"KingLeo",
+							"KingSlime",
+							"MetalDrak",
+							"MetalKing",
+							"Orochi",
+							"SpotKing",
+							"Trumpeter",
+							"WhipBird",
+							"ZapBird"
+						]
+					},
+					{
+						"base": [
+							"GateGuard"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					},
+					{
+						"base": [
+							"Ogre"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					},
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					}
+				]
 			},
 			"Lionex": {
 				"name": "Lionex",
@@ -4197,7 +6352,25 @@
 					"VacuSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"ArcDemon"
+						],
+						"mate": [
+							"ZOMBIEFM",
+							"Garudian"
+						]
+					},
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"LizardMan"
+						]
+					}
+				]
 			},
 			"GoatHorn": {
 				"name": "GoatHorn",
@@ -4220,7 +6393,24 @@
 					"IceBolt"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"ArcDemon"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					},
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"DarkHorn"
+						]
+					}
+				]
 			},
 			"Orc": {
 				"name": "Orc",
@@ -4243,7 +6433,16 @@
 					"BirdBlow"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"BeanMan"
+						]
+					}
+				]
 			},
 			"Ogre": {
 				"name": "Ogre",
@@ -4266,7 +6465,39 @@
 					"Massacre"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"AgDevil",
+							"Grendal",
+							"Gigantes"
+						],
+						"mate": [
+							"GulpBeast",
+							"Unicorn",
+							"Digster",
+							"Roboster",
+							"WalrusMan",
+							"MerTiger"
+						]
+					},
+					{
+						"base": [
+							"GateGuard"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					},
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"HammerMan"
+						]
+					}
+				]
 			},
 			"GateGuard": {
 				"name": "GateGuard",
@@ -4289,7 +6520,44 @@
 					"ThickFog"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"AgDevil",
+							"Gigantes",
+							"Grendal"
+						],
+						"mate": [
+							"AxeShark",
+							"Coatol",
+							"DeadNoble",
+							"GiantMoth",
+							"MadCondor",
+							"MistyWing",
+							"Rosevine",
+							"Skullgon",
+							"SlimeBorg",
+							"Swordgon",
+							"WhiteKing"
+						]
+					},
+					{
+						"base": [
+							"Demonite"
+						],
+						"mate": [
+							"Demonite"
+						]
+					},
+					{
+						"base": [
+							"Ogre"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
 			},
 			"ChopClown": {
 				"name": "ChopClown",
@@ -4312,7 +6580,24 @@
 					"SquallHit"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"1EyeClown"
+						],
+						"mate": [
+							"1EyeClown"
+						]
+					},
+					{
+						"base": [
+							"Lionex"
+						],
+						"mate": [
+							"MimeSlime"
+						]
+					}
+				]
 			},
 			"BossTroll": {
 				"name": "BossTroll",
@@ -4335,7 +6620,28 @@
 					"Cover"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Ogre",
+							"Centasaur"
+						],
+						"mate": [
+							"GreatDrak",
+							"Balzak",
+							"StoneMan",
+							"WalrusMan"
+						]
+					},
+					{
+						"base": [
+							"GoatHorn"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
 			},
 			"Grendal": {
 				"name": "Grendal",
@@ -4358,7 +6664,28 @@
 					"Cover"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SkulRider",
+							"EvilBeast",
+							"Gremlin",
+							"MedusaEye"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					},
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"MadDragon",
+							"BeastNite"
+						]
+					}
+				]
 			},
 			"Akubar": {
 				"name": "Akubar",
@@ -4381,7 +6708,24 @@
 					"Focus"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"ArcDemon"
+						],
+						"mate": [
+							"GateGuard"
+						]
+					},
+					{
+						"base": [
+							"Grendal"
+						],
+						"mate": [
+							"Grendal"
+						]
+					}
+				]
 			},
 			"MadKnight": {
 				"name": "MadKnight",
@@ -4404,7 +6748,16 @@
 					"Massacre"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"RogueNite"
+						]
+					}
+				]
 			},
 			"EvilWell": {
 				"name": "EvilWell",
@@ -4427,7 +6780,24 @@
 					"WarCry"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BossTroll"
+						],
+						"mate": [
+							"IceMan"
+						]
+					},
+					{
+						"base": [
+							"Ogre"
+						],
+						"mate": [
+							"LavaMan"
+						]
+					}
+				]
 			},
 			"Gigantes": {
 				"name": "Gigantes",
@@ -4450,7 +6820,25 @@
 					"EvilSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SkulRider",
+							"EvilBeast"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					},
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"BigEye"
+						]
+					}
+				]
 			},
 			"Centasaur": {
 				"name": "Centasaur",
@@ -4473,7 +6861,26 @@
 					"RainSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"ArcDemon"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					},
+					{
+						"base": [
+							"Ogre",
+							"GateGuard",
+							"BossTroll"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
 			},
 			"EvilArmor": {
 				"name": "EvilArmor",
@@ -4496,7 +6903,26 @@
 					"AquaCut"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"ArcDemon",
+							"Ogre",
+							"GateGuard"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					},
+					{
+						"base": [
+							"DEVILFM"
+						],
+						"mate": [
+							"ArmorPede"
+						]
+					}
+				]
 			},
 			"Jamirus": {
 				"name": "Jamirus",
@@ -4519,7 +6945,16 @@
 					"TailWind"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Akubar"
+						],
+						"mate": [
+							"RainHawk"
+						]
+					}
+				]
 			},
 			"Durran": {
 				"name": "Durran",
@@ -4542,7 +6977,32 @@
 					"BirdBlow"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Centasaur"
+						],
+						"mate": [
+							"GoldGolem"
+						]
+					},
+					{
+						"base": [
+							"GoldGolem"
+						],
+						"mate": [
+							"Centasaur"
+						]
+					},
+					{
+						"base": [
+							"Jamirus"
+						],
+						"mate": [
+							"Serpentia"
+						]
+					}
+				]
 			},
 			"Titanis": {
 				"name": "Titanis",
@@ -4565,7 +7025,16 @@
 					"UltraDown"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Durran"
+						],
+						"mate": [
+							"DarkHorn"
+						]
+					}
+				]
 			},
 			"LampGenie": {
 				"name": "LampGenie",
@@ -4588,7 +7057,16 @@
 					"TailWind"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Centasaur"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					}
+				]
 			}
 		},
 		"ZOMBIE FAMILY": {
@@ -4613,7 +7091,16 @@
 					"Outside"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
 			},
 			"Skullgon": {
 				"name": "Skullgon",
@@ -4636,7 +7123,46 @@
 					"TwinSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Skullgon",
+							"DeadNoble",
+							"WhiteKing",
+							"BoneSlave",
+							"Skeletor",
+							"Skulpent"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					},
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"Swordgon",
+							"Rayburn",
+							"Andreal",
+							"GreatDrak",
+							"Orochi",
+							"BattleRex",
+							"Divinegon"
+						]
+					},
+					{
+						"base": [
+							"DRAGONFM"
+						],
+						"mate": [
+							"Skullgon",
+							"DeadNoble",
+							"WhiteKing",
+							"Servant"
+						]
+					}
+				]
 			},
 			"PutrePup": {
 				"name": "PutrePup",
@@ -4659,7 +7185,16 @@
 					"MagicBack"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
 			},
 			"RotRaven": {
 				"name": "RotRaven",
@@ -4682,7 +7217,16 @@
 					"Kamikaze"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
 			},
 			"Mummy": {
 				"name": "Mummy",
@@ -4705,7 +7249,16 @@
 					"EvilSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
 			},
 			"DarkCrab": {
 				"name": "DarkCrab",
@@ -4728,7 +7281,19 @@
 					"StepGuard"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"BUGFM",
+							"CancerMan",
+							"Clawster",
+							"Gamanian"
+						]
+					}
+				]
 			},
 			"DeadNite": {
 				"name": "DeadNite",
@@ -4751,7 +7316,16 @@
 					"CurseOff"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
 			},
 			"Shadow": {
 				"name": "Shadow",
@@ -4774,7 +7348,16 @@
 					"ThickFog"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
 			},
 			"Skulpent": {
 				"name": "Skulpent",
@@ -4797,7 +7380,16 @@
 					"Dodge"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"WATERFM"
+						]
+					}
+				]
 			},
 			"Hork": {
 				"name": "Hork",
@@ -4820,7 +7412,16 @@
 					"LushLicks"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Spooky"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
 			},
 			"Mudron": {
 				"name": "Mudron",
@@ -4843,7 +7444,25 @@
 					"Vivify"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"BoxSlime",
+							"DanceVegi",
+							"Droll",
+							"FangSlime",
+							"FunkyBird",
+							"GiantSlug",
+							"Lipsy",
+							"MadPlant",
+							"Tonguella",
+							"Yeti"
+						]
+					}
+				]
 			},
 			"NiteWhip": {
 				"name": "NiteWhip",
@@ -4866,7 +7485,25 @@
 					"Informer"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DarkCrab",
+							"MadSpirit"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					},
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"MistyWing"
+						]
+					}
+				]
 			},
 			"WindMerge": {
 				"name": "WindMerge",
@@ -4889,7 +7526,24 @@
 					"BirdBlow"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"RotRaven"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					},
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"WindBeast"
+						]
+					}
+				]
 			},
 			"Reaper": {
 				"name": "Reaper",
@@ -4912,7 +7566,25 @@
 					"EerieLite"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Spooky",
+							"Hork"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					},
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"WeedBug"
+						]
+					}
+				]
 			},
 			"Inverzon": {
 				"name": "Inverzon",
@@ -4935,7 +7607,16 @@
 					"SideStep"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Hork"
+						],
+						"mate": [
+							"Hork"
+						]
+					}
+				]
 			},
 			"FoxFire": {
 				"name": "FoxFire",
@@ -4958,7 +7639,24 @@
 					"Outside"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"NiteWhip"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					},
+					{
+						"base": [
+							"PutrePup"
+						],
+						"mate": [
+							"MistyWing"
+						]
+					}
+				]
 			},
 			"CaptDead": {
 				"name": "CaptDead",
@@ -4981,7 +7679,24 @@
 					"SquallHit"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"BoneSlave"
+						],
+						"mate": [
+							"WATERFM"
+						]
+					},
+					{
+						"base": [
+							"NiteWhip"
+						],
+						"mate": [
+							"Moray"
+						]
+					}
+				]
 			},
 			"DeadNoble": {
 				"name": "DeadNoble",
@@ -5004,7 +7719,54 @@
 					"TatsuCall"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Mudron",
+							"MadSpirit",
+							"BoneSlave",
+							"Skeletor",
+							"CaptDead"
+						],
+						"mate": [
+							"ArcDemon",
+							"Lionex",
+							"GateGuard",
+							"MetalDrak",
+							"Roboster"
+						]
+					},
+					{
+						"base": [
+							"Skullgon",
+							"DeadNite",
+							"Mudron",
+							"DeadNoble",
+							"BoneSlave",
+							"Skeletor",
+							"CaptDead"
+						],
+						"mate": [
+							"Copycat"
+						]
+					},
+					{
+						"base": [
+							"MadSpirit"
+						],
+						"mate": [
+							"Roboster2"
+						]
+					},
+					{
+						"base": [
+							"DeadNite"
+						],
+						"mate": [
+							"DeadNite"
+						]
+					}
+				]
 			},
 			"WhiteKing": {
 				"name": "WhiteKing",
@@ -5027,7 +7789,57 @@
 					"Chance"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Skeletor",
+							"Niterich"
+						],
+						"mate": [
+							"Andreal",
+							"GreatDrak",
+							"KingLeo",
+							"Blizzardy",
+							"ZapBird",
+							"WhipBird",
+							"GoldGolem",
+							"WhaleMage",
+							"Grakos"
+						]
+					},
+					{
+						"base": [
+							"Skullgon"
+						],
+						"mate": [
+							"KingSlime"
+						]
+					},
+					{
+						"base": [
+							"BoneSlave"
+						],
+						"mate": [
+							"MetalKing"
+						]
+					},
+					{
+						"base": [
+							"DeadNoble"
+						],
+						"mate": [
+							"SpotKing"
+						]
+					},
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					}
+				]
 			},
 			"BoneSlave": {
 				"name": "BoneSlave",
@@ -5050,7 +7862,23 @@
 					"BiAttack"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Mummy",
+							"DeadNite"
+						],
+						"mate": [
+							"RockSlime",
+							"SlimeBorg",
+							"LandOwl",
+							"MadGoose",
+							"FloraMan",
+							"HornBeet",
+							"Gremlin"
+						]
+					}
+				]
 			},
 			"Skeletor": {
 				"name": "Skeletor",
@@ -5073,7 +7901,44 @@
 					"BiAttack"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Mummy",
+							"DeadNite",
+							"Hork",
+							"Mudron",
+							"CaptDead"
+						],
+						"mate": [
+							"GulpBeast",
+							"Grizzly",
+							"MadCat",
+							"MadRaven",
+							"MadCondor",
+							"EvilBeast",
+							"Ogre",
+							"Golem",
+							"StoneMan"
+						]
+					},
+					{
+						"base": [
+							"BoneSlave"
+						],
+						"mate": [
+							"BoneSlave"
+						]
+					},
+					{
+						"base": [
+							"MadSpirit"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
 			},
 			"Servant": {
 				"name": "Servant",
@@ -5096,7 +7961,24 @@
 					"Focus"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Skeletor"
+						],
+						"mate": [
+							"Skeletor"
+						]
+					},
+					{
+						"base": [
+							"WhiteKing"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
 			},
 			"Lazamanus": {
 				"name": "Lazamanus",
@@ -5119,7 +8001,16 @@
 					"LifeDance"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"WhiteKing"
+						],
+						"mate": [
+							"DracoLord"
+						]
+					}
+				]
 			},
 			"Copycat": {
 				"name": "Copycat",
@@ -5142,7 +8033,12 @@
 					"Imitate"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [],
+						"mate": []
+					}
+				]
 			},
 			"MadSpirit": {
 				"name": "MadSpirit",
@@ -5165,7 +8061,30 @@
 					"ThickFog"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Skullgon",
+							"DeadNite",
+							"Mudron",
+							"DeadNoble",
+							"BoneSlave",
+							"Skeletor",
+							"PomPomBom"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					},
+					{
+						"base": [
+							"ZOMBIEFM"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
 			},
 			"PomPomBom": {
 				"name": "PomPomBom",
@@ -5188,7 +8107,25 @@
 					"LifeDance"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Copycat"
+						],
+						"mate": [
+							"Droll",
+							"Gasgon"
+						]
+					},
+					{
+						"base": [
+							"FoxFire"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
 			},
 			"Niterich": {
 				"name": "Niterich",
@@ -5211,7 +8148,19 @@
 					"BladeD"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DeadNoble",
+							"Skeletor"
+						],
+						"mate": [
+							"Octoraid",
+							"Roboster2",
+							"Serpentia"
+						]
+					}
+				]
 			}
 		},
 		"MATERIAL FAMILY": {
@@ -5236,7 +8185,16 @@
 					"PanicAll"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
 			},
 			"EvilWand": {
 				"name": "EvilWand",
@@ -5259,7 +8217,16 @@
 					"MapMagic"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
 			},
 			"MadCandle": {
 				"name": "MadCandle",
@@ -5282,7 +8249,16 @@
 					"Whistle"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
 			},
 			"CoilBird": {
 				"name": "CoilBird",
@@ -5305,7 +8281,16 @@
 					"SuckAll"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
 			},
 			"Facer": {
 				"name": "Facer",
@@ -5328,7 +8313,16 @@
 					"LifeSong"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
 			},
 			"SpikyBoy": {
 				"name": "SpikyBoy",
@@ -5351,7 +8345,16 @@
 					"HighJump"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"BUGFM"
+						]
+					}
+				]
 			},
 			"MadMirror": {
 				"name": "MadMirror",
@@ -5374,7 +8377,16 @@
 					"Outside"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
 			},
 			"RogueNite": {
 				"name": "RogueNite",
@@ -5397,7 +8409,16 @@
 					"EvilSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
 			},
 			"Puppetor": {
 				"name": "Puppetor",
@@ -5420,7 +8441,16 @@
 					"Pheromone"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"Gremlin"
+						]
+					}
+				]
 			},
 			"Goopi": {
 				"name": "Goopi",
@@ -5443,7 +8473,16 @@
 					"Dodge"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"JewelBag"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
 			},
 			"Voodoll": {
 				"name": "Voodoll",
@@ -5466,7 +8505,28 @@
 					"PanicAll"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Golem",
+							"StoneMan"
+						],
+						"mate": [
+							"DrakSlime",
+							"Snaily",
+							"SlimeNite",
+							"RockSlime"
+						]
+					},
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"Lipsy"
+						]
+					}
+				]
 			},
 			"MetalDrak": {
 				"name": "MetalDrak",
@@ -5489,7 +8549,35 @@
 					"SandStorm"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Mimic"
+						],
+						"mate": [
+							"Andreal",
+							"Spikerous",
+							"GreatDrak"
+						]
+					},
+					{
+						"base": [
+							"MetalDrak",
+							"Roboster"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					},
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"Andreal"
+						]
+					}
+				]
 			},
 			"Balzak": {
 				"name": "Balzak",
@@ -5512,7 +8600,25 @@
 					"MultiCut"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"LavaMan",
+							"IceMan"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					},
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					}
+				]
 			},
 			"SabreMan": {
 				"name": "SabreMan",
@@ -5535,7 +8641,30 @@
 					"Paralyze"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"EvilWand",
+							"Voodoll",
+							"Golem",
+							"StoneMan"
+						],
+						"mate": [
+							"LandOwl",
+							"MadGoose",
+							"Phoenix",
+							"FunkyBird"
+						]
+					},
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"GiantWorm"
+						]
+					}
+				]
 			},
 			"CurseLamp": {
 				"name": "CurseLamp",
@@ -5558,7 +8687,24 @@
 					"TwinHits"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Roboster"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					},
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"WingTree"
+						]
+					}
+				]
 			},
 			"Brushead": {
 				"name": "Brushead",
@@ -5581,7 +8727,25 @@
 					"LoveRain"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"WATERFM"
+						]
+					},
+					{
+						"base": [
+							"Puppetor"
+						],
+						"mate": [
+							"Demonite",
+							"Pixy"
+						]
+					}
+				]
 			},
 			"Roboster": {
 				"name": "Roboster",
@@ -5604,7 +8768,35 @@
 					"RainSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SabreMan"
+						],
+						"mate": [
+							"SlimeBorg",
+							"GreatDrak",
+							"Unicorn",
+							"Ogre",
+							"Grendal",
+							"EvilArmor",
+							"DeadNoble",
+							"Skeletor"
+						]
+					},
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"GulpBeast",
+							"Grizzly",
+							"Trumpeter",
+							"KingLeo",
+							"SkulRider"
+						]
+					}
+				]
 			},
 			"Roboster2": {
 				"name": "Roboster2",
@@ -5627,7 +8819,16 @@
 					"GigaSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Roboster"
+						],
+						"mate": [
+							"Roboster"
+						]
+					}
+				]
 			},
 			"EvilPot": {
 				"name": "EvilPot",
@@ -5650,7 +8851,32 @@
 					"Outside"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Gismo"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					},
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"Snaily"
+						]
+					},
+					{
+						"base": [
+							"Mimic"
+						],
+						"mate": [
+							"Scallopa"
+						]
+					}
+				]
 			},
 			"Gismo": {
 				"name": "Gismo",
@@ -5673,7 +8899,23 @@
 					"SuckAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MadCandle",
+							"MadMirror",
+							"Goopi"
+						],
+						"mate": [
+							"DrakSlime",
+							"Wyvern",
+							"MistyWing",
+							"Phoenix",
+							"FireWeed",
+							"EvilSeed"
+						]
+					}
+				]
 			},
 			"LavaMan": {
 				"name": "LavaMan",
@@ -5696,7 +8938,21 @@
 					"Cover"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MetalDrak"
+						],
+						"mate": [
+							"Orochi",
+							"KingLeo",
+							"ZapBird",
+							"ArcDemon",
+							"Centasaur",
+							"BossTroll"
+						]
+					}
+				]
 			},
 			"IceMan": {
 				"name": "IceMan",
@@ -5719,7 +8975,26 @@
 					"StrongD"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MetalDrak"
+						],
+						"mate": [
+							"Skullgon",
+							"WhiteKing"
+						]
+					},
+					{
+						"base": [
+							"Roboster",
+							"Roboster2"
+						],
+						"mate": [
+							"KingLeo"
+						]
+					}
+				]
 			},
 			"Mimic": {
 				"name": "Mimic",
@@ -5742,7 +9017,25 @@
 					"EagleEye"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Roboster"
+						],
+						"mate": [
+							"ZOMBIEFM",
+							"RushFish"
+						]
+					},
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"BoxSlime"
+						]
+					}
+				]
 			},
 			"Exaucers": {
 				"name": "Exaucers",
@@ -5765,7 +9058,16 @@
 					"PaniDance"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"Dracky"
+						]
+					}
+				]
 			},
 			"MudDoll": {
 				"name": "MudDoll",
@@ -5788,7 +9090,17 @@
 					"SideStep"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Goopi"
+						],
+						"mate": [
+							"Goopi",
+							"CancerMan"
+						]
+					}
+				]
 			},
 			"Golem": {
 				"name": "Golem",
@@ -5811,7 +9123,16 @@
 					"Meditate"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MudDoll"
+						],
+						"mate": [
+							"MudDoll"
+						]
+					}
+				]
 			},
 			"StoneMan": {
 				"name": "StoneMan",
@@ -5834,7 +9155,25 @@
 					"SuckAll"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Golem"
+						],
+						"mate": [
+							"Golem"
+						]
+					},
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"HornBeet",
+							"Digster"
+						]
+					}
+				]
 			},
 			"BombCrag": {
 				"name": "BombCrag",
@@ -5857,7 +9196,25 @@
 					"RockThrow"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"SpikyBoy"
+						],
+						"mate": [
+							"SpikyBoy"
+						]
+					},
+					{
+						"base": [
+							"Roboster",
+							"DarkMate"
+						],
+						"mate": [
+							"BUGFM"
+						]
+					}
+				]
 			},
 			"GoldGolem": {
 				"name": "GoldGolem",
@@ -5880,7 +9237,24 @@
 					"TatsuCall"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"IceMan"
+						],
+						"mate": [
+							"LavaMan"
+						]
+					},
+					{
+						"base": [
+							"LavaMan"
+						],
+						"mate": [
+							"BossTroll"
+						]
+					}
+				]
 			},
 			"DarkMate": {
 				"name": "DarkMate",
@@ -5903,7 +9277,16 @@
 					"EerieLite"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"GoldGolem"
+						],
+						"mate": [
+							"MetalKing"
+						]
+					}
+				]
 			},
 			"ProtoMech": {
 				"name": "ProtoMech",
@@ -5926,7 +9309,32 @@
 					"Ramming"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"MATERIALFM"
+						],
+						"mate": [
+							"EvilArmor"
+						]
+					},
+					{
+						"base": [
+							"Roboster"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					},
+					{
+						"base": [
+							"RogueNite"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
 			},
 			"CloudKing": {
 				"name": "CloudKing",
@@ -5949,7 +9357,23 @@
 					"Surge"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Gismo"
+						],
+						"mate": [
+							"KingSlime",
+							"SpotKing",
+							"SkyDragon",
+							"LampGenie",
+							"WhiteKing",
+							"KingSquid",
+							"WhaleMage",
+							"DracoLord"
+						]
+					}
+				]
 			}
 		},
 		"WATER FAMILY": {
@@ -5974,7 +9398,16 @@
 					"Ramming"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
 			},
 			"Moray": {
 				"name": "Moray",
@@ -5997,7 +9430,16 @@
 					"PoisonGas"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"DRAGONFM"
+						]
+					}
+				]
 			},
 			"WalrusMan": {
 				"name": "WalrusMan",
@@ -6020,7 +9462,16 @@
 					"Massacre"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
 			},
 			"RayGigas": {
 				"name": "RayGigas",
@@ -6043,7 +9494,16 @@
 					"AquaWall"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"BIRDFM"
+						]
+					}
+				]
 			},
 			"Anemon": {
 				"name": "Anemon",
@@ -6066,7 +9526,16 @@
 					"PoisonGas"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"PLANTFM"
+						]
+					}
+				]
 			},
 			"Aquarella": {
 				"name": "Aquarella",
@@ -6089,7 +9558,16 @@
 					"Geyser"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"BUGFM"
+						]
+					}
+				]
 			},
 			"Merman": {
 				"name": "Merman",
@@ -6112,7 +9590,16 @@
 					"SleepAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"DEVILFM"
+						]
+					}
+				]
 			},
 			"Octokid": {
 				"name": "Octokid",
@@ -6135,7 +9622,16 @@
 					"LureDance"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
 			},
 			"PutreFish": {
 				"name": "PutreFish",
@@ -6158,7 +9654,16 @@
 					"Ramming"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"ZOMBIEFM"
+						]
+					}
+				]
 			},
 			"Octoreach": {
 				"name": "Octoreach",
@@ -6181,7 +9686,16 @@
 					"Geyser"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Petiteel"
+						],
+						"mate": [
+							"BEASTFM"
+						]
+					}
+				]
 			},
 			"Angleron": {
 				"name": "Angleron",
@@ -6204,7 +9718,16 @@
 					"SleepAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Petiteel"
+						],
+						"mate": [
+							"MATERIALFM"
+						]
+					}
+				]
 			},
 			"FishRider": {
 				"name": "FishRider",
@@ -6227,7 +9750,19 @@
 					"Dodge"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Angleron"
+						],
+						"mate": [
+							"Pixy",
+							"Demonite",
+							"SkulRider",
+							"Gremlin"
+						]
+					}
+				]
 			},
 			"RushFish": {
 				"name": "RushFish",
@@ -6250,7 +9785,18 @@
 					"SandStorm"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Angleron"
+						],
+						"mate": [
+							"GulpBeast",
+							"Droll",
+							"DRAGONFM"
+						]
+					}
+				]
 			},
 			"Gamanian": {
 				"name": "Gamanian",
@@ -6273,7 +9819,18 @@
 					"LushLicks"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Aquarella"
+						],
+						"mate": [
+							"DarkEye",
+							"MedusaEye",
+							"BUGFM"
+						]
+					}
+				]
 			},
 			"Clawster": {
 				"name": "Clawster",
@@ -6296,7 +9853,17 @@
 					"BiAttack"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Gamanian"
+						],
+						"mate": [
+							"ArmyCrab",
+							"DEVILFM"
+						]
+					}
+				]
 			},
 			"CancerMan": {
 				"name": "CancerMan",
@@ -6319,7 +9886,17 @@
 					"RainSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Clawster"
+						],
+						"mate": [
+							"Clawster",
+							"DEVILFM"
+						]
+					}
+				]
 			},
 			"RogueWave": {
 				"name": "RogueWave",
@@ -6342,7 +9919,16 @@
 					"AquaWall"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"JewelBag"
+						]
+					}
+				]
 			},
 			"Scallopa": {
 				"name": "Scallopa",
@@ -6365,7 +9951,17 @@
 					"Radiant"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"RogueWave"
+						],
+						"mate": [
+							"Mimic",
+							"DEVILFM"
+						]
+					}
+				]
 			},
 			"SeaHorse": {
 				"name": "SeaHorse",
@@ -6388,7 +9984,17 @@
 					"BladeD"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Petiteel"
+						],
+						"mate": [
+							"DRAGONFM",
+							"DEVILFM"
+						]
+					}
+				]
 			},
 			"HoodSquid": {
 				"name": "HoodSquid",
@@ -6411,7 +10017,17 @@
 					"LureDance"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"CancerMan"
+						],
+						"mate": [
+							"WhaleMage",
+							"EvilWand"
+						]
+					}
+				]
 			},
 			"MerTiger": {
 				"name": "MerTiger",
@@ -6434,7 +10050,17 @@
 					"WarCry"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Merman"
+						],
+						"mate": [
+							"GulpBeast",
+							"MadCat"
+						]
+					}
+				]
 			},
 			"AxeShark": {
 				"name": "AxeShark",
@@ -6457,7 +10083,17 @@
 					"Cover"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"CancerMan"
+						],
+						"mate": [
+							"BattleRex",
+							"ArcDemon"
+						]
+					}
+				]
 			},
 			"Octogon": {
 				"name": "Octogon",
@@ -6480,7 +10116,16 @@
 					"Hustle"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Octoreach"
+						],
+						"mate": [
+							"Octoreach†5"
+						]
+					}
+				]
 			},
 			"KingSquid": {
 				"name": "KingSquid",
@@ -6503,7 +10148,17 @@
 					"PsycheUp"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Octogon"
+						],
+						"mate": [
+							"Octogon",
+							"Mudou"
+						]
+					}
+				]
 			},
 			"Digong": {
 				"name": "Digong",
@@ -6526,7 +10181,20 @@
 					"PoisonGas"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"RushFish"
+						],
+						"mate": [
+							"Spikerous",
+							"RogueWave",
+							"MadGoose",
+							"Gigantes",
+							"Golem"
+						]
+					}
+				]
 			},
 			"WhaleMage": {
 				"name": "WhaleMage",
@@ -6549,7 +10217,18 @@
 					"Geyser"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"HoodSquid"
+						],
+						"mate": [
+							"1EyeClown",
+							"Reaper",
+							"RushFish"
+						]
+					}
+				]
 			},
 			"Aquadon": {
 				"name": "Aquadon",
@@ -6572,7 +10251,18 @@
 					"Berserker"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Digong"
+						],
+						"mate": [
+							"GreatDrak",
+							"Coatol",
+							"Orligon"
+						]
+					}
+				]
 			},
 			"Octoraid": {
 				"name": "Octoraid",
@@ -6595,7 +10285,19 @@
 					"GigaSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Octogon"
+						],
+						"mate": [
+							"ChopClown",
+							"EvilArmor",
+							"GateGuard",
+							"Lionex"
+						]
+					}
+				]
 			},
 			"Grakos": {
 				"name": "Grakos",
@@ -6618,7 +10320,16 @@
 					"SandStorm"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"BOSSFM"
+						]
+					}
+				]
 			},
 			"Poseidon": {
 				"name": "Poseidon",
@@ -6641,7 +10352,16 @@
 					"Dodge"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Grakos"
+						],
+						"mate": [
+							"Mudou"
+						]
+					}
+				]
 			},
 			"Pumpoise": {
 				"name": "Pumpoise",
@@ -6664,7 +10384,22 @@
 					"Dodge"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"WATERFM"
+						],
+						"mate": [
+							"Mommonja",
+							"DuckKite",
+							"MadPecker",
+							"MadGoose",
+							"CragDevil",
+							"SpikyBoy",
+							"BombCrag"
+						]
+					}
+				]
 			},
 			"Starfish": {
 				"name": "Starfish",
@@ -6687,7 +10422,19 @@
 					"OddDance"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"HoodSquid",
+							"Octoreach",
+							"Octogon",
+							"KingSquid"
+						],
+						"mate": [
+							"SLIMEFM"
+						]
+					}
+				]
 			}
 		},
 		"???? FAMILY": {
@@ -6712,7 +10459,17 @@
 					"Meditate"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Servant"
+						],
+						"mate": [
+							"Andreal",
+							"GreatDrak"
+						]
+					}
+				]
 			},
 			"DracoLord2": {
 				"name": "DracoLord2",
@@ -6735,7 +10492,16 @@
 					"Surge"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DracoLord"
+						],
+						"mate": [
+							"Divinegon"
+						]
+					}
+				]
 			},
 			"LordDraco": {
 				"name": "LordDraco",
@@ -6758,7 +10524,16 @@
 					"Focus"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DracoLord"
+						],
+						"mate": [
+							"Orligon"
+						]
+					}
+				]
 			},
 			"Hargon": {
 				"name": "Hargon",
@@ -6781,7 +10556,16 @@
 					"TatsuCall"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"WhiteKing"
+						],
+						"mate": [
+							"MetalKing"
+						]
+					}
+				]
 			},
 			"Sidoh": {
 				"name": "Sidoh",
@@ -6804,7 +10588,16 @@
 					"FrigidAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Jamirus"
+						],
+						"mate": [
+							"Rosevine"
+						]
+					}
+				]
 			},
 			"Genosidoh": {
 				"name": "Genosidoh",
@@ -6827,7 +10620,16 @@
 					"MultiCut"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Sidoh"
+						],
+						"mate": [
+							"Titanis"
+						]
+					}
+				]
 			},
 			"Baramos": {
 				"name": "Baramos",
@@ -6850,7 +10652,16 @@
 					"RockThrow"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Hargon"
+						],
+						"mate": [
+							"Orochi"
+						]
+					}
+				]
 			},
 			"Zoma": {
 				"name": "Zoma",
@@ -6873,7 +10684,17 @@
 					"DeMagic"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DracoLord",
+							"DracoLord2"
+						],
+						"mate": [
+							"Sidoh"
+						]
+					}
+				]
 			},
 			"AsuraZoma": {
 				"name": "AsuraZoma",
@@ -6896,7 +10717,16 @@
 					"Focus"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Zoma"
+						],
+						"mate": [
+							"PsychoPiz"
+						]
+					}
+				]
 			},
 			"Pizzaro": {
 				"name": "Pizzaro",
@@ -6919,7 +10749,16 @@
 					"BiAttack"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Durran"
+						],
+						"mate": [
+							"Divinegon"
+						]
+					}
+				]
 			},
 			"PsychoPiz": {
 				"name": "PsychoPiz",
@@ -6942,7 +10781,16 @@
 					"DeMagic"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Pizzaro"
+						],
+						"mate": [
+							"Esterk"
+						]
+					}
+				]
 			},
 			"Esterk": {
 				"name": "Esterk",
@@ -6965,7 +10813,17 @@
 					"GigaSlash"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Pizzaro"
+						],
+						"mate": [
+							"Gorago",
+							"KingLeo"
+						]
+					}
+				]
 			},
 			"Mirudraas": {
 				"name": "Mirudraas",
@@ -6988,7 +10846,16 @@
 					"Bolt"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Esterk"
+						],
+						"mate": [
+							"GoldSlime"
+						]
+					}
+				]
 			},
 			"Mirudraas2": {
 				"name": "Mirudraas2",
@@ -7011,7 +10878,16 @@
 					"SuckAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Mirudraas"
+						],
+						"mate": [
+							"Orligon"
+						]
+					}
+				]
 			},
 			"Mudou": {
 				"name": "Mudou",
@@ -7034,7 +10910,16 @@
 					"PoisonGas"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Baramos"
+						],
+						"mate": [
+							"Gorago"
+						]
+					}
+				]
 			},
 			"DeathMore": {
 				"name": "DeathMore",
@@ -7057,7 +10942,34 @@
 					"TatsuCall"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Mirudraas"
+						],
+						"mate": [
+							"Azurile"
+						]
+					},
+					{
+						"base": [
+							"Mirudraas2"
+						],
+						"mate": [
+							"Zoma"
+						]
+					},
+					{
+						"base": [
+							"Zoma"
+						],
+						"mate": [
+							"Azurile",
+							"Mirudraas",
+							"Mirudraas2"
+						]
+					}
+				]
 			},
 			"DeathMore2": {
 				"name": "DeathMore2",
@@ -7080,7 +10992,17 @@
 					"UltraDown"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DeathMore"
+						],
+						"mate": [
+							"Armorpion",
+							"Titanis"
+						]
+					}
+				]
 			},
 			"DeathMore3": {
 				"name": "DeathMore3",
@@ -7103,7 +11025,18 @@
 					"Focus"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DeathMore2"
+						],
+						"mate": [
+							"DarkMate",
+							"Mudou",
+							"Poseidon"
+						]
+					}
+				]
 			},
 			"Darkdrium": {
 				"name": "Darkdrium",
@@ -7126,7 +11059,18 @@
 					"FrigidAir"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"DeathMore3"
+						],
+						"mate": [
+							"Watabou",
+							"GranSlime",
+							"AsuraZoma"
+						]
+					}
+				]
 			},
 			"Orgodemir": {
 				"name": "Orgodemir",
@@ -7149,7 +11093,16 @@
 					"Focus"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"PsychoPiz"
+						],
+						"mate": [
+							"Niterich"
+						]
+					}
+				]
 			},
 			"Orgodemir2": {
 				"name": "Orgodemir2",
@@ -7172,7 +11125,17 @@
 					"LifeSong"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [
+							"Orgodemir"
+						],
+						"mate": [
+							"LordDraco",
+							"GigaDraco"
+						]
+					}
+				]
 			},
 			"Darck": {
 				"name": "Darck",
@@ -7195,7 +11158,12 @@
 					"ChargeUp"
 				],
 				"resistances": [],
-				"breeds": []
+				"breeds": [
+					{
+						"base": [],
+						"mate": []
+					}
+				]
 			}
 		}
 	}

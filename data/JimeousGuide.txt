@@ -4570,7 +4570,7 @@
        — Repellants to travel unhindered
   __________________________________________________________________________
   \_                                                                      _/
-   _|  9.3.01 Slime FAMILY MONSTERS BREEDING LIST                        |_
+   _|  9.3.01 SLIME FAMILY MONSTERS BREEDING LIST                        |_
   /________________________________________________________________________\
 
         ,———————————————————————————————————————————————————————————.
@@ -4673,7 +4673,7 @@
     ,----------------------------------+----------------------------------.
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ Slime                            ¦ Slime†5 or better                ¦
+    ¦ Slime                            ¦ Slime†5                          ¦
     ¦----------------------------------+----------------------------------¦
     ¦ SLIMEFM                          ¦ BOSSFM                           ¦
     ¦----------------------------------+----------------------------------¦
@@ -4810,7 +4810,7 @@
     ¦                                  ¦ Unicorn WhipBird WhiteKing       ¦
     ¦                                  ¦ ZapBird                          ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ SpotSlime                        ¦ SpotSlime†5 or better            ¦
+    ¦ SpotSlime                        ¦ SpotSlime†5                      ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
     |  SpotSlime       : CallHelp  LushLicks Imitate    |
@@ -5010,9 +5010,9 @@
     ¦----------------------------------+----------------------------------¦
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ Dragon†5 or better               ¦ Dragon                           ¦
+    ¦ Dragon                           ¦ Dragon†5                         ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ DragonKid†5 or better            ¦ DragonKid                        ¦
+    ¦ DragonKid                        ¦ DragonKid†5                      ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
     |  KingCobra       : PoisonHit Curse     K.O.Dance  |
@@ -5320,7 +5320,7 @@
     ¦----------------------------------+----------------------------------¦
     ¦ SuperTen                         ¦ BeastNite LizardMan Orc          ¦
     ¦                                  ¦ WalrusMan Bubblemon MerTiger     ¦
-    ¦                                  ¦ SaberMan                         ¦
+    ¦                                  ¦ SabreMan                         ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
     |  FairyRat        : Slow      Surround  SlimeBlow  |
@@ -5371,8 +5371,8 @@
     ¦                                  ¦ WhiteKing Skeletor               ¦
     ¦----------------------------------+----------------------------------¦
     ¦ WildApe Grizzly Yeti Unicorn     ¦ Digster Skullgon DeadNoble       ¦
-    ¦ Dumbira Trumpeter                ¦ WhiteKing Skeletor MetalDrak     ¦
-    ¦                                  ¦ Roboster LavaMan IceMan Golem   ¦
+    ¦ Dumbira Goategon                 ¦ WhiteKing Skeletor MetalDrak     ¦
+    ¦                                  ¦ Roboster LavaMan IceMan Golem    ¦
     ¦                                  ¦ StoneMan                         ¦
     ¦----------------------------------+----------------------------------¦
     ¦ Grizzly Yeti Trumpeter BigEye    ¦ DRAGONFM                         ¦
@@ -5958,7 +5958,7 @@
     ¦----------------------------------+----------------------------------¦
     ¦ PLANTFM                          ¦ RockSlime BigEye DuckKite        ¦
     ¦                                  ¦ Butterfly Eyeder DarkEye         ¦
-    ¦                                  ¦ EyeBall MadMirror Gamanium       ¦
+    ¦                                  ¦ EyeBall MadMirror Gamanian       ¦
     ¦                                  ¦ KiteHawk                         ¦
     ¦----------------------------------+----------------------------------¦
     ¦ Base                             ¦ Mate                             ¦
@@ -7039,7 +7039,7 @@
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
     ¦ Skullgon DeadNoble WhiteKing     ¦  DRAGONFM                        ¦
-    ¦ BoneSlave Skeletor Skullpent     ¦                                  ¦
+    ¦ BoneSlave Skeletor Skulpent      ¦                                  ¦
     ¦----------------------------------+----------------------------------¦
     ¦ ZOMBIEFM                         ¦ Swordgon Rayburn Andreal         ¦
     ¦                                  ¦ GreatDrak Orochi BattleRex       ¦
@@ -7609,7 +7609,7 @@
     ,----------------------------------+----------------------------------.
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ Octoreach                        ¦ Octoreach†5 or better            ¦
+    ¦ Octoreach                        ¦ Octoreach†5                      ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
     |  Octokid         : Heal      MPass     LureDance  |
@@ -7891,7 +7891,7 @@
     ,----------------------------------+----------------------------------.
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ Mirurraas                        ¦ Orligon                          ¦
+    ¦ Mirudraas                        ¦ Orligon                          ¦
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
     |  Mudou           : FireAir   FrigidAir PoisonGas  |

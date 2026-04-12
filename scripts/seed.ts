@@ -49,6 +49,7 @@ async function seed() {
             base_name TEXT REFERENCES monsters(name),
             mate_name TEXT REFERENCES monsters(name),
             result_name TEXT REFERENCES monsters(name),
+            plus_five BOOLEAN DEFAULT false,
             PRIMARY KEY (base_name, mate_name)
         );
 
@@ -95,7 +96,7 @@ async function seed() {
     const insertMove = db.prepare('INSERT INTO moves (name) VALUES (?)');
     const insertResistance = db.prepare('INSERT INTO resistances (name) VALUES (?)');
     const insertMonsterStat = db.prepare('INSERT INTO monster_stats (monster_name, stat_name, value) VALUES (?, ?, ?)');
-    const insertMonsterBreeds = db.prepare('INSERT INTO monster_breeds (base_name, mate_name, result_name) VALUES (?, ?, ?)');
+    const insertMonsterBreeds = db.prepare('INSERT INTO monster_breeds (base_name, mate_name, result_name, plus_five) VALUES (?, ?, ?, ?)');
     const insertMoveRequirement = db.prepare('INSERT INTO move_requirements (move_name, stat_name, value) VALUES (?, ?, ?)');
     const insertMonsterMove = db.prepare('INSERT INTO monster_moves (monster_name, move_name) VALUES (?, ?)');
     const insertMonsterResistance = db.prepare('INSERT INTO monster_resistances (monster_name, resistance_name, value) VALUES (?, ?, ?)');
@@ -172,9 +173,16 @@ async function seed() {
                 const {name, breeds} = monsterData.families[f][m] as Monster;
                 for (const breedPair of breeds) {
                     for (const base of breedPair.base) {
-                        for (const mate of breedPair.mate) {
+                        for (let mate of breedPair.mate) {
                             count++;
-                            insertMonsterBreeds.run(base, mate, name);
+                            let plusFive = 0;
+                            if (mate.match("†5")) {
+                                mate = mate.split("†5")[0];
+                                plusFive = 1;
+                            }
+                            console.log(name, base, mate, plusFive);
+                            
+                            insertMonsterBreeds.run(base, mate, name, plusFive);
                         }
                     }
                 }

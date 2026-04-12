@@ -103,7 +103,6 @@ function parseBreedsData() {
         
         if (currentMonster == "") continue;
         
-        console.log(currentFamily, currentMonster);
         const baseMates = data.families[currentFamily][currentMonster]?.breeds;
         if (!baseMates) continue;
         
