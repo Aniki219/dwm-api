@@ -1,16 +1,28 @@
 import db from '@/lib/db'
 import { Monster } from '@/types/types';
 
-export async function GetMonsters() {
+export async function GetMonsters() : Promise<Monster[]> {
     const stm = db.prepare(
         `SELECT
             name,
-            family
-        FROM monsters    
+            family,
+            (
+                SELECT json_group_object(stat_name, value)
+                FROM monster_stats 
+                WHERE monster_name = monsters.name
+            ) AS stats
+        FROM monsters
         `
     );
 
-    stm.run();
+    const res = stm.all() as Monster[];
+    
+    for (const monster of res) {
+        const stats = ((monster.stats) as unknown) as string;
+        monster.stats = JSON.parse(stats);
+    }
+
+    return res as Monster[];
 }
 
 export async function GetMonster(name : string) : Promise<Monster> {
@@ -23,6 +35,11 @@ export async function GetMonster(name : string) : Promise<Monster> {
                 FROM monster_stats 
                 WHERE monster_name = m.name
             ) AS stats,
+            (
+                SELECT json_group_array(value)
+                FROM monster_resistances
+                WHERE monster_name = m.name
+            ) AS resistances,
             (
                 SELECT json_group_array(move_name) 
                 FROM monster_moves 
@@ -45,9 +62,7 @@ export async function GetMonster(name : string) : Promise<Monster> {
     const breeds = ((res.breeds) as unknown) as string;
     res.moves = JSON.parse(moves);
     res.stats = JSON.parse(stats);
-    res.breeds = JSON.parse(breeds)
-
-    console.log(res);
+    res.breeds = JSON.parse(breeds);
     
     return res;
 }

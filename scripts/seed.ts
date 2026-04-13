@@ -176,9 +176,7 @@ async function seed() {
                             if (mate.match("†5")) {
                                 mate = mate.split("†5")[0];
                                 plusFive = 1;
-                            }
-                            console.log(name, base, mate, plusFive);
-                            
+                            }                            
                             insertMonsterBreeds.run(base, mate, name, plusFive);
                         }
                     }

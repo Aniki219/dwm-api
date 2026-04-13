@@ -66,8 +66,8 @@ function parseMonsterData() {
                 };
             }
             if (currentHeader == "MONSTER RESISTANCES") {
-                if (data.families[currentFamily][splits[0].toUpperCase()]) {
-                    data.families[currentFamily][splits[0].toUpperCase()].resistances =
+                if (data.families[currentFamily][splits[0]]) {
+                    data.families[currentFamily][splits[0]].resistances =
                         splits.slice(1, 28).map(x => parseInt(x));
                 }
             }
