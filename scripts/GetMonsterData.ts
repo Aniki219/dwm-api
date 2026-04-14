@@ -1,4 +1,4 @@
-import { Monster, MonsterData, Stats, STAT_NAMES } from '@/types/types';
+import { MonsterData, Stats, STAT_NAMES } from '@/types/types';
 import fs from 'fs';
 
 const data: MonsterData = { families: {} };

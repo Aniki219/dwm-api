@@ -1,4 +1,4 @@
-export const STAT_NAMES = ['MaxLevel', 'LV', 'Experience', 'HP', 'MP', 'Attack', 'Defense', 'Agility', 'Intelligence', 'From'];
+export const STAT_NAMES = ['MaxLevel', 'Experience', 'HP', 'MP', 'Attack', 'Defense', 'Agility', 'Intelligence', 'From', 'LV'];
 export const MOVE_REQS = ['LV', 'HP', 'MP', 'Attack', 'Defense', 'Agility', 'Intelligence', 'From'];
 
 export type Stats = {

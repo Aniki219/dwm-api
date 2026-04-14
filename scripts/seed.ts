@@ -144,7 +144,7 @@ async function seed() {
                 
                 // Monster Stats
                 for (const stat in stats) {
-                    if (!stats[stat]) continue;
+                    if (stats[stat] == null) continue;
                     insertMonsterStat.run(name, stat, stats[stat])
                 }
                 

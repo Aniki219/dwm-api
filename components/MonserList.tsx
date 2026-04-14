@@ -8,6 +8,7 @@ type MonsterListParams = {
 
 export default function MonsterList(params: MonsterListParams) {
     const monsterList = params.monsterList;
+    const statNames = STAT_NAMES.filter(n => !['LV', 'From'].includes(n))
     return (
         <div className="overflow-x-auto rounded-lg border border-gray-700">
             <table className="w-full text-sm text-left">
@@ -15,7 +16,7 @@ export default function MonsterList(params: MonsterListParams) {
                     <tr>
                         <th className="px-4 py-3">Name</th>
                         <th className="px-4 py-3">Family</th>
-                        {STAT_NAMES.map((stat, k) => (
+                        {statNames.map((stat, k) => (
                             <td key={`statName_${k}`} className="px-4 py-2">
                                 {stat}
                             </td>
@@ -32,9 +33,9 @@ export default function MonsterList(params: MonsterListParams) {
                             >
                                 <td className="px-4 py-2 font-medium text-white">{name}</td>
                                 <td className="px-4 py-2 text-gray-400">{family}</td>
-                                {STAT_NAMES.map((stat, k) => (
+                                {statNames.map((stat, k) => (
                                     <td key={`stat_${k}`} className="px-4 py-2 text-gray-400">
-                                        {stats[stat] ?? ""}
+                                        {stats[stat]}
                                     </td>
                                 ))}
                             </tr>

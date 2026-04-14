@@ -12,6 +12,7 @@ export async function GetMonsters() : Promise<Monster[]> {
                 WHERE monster_name = monsters.name
             ) AS stats
         FROM monsters
+        WHERE name NOT LIKE '%FM'
         `
     );
 

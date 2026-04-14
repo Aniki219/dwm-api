@@ -1,6 +1,7 @@
 "use client"
 
 import { Monster } from "@/types/types";
+import Image from "next/image";
 
 type MonsterWindowParams = {
     monster: Monster
@@ -12,6 +13,7 @@ export default function MonsterWindow(params: MonsterWindowParams) {
         <div>
             <h1>{name}</h1>
             <h2>{family}</h2>
+            <Image src={`/sprites/${name.toLowerCase()}.png`} width={64} height={64} alt={`${name.toLowerCase()}`} />
             <table>
                 <thead>
                     <tr>
