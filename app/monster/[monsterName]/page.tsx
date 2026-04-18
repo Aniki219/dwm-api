@@ -14,9 +14,13 @@ export default async function Home({
     const monsterList = await GetMonsters() as Monster[];
 
     return (
-        <div>
-            <MonsterWindow monster={monster} />
-            <MonsterList monsterList={monsterList} />
+        <div className="page-layout">
+            <div className="left-column">
+                <MonsterWindow monster={monster} />
+            </div>
+            <div className="right-column">
+                <MonsterList currentMonster={monster} monsterList={monsterList} />
+            </div>
         </div>
     );
 }

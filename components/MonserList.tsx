@@ -1,26 +1,100 @@
 "use client"
 
 import { Monster, STAT_NAMES } from "@/types/types";
+import Link from "next/link";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 type MonsterListParams = {
+    currentMonster: Monster
     monsterList: Monster[]
 }
 
+type MonsterListSort = {
+    sortKey: string,
+    up: boolean
+}
+
 export default function MonsterList(params: MonsterListParams) {
-    const monsterList = params.monsterList;
-    const statNames = STAT_NAMES.filter(n => !['LV', 'From'].includes(n))
+    const { stats: currentStats, name: currentName } = params.currentMonster;
+    const [sortBy, setSortBy] = useState<MonsterListSort>(() => {
+        if (typeof window === 'undefined') return { sortKey: 'none', up: true };
+        const saved = localStorage.getItem('monsterListSort');
+        return saved ? JSON.parse(saved) : { sortKey: 'none', up: true };
+    });
+
+    useEffect(() => {
+        localStorage.setItem('monsterListSort', JSON.stringify(sortBy));
+    }, [sortBy]);
+
+    const statNames = STAT_NAMES.filter(n => !['LV', 'FROM', 'MAX', 'EXP'].includes(n)).sort((_, n) => n == 'MAX' || n == 'EXP' ? -1 : 0)
+    const rowRef = useRef<HTMLTableRowElement>(null);
+
+    const monsterList = useMemo(() => {
+        const getSortValue = (monster: Monster, key: string): string | number => {
+            if (key === 'name') return monster.name;
+            if (key === 'family') return monster.family;
+            if (key === 'total') return statNames
+                .filter(s => !['MAX', 'EXP'].includes(s))
+                .reduce((p, a) => monster.stats[a as keyof typeof monster.stats] + p, 0);
+            return monster.stats[key as keyof typeof monster.stats];
+        }
+
+        if (sortBy.sortKey === 'none') return params.monsterList;
+
+        return [...params.monsterList].sort((a, b) => {
+            let aVal = getSortValue(a, sortBy.sortKey);
+            let bVal = getSortValue(b, sortBy.sortKey);
+            let up = sortBy.up;
+            if (aVal === bVal) {
+                aVal = a.name;
+                bVal = b.name;
+                up = true
+            }
+            if (aVal === bVal) return 0;
+            const cmp = aVal > bVal ? 1 : -1;
+            return up ? cmp : -cmp;
+        });
+    }, [sortBy, params.monsterList, statNames]);
+
+    const handleSortBy = (sortKey: string) => {
+        if (sortBy.sortKey === sortKey) {
+            setSortBy({ sortKey: sortKey, up: !sortBy.up });
+        } else {
+            setSortBy({ sortKey: sortKey, up: true });
+        }
+    }
+
+    useEffect(() => {
+        if (rowRef.current) {
+            rowRef.current.scrollIntoView({ behavior: "instant", block: "center" });
+        }
+    }, []);
+
     return (
-        <div className="overflow-x-auto rounded-lg border border-gray-700">
-            <table className="w-full text-sm text-left">
-                <thead className="bg-gray-800 text-gray-300 uppercase text-xs tracking-wider">
+        <div className="table-wrapper">
+            <table className="monster-table">
+                <thead>
                     <tr>
-                        <th className="px-4 py-3">Name</th>
-                        <th className="px-4 py-3">Family</th>
+                        <th
+                            style={{ 'width': '35px', 'maxWidth': '35px' }}
+                            onClick={() => handleSortBy('name')}
+                        >
+                            Name
+                        </th>
+                        <th onClick={() => handleSortBy('family')}>
+                            Family
+                        </th>
                         {statNames.map((stat, k) => (
-                            <td key={`statName_${k}`} className="px-4 py-2">
+                            <th
+                                key={`statName_${k}`}
+                                onClick={() => handleSortBy(stat)}
+                            >
                                 {stat}
-                            </td>
+                            </th>
                         ))}
+                        <th onClick={() => handleSortBy('total')}>
+                            Stat Total
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -28,21 +102,44 @@ export default function MonsterList(params: MonsterListParams) {
                         const { name, family, stats } = monster;
                         return (
                             <tr
+                                ref={name == currentName ? rowRef : null}
                                 key={`monster_${k}`}
-                                className="border-t border-gray-700 hover:bg-gray-800 transition-colors cursor-pointer odd:bg-gray-900 even:bg-gray-950"
+                                className={`${name == currentName ? " currentRow" : ""}`}
                             >
-                                <td className="px-4 py-2 font-medium text-white">{name}</td>
-                                <td className="px-4 py-2 text-gray-400">{family}</td>
+                                <td
+                                    style={{ 'width': '35px', 'maxWidth': '35px' }}
+                                >
+                                    <Link href={`/monster/${name}`}>{name}</Link>
+                                </td>
+                                <td>{family}</td>
                                 {statNames.map((stat, k) => (
-                                    <td key={`stat_${k}`} className="px-4 py-2 text-gray-400">
+                                    <td
+                                        key={`stat_${k}`}
+                                        className={`${getHighLowClassName(stats[stat])}`}
+                                    >
                                         {stats[stat]}
                                     </td>
                                 ))}
+                                <td>
+                                    {statNames.filter(s => !['MAX', 'EXP'].includes(s)).reduce((p, a) => stats[a] + p, 0)}
+                                </td>
                             </tr>
                         );
                     })}
                 </tbody>
             </table>
-        </div>
+        </div >
     )
+}
+
+const getHighLowClassName = (stat: number) => {
+    if (stat >= 27) {
+        return "veryHighStat";
+    }
+    if (stat >= 20) {
+        return "highStat";
+    }
+    if (stat <= 10) {
+        return "lowStat";
+    }
 }

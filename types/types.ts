@@ -1,5 +1,6 @@
-export const STAT_NAMES = ['MaxLevel', 'Experience', 'HP', 'MP', 'Attack', 'Defense', 'Agility', 'Intelligence', 'From', 'LV'];
-export const MOVE_REQS = ['LV', 'HP', 'MP', 'Attack', 'Defense', 'Agility', 'Intelligence', 'From'];
+export const STAT_NAMES = ['MAX', 'EXP', 'HP', 'MP', 'ATK', 'DEF', 'AGL', 'INT', 'FROM', 'LV'];
+export const MOVE_REQS = ['LV', 'HP', 'MP', 'ATK', 'DEF', 'AGL', 'INT', 'FROM'];
+export const RES_NAMES = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'Æ'];
 
 export type Stats = {
     [K in string]: number

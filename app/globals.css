@@ -1,35 +1,176 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-table, td, th {
-  border: 1px solid;
-  padding: 10px;
+/* ── Two-column page layout ── */
+.page-layout {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 10rem;
+    height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
+.left-column {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    gap: 1rem;
+    align-content: start;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
+
+.stat-table {
+    max-width: 500px;
+    min-width: 500px;
+}
+
+.table-wrapper {
+    max-width: 700px;
+    min-width: 400px;
+    height: 50vh;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    border: 1px solid #374151;
+}
+
+.table-wrapper table {
+    color: black;
+    border: none;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 0;
+}
+
+.table-wrapper thead {
+    display: block;
+    flex-shrink: 0;
+    scrollbar-gutter: 'stable'; /* Keeps widths identical */
+    width: 100%;
+}
+
+.table-wrapper tbody {
+    display: block;
+    overflow-y: auto;
+    flex: 1;
+    min-height: 0;
+    scrollbar-gutter: 'stable'; /* Keeps widths identical */
+}
+
+.table-wrapper thead tr,
+.table-wrapper tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+/* ── Tables ── */
 table {
-  border-collapse: collapse;
+    border-radius: 0.5rem;
+    border: 1px solid #374151;
+    width: 100%;
+    font-size: 0.875rem;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+
+thead {
+    background-color: rgb(233, 233, 233);
+    text-transform: uppercase;
+
+}
+
+thead th {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    width: 10px;
+    max-width: 10px;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+tbody tr {
+    border-top: 1px solid #a8b9d3; /* gray-700 */
+    transition: background-color 150ms ease;
+}
+
+tbody tr:hover {
+    background-color: rgb(245, 245, 245);
+    transition: backgrrgb(245, 245, 245) ease;
+}
+
+.monster-table th {
+    cursor: pointer;
+}
+
+.monster-table a {
+    color: rgb(41, 146, 245);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.monster-table th:hover {
+  background-color: #eeeeee;
+}
+
+tbody td {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    width: 10px;
+    max-width: 10px;
+    overflow-x: hidden;
+    text-align: right;
+}
+
+.resistance-table th,
+.resistance-table td {
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+}
+
+h1, h2 {
+    color: rgb(238, 127, 0);
+}
+
+a {
+    color: rgb(41, 146, 245);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(84, 173, 255);
+    text-decoration: underline;
+}
+
+.veryHighStat {
+    color: rgb(238, 0, 0);
+}
+
+.highStat {
+    color: rgb(238, 127, 0);
+}
+
+.lowStat {
+    color: rgb(84, 173, 255);
+}
+
+.currentRow {
+    background-color: rgb(224, 238, 252);
+}
+
+.currentRow:hover {
+    background-color: rgb(232, 242, 252);
 }
