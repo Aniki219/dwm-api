@@ -6,25 +6,59 @@ body {
 
 /* ── Two-column page layout ── */
 .page-layout {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    gap: 10rem;
-    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    width: 100%;
     padding: 1rem;
     box-sizing: border-box;
+    align-items: stretch;
+    min-height: 0;
 }
 
 .left-column {
-    display: grid;
-    grid-template-rows: auto auto auto auto;
-    gap: 1rem;
-    align-content: start;
+    flex: 0 0 auto; /* or set a specific width like flex: 0 0 300px */
+    display: flex;
+    flex-direction: column;
 }
 
 .right-column {
+    flex: 0 0 auto; /* same */
     display: flex;
     flex-direction: column;
-    min-height: 0;
+    justify-content: flex-end;
+}
+
+@media (max-width: 1240px) {
+    .page-layout {
+        flex-direction: column;
+    }
+}
+
+.monster-window {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    flex: 1;
+}
+
+.monster-top {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.monster-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.monster-bottom {
+    margin-top: auto;
 }
 
 .stat-table {
@@ -32,9 +66,19 @@ body {
     min-width: 500px;
 }
 
+.list-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    color: lightgrey;
+}
+
 .table-wrapper {
     max-width: 700px;
-    min-width: 400px;
+    min-width: 500px;
     height: 50vh;
     min-height: 0;
     display: flex;

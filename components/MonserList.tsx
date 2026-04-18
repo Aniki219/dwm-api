@@ -2,7 +2,7 @@
 
 import { Monster, STAT_NAMES } from "@/types/types";
 import Link from "next/link";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { startTransition, useEffect, useMemo, useRef, useState } from "react";
 
 type MonsterListParams = {
     currentMonster: Monster
@@ -16,11 +16,14 @@ type MonsterListSort = {
 
 export default function MonsterList(params: MonsterListParams) {
     const { stats: currentStats, name: currentName } = params.currentMonster;
-    const [sortBy, setSortBy] = useState<MonsterListSort>(() => {
-        if (typeof window === 'undefined') return { sortKey: 'none', up: true };
+    const [filteredFamily, setFilteredFamily] = useState<string>("")
+    const [sortBy, setSortBy] = useState<MonsterListSort>({ sortKey: 'none', up: true });
+
+    useEffect(() => {
         const saved = localStorage.getItem('monsterListSort');
-        return saved ? JSON.parse(saved) : { sortKey: 'none', up: true };
-    });
+        if (!saved) return;
+        startTransition(() => setSortBy(JSON.parse(saved)));
+    }, []);
 
     useEffect(() => {
         localStorage.setItem('monsterListSort', JSON.stringify(sortBy));
@@ -41,20 +44,22 @@ export default function MonsterList(params: MonsterListParams) {
 
         if (sortBy.sortKey === 'none') return params.monsterList;
 
-        return [...params.monsterList].sort((a, b) => {
-            let aVal = getSortValue(a, sortBy.sortKey);
-            let bVal = getSortValue(b, sortBy.sortKey);
-            let up = sortBy.up;
-            if (aVal === bVal) {
-                aVal = a.name;
-                bVal = b.name;
-                up = true
-            }
-            if (aVal === bVal) return 0;
-            const cmp = aVal > bVal ? 1 : -1;
-            return up ? cmp : -cmp;
-        });
-    }, [sortBy, params.monsterList, statNames]);
+        return [...params.monsterList]
+            .filter(m => filteredFamily == "" || m.family == filteredFamily)
+            .sort((a, b) => {
+                let aVal = getSortValue(a, sortBy.sortKey);
+                let bVal = getSortValue(b, sortBy.sortKey);
+                let up = sortBy.up;
+                if (aVal === bVal) {
+                    aVal = a.name;
+                    bVal = b.name;
+                    up = true
+                }
+                if (aVal === bVal) return 0;
+                const cmp = aVal > bVal ? 1 : -1;
+                return up ? cmp : -cmp;
+            });
+    }, [sortBy, params.monsterList, statNames, filteredFamily]);
 
     const handleSortBy = (sortKey: string) => {
         if (sortBy.sortKey === sortKey) {
@@ -71,64 +76,74 @@ export default function MonsterList(params: MonsterListParams) {
     }, []);
 
     return (
-        <div className="table-wrapper">
-            <table className="monster-table">
-                <thead>
-                    <tr>
-                        <th
-                            style={{ 'width': '35px', 'maxWidth': '35px' }}
-                            onClick={() => handleSortBy('name')}
-                        >
-                            Name
-                        </th>
-                        <th onClick={() => handleSortBy('family')}>
-                            Family
-                        </th>
-                        {statNames.map((stat, k) => (
+        <div>
+            <h2> Monster List </h2>
+            <div className="list-tabs">
+                <a href='#'>Breeds</a>
+                <span>|</span>
+                <a href='#'>Stats</a>
+                <span>|</span>
+                <a href='#'>Resistances</a>
+            </div>
+            <div className="table-wrapper">
+                <table className="monster-table">
+                    <thead>
+                        <tr>
                             <th
-                                key={`statName_${k}`}
-                                onClick={() => handleSortBy(stat)}
+                                style={{ 'width': '35px', 'maxWidth': '35px' }}
+                                onClick={() => handleSortBy('name')}
                             >
-                                {stat}
+                                Name
                             </th>
-                        ))}
-                        <th onClick={() => handleSortBy('total')}>
-                            Stat Total
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {monsterList.map((monster, k) => {
-                        const { name, family, stats } = monster;
-                        return (
-                            <tr
-                                ref={name == currentName ? rowRef : null}
-                                key={`monster_${k}`}
-                                className={`${name == currentName ? " currentRow" : ""}`}
-                            >
-                                <td
-                                    style={{ 'width': '35px', 'maxWidth': '35px' }}
+                            <th onClick={() => handleSortBy('family')}>
+                                Family
+                            </th>
+                            {statNames.map((stat, k) => (
+                                <th
+                                    key={`statName_${k}`}
+                                    onClick={() => handleSortBy(stat)}
                                 >
-                                    <Link href={`/monster/${name}`}>{name}</Link>
-                                </td>
-                                <td>{family}</td>
-                                {statNames.map((stat, k) => (
+                                    {stat}
+                                </th>
+                            ))}
+                            <th onClick={() => handleSortBy('total')}>
+                                Stat Total
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {monsterList.map((monster, k) => {
+                            const { name, family, stats } = monster;
+                            return (
+                                <tr
+                                    ref={name == currentName ? rowRef : null}
+                                    key={`monster_${k}`}
+                                    className={`${name == currentName ? " currentRow" : ""}`}
+                                >
                                     <td
-                                        key={`stat_${k}`}
-                                        className={`${getHighLowClassName(stats[stat])}`}
+                                        style={{ 'width': '35px', 'maxWidth': '35px' }}
                                     >
-                                        {stats[stat]}
+                                        <Link href={`/monster/${name}`}>{name}</Link>
                                     </td>
-                                ))}
-                                <td>
-                                    {statNames.filter(s => !['MAX', 'EXP'].includes(s)).reduce((p, a) => stats[a] + p, 0)}
-                                </td>
-                            </tr>
-                        );
-                    })}
-                </tbody>
-            </table>
-        </div >
+                                    <td>{family}</td>
+                                    {statNames.map((stat, k) => (
+                                        <td
+                                            key={`stat_${k}`}
+                                            className={`${getHighLowClassName(stats[stat])}`}
+                                        >
+                                            {stats[stat]}
+                                        </td>
+                                    ))}
+                                    <td>
+                                        {statNames.filter(s => !['MAX', 'EXP'].includes(s)).reduce((p, a) => stats[a] + p, 0)}
+                                    </td>
+                                </tr>
+                            );
+                        })}
+                    </tbody>
+                </table>
+            </div>
+        </div>
     )
 }
 

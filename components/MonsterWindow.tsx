@@ -14,68 +14,38 @@ export default function MonsterWindow(params: MonsterWindowParams) {
 
     return (
         <div className="monster-window">
-            <h1>{name} (<a href={`/families/${family}`}>{family}</a>)</h1>
-            <div>
+            <h1 style={{ 'textAlign': 'center' }}>
+                {name} (<a href={`/families/${family}`}>{family}</a>)
+            </h1>
+            <div className="monster-top">
                 <Image src={`/sprites/${name.toLowerCase()}.png`} width={144} height={144} style={{ imageRendering: 'pixelated' }} alt={`${name.toLowerCase()}`} />
+            </div>
+            <div className="monster-bottom">
+                <h2>Location</h2>
+                <p>Ice World</p>
                 <h2>Skills</h2>
                 <ul>
-                    {
-                        moves.map((move, k) => <li key={`move_${k}`}>{move}</li>)
-                    }
+                    {moves.map((move, k) => <li key={`move_${k}`}>{move}</li>)}
                 </ul>
+                <h2>Stats</h2>
+                <table className="stat-table">
+                    <thead>
+                        <tr>{statNames.map((stat, k) => <th key={`th_${k}`}>{stat}</th>)}</tr>
+                    </thead>
+                    <tbody>
+                        <tr>{statNames.map((stat, k) => <td key={`stat_${k}`}>{stats[stat]}</td>)}</tr>
+                    </tbody>
+                </table>
+                <h2>Resistances</h2>
+                <table className="resistance-table">
+                    <thead>
+                        <tr>{RES_NAMES.map((res, k) => <th key={`th_${k}`}>{res}</th>)}</tr>
+                    </thead>
+                    <tbody>
+                        <tr>{resistances.map((res, k) => <td key={`res_${k}`}>{res}</td>)}</tr>
+                    </tbody>
+                </table>
             </div>
-            <h2>Location</h2>
-            <p>Ice World</p>
-            <h2>Stats</h2>
-            <table className="stat-table">
-                <thead>
-                    <tr>
-                        {
-                            statNames.map((stat, k) => {
-                                return (
-                                    <th key={`th_${k}`}>{stat}</th>
-                                );
-                            })
-                        }
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        {
-                            statNames.map((stat, k) => {
-                                return (
-                                    <td key={`stat_${k}`}>{stats[stat]}</td>
-                                );
-                            })
-                        }
-                    </tr>
-                </tbody>
-            </table>
-            <h2>Resistances</h2>
-            <table className="resistance-table">
-                <thead>
-                    <tr>
-                        {
-                            RES_NAMES.map((res, k) => {
-                                return (
-                                    <th key={`th_${k}`}>{res}</th>
-                                );
-                            })
-                        }
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        {
-                            resistances.map((res, k) => {
-                                return (
-                                    <td key={`res_${k}`}>{res}</td>
-                                );
-                            })
-                        }
-                    </tr>
-                </tbody>
-            </table>
         </div>
     )
 }
