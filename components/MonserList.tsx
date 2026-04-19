@@ -7,6 +7,7 @@ import { startTransition, useEffect, useMemo, useRef, useState } from "react";
 type MonsterListParams = {
     currentMonster: Monster
     monsterList: Monster[]
+    initialSort: MonsterListSort
 }
 
 type MonsterListSort = {
@@ -17,17 +18,7 @@ type MonsterListSort = {
 export default function MonsterList(params: MonsterListParams) {
     const { stats: currentStats, name: currentName } = params.currentMonster;
     const [filteredFamily, setFilteredFamily] = useState<string>("")
-    const [sortBy, setSortBy] = useState<MonsterListSort>({ sortKey: 'none', up: true });
-
-    useEffect(() => {
-        const saved = localStorage.getItem('monsterListSort');
-        if (!saved) return;
-        startTransition(() => setSortBy(JSON.parse(saved)));
-    }, []);
-
-    useEffect(() => {
-        localStorage.setItem('monsterListSort', JSON.stringify(sortBy));
-    }, [sortBy]);
+    const [sortBy, setSortBy] = useState<MonsterListSort>(params.initialSort);
 
     const statNames = STAT_NAMES.filter(n => !['LV', 'FROM', 'MAX', 'EXP'].includes(n)).sort((_, n) => n == 'MAX' || n == 'EXP' ? -1 : 0)
     const rowRef = useRef<HTMLTableRowElement>(null);
@@ -62,18 +53,16 @@ export default function MonsterList(params: MonsterListParams) {
     }, [sortBy, params.monsterList, statNames, filteredFamily]);
 
     const handleSortBy = (sortKey: string) => {
-        if (sortBy.sortKey === sortKey) {
-            setSortBy({ sortKey: sortKey, up: !sortBy.up });
-        } else {
-            setSortBy({ sortKey: sortKey, up: true });
-        }
+        const newSort = { sortKey, up: sortBy.sortKey === sortKey ? !sortBy.up : true };
+        setSortBy(newSort);
+        document.cookie = `monsterListSort=${JSON.stringify(newSort)}; path=/; max-age=31536000`;
     }
 
     useEffect(() => {
         if (rowRef.current) {
             rowRef.current.scrollIntoView({ behavior: "instant", block: "center" });
         }
-    }, []);
+    }, [sortBy]);
 
     return (
         <div>
@@ -89,6 +78,7 @@ export default function MonsterList(params: MonsterListParams) {
                 <table className="monster-table">
                     <thead>
                         <tr>
+                            <th>#</th>
                             <th
                                 style={{ 'width': '35px', 'maxWidth': '35px' }}
                                 onClick={() => handleSortBy('name')}
@@ -120,6 +110,7 @@ export default function MonsterList(params: MonsterListParams) {
                                     key={`monster_${k}`}
                                     className={`${name == currentName ? " currentRow" : ""}`}
                                 >
+                                    <td>{k}</td>
                                     <td
                                         style={{ 'width': '35px', 'maxWidth': '35px' }}
                                     >

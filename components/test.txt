@@ -1,0 +1,33 @@
+[
+  { base: 'Tonguella', mate: 'TreeSlime', five: 0 },
+  { base: 'Tonguella', mate: 'FangSlime', five: 0 },
+  { base: 'Tonguella', mate: 'MadDragon', five: 0 },
+  { base: 'Tonguella', mate: 'FunkyBird', five: 0 },
+  { base: 'Tonguella', mate: 'MadPlant', five: 0 },
+  { base: 'Tonguella', mate: 'FaceTree', five: 0 },
+  { base: 'Tonguella', mate: 'Lipsy', five: 0 },
+  { base: 'Tonguella', mate: 'Demonite', five: 0 },
+  { base: 'Tonguella', mate: 'Gremlin', five: 0 },
+  { base: 'Tonguella', mate: 'Copycat', five: 0 },
+  { base: 'Tonguella', mate: 'JewelBag', five: 0 },
+  { base: 'Tonguella', mate: 'Mimic', five: 0 },
+  { base: 'GulpBeast', mate: 'TreeSlime', five: 0 },
+  { base: 'GulpBeast', mate: 'FangSlime', five: 0 },
+  { base: 'GulpBeast', mate: 'MadDragon', five: 0 },
+  { base: 'GulpBeast', mate: 'FunkyBird', five: 0 },
+  { base: 'GulpBeast', mate: 'MadPlant', five: 0 },
+  { base: 'GulpBeast', mate: 'FaceTree', five: 0 },
+  { base: 'GulpBeast', mate: 'Lipsy', five: 0 },
+  { base: 'GulpBeast', mate: 'Demonite', five: 0 },
+  { base: 'GulpBeast', mate: 'Gremlin', five: 0 },
+  { base: 'GulpBeast', mate: 'Copycat', five: 0 },
+  { base: 'GulpBeast', mate: 'JewelBag', five: 0 },
+  { base: 'GulpBeast', mate: 'Mimic', five: 0 },
+  { base: 'BEASTFM', mate: 'Mudron', five: 0 },
+  { base: 'Dumbira', mate: 'SLIMEFM', five: 0 }
+]
+
+Create a map with base name as key and push mates into the array
+[
+  "Tonguella": []
+]
