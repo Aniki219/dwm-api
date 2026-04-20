@@ -66,6 +66,8 @@ export async function GetMonster(name : string) : Promise<Monster> {
     res.stats = JSON.parse(stats);
     res.breeds = JSON.parse(breeds);
     res.resistances = JSON.parse(resistances);
+
+    console.log((res.breeds[0].base as unknown) as string)
     
     return res;
 }

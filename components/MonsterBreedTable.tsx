@@ -12,8 +12,12 @@ export default function MonsterBreedTable(params: MonsterBreedTableParams) {
     const breedMap = new Map<string, string[]>();
     breeds.forEach(pair => {
         const { base, mate } = pair;
-        if (breedMap.has(base)) {
-            breedMap[base].push
+        const baseStr : string = base as unknown as string
+        const mateStr : string = mate as unknown as string
+        if (breedMap.has(baseStr)) {
+            breedMap.get(baseStr)?.push(mateStr)
+        } else {
+            breedMap.set(baseStr, [mateStr])
         }
     })
 
