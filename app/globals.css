@@ -39,9 +39,9 @@ body {
 .monster-window {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
+    flex: 1 1 0;
     height: 100%;
-    flex: 1;
 }
 
 .monster-top {
@@ -58,12 +58,12 @@ body {
 }
 
 .monster-bottom {
-    margin-top: auto;
+    flex: 1 1 0;
 }
 
 .stat-table {
-    max-width: 500px;
     min-width: 500px;
+    max-width: 700px;
 }
 
 .list-tabs {
@@ -79,19 +79,17 @@ body {
 .table-wrapper {
     max-width: 700px;
     min-width: 500px;
-    height: 50vh;
+    max-height: 40vh;
     min-height: 0;
     display: flex;
     flex-direction: column;
     overflow: hidden;
     border-radius: 0.5rem;
-    border: 1px solid #374151;
 }
 
 .table-wrapper table {
     color: black;
-    border: none;
-    border-radius: 0;
+
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -114,7 +112,9 @@ body {
 }
 
 .table-wrapper thead tr,
-.table-wrapper tbody tr {
+.table-wrapper tbody tr,
+.stat-table thead tr,
+.stat-table tbody tr {
     display: table;
     width: 100%;
     table-layout: fixed;
@@ -122,8 +122,8 @@ body {
 
 /* ── Tables ── */
 table {
+    border-spacing: 0;
     border-radius: 0.5rem;
-    border: 1px solid #374151;
     width: 100%;
     font-size: 0.875rem;
     text-align: left;
@@ -154,6 +154,10 @@ tbody tr {
 tbody tr:hover {
     background-color: rgb(245, 245, 245);
     transition: backgrrgb(245, 245, 245) ease;
+}
+
+.monster-table {
+    border: 1px solid #374151;
 }
 
 .monster-table th {
@@ -217,4 +221,17 @@ a:hover {
 
 .currentRow:hover {
     background-color: rgb(232, 242, 252);
+}
+
+td ul {
+    list-style: none;
+    margin: 0;
+}
+
+.breed-table {
+    border: none;
+}
+
+.breed-table td {
+    vertical-align: top;
 }

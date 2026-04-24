@@ -5367,17 +5367,39 @@
     ,----------------------------------+----------------------------------.
     ¦ Base                             ¦ Mate                             ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ Tonguella                        ¦ Digster Skullgon DeadNoble       ¦
-    ¦                                  ¦ WhiteKing Skeletor               ¦
+    ¦ BigEye                           ¦ DRAGONFM                         ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ WildApe Grizzly Yeti Unicorn     ¦ Digster Skullgon DeadNoble       ¦
-    ¦ Dumbira Goategon                 ¦ WhiteKing Skeletor MetalDrak     ¦
-    ¦                                  ¦ Roboster LavaMan IceMan Golem    ¦
-    ¦                                  ¦ StoneMan                         ¦
+    ¦ Dumbira Unicorn                  ¦ DeadNoble                        ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ Grizzly Yeti Trumpeter BigEye    ¦ DRAGONFM                         ¦
+    ¦ Trumpeter                        ¦ Digster DRAGONFM Golem           ¦
+    ¦                                  ¦ IceMan LavaMan Roboster          ¦
+    ¦                                  ¦ Skeletor Skullgon StoneMan       ¦ 
+    ¦                                  ¦ WhiteKing                        ¦
     ¦----------------------------------+----------------------------------¦
-    ¦ Grizzly                          ¦ DEVILFM                          ¦
+    ¦ Goategon                         ¦ Golem                            ¦
+    ¦----------------------------------+----------------------------------¦
+    ¦ IronTurt                         ¦ IceMan LavaMan Roboster          ¦
+    ¦                                  ¦ MetalDrak StoneMan               ¦ 
+    ¦----------------------------------+----------------------------------¦
+    ¦ Grizzly                          ¦ DeadNoble DEVILFM                ¦
+    ¦                                  ¦ Digster DRAGONFM Golem           ¦
+    ¦                                  ¦ IceMan LavaMan MetalDrak         ¦
+    ¦                                  ¦ Skeletor Skullgon StoneMan       ¦ 
+    ¦                                  ¦ WhiteKing Roboster               ¦
+    ¦----------------------------------+----------------------------------¦
+    ¦ WildApe                          ¦ Digster  Golem                   ¦
+    ¦                                  ¦ IceMan LavaMan MetalDrak         ¦
+    ¦                                  ¦ Skeletor Skullgon StoneMan       ¦ 
+    ¦                                  ¦ WhiteKing Roboster               ¦
+    ¦----------------------------------+----------------------------------¦
+    ¦ Tonguella                        ¦ DeadNoble Digster Skeletor       ¦
+    ¦                                  ¦ Skullgon WhiteKing               ¦
+    ¦----------------------------------+----------------------------------¦
+    ¦ Yeti                             ¦ DeadNoble                        ¦
+    ¦                                  ¦ Digster DRAGONFM Golem           ¦
+    ¦                                  ¦ IceMan LavaMan MetalDrak         ¦
+    ¦                                  ¦ Skeletor Skullgon StoneMan       ¦ 
+    ¦                                  ¦ WhiteKing Roboster               ¦    
     ‘----------------------------------^----------------------------------’
     ,———————————————————————————————————————————————————.
     |  HammerMan       : ChargeUp  EvilSlash Kamikaze   |

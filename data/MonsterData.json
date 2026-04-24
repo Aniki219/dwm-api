@@ -4068,44 +4068,6 @@
 				"breeds": [
 					{
 						"base": [
-							"Tonguella"
-						],
-						"mate": [
-							"Digster",
-							"Skullgon",
-							"DeadNoble",
-							"WhiteKing",
-							"Skeletor"
-						]
-					},
-					{
-						"base": [
-							"WildApe",
-							"Grizzly",
-							"Yeti",
-							"Unicorn",
-							"Dumbira",
-							"Goategon"
-						],
-						"mate": [
-							"Digster",
-							"Skullgon",
-							"DeadNoble",
-							"WhiteKing",
-							"Skeletor",
-							"MetalDrak",
-							"Roboster",
-							"LavaMan",
-							"IceMan",
-							"Golem",
-							"StoneMan"
-						]
-					},
-					{
-						"base": [
-							"Grizzly",
-							"Yeti",
-							"Trumpeter",
 							"BigEye"
 						],
 						"mate": [
@@ -4114,10 +4076,116 @@
 					},
 					{
 						"base": [
+							"Dumbira",
+							"Unicorn"
+						],
+						"mate": [
+							"DeadNoble"
+						]
+					},
+					{
+						"base": [
+							"Trumpeter"
+						],
+						"mate": [
+							"Digster",
+							"DRAGONFM",
+							"Golem",
+							"IceMan",
+							"LavaMan",
+							"Roboster",
+							"Skeletor",
+							"Skullgon",
+							"StoneMan",
+							"WhiteKing"
+						]
+					},
+					{
+						"base": [
+							"Goategon"
+						],
+						"mate": [
+							"Golem"
+						]
+					},
+					{
+						"base": [
+							"IronTurt"
+						],
+						"mate": [
+							"IceMan",
+							"LavaMan",
+							"Roboster",
+							"MetalDrak",
+							"StoneMan"
+						]
+					},
+					{
+						"base": [
 							"Grizzly"
 						],
 						"mate": [
-							"DEVILFM"
+							"DeadNoble",
+							"DEVILFM",
+							"Digster",
+							"DRAGONFM",
+							"Golem",
+							"IceMan",
+							"LavaMan",
+							"MetalDrak",
+							"Skeletor",
+							"Skullgon",
+							"StoneMan",
+							"WhiteKing",
+							"Roboster"
+						]
+					},
+					{
+						"base": [
+							"WildApe"
+						],
+						"mate": [
+							"Digster",
+							"Golem",
+							"IceMan",
+							"LavaMan",
+							"MetalDrak",
+							"Skeletor",
+							"Skullgon",
+							"StoneMan",
+							"WhiteKing",
+							"Roboster"
+						]
+					},
+					{
+						"base": [
+							"Tonguella"
+						],
+						"mate": [
+							"DeadNoble",
+							"Digster",
+							"Skeletor",
+							"Skullgon",
+							"WhiteKing"
+						]
+					},
+					{
+						"base": [
+							"Yeti"
+						],
+						"mate": [
+							"DeadNoble",
+							"Digster",
+							"DRAGONFM",
+							"Golem",
+							"IceMan",
+							"LavaMan",
+							"MetalDrak",
+							"Skeletor",
+							"Skullgon",
+							"StoneMan",
+							"WhiteKing",
+							"Roboster"
 						]
 					}
 				]

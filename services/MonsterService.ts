@@ -50,7 +50,17 @@ export async function GetMonster(name : string) : Promise<Monster> {
                 SELECT json_group_array(json_object('base', base_name, 'mate', mate_name, 'five', plus_five))
                 FROM monster_breeds
                 WHERE result_name = m.name
-            ) AS breeds       
+            ) AS breeds,
+            (
+                SELECT json_group_array(json_object('base', base_name, 'mate', mate_name, 'result', result_name, 'five', plus_five))
+                FROM monster_breeds
+                WHERE result_name IN (
+                    SELECT 
+                        result_name
+                    FROM monster_breeds
+                    WHERE base_name = m.name OR mate_name = m.name
+                )
+            ) AS usedIn     
         FROM monsters m
         WHERE m.name = ?
         ;
@@ -62,12 +72,15 @@ export async function GetMonster(name : string) : Promise<Monster> {
     const stats = ((res.stats) as unknown) as string;
     const breeds = ((res.breeds) as unknown) as string;
     const resistances = ((res.resistances) as unknown) as string;
+    const usedIn = ((res.usedIn) as unknown) as string;
+
     res.moves = JSON.parse(moves);
     res.stats = JSON.parse(stats);
     res.breeds = JSON.parse(breeds);
     res.resistances = JSON.parse(resistances);
+    res.usedIn = JSON.parse(usedIn)
 
-    console.log((res.breeds[0].base as unknown) as string)
+    // console.log(res.usedIn)
     
     return res;
 }

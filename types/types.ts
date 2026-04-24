@@ -13,11 +13,14 @@ export type Monster = {
     moves: string[]
     resistances: number[]
     breeds: Breed[]
+    usedIn: Breed[]
 }
 
 export type Breed = {
     base: string[],
     mate: string[],
+    result: string,
+    five: number | null
 }
 
 export type Family = {

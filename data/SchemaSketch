@@ -1,0 +1,27 @@
+[
+  { base: 'MimeSlime', mate: 'ZOMBIEFM', result: 'HaloSlime', five: 0 },
+  { base: 'MimeSlime', mate: 'Pixy', result: 'HaloSlime', five: 0 },
+  { base: 'MimeSlime', mate: 'StubBird', result: 'HaloSlime', five: 0 },
+  { base: 'Slime', mate: 'Copycat', result: 'HaloSlime', five: 0 },
+  { base: 'WonderEgg', mate: 'BIRDFM', result: 'HaloSlime', five: 0 },
+
+
+  { base: 'PLANTFM', mate: 'Pixy', result: 'TreeBoy', five: 0 },
+  { base: 'FooHero', mate: 'EvilWand', result: 'TreeBoy', five: 0 },
+
+
+  { base: 'Pixy', mate: 'SLIMEFM', result: '1EyeClown', five: 0 },
+  { base: 'Demonite', mate: 'SLIMEFM', result: '1EyeClown', five: 0 },
+  { base: 'EyeBall', mate: 'SLIMEFM', result: '1EyeClown', five: 0 },
+
+
+  { base: 'MATERIALFM', mate: 'WATERFM', result: 'Brushead', five: 0 },
+  { base: 'Puppetor', mate: 'Demonite', result: 'Brushead', five: 0 },
+  { base: 'Puppetor', mate: 'Pixy', result: 'Brushead', five: 0 },
+
+  
+  { base: 'Angleron', mate: 'Pixy', result: 'FishRider', five: 0 },
+  { base: 'Angleron', mate: 'Demonite', result: 'FishRider', five: 0 },
+  { base: 'Angleron', mate: 'SkulRider', result: 'FishRider', five: 0 },
+  { base: 'Angleron', mate: 'Gremlin', result: 'FishRider', five: 0 }
+]

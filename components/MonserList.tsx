@@ -65,7 +65,7 @@ export default function MonsterList(params: MonsterListParams) {
     }, [sortBy]);
 
     return (
-        <div>
+        <div className="monster-bottom">
             <h2> Monster List </h2>
             <div className="list-tabs">
                 <a href='#'>Breeds</a>
@@ -97,7 +97,7 @@ export default function MonsterList(params: MonsterListParams) {
                                 </th>
                             ))}
                             <th onClick={() => handleSortBy('total')}>
-                                Stat Total
+                                TOTAL
                             </th>
                         </tr>
                     </thead>
