@@ -73,7 +73,7 @@ function StatsTable(params: StatsTableParams) {
                         <td>
                             {
                                 statNames.reduce<number>((sum, key) => {
-                                    if (['MAX', 'EXP', 'FROM', 'LV'].includes(key)) {
+                                    if (['MAX', 'EXP', 'FROM', 'LV', 'INT', 'AGL', 'MP'].includes(key)) {
                                         return sum;
                                     }
                                     return sum + stats[key];

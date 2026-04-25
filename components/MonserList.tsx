@@ -28,7 +28,7 @@ export default function MonsterList(params: MonsterListParams) {
             if (key === 'name') return monster.name;
             if (key === 'family') return monster.family;
             if (key === 'total') return statNames
-                .filter(s => !['MAX', 'EXP'].includes(s))
+                .filter(s => !['MAX', 'EXP', 'LV', 'FROM', 'MP', 'INT', 'AGL'].includes(s))
                 .reduce((p, a) => monster.stats[a as keyof typeof monster.stats] + p, 0);
             return monster.stats[key as keyof typeof monster.stats];
         }
@@ -126,7 +126,7 @@ export default function MonsterList(params: MonsterListParams) {
                                         </td>
                                     ))}
                                     <td>
-                                        {statNames.filter(s => !['MAX', 'EXP'].includes(s)).reduce((p, a) => stats[a] + p, 0)}
+                                        {statNames.filter(s => !['MAX', 'EXP', 'LV', 'FROM', 'MP', 'INT', 'AGL'].includes(s)).reduce((p, a) => stats[a] + p, 0)}
                                     </td>
                                 </tr>
                             );
