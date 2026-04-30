@@ -20,7 +20,7 @@ export default function MonsterList(params: MonsterListParams) {
     const [filteredFamily, setFilteredFamily] = useState<string>("")
     const [sortBy, setSortBy] = useState<MonsterListSort>(params.initialSort);
 
-    const statNames = STAT_NAMES.filter(n => !['LV', 'FROM', 'MAX', 'EXP'].includes(n)).sort((_, n) => n == 'MAX' || n == 'EXP' ? -1 : 0)
+    const statNames = STAT_NAMES.filter(n => !['LV', 'FROM', 'MAX'].includes(n)).sort((_, n) => n == 'MAX' || n == 'EXP' ? -1 : 0)
     const rowRef = useRef<HTMLTableRowElement>(null);
 
     const monsterList = useMemo(() => {

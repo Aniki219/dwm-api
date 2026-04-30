@@ -1,16 +1,40 @@
-SELECT 
-        m.name, 
-        m.family,
+WITH Vars AS (
+    SELECT (
+        SELECT value
+        FROM move_requirements
+        WHERE stat_name = 'FROM'
+            AND move_name = 'WhiteFire'
+    ) AS toMove
+),
+ExtendedVars AS (
+    SELECT 
+        toMove,
         (
-            SELECT json_group_array(json_object('base', base_name, 'mate', mate_name, 'result', result_name, 'five', plus_five))
-            FROM monster_breeds
-            WHERE result_name IN (
-                SELECT 
-                    result_name
-                FROM monster_breeds
-                WHERE base_name = m.name OR mate_name = m.name
-            )
-        ) AS used_in 
-    FROM monsters m
-    WHERE m.name = 'DracoLord2'
-;
+            SELECT value
+            FROM move_requirements
+            WHERE stat_name = 'FROM'
+                AND move_name = toMove
+        ) AS secondMove
+    FROM Vars
+),
+DoubleExtendedVars AS (
+    SELECT 
+        secondMove,
+        (
+            SELECT value
+            FROM move_requirements
+            WHERE stat_name = 'FROM'
+                AND move_name = secondMove
+        ) AS thirdMove
+    FROM ExtendedVars
+)
+SELECT monster_name
+FROM monster_moves
+WHERE move_name IN (
+    SELECT name
+    FROM moves, ExtendedVars, DoubleExtendedVars
+    WHERE name = ExtendedVars.toMove
+       OR name = ExtendedVars.secondMove
+       OR name = DoubleExtendedVars.thirdMove
+       OR name = 'WhiteFire'
+);

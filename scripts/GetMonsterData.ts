@@ -1,4 +1,4 @@
-import { MonsterData, Stats, STAT_NAMES } from '@/types/types';
+import { MonsterData, Stats, STAT_NAMES, Monster } from '@/types/types';
 import fs from 'fs';
 
 const data: MonsterData = { families: {} };
@@ -61,8 +61,11 @@ function parseMonsterData() {
                     family: currentFamily.replace(" FAMILY", "").toLowerCase().replace(/^\w/, (c) => c.toUpperCase()),
                     stats: stats,
                     moves: splits.slice(9, 12),
+                    location: "",
+                    found: "",
                     resistances: [],
-                    breeds: []
+                    breeds: [],
+                    usedIn: []
                 };
             }
             if (currentHeader == "MONSTER RESISTANCES") {
@@ -82,6 +85,8 @@ function parseBreedsData() {
 
     let currentFamily = "";
     let currentMonster = "";
+    let currentLocation = "";
+    let currentFound = "";
     let startCountingRows = false;
 
     for (const line of lines) {
@@ -93,6 +98,8 @@ function parseBreedsData() {
         
         if (line.match(/-+\^-+/)) {
             currentMonster = "";
+            currentLocation = "";
+            currentFound = "";
             startCountingRows = false;
         }
         
@@ -102,6 +109,15 @@ function parseBreedsData() {
         }
         
         if (currentMonster == "") continue;
+
+        const locationMatch = line.match(/Found: ([A-Za-z ]*)\s+- ([A-Za-z 0-9'\(\),]*)\s+¦/);
+        if (locationMatch) {
+            const m = data.families[currentFamily][currentMonster] as Monster
+            m.location = locationMatch[1].trim();
+            m.found = locationMatch[2].trim();
+            console.log(m.name, locationMatch[1].trim(), locationMatch[2].trim());
+            continue;
+        }
         
         const baseMates = data.families[currentFamily][currentMonster]?.breeds;
         if (!baseMates) continue;
@@ -128,7 +144,7 @@ function parseBreedsData() {
         }
 
         if (startCountingRows && line.match(/¦-+\+-+¦/)) {
-            data.families[currentFamily][currentMonster].breeds.push({ base: [], mate: [] });
+            data.families[currentFamily][currentMonster].breeds.push({ base: new Array<string>(), mate: new Array<string>(), result: "", five: 0 });
         }
     }
 

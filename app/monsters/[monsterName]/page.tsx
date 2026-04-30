@@ -7,7 +7,7 @@ import { GetMonster, GetMonsters } from "@/services/MonsterService";
 import { Monster } from "@/types/types";
 import { cookies } from "next/headers";
 
-export default async function Home({
+export default async function MonsterPage({
     params
 }: {
     params: Promise<{ monsterName: string }>,

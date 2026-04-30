@@ -9,6 +9,8 @@ export type Stats = {
 export type Monster = {
     name: string
     family: string
+    location: string
+    found: string
     stats: Stats
     moves: string[]
     resistances: number[]

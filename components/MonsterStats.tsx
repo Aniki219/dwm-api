@@ -1,10 +1,8 @@
 "use client"
 
 import { Monster, RES_NAMES, STAT_NAMES, Stats } from "@/types/types";
-import Image from "next/image";
 import '../app/globals.css'
 import Link from "next/link";
-import { Resistance } from "pokemon-tcg-sdk-typescript/dist/sdk";
 import { useState } from "react";
 
 type MonsterStatsParams = {
@@ -12,7 +10,7 @@ type MonsterStatsParams = {
 }
 
 export default function MonsterStats(params: MonsterStatsParams) {
-    const { moves, stats, resistances } = params.monster;
+    const { moves, stats, resistances, location, found } = params.monster;
     const statNames = STAT_NAMES.filter(n => !['LV', 'FROM'].includes(n))
 
     const [showStats, setShowStats] = useState(true);
@@ -20,14 +18,14 @@ export default function MonsterStats(params: MonsterStatsParams) {
     return (
         <div className="monster-bottom">
             <h2>Location</h2>
-            <p>Ice World</p>
+            {location && <a href={`/locations/${location}`}>{location} - {found}</a>}
             <h2>Skills</h2>
             <ul>
                 {
                     moves.map((move, k) => {
                         return (
                             <li key={`move_${k}`}>
-                                <Link href="#">{move}</Link>
+                                <Link href={`/moves/${move}`}>{move}</Link>
                             </li>
                         )
                     })

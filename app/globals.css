@@ -235,3 +235,35 @@ td ul {
 .breed-table td {
     vertical-align: top;
 }
+
+.index {
+    text-align: center;
+}
+
+.index ul {
+    padding: 0;
+    list-style: none;
+    font-size: 20;
+}
+
+.index li {
+    margin: 7px;
+}
+
+.navbar {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 86vh;
+    width: 80%;
+    margin: auto;
+}

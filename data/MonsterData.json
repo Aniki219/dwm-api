@@ -21,6 +21,8 @@
 					"FireAir",
 					"SuckAir"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -57,9 +59,12 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"SpotSlime": {
 				"name": "SpotSlime",
@@ -81,6 +86,8 @@
 					"LushLicks",
 					"Imitate"
 				],
+				"location": "Oasis Key World",
+				"found": "Near Door Shrine",
 				"resistances": [
 					0,
 					0,
@@ -117,9 +124,12 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"WingSlime": {
 				"name": "WingSlime",
@@ -141,6 +151,8 @@
 					"SquallHit",
 					"TailWind"
 				],
+				"location": "Ice Key World",
+				"found": "Near Door Shrine",
 				"resistances": [
 					0,
 					0,
@@ -177,9 +189,12 @@
 						],
 						"mate": [
 							"BIRDFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"TreeSlime": {
 				"name": "TreeSlime",
@@ -201,6 +216,8 @@
 					"Paralyze",
 					"SleepAir"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -237,9 +254,12 @@
 						],
 						"mate": [
 							"PLANTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Snaily": {
 				"name": "Snaily",
@@ -261,6 +281,8 @@
 					"NumbOff",
 					"CallHelp"
 				],
+				"location": "Pirate Key World",
+				"found": "Moonrock Tower Floor 1",
 				"resistances": [
 					0,
 					0,
@@ -297,9 +319,12 @@
 						],
 						"mate": [
 							"BUGFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"SlimeNite": {
 				"name": "SlimeNite",
@@ -321,6 +346,8 @@
 					"Upper",
 					"BeastCut"
 				],
+				"location": "Ice Key World",
+				"found": "Outside Weston Town",
 				"resistances": [
 					1,
 					1,
@@ -357,9 +384,12 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Babble": {
 				"name": "Babble",
@@ -381,6 +411,8 @@
 					"PoisonHit",
 					"EerieLite"
 				],
+				"location": "Sky Key World",
+				"found": "Heaven Sword Castle Floor 1",
 				"resistances": [
 					0,
 					0,
@@ -419,9 +451,12 @@
 							"ZOMBIEFM",
 							"GiantMoth",
 							"Poisongon"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"BoxSlime": {
 				"name": "BoxSlime",
@@ -443,6 +478,8 @@
 					"Upper",
 					"Ramming"
 				],
+				"location": "Sky Key World",
+				"found": "Heaven Helm Cave Floor 1",
 				"resistances": [
 					0,
 					0,
@@ -479,9 +516,12 @@
 						],
 						"mate": [
 							"MATERIALFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"PearlGel": {
 				"name": "PearlGel",
@@ -503,6 +543,8 @@
 					"ChargeUp",
 					"Radiant"
 				],
+				"location": "Pirate Key World",
+				"found": "HoodSquid Cave",
 				"resistances": [
 					0,
 					0,
@@ -539,9 +581,12 @@
 						],
 						"mate": [
 							"WATERFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Slime": {
 				"name": "Slime",
@@ -563,6 +608,8 @@
 					"MegaMagic",
 					"Radiant"
 				],
+				"location": "Pirate Key World",
+				"found": "Area Outside Door Shrine",
 				"resistances": [
 					0,
 					0,
@@ -595,9 +642,12 @@
 				"breeds": [
 					{
 						"base": [],
-						"mate": []
+						"mate": [],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Healer": {
 				"name": "Healer",
@@ -619,6 +669,8 @@
 					"HealUs",
 					"Upper"
 				],
+				"location": "Pirate Key World",
+				"found": "Area Outside HoodSquid Cave",
 				"resistances": [
 					0,
 					0,
@@ -658,9 +710,12 @@
 							"MadPlant",
 							"FunkyBird",
 							"PillowRat"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"FangSlime": {
 				"name": "FangSlime",
@@ -682,6 +737,8 @@
 					"ChargeUp",
 					"WarCry"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Fhunt Village",
 				"resistances": [
 					0,
 					0,
@@ -723,9 +780,12 @@
 							"KingLeo",
 							"MadCat",
 							"Trumpeter"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"RockSlime": {
 				"name": "RockSlime",
@@ -747,6 +807,8 @@
 					"Ramming",
 					"StrongD"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Hitano Castle (Not Village)",
 				"resistances": [
 					0,
 					0,
@@ -786,9 +848,12 @@
 							"Golem",
 							"DeadNite",
 							"StoneMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"SlimeBorg": {
 				"name": "SlimeBorg",
@@ -810,6 +875,8 @@
 					"RainSlash",
 					"BladeD"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -846,7 +913,9 @@
 						],
 						"mate": [
 							"Roboster"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -854,7 +923,9 @@
 						],
 						"mate": [
 							"Swordgon"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -863,7 +934,9 @@
 						"mate": [
 							"BattleRex",
 							"SkyDragon"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -871,7 +944,9 @@
 						],
 						"mate": [
 							"GreatDrak"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -879,9 +954,12 @@
 						],
 						"mate": [
 							"Spikerous"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Slabbit": {
 				"name": "Slabbit",
@@ -903,6 +981,8 @@
 					"LegSweep",
 					"Whistle"
 				],
+				"location": "Elf Key World",
+				"found": "Outside Door Shrine",
 				"resistances": [
 					0,
 					0,
@@ -939,9 +1019,12 @@
 						],
 						"mate": [
 							"Skullroo"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"KingSlime": {
 				"name": "KingSlime",
@@ -963,6 +1046,8 @@
 					"Barrier",
 					"Vivify"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -999,7 +1084,9 @@
 						],
 						"mate": [
 							"Slime†5"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -1007,7 +1094,9 @@
 						],
 						"mate": [
 							"BOSSFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -1027,9 +1116,12 @@
 							"WhipBird",
 							"WhiteKing",
 							"ZapBird"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Metaly": {
 				"name": "Metaly",
@@ -1051,6 +1143,8 @@
 					"IceBolt",
 					"Beat"
 				],
+				"location": "Sky Key World",
+				"found": "1 Screen Left Of Pei Village",
 				"resistances": [
 					3,
 					3,
@@ -1087,9 +1181,12 @@
 						],
 						"mate": [
 							"MetalDrak"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Metabble": {
 				"name": "Metabble",
@@ -1111,6 +1208,8 @@
 					"Bang",
 					"Sacrifice"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					3,
 					3,
@@ -1148,9 +1247,12 @@
 						"mate": [
 							"Metaly",
 							"WonderEgg"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"SpotKing": {
 				"name": "SpotKing",
@@ -1172,6 +1274,8 @@
 					"NapAttack",
 					"MouthShut"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -1221,7 +1325,9 @@
 							"WhipBird",
 							"WhiteKing",
 							"ZapBird"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -1229,9 +1335,12 @@
 						],
 						"mate": [
 							"SpotSlime†5"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"TropicGel": {
 				"name": "TropicGel",
@@ -1253,6 +1362,8 @@
 					"SleepAir",
 					"LushLicks"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -1290,7 +1401,9 @@
 						"mate": [
 							"Mommonja",
 							"PillowRat"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -1298,7 +1411,9 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -1306,9 +1421,12 @@
 						],
 						"mate": [
 							"PLANTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MimeSlime": {
 				"name": "MimeSlime",
@@ -1330,6 +1448,8 @@
 					"Ahhh",
 					"LoveRain"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -1368,7 +1488,9 @@
 							"1EyeClown",
 							"TreeBoy",
 							"EvilWand"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -1376,9 +1498,12 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"HaloSlime": {
 				"name": "HaloSlime",
@@ -1400,6 +1525,8 @@
 					"SealPray",
 					"LifeSong"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -1438,7 +1565,9 @@
 							"ZOMBIEFM",
 							"Pixy",
 							"StubBird"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -1446,7 +1575,9 @@
 						],
 						"mate": [
 							"Copycat"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -1454,9 +1585,12 @@
 						],
 						"mate": [
 							"BIRDFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MetalKing": {
 				"name": "MetalKing",
@@ -1478,6 +1612,8 @@
 					"Ironize",
 					"HellBlast"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					3,
 					3,
@@ -1515,7 +1651,9 @@
 						],
 						"mate": [
 							"MetalDrak"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -1524,9 +1662,12 @@
 						],
 						"mate": [
 							"Metabble"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"GoldSlime": {
 				"name": "GoldSlime",
@@ -1548,6 +1689,8 @@
 					"BigBang",
 					"Surge"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					3,
 					3,
@@ -1586,7 +1729,9 @@
 						],
 						"mate": [
 							"GoldGolem"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -1595,9 +1740,12 @@
 						],
 						"mate": [
 							"MetalKing"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"GranSlime": {
 				"name": "GranSlime",
@@ -1619,6 +1767,8 @@
 					"Focus",
 					"Informer"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					3,
 					3,
@@ -1657,7 +1807,9 @@
 							"DarkMate",
 							"GoldSlime",
 							"DeathMore"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -1665,9 +1817,12 @@
 						],
 						"mate": [
 							"GoldSlime"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"WonderEgg": {
 				"name": "WonderEgg",
@@ -1689,6 +1844,8 @@
 					"Ironize",
 					"Chance"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -1725,9 +1882,12 @@
 						],
 						"mate": [
 							"BigRoost"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			}
 		},
 		"DRAGON FAMILY": {
@@ -1751,6 +1911,8 @@
 					"SleepAir",
 					"Dodge"
 				],
+				"location": "Pirate Key World",
+				"found": "Basement Floor 3",
 				"resistances": [
 					1,
 					2,
@@ -1787,9 +1949,12 @@
 						],
 						"mate": [
 							"SLIMEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Tortragon": {
 				"name": "Tortragon",
@@ -1811,6 +1976,8 @@
 					"MagicBack",
 					"Lightning"
 				],
+				"location": "Pirate Key World",
+				"found": "Harmirror Cave Basement Floor 2",
 				"resistances": [
 					2,
 					2,
@@ -1847,9 +2014,12 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Pteranod": {
 				"name": "Pteranod",
@@ -1871,6 +2041,8 @@
 					"WindBeast",
 					"TailWind"
 				],
+				"location": "Pirate Key World",
+				"found": "Land Area, 1 Screen Right Of Door Shrine",
 				"resistances": [
 					2,
 					2,
@@ -1907,9 +2079,12 @@
 						],
 						"mate": [
 							"BIRDFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Gasgon": {
 				"name": "Gasgon",
@@ -1931,6 +2106,8 @@
 					"Farewell",
 					"Berserker"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -1967,9 +2144,12 @@
 						],
 						"mate": [
 							"PLANTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"FairyDrak": {
 				"name": "FairyDrak",
@@ -1991,6 +2171,8 @@
 					"SleepAir",
 					"LushLicks"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -2027,9 +2209,12 @@
 						],
 						"mate": [
 							"BUGFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"LizardMan": {
 				"name": "LizardMan",
@@ -2051,6 +2236,8 @@
 					"GigaSlash",
 					"EvilSlash"
 				],
+				"location": "Ice Key World",
+				"found": "Outside Castle Of Estria",
 				"resistances": [
 					0,
 					2,
@@ -2087,9 +2274,12 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Poisongon": {
 				"name": "Poisongon",
@@ -2111,6 +2301,8 @@
 					"PoisonGas",
 					"LushLicks"
 				],
+				"location": "Pirate Key World",
+				"found": "1 Screen Up From The Port Ritz Town",
 				"resistances": [
 					0,
 					0,
@@ -2147,9 +2339,12 @@
 						],
 						"mate": [
 							"ZOMBIEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Swordgon": {
 				"name": "Swordgon",
@@ -2171,6 +2366,8 @@
 					"RainSlash",
 					"BladeD"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Heaven Helm Cave",
 				"resistances": [
 					1,
 					1,
@@ -2207,9 +2404,12 @@
 						],
 						"mate": [
 							"MATERIALFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Drygon": {
 				"name": "Drygon",
@@ -2231,6 +2431,8 @@
 					"Ramming",
 					"WarCry"
 				],
+				"location": "Ice Key World",
+				"found": "Outside Castle Of Estria",
 				"resistances": [
 					2,
 					2,
@@ -2267,9 +2469,12 @@
 						],
 						"mate": [
 							"WATERFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Dragon": {
 				"name": "Dragon",
@@ -2291,6 +2496,8 @@
 					"FireSlash",
 					"SuckAll"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Heaven Helm Cave",
 				"resistances": [
 					2,
 					2,
@@ -2327,9 +2534,12 @@
 						],
 						"mate": [
 							"DragonKid"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MiniDrak": {
 				"name": "MiniDrak",
@@ -2351,6 +2561,8 @@
 					"Ramming",
 					"SandStorm"
 				],
+				"location": "Pirate Key World",
+				"found": "Area Outside Port Ritz Town",
 				"resistances": [
 					0,
 					0,
@@ -2387,9 +2599,12 @@
 						],
 						"mate": [
 							"Picky"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MadDragon": {
 				"name": "MadDragon",
@@ -2411,6 +2626,8 @@
 					"Massacre",
 					"LureDance"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Heaven Armor Tower",
 				"resistances": [
 					1,
 					1,
@@ -2447,7 +2664,9 @@
 						],
 						"mate": [
 							"GulpBeast"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -2455,9 +2674,12 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Rayburn": {
 				"name": "Rayburn",
@@ -2479,6 +2701,8 @@
 					"DevilCut",
 					"PoisonHit"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -2515,7 +2739,9 @@
 						],
 						"mate": [
 							"MadCondor"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -2530,9 +2756,12 @@
 							"MadCat",
 							"Trumpeter",
 							"WingSlime"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Chamelgon": {
 				"name": "Chamelgon",
@@ -2554,6 +2783,8 @@
 					"Paralyze",
 					"PalsyAir"
 				],
+				"location": "Sky Key World",
+				"found": "Heaven Helm Cave Floor 1",
 				"resistances": [
 					1,
 					2,
@@ -2590,9 +2821,12 @@
 						],
 						"mate": [
 							"Voodoll"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"LizardFly": {
 				"name": "LizardFly",
@@ -2614,6 +2848,8 @@
 					"Sap",
 					"FireAir"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					2,
@@ -2650,9 +2886,12 @@
 						],
 						"mate": [
 							"GoHopper"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Andreal": {
 				"name": "Andreal",
@@ -2674,6 +2913,8 @@
 					"Surround",
 					"PoisonGas"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Hitano Castle (Not Village)",
 				"resistances": [
 					2,
 					2,
@@ -2710,7 +2951,9 @@
 						],
 						"mate": [
 							"Gulpple"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -2731,9 +2974,12 @@
 							"MadCondor",
 							"Ogre",
 							"Trumpeter"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"KingCobra": {
 				"name": "KingCobra",
@@ -2755,6 +3001,8 @@
 					"Curse",
 					"K.O.Dance"
 				],
+				"location": "Oasis Key World",
+				"found": "1 Screen Right Of Mirage Lake",
 				"resistances": [
 					1,
 					2,
@@ -2791,9 +3039,12 @@
 						],
 						"mate": [
 							"Babble"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Vampirus": {
 				"name": "Vampirus",
@@ -2815,6 +3066,8 @@
 					"CallHelp",
 					"BiAttack"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Heaven Armor Tower",
 				"resistances": [
 					1,
 					2,
@@ -2851,7 +3104,9 @@
 						],
 						"mate": [
 							"MadGoose"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -2859,9 +3114,12 @@
 						],
 						"mate": [
 							"Pteranod"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"SnakeBat": {
 				"name": "SnakeBat",
@@ -2883,6 +3141,8 @@
 					"LushLicks",
 					"Errand"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -2919,7 +3179,9 @@
 						],
 						"mate": [
 							"CatFly"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -2927,9 +3189,12 @@
 						],
 						"mate": [
 							"Dracky"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Spikerous": {
 				"name": "Spikerous",
@@ -2951,6 +3216,8 @@
 					"Berserker",
 					"Kamikaze"
 				],
+				"location": "Traveler World",
+				"found": "Outside Merchants' Tower",
 				"resistances": [
 					2,
 					2,
@@ -2988,9 +3255,12 @@
 						"mate": [
 							"ArmyCrab",
 							"Digster"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"GreatDrak": {
 				"name": "GreatDrak",
@@ -3012,6 +3282,8 @@
 					"IceSlash",
 					"SuckAll"
 				],
+				"location": "Limbo Key World",
+				"found": "Outside Door Shrine",
 				"resistances": [
 					2,
 					3,
@@ -3056,7 +3328,9 @@
 							"KingSlime",
 							"SpotKing",
 							"WhipBird"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -3064,7 +3338,9 @@
 						],
 						"mate": [
 							"Dragon†5"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -3072,9 +3348,12 @@
 						],
 						"mate": [
 							"DragonKid†5"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Crestpent": {
 				"name": "Crestpent",
@@ -3096,6 +3375,8 @@
 					"BeDragon",
 					"PoisonHit"
 				],
+				"location": "Oasis Key World",
+				"found": "2 Screens Right Of Asiya Town",
 				"resistances": [
 					2,
 					2,
@@ -3132,9 +3413,12 @@
 						],
 						"mate": [
 							"BigRoost"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"WingSnake": {
 				"name": "WingSnake",
@@ -3156,6 +3440,8 @@
 					"HighJump",
 					"PoisonGas"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					3,
 					3,
@@ -3192,9 +3478,12 @@
 						],
 						"mate": [
 							"Crestpent"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Coatol": {
 				"name": "Coatol",
@@ -3216,6 +3505,8 @@
 					"BoltSlash",
 					"EvilSlash"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -3252,7 +3543,9 @@
 						],
 						"mate": [
 							"WingSnake"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -3269,9 +3562,12 @@
 							"MadKnight",
 							"StoneMan",
 							"WhipBird"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Orochi": {
 				"name": "Orochi",
@@ -3293,6 +3589,8 @@
 					"FireSlash",
 					"BiAttack"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -3329,7 +3627,9 @@
 						],
 						"mate": [
 							"BOSSFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -3338,9 +3638,12 @@
 						],
 						"mate": [
 							"MedusaEye"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"BattleRex": {
 				"name": "BattleRex",
@@ -3362,6 +3665,8 @@
 					"MetalCut",
 					"EvilSlash"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -3402,9 +3707,12 @@
 							"EvilArmor",
 							"Lionex",
 							"Ogre"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"SkyDragon": {
 				"name": "SkyDragon",
@@ -3426,6 +3734,8 @@
 					"MultiCut",
 					"SuckAir"
 				],
+				"location": "Sky Key World",
+				"found": "Inside Heaven Armor Tower Floor 3",
 				"resistances": [
 					0,
 					0,
@@ -3462,9 +3772,12 @@
 						],
 						"mate": [
 							"Phoenix"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Serpentia": {
 				"name": "Serpentia",
@@ -3486,6 +3799,8 @@
 					"DevilCut",
 					"RainSlash"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -3524,9 +3839,12 @@
 							"Lionex",
 							"Skeletor",
 							"Octoraid"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Divinegon": {
 				"name": "Divinegon",
@@ -3548,6 +3866,8 @@
 					"FrigidAir",
 					"Meditate"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					3,
@@ -3585,9 +3905,12 @@
 						"mate": [
 							"Orochi",
 							"Serpentia"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Orligon": {
 				"name": "Orligon",
@@ -3609,6 +3932,8 @@
 					"Berserker",
 					"StrongD"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					3,
 					3,
@@ -3646,9 +3971,12 @@
 						"mate": [
 							"GigaDraco",
 							"GoldGolem"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"GigaDraco": {
 				"name": "GigaDraco",
@@ -3670,6 +3998,8 @@
 					"RockThrow",
 					"Massacre"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -3710,9 +4040,12 @@
 						"mate": [
 							"BossTroll",
 							"Gigantes"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			}
 		},
 		"BEAST FAMILY": {
@@ -3736,6 +4069,8 @@
 					"SleepAir",
 					"LushLicks"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -3772,9 +4107,12 @@
 						],
 						"mate": [
 							"SLIMEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Almiraj": {
 				"name": "Almiraj",
@@ -3796,6 +4134,8 @@
 					"ChargeUp",
 					"Berserker"
 				],
+				"location": "Ice Key World",
+				"found": "Outside The Spirit Lake",
 				"resistances": [
 					1,
 					1,
@@ -3832,9 +4172,12 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"CatFly": {
 				"name": "CatFly",
@@ -3856,6 +4199,8 @@
 					"StopSpell",
 					"OddDance"
 				],
+				"location": "Pirate Key World",
+				"found": "Land Area 1 Screen Right Of Door Shrine",
 				"resistances": [
 					0,
 					0,
@@ -3892,9 +4237,12 @@
 						],
 						"mate": [
 							"BIRDFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"PillowRat": {
 				"name": "PillowRat",
@@ -3916,6 +4264,8 @@
 					"Ramming",
 					"SideStep"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -3952,9 +4302,12 @@
 						],
 						"mate": [
 							"PLANTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Saccer": {
 				"name": "Saccer",
@@ -3976,6 +4329,8 @@
 					"PsycheUp",
 					"PalsyAir"
 				],
+				"location": "Ice Key World",
+				"found": "Outside The Spirit Lake",
 				"resistances": [
 					0,
 					0,
@@ -4012,9 +4367,12 @@
 						],
 						"mate": [
 							"BUGFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"GulpBeast": {
 				"name": "GulpBeast",
@@ -4036,6 +4394,8 @@
 					"Ramming",
 					"WarCry"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -4072,7 +4432,9 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -4081,7 +4443,9 @@
 						],
 						"mate": [
 							"DeadNoble"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -4098,7 +4462,9 @@
 							"Skullgon",
 							"StoneMan",
 							"WhiteKing"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -4106,7 +4472,9 @@
 						],
 						"mate": [
 							"Golem"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -4118,7 +4486,9 @@
 							"Roboster",
 							"MetalDrak",
 							"StoneMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -4138,7 +4508,9 @@
 							"StoneMan",
 							"WhiteKing",
 							"Roboster"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -4155,7 +4527,9 @@
 							"StoneMan",
 							"WhiteKing",
 							"Roboster"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -4167,7 +4541,9 @@
 							"Skeletor",
 							"Skullgon",
 							"WhiteKing"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -4186,9 +4562,12 @@
 							"StoneMan",
 							"WhiteKing",
 							"Roboster"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Skullroo": {
 				"name": "Skullroo",
@@ -4210,6 +4589,8 @@
 					"PaniDance",
 					"EagleEye"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -4246,9 +4627,12 @@
 						],
 						"mate": [
 							"ZOMBIEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"WindBeast": {
 				"name": "WindBeast",
@@ -4270,6 +4654,8 @@
 					"IceBolt",
 					"VacuSlash"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -4306,7 +4692,9 @@
 						],
 						"mate": [
 							"BIRDFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -4314,9 +4702,12 @@
 						],
 						"mate": [
 							"MATERIALFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Beavern": {
 				"name": "Beavern",
@@ -4338,6 +4729,8 @@
 					"ChargeUp",
 					"Geyser"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -4374,9 +4767,12 @@
 						],
 						"mate": [
 							"WATERFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Antbear": {
 				"name": "Antbear",
@@ -4398,6 +4794,8 @@
 					"SquallHit",
 					"LushLicks"
 				],
+				"location": "Pirate Key World",
+				"found": "Area Outside Door Shrine",
 				"resistances": [
 					0,
 					0,
@@ -4434,9 +4832,12 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"SuperTen": {
 				"name": "SuperTen",
@@ -4458,6 +4859,8 @@
 					"Hustle",
 					"Imitate"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -4506,7 +4909,9 @@
 							"Copycat",
 							"JewelBag",
 							"Mimic"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -4514,7 +4919,9 @@
 						],
 						"mate": [
 							"Mudron"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -4522,9 +4929,12 @@
 						],
 						"mate": [
 							"SLIMEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"IronTurt": {
 				"name": "IronTurt",
@@ -4546,6 +4956,8 @@
 					"StrongD",
 					"Cover"
 				],
+				"location": "Sky Key World",
+				"found": "Inside Fhunt Tower Floor 1",
 				"resistances": [
 					1,
 					1,
@@ -4582,9 +4994,12 @@
 						],
 						"mate": [
 							"Tortragon"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Mommonja": {
 				"name": "Mommonja",
@@ -4606,6 +5021,8 @@
 					"MouthShut",
 					"EagleEye"
 				],
+				"location": "Sky Key World",
+				"found": "Outside MadCondor's Nest",
 				"resistances": [
 					0,
 					0,
@@ -4642,9 +5059,12 @@
 						],
 						"mate": [
 							"DuckKite"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"HammerMan": {
 				"name": "HammerMan",
@@ -4666,6 +5086,8 @@
 					"EvilSlash",
 					"Kamikaze"
 				],
+				"location": "Ice Key World",
+				"found": "Outside Nofor",
 				"resistances": [
 					0,
 					0,
@@ -4702,9 +5124,12 @@
 						],
 						"mate": [
 							"Stubsuck"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Grizzly": {
 				"name": "Grizzly",
@@ -4726,6 +5151,8 @@
 					"BiAttack",
 					"LegSweep"
 				],
+				"location": "Ice Key World",
+				"found": "Outside Weston Town",
 				"resistances": [
 					1,
 					1,
@@ -4768,9 +5195,12 @@
 							"IceMan",
 							"Golem",
 							"StoneMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Yeti": {
 				"name": "Yeti",
@@ -4792,6 +5222,8 @@
 					"IceSlash",
 					"WarCry"
 				],
+				"location": "Ice Key World",
+				"found": "Outside The Spirit Lake",
 				"resistances": [
 					1,
 					1,
@@ -4836,7 +5268,9 @@
 							"MadDragon",
 							"BattleRex",
 							"SkyDragon"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -4844,9 +5278,12 @@
 						],
 						"mate": [
 							"Orc"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"ArrowDog": {
 				"name": "ArrowDog",
@@ -4868,6 +5305,8 @@
 					"CallHelp",
 					"MouthShut"
 				],
+				"location": "Pirate Key World",
+				"found": "1 Screen Up From The Port Ritz Town",
 				"resistances": [
 					0,
 					0,
@@ -4904,9 +5343,12 @@
 						],
 						"mate": [
 							"PutrePup"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"NoctoKing": {
 				"name": "NoctoKing",
@@ -4928,6 +5370,8 @@
 					"SleepAir",
 					"ThickFog"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -4965,9 +5409,12 @@
 						"mate": [
 							"Dracky",
 							"Shadow"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"BeastNite": {
 				"name": "BeastNite",
@@ -4989,6 +5436,8 @@
 					"RainSlash",
 					"GigaSlash"
 				],
+				"location": "Ice Key World",
+				"found": "Near Door Shrine",
 				"resistances": [
 					0,
 					0,
@@ -5025,7 +5474,9 @@
 						],
 						"mate": [
 							"EvilArmor"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -5033,7 +5484,9 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -5041,9 +5494,12 @@
 						],
 						"mate": [
 							"Dumbira"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MadGopher": {
 				"name": "MadGopher",
@@ -5065,6 +5521,8 @@
 					"ZombieCut",
 					"Informer"
 				],
+				"location": "Pirate Key World",
+				"found": "Area Outside Port Of Polona Town",
 				"resistances": [
 					1,
 					1,
@@ -5101,9 +5559,12 @@
 						],
 						"mate": [
 							"SabreMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"FairyRat": {
 				"name": "FairyRat",
@@ -5125,6 +5586,8 @@
 					"Surround",
 					"SlimeBlow"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Pei Village",
 				"resistances": [
 					1,
 					1,
@@ -5161,9 +5624,12 @@
 						],
 						"mate": [
 							"LizardFly"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Unicorn": {
 				"name": "Unicorn",
@@ -5185,6 +5651,8 @@
 					"Vivify",
 					"Errand"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -5227,7 +5695,9 @@
 						],
 						"mate": [
 							"SLIMEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -5235,9 +5705,12 @@
 						],
 						"mate": [
 							"FangSlime"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Goategon": {
 				"name": "Goategon",
@@ -5259,6 +5732,8 @@
 					"Slow",
 					"SleepAir"
 				],
+				"location": "Ice Key World",
+				"found": "1 Screen Down From Sleepherb Mountain",
 				"resistances": [
 					0,
 					1,
@@ -5296,9 +5771,12 @@
 						"mate": [
 							"DrakSlime",
 							"LizardMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"WildApe": {
 				"name": "WildApe",
@@ -5320,6 +5798,8 @@
 					"SideStep",
 					"Errand"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -5356,7 +5836,9 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -5364,9 +5846,12 @@
 						],
 						"mate": [
 							"MadPecker"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Trumpeter": {
 				"name": "Trumpeter",
@@ -5388,6 +5873,8 @@
 					"SandStorm",
 					"WarCry"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					1,
@@ -5430,7 +5917,9 @@
 							"MadCondor",
 							"ZapBird",
 							"WhipBird"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -5444,7 +5933,9 @@
 							"Golem",
 							"StoneMan",
 							"Roboster"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -5452,7 +5943,9 @@
 						],
 						"mate": [
 							"WildApe"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -5460,9 +5953,12 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"KingLeo": {
 				"name": "KingLeo",
@@ -5484,6 +5980,8 @@
 					"FrigidAir",
 					"BiAttack"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -5524,9 +6022,12 @@
 							"Balzak",
 							"GoldGolem",
 							"BossTroll"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"DarkHorn": {
 				"name": "DarkHorn",
@@ -5548,6 +6049,8 @@
 					"StopSpell",
 					"PsycheUp"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -5584,9 +6087,12 @@
 						],
 						"mate": [
 							"BOSSFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MadCat": {
 				"name": "MadCat",
@@ -5608,6 +6114,8 @@
 					"SquallHit",
 					"LegSweep"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -5644,7 +6152,9 @@
 						],
 						"mate": [
 							"Dragon"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -5653,9 +6163,12 @@
 						"mate": [
 							"Goategon",
 							"Unicorn"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"BigEye": {
 				"name": "BigEye",
@@ -5677,6 +6190,8 @@
 					"FrigidAir",
 					"LoveRain"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -5714,9 +6229,12 @@
 						"mate": [
 							"EyeBall",
 							"Drygon"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Gorago": {
 				"name": "Gorago",
@@ -5738,6 +6256,8 @@
 					"Massacre",
 					"EerieLite"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -5775,9 +6295,12 @@
 						"mate": [
 							"BOSSFM",
 							"Orochi"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"CatMage": {
 				"name": "CatMage",
@@ -5799,6 +6322,8 @@
 					"Surround",
 					"Transform"
 				],
+				"location": "Traveler World",
+				"found": "Outside Door Shrine",
 				"resistances": [
 					0,
 					0,
@@ -5841,9 +6366,12 @@
 							"1EyeClown",
 							"Reaper",
 							"EvilWand"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Dumbira": {
 				"name": "Dumbira",
@@ -5865,6 +6393,8 @@
 					"RainSlash",
 					"TwinSlash"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Pei Village",
 				"resistances": [
 					0,
 					0,
@@ -5901,7 +6431,9 @@
 						],
 						"mate": [
 							"Gigantes"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -5915,9 +6447,12 @@
 							"Bubblemon",
 							"MerTiger",
 							"SabreMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			}
 		},
 		"BIRD FAMILY": {
@@ -5941,6 +6476,8 @@
 					"Surround",
 					"BugBlow"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -5977,9 +6514,12 @@
 						],
 						"mate": [
 							"SLIMEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Wyvern": {
 				"name": "Wyvern",
@@ -6001,6 +6541,8 @@
 					"Sleep",
 					"FrigidAir"
 				],
+				"location": "Pirate Key World",
+				"found": "Moonrock Tower Floor 3",
 				"resistances": [
 					1,
 					1,
@@ -6037,9 +6579,12 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"BullBird": {
 				"name": "BullBird",
@@ -6061,6 +6606,8 @@
 					"ChargeUp",
 					"Ramming"
 				],
+				"location": "Ice Key World",
+				"found": "1 Screen Down From Sleepherb Mountain",
 				"resistances": [
 					0,
 					0,
@@ -6097,9 +6644,12 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Florajay": {
 				"name": "Florajay",
@@ -6121,6 +6671,8 @@
 					"BeastCut",
 					"LifeSong"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Heaven Sword Castle",
 				"resistances": [
 					0,
 					0,
@@ -6157,9 +6709,12 @@
 						],
 						"mate": [
 							"PLANTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"DuckKite": {
 				"name": "DuckKite",
@@ -6181,6 +6736,8 @@
 					"PanicAll",
 					"Curse"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -6217,9 +6774,12 @@
 						],
 						"mate": [
 							"BUGFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MadPecker": {
 				"name": "MadPecker",
@@ -6241,6 +6801,8 @@
 					"Sap",
 					"VacuSlash"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -6277,9 +6839,12 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MadRaven": {
 				"name": "MadRaven",
@@ -6301,6 +6866,8 @@
 					"TailWind",
 					"EagleEye"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Pei Village",
 				"resistances": [
 					0,
 					0,
@@ -6337,9 +6904,12 @@
 						],
 						"mate": [
 							"ZOMBIEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MistyWing": {
 				"name": "MistyWing",
@@ -6361,6 +6931,8 @@
 					"EerieLite",
 					"Informer"
 				],
+				"location": "Limbo Key World",
+				"found": "Outside Door Shrine",
 				"resistances": [
 					0,
 					0,
@@ -6397,9 +6969,12 @@
 						],
 						"mate": [
 							"MATERIALFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"AquaHawk": {
 				"name": "AquaHawk",
@@ -6421,6 +6996,8 @@
 					"SquallHit",
 					"AquaWall"
 				],
+				"location": "Pirate Key World",
+				"found": "Harmirror Cave Basement Floor 1",
 				"resistances": [
 					0,
 					0,
@@ -6457,9 +7034,12 @@
 						],
 						"mate": [
 							"WATERFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Dracky": {
 				"name": "Dracky",
@@ -6481,6 +7061,8 @@
 					"Sleep",
 					"RobMagic"
 				],
+				"location": "Pirate Key World",
+				"found": "Area Outside Yold Village",
 				"resistances": [
 					0,
 					0,
@@ -6517,9 +7099,12 @@
 						],
 						"mate": [
 							"SLIMEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"KiteHawk": {
 				"name": "KiteHawk",
@@ -6541,6 +7126,8 @@
 					"Curse",
 					"TailWind"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Heaven Sword Castle",
 				"resistances": [
 					0,
 					0,
@@ -6577,7 +7164,9 @@
 						],
 						"mate": [
 							"Facer"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -6585,9 +7174,12 @@
 						],
 						"mate": [
 							"MATERIALFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"BigRoost": {
 				"name": "BigRoost",
@@ -6609,6 +7201,8 @@
 					"SandStorm",
 					"Dodge"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -6641,9 +7235,12 @@
 				"breeds": [
 					{
 						"base": [],
-						"mate": []
+						"mate": [],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"StubBird": {
 				"name": "StubBird",
@@ -6665,6 +7262,8 @@
 					"BugBlow",
 					"RainSlash"
 				],
+				"location": "Ice Key World",
+				"found": "Inside Sleepherb Mountain",
 				"resistances": [
 					0,
 					0,
@@ -6701,9 +7300,12 @@
 						],
 						"mate": [
 							"RockSlime"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"LandOwl": {
 				"name": "LandOwl",
@@ -6725,6 +7327,8 @@
 					"BoltSlash",
 					"SideStep"
 				],
+				"location": "Ice Key World",
+				"found": "Outside Castle Of Estria",
 				"resistances": [
 					0,
 					0,
@@ -6761,7 +7365,9 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -6769,9 +7375,12 @@
 						],
 						"mate": [
 							"SLIMEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MadGoose": {
 				"name": "MadGoose",
@@ -6793,6 +7402,8 @@
 					"WindBeast",
 					"LureDance"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Heaven Helm Cave",
 				"resistances": [
 					0,
 					0,
@@ -6833,7 +7444,9 @@
 						"mate": [
 							"DRAGONFM",
 							"ZOMBIEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -6842,7 +7455,9 @@
 						"mate": [
 							"DuckKite",
 							"MadRaven"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -6850,9 +7465,12 @@
 						],
 						"mate": [
 							"Droll"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MadCondor": {
 				"name": "MadCondor",
@@ -6874,6 +7492,8 @@
 					"HealUs",
 					"MultiCut"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -6910,7 +7530,9 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -6918,7 +7540,9 @@
 						],
 						"mate": [
 							"CoilBird"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -6926,9 +7550,12 @@
 						],
 						"mate": [
 							"BigRoost"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Emyu": {
 				"name": "Emyu",
@@ -6950,6 +7577,8 @@
 					"Hustle",
 					"Errand"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Fhunt Village",
 				"resistances": [
 					0,
 					0,
@@ -6986,7 +7615,9 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -6994,7 +7625,9 @@
 						],
 						"mate": [
 							"MadPecker"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -7003,9 +7636,12 @@
 						"mate": [
 							"BigEye",
 							"DarkEye"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Blizzardy": {
 				"name": "Blizzardy",
@@ -7027,6 +7663,8 @@
 					"FrigidAir",
 					"IceSlash"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -7074,9 +7712,12 @@
 							"Skeletor",
 							"Servant",
 							"IceMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Phoenix": {
 				"name": "Phoenix",
@@ -7098,6 +7739,8 @@
 					"SquallHit",
 					"TailWind"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Heaven Helm Cave",
 				"resistances": [
 					2,
 					2,
@@ -7141,9 +7784,12 @@
 							"Copycat",
 							"Gismo",
 							"LavaMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"ZapBird": {
 				"name": "ZapBird",
@@ -7165,6 +7811,8 @@
 					"Lightning",
 					"BoltSlash"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -7203,7 +7851,9 @@
 						],
 						"mate": [
 							"Gismo"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -7211,9 +7861,12 @@
 						],
 						"mate": [
 							"BOSSFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Garudian": {
 				"name": "Garudian",
@@ -7235,6 +7888,8 @@
 					"WindBeast",
 					"AquaCut"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -7273,7 +7928,9 @@
 						],
 						"mate": [
 							"Lionex"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -7281,9 +7938,12 @@
 						],
 						"mate": [
 							"Jamirus"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"WhipBird": {
 				"name": "WhipBird",
@@ -7305,6 +7965,8 @@
 					"ThickFog",
 					"TatsuCall"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -7351,7 +8013,9 @@
 							"Golem",
 							"StoneMan",
 							"Merman"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -7360,9 +8024,12 @@
 						"mate": [
 							"Rayburn",
 							"SnakeBat"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"FunkyBird": {
 				"name": "FunkyBird",
@@ -7384,6 +8051,8 @@
 					"LifeDance",
 					"Hustle"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -7423,7 +8092,9 @@
 							"TropicGel",
 							"Brushead",
 							"Pyuro"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -7431,9 +8102,12 @@
 						],
 						"mate": [
 							"CragDevil"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"RainHawk": {
 				"name": "RainHawk",
@@ -7455,6 +8129,8 @@
 					"Surge",
 					"StrongD"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -7492,9 +8168,12 @@
 						"mate": [
 							"Phoenix",
 							"Vampirus"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Azurile": {
 				"name": "Azurile",
@@ -7516,6 +8195,8 @@
 					"Meditate",
 					"LifeSong"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -7552,7 +8233,9 @@
 						],
 						"mate": [
 							"BOSSFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -7560,9 +8243,12 @@
 						],
 						"mate": [
 							"GoldGolem"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Shantak": {
 				"name": "Shantak",
@@ -7584,6 +8270,8 @@
 					"FireAir",
 					"SuckAll"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -7621,9 +8309,12 @@
 						"mate": [
 							"GreatDrak",
 							"Jamirus"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"CragDevil": {
 				"name": "CragDevil",
@@ -7645,6 +8336,8 @@
 					"PanicAll",
 					"EagleEye"
 				],
+				"location": "Ice Key World",
+				"found": "Outside Weston Town",
 				"resistances": [
 					0,
 					0,
@@ -7683,9 +8376,12 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			}
 		},
 		"PLANT FAMILY": {
@@ -7709,6 +8405,8 @@
 					"Sap",
 					"Slow"
 				],
+				"location": "Elf Key World",
+				"found": "Outside Door Shrine",
 				"resistances": [
 					0,
 					0,
@@ -7745,9 +8443,12 @@
 						],
 						"mate": [
 							"SLIMEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"FireWeed": {
 				"name": "FireWeed",
@@ -7769,6 +8470,8 @@
 					"DeChaos",
 					"PalsyAir"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Hitano Castle (Not Village)",
 				"resistances": [
 					1,
 					1,
@@ -7805,9 +8508,12 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"FloraMan": {
 				"name": "FloraMan",
@@ -7829,6 +8535,8 @@
 					"Antidote",
 					"CurseOff"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Fhunt Village",
 				"resistances": [
 					0,
 					0,
@@ -7865,9 +8573,12 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"WingTree": {
 				"name": "WingTree",
@@ -7889,6 +8600,8 @@
 					"ZombieCut",
 					"StepGuard"
 				],
+				"location": "Ice Key World",
+				"found": "Inside Sleepherb Mountain",
 				"resistances": [
 					0,
 					0,
@@ -7925,9 +8638,12 @@
 						],
 						"mate": [
 							"BIRDFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"CactiBall": {
 				"name": "CactiBall",
@@ -7949,6 +8665,8 @@
 					"HighJump",
 					"OddDance"
 				],
+				"location": "Oasis Key World",
+				"found": "Near Door Shrine",
 				"resistances": [
 					0,
 					0,
@@ -7985,9 +8703,12 @@
 						],
 						"mate": [
 							"BUGFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Gulpple": {
 				"name": "Gulpple",
@@ -8009,6 +8730,8 @@
 					"HighJump",
 					"SleepAir"
 				],
+				"location": "Ice Key World",
+				"found": "Near Door Shrine",
 				"resistances": [
 					1,
 					1,
@@ -8045,9 +8768,12 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Toadstool": {
 				"name": "Toadstool",
@@ -8069,6 +8795,8 @@
 					"SleepAir",
 					"MouthShut"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -8105,9 +8833,12 @@
 						],
 						"mate": [
 							"ZOMBIEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"AmberWeed": {
 				"name": "AmberWeed",
@@ -8129,6 +8860,8 @@
 					"Barrier",
 					"MagicWall"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -8165,9 +8898,12 @@
 						],
 						"mate": [
 							"MATERIALFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Slurperon": {
 				"name": "Slurperon",
@@ -8189,6 +8925,8 @@
 					"OddDance",
 					"LushLicks"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Pei Village",
 				"resistances": [
 					0,
 					0,
@@ -8225,9 +8963,12 @@
 						],
 						"mate": [
 							"WATERFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Stubsuck": {
 				"name": "Stubsuck",
@@ -8249,6 +8990,8 @@
 					"ZombieCut",
 					"StepGuard"
 				],
+				"location": "Ice Key World",
+				"found": "Inside Spooky Forest",
 				"resistances": [
 					0,
 					0,
@@ -8285,7 +9028,9 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -8293,9 +9038,12 @@
 						],
 						"mate": [
 							"GhosTree"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Oniono": {
 				"name": "Oniono",
@@ -8317,6 +9065,8 @@
 					"ChargeUp",
 					"SleepAir"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -8353,9 +9103,12 @@
 						],
 						"mate": [
 							"Gophecada"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"DanceVegi": {
 				"name": "DanceVegi",
@@ -8377,6 +9130,8 @@
 					"LureDance",
 					"SideStep"
 				],
+				"location": "Pirate Key World",
+				"found": "Land Area 1 Screen Down Of Moonrock Tower",
 				"resistances": [
 					1,
 					1,
@@ -8413,7 +9168,9 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -8421,9 +9178,12 @@
 						],
 						"mate": [
 							"Facer"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"TreeBoy": {
 				"name": "TreeBoy",
@@ -8445,6 +9205,8 @@
 					"CurseOff",
 					"Hustle"
 				],
+				"location": "Ice Key World",
+				"found": "Goldmine Cave",
 				"resistances": [
 					1,
 					1,
@@ -8481,7 +9243,9 @@
 						],
 						"mate": [
 							"Pixy"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -8489,9 +9253,12 @@
 						],
 						"mate": [
 							"EvilWand"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Devipine": {
 				"name": "Devipine",
@@ -8513,6 +9280,8 @@
 					"SleepAir",
 					"PoisonGas"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -8549,9 +9318,12 @@
 						],
 						"mate": [
 							"Gulpple"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"FaceTree": {
 				"name": "FaceTree",
@@ -8573,6 +9345,8 @@
 					"Curse",
 					"OddDance"
 				],
+				"location": "Traveler World",
+				"found": "Outside Door Shrine",
 				"resistances": [
 					0,
 					0,
@@ -8609,7 +9383,9 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -8617,7 +9393,9 @@
 						],
 						"mate": [
 							"NiteWhip"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -8625,9 +9403,12 @@
 						],
 						"mate": [
 							"Snapper"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"HerbMan": {
 				"name": "HerbMan",
@@ -8649,6 +9430,8 @@
 					"Focus",
 					"DanceShut"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -8685,7 +9468,9 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -8693,9 +9478,12 @@
 						],
 						"mate": [
 							"FunkyBird"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"BeanMan": {
 				"name": "BeanMan",
@@ -8717,6 +9505,8 @@
 					"RobMagic",
 					"MapMagic"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -8754,7 +9544,9 @@
 						"mate": [
 							"PillowRat",
 							"FishRider"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -8762,9 +9554,12 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"EvilSeed": {
 				"name": "EvilSeed",
@@ -8786,6 +9581,8 @@
 					"Paralyze",
 					"Radiant"
 				],
+				"location": "Sky Key World",
+				"found": "Heaven Helm Cave Floor 1",
 				"resistances": [
 					1,
 					1,
@@ -8831,7 +9628,9 @@
 							"MadMirror",
 							"Gamanian",
 							"KiteHawk"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -8839,9 +9638,12 @@
 						],
 						"mate": [
 							"ZOMBIEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"ManEater": {
 				"name": "ManEater",
@@ -8863,6 +9665,8 @@
 					"PsycheUp",
 					"SleepAir"
 				],
+				"location": "Ice Key World",
+				"found": "Inside Spooky Forest",
 				"resistances": [
 					1,
 					1,
@@ -8900,9 +9704,12 @@
 						"mate": [
 							"EvilSeed",
 							"Slurperon"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Snapper": {
 				"name": "Snapper",
@@ -8924,6 +9731,8 @@
 					"CallHelp",
 					"RainSlash"
 				],
+				"location": "Elf Key World",
+				"found": "Inside AgDevils Hideout",
 				"resistances": [
 					1,
 					1,
@@ -8960,9 +9769,12 @@
 						],
 						"mate": [
 							"ManEater"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"GhosTree": {
 				"name": "GhosTree",
@@ -8984,6 +9796,8 @@
 					"LureDance",
 					"EerieLite"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Heaven Sword Castle",
 				"resistances": [
 					0,
 					0,
@@ -9021,9 +9835,12 @@
 						"mate": [
 							"Puppetor",
 							"ZOMBIEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Rosevine": {
 				"name": "Rosevine",
@@ -9045,6 +9862,8 @@
 					"UltraDown",
 					"BladeD"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -9081,9 +9900,12 @@
 						],
 						"mate": [
 							"BOSSFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Egdracil": {
 				"name": "Egdracil",
@@ -9105,6 +9927,8 @@
 					"SleepAir",
 					"SuckAll"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -9141,9 +9965,12 @@
 						],
 						"mate": [
 							"Gigantes"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Warubou": {
 				"name": "Warubou",
@@ -9165,6 +9992,8 @@
 					"DeMagic",
 					"Pheromone"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -9197,13 +10026,18 @@
 				"breeds": [
 					{
 						"base": [],
-						"mate": []
+						"mate": [],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [],
-						"mate": []
+						"mate": [],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Watabou": {
 				"name": "Watabou",
@@ -9225,6 +10059,8 @@
 					"Imitate",
 					"Whistle"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -9254,7 +10090,8 @@
 					1,
 					2
 				],
-				"breeds": []
+				"breeds": [],
+				"usedIn": []
 			},
 			"Eggplaton": {
 				"name": "Eggplaton",
@@ -9276,6 +10113,8 @@
 					"OddDance",
 					"LureDance"
 				],
+				"location": "Pirate Key World",
+				"found": "Area Outside The Door Shrine",
 				"resistances": [
 					0,
 					0,
@@ -9314,9 +10153,12 @@
 							"Aquarella",
 							"Lipsy",
 							"Droll"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"FooHero": {
 				"name": "FooHero",
@@ -9338,6 +10180,8 @@
 					"Heal",
 					"GigaSlash"
 				],
+				"location": "Sky Key World",
+				"found": "Heaven Helm Cave Floor 1",
 				"resistances": [
 					0,
 					0,
@@ -9376,9 +10220,12 @@
 							"BeastNite",
 							"SlimeNite",
 							"HammerMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			}
 		},
 		"BUG FAMILY": {
@@ -9402,6 +10249,8 @@
 					"Dodge",
 					"Whistle"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -9438,9 +10287,12 @@
 						],
 						"mate": [
 							"SLIMEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Catapila": {
 				"name": "Catapila",
@@ -9462,6 +10314,8 @@
 					"PoisonHit",
 					"ThickFog"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -9498,9 +10352,12 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Gophecada": {
 				"name": "Gophecada",
@@ -9522,6 +10379,8 @@
 					"MagicBack",
 					"CallHelp"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -9558,9 +10417,12 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Butterfly": {
 				"name": "Butterfly",
@@ -9582,6 +10444,8 @@
 					"CallHelp",
 					"Curse"
 				],
+				"location": "Traveler World",
+				"found": "Outside Door Shrine",
 				"resistances": [
 					0,
 					0,
@@ -9618,9 +10482,12 @@
 						],
 						"mate": [
 							"BIRDFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"WeedBug": {
 				"name": "WeedBug",
@@ -9642,6 +10509,8 @@
 					"Barrier",
 					"MagicWall"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -9678,9 +10547,12 @@
 						],
 						"mate": [
 							"PLANTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"GiantWorm": {
 				"name": "GiantWorm",
@@ -9702,6 +10574,8 @@
 					"OddDance",
 					"StepGuard"
 				],
+				"location": "Oasis Key World",
+				"found": "Underground Tunnel Stairs At Kalka Town",
 				"resistances": [
 					1,
 					1,
@@ -9738,9 +10612,12 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Lipsy": {
 				"name": "Lipsy",
@@ -9762,6 +10639,8 @@
 					"Ahhh",
 					"Pheromone"
 				],
+				"location": "Traveler World",
+				"found": "Outside Travelers Hut",
 				"resistances": [
 					0,
 					0,
@@ -9798,9 +10677,12 @@
 						],
 						"mate": [
 							"ZOMBIEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"StagBug": {
 				"name": "StagBug",
@@ -9822,6 +10704,8 @@
 					"FireAir",
 					"LegSweep"
 				],
+				"location": "Elf Key World",
+				"found": "Inside AgDevils Hideout",
 				"resistances": [
 					1,
 					1,
@@ -9858,9 +10742,12 @@
 						],
 						"mate": [
 							"MATERIALFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Pyuro": {
 				"name": "Pyuro",
@@ -9882,6 +10769,8 @@
 					"WindBeast",
 					"MouthShut"
 				],
+				"location": "Pirate Key World",
+				"found": "1 Screen Up From The Port Ritz Town",
 				"resistances": [
 					0,
 					0,
@@ -9918,9 +10807,12 @@
 						],
 						"mate": [
 							"WATERFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"ArmyAnt": {
 				"name": "ArmyAnt",
@@ -9942,6 +10834,8 @@
 					"NapAttack",
 					"Kamikaze"
 				],
+				"location": "Pirate Key World",
+				"found": "Area Outside Yold Village",
 				"resistances": [
 					0,
 					0,
@@ -9978,9 +10872,12 @@
 						],
 						"mate": [
 							"SLIMEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"GoHopper": {
 				"name": "GoHopper",
@@ -10002,6 +10899,8 @@
 					"CallHelp",
 					"ChargeUp"
 				],
+				"location": "Elf Key World",
+				"found": "3 Screens  Right From Elvin Village",
 				"resistances": [
 					0,
 					0,
@@ -10034,9 +10933,12 @@
 				"breeds": [
 					{
 						"base": [],
-						"mate": []
+						"mate": [],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"TailEater": {
 				"name": "TailEater",
@@ -10058,6 +10960,8 @@
 					"PoisonGas",
 					"Radiant"
 				],
+				"location": "Oasis Key World",
+				"found": "2 Screens Right Of Asiya Town",
 				"resistances": [
 					0,
 					0,
@@ -10094,7 +10998,9 @@
 						],
 						"mate": [
 							"PLANTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -10102,9 +11008,12 @@
 						],
 						"mate": [
 							"FloraMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"ArmorPede": {
 				"name": "ArmorPede",
@@ -10126,6 +11035,8 @@
 					"TwinHits",
 					"TwinSlash"
 				],
+				"location": "Sky Key World",
+				"found": "Inside Heaven Armor Tower Floor 1",
 				"resistances": [
 					1,
 					1,
@@ -10162,7 +11073,9 @@
 						],
 						"mate": [
 							"MATERIALFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -10170,7 +11083,9 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -10178,7 +11093,9 @@
 						],
 						"mate": [
 							"IronTurt"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -10187,9 +11104,12 @@
 						"mate": [
 							"RockSlime",
 							"Tortragon"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Eyeder": {
 				"name": "Eyeder",
@@ -10211,6 +11131,8 @@
 					"Heal",
 					"MapMagic"
 				],
+				"location": "Pirate Key World",
+				"found": "Moonrock Tower 1St Floor",
 				"resistances": [
 					0,
 					0,
@@ -10247,7 +11169,9 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -10255,9 +11179,12 @@
 						],
 						"mate": [
 							"AmberWeed"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"GiantMoth": {
 				"name": "GiantMoth",
@@ -10279,6 +11206,8 @@
 					"Paralyze",
 					"Radiant"
 				],
+				"location": "Ice Key World",
+				"found": "Inside Sleepherb Mountain",
 				"resistances": [
 					0,
 					0,
@@ -10315,7 +11244,9 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -10324,9 +11255,12 @@
 						"mate": [
 							"Saccer",
 							"RayGigas"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Droll": {
 				"name": "Droll",
@@ -10348,6 +11282,8 @@
 					"Shears",
 					"StepGuard"
 				],
+				"location": "Ice Key World",
+				"found": "Goldmine Cave",
 				"resistances": [
 					0,
 					0,
@@ -10384,7 +11320,9 @@
 						],
 						"mate": [
 							"Eyeder"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -10392,7 +11330,9 @@
 						],
 						"mate": [
 							"TailEater"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -10400,7 +11340,9 @@
 						],
 						"mate": [
 							"Butterfly"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -10411,7 +11353,9 @@
 							"Aquarella",
 							"Octokid",
 							"Angleron"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -10419,9 +11363,12 @@
 						],
 						"mate": [
 							"Spooky"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"ArmyCrab": {
 				"name": "ArmyCrab",
@@ -10443,6 +11390,8 @@
 					"CallHelp",
 					"MetalCut"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -10480,9 +11429,12 @@
 						"mate": [
 							"DarkCrab",
 							"CancerMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MadHornet": {
 				"name": "MadHornet",
@@ -10504,6 +11456,8 @@
 					"Paralyze",
 					"TailWind"
 				],
+				"location": "Sky Key World",
+				"found": "Inside Heaven Armor Tower Floor 3",
 				"resistances": [
 					1,
 					1,
@@ -10542,7 +11496,9 @@
 						],
 						"mate": [
 							"ZOMBIEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -10550,7 +11506,9 @@
 						],
 						"mate": [
 							"FairyRat"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -10558,9 +11516,12 @@
 						],
 						"mate": [
 							"Pyuro"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Belzebub": {
 				"name": "Belzebub",
@@ -10582,6 +11543,8 @@
 					"Farewell",
 					"Ramming"
 				],
+				"location": "Sky Key World",
+				"found": "Inside Fhunt Tower Floor 4",
 				"resistances": [
 					0,
 					0,
@@ -10618,7 +11581,9 @@
 						],
 						"mate": [
 							"GoHopper"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -10627,9 +11592,12 @@
 						"mate": [
 							"Butterfly",
 							"Pyuro"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"WarMantis": {
 				"name": "WarMantis",
@@ -10651,6 +11619,8 @@
 					"Shears",
 					"GigaSlash"
 				],
+				"location": "Sky Key World",
+				"found": "1 Screen Left Of Pei Village",
 				"resistances": [
 					1,
 					0,
@@ -10687,9 +11657,12 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"HornBeet": {
 				"name": "HornBeet",
@@ -10711,6 +11684,8 @@
 					"BoltSlash",
 					"DevilCut"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -10747,7 +11722,9 @@
 						],
 						"mate": [
 							"StagBug"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -10756,9 +11733,12 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Sickler": {
 				"name": "Sickler",
@@ -10780,6 +11760,8 @@
 					"DevilCut",
 					"SquallHit"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -10817,7 +11799,9 @@
 						"mate": [
 							"1EyeClown",
 							"Reaper"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -10825,9 +11809,12 @@
 						],
 						"mate": [
 							"SLIMEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Armorpion": {
 				"name": "Armorpion",
@@ -10849,6 +11836,8 @@
 					"RainSlash",
 					"EvilSlash"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					2,
@@ -10885,7 +11874,9 @@
 						],
 						"mate": [
 							"HornBeet"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -10895,9 +11886,12 @@
 							"CancerMan",
 							"RogueNite",
 							"Octoraid"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Digster": {
 				"name": "Digster",
@@ -10919,6 +11913,8 @@
 					"StrongD",
 					"SuckAll"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -10955,7 +11951,9 @@
 						],
 						"mate": [
 							"BOSSFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -10963,9 +11961,12 @@
 						],
 						"mate": [
 							"Clawster"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Skularach": {
 				"name": "Skularach",
@@ -10987,6 +11988,8 @@
 					"BiAttack",
 					"PoisonGas"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					3,
 					3,
@@ -11023,9 +12026,12 @@
 						],
 						"mate": [
 							"WhiteKing"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MultiEyes": {
 				"name": "MultiEyes",
@@ -11047,6 +12053,8 @@
 					"TwinHits",
 					"PalsyAir"
 				],
+				"location": "Elf Key World",
+				"found": "4 Screens  Down From The Door Shrine",
 				"resistances": [
 					0,
 					1,
@@ -11083,7 +12091,9 @@
 						],
 						"mate": [
 							"Catapila"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -11091,9 +12101,12 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			}
 		},
 		"DEVIL FAMILY": {
@@ -11117,6 +12130,8 @@
 					"TwinHits",
 					"SealPray"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -11153,9 +12168,12 @@
 						],
 						"mate": [
 							"SLIMEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MedusaEye": {
 				"name": "MedusaEye",
@@ -11177,6 +12195,8 @@
 					"Surround",
 					"Shears"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -11215,7 +12235,9 @@
 						],
 						"mate": [
 							"ZOMBIEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -11223,9 +12245,12 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"AgDevil": {
 				"name": "AgDevil",
@@ -11247,6 +12272,8 @@
 					"Sacrifice",
 					"SleepAir"
 				],
+				"location": "Ice Key World",
+				"found": "Ice Tower Floor 1",
 				"resistances": [
 					1,
 					1,
@@ -11286,9 +12313,12 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Demonite": {
 				"name": "Demonite",
@@ -11310,6 +12340,8 @@
 					"FireAir",
 					"FrigidAir"
 				],
+				"location": "Ice Key World",
+				"found": "Inside Spooky Forest",
 				"resistances": [
 					1,
 					1,
@@ -11346,9 +12378,12 @@
 						],
 						"mate": [
 							"BIRDFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"DarkEye": {
 				"name": "DarkEye",
@@ -11370,6 +12405,8 @@
 					"PalsyAir",
 					"Radiant"
 				],
+				"location": "Pirate Key World",
+				"found": "Harmirror Cave Basement Floor 1",
 				"resistances": [
 					2,
 					2,
@@ -11406,9 +12443,12 @@
 						],
 						"mate": [
 							"PLANTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"EyeBall": {
 				"name": "EyeBall",
@@ -11430,6 +12470,8 @@
 					"WarCry",
 					"Outside"
 				],
+				"location": "Sky Key World",
+				"found": "Heaven Helm Cave Floor 1",
 				"resistances": [
 					2,
 					2,
@@ -11466,9 +12508,12 @@
 						],
 						"mate": [
 							"BUGFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"SkulRider": {
 				"name": "SkulRider",
@@ -11490,6 +12535,8 @@
 					"RainSlash",
 					"LegSweep"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -11526,9 +12573,12 @@
 						],
 						"mate": [
 							"ZOMBIEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"EvilBeast": {
 				"name": "EvilBeast",
@@ -11550,6 +12600,8 @@
 					"Ironize",
 					"FrigidAir"
 				],
+				"location": "Sky Key World",
+				"found": "Inside Fhunt Tower Floor 4",
 				"resistances": [
 					2,
 					2,
@@ -11586,9 +12638,12 @@
 						],
 						"mate": [
 							"MATERIALFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Bubblemon": {
 				"name": "Bubblemon",
@@ -11610,6 +12665,8 @@
 					"IceSlash",
 					"BladeD"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -11646,9 +12703,12 @@
 						],
 						"mate": [
 							"WATERFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"1EyeClown": {
 				"name": "1EyeClown",
@@ -11670,6 +12730,8 @@
 					"Firebal",
 					"IceBolt"
 				],
+				"location": "Pirate Key World",
+				"found": "1 Screen Up From The Port Ritz Town",
 				"resistances": [
 					1,
 					1,
@@ -11708,9 +12770,12 @@
 						],
 						"mate": [
 							"SLIMEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Gremlin": {
 				"name": "Gremlin",
@@ -11732,6 +12797,8 @@
 					"Heal",
 					"StopSpell"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -11768,9 +12835,12 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"ArcDemon": {
 				"name": "ArcDemon",
@@ -11792,6 +12862,8 @@
 					"VacuSlash",
 					"BoltSlash"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					3,
@@ -11841,7 +12913,9 @@
 							"Trumpeter",
 							"WhipBird",
 							"ZapBird"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -11849,7 +12923,9 @@
 						],
 						"mate": [
 							"ZOMBIEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -11857,7 +12933,9 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -11865,9 +12943,12 @@
 						],
 						"mate": [
 							"BOSSFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Lionex": {
 				"name": "Lionex",
@@ -11889,6 +12970,8 @@
 					"HealUs",
 					"VacuSlash"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Hitano Castle (Not Village)",
 				"resistances": [
 					1,
 					3,
@@ -11926,7 +13009,9 @@
 						"mate": [
 							"ZOMBIEFM",
 							"Garudian"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -11934,9 +13019,12 @@
 						],
 						"mate": [
 							"LizardMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"GoatHorn": {
 				"name": "GoatHorn",
@@ -11958,6 +13046,8 @@
 					"Infernos",
 					"IceBolt"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -11994,7 +13084,9 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -12002,9 +13094,12 @@
 						],
 						"mate": [
 							"DarkHorn"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Orc": {
 				"name": "Orc",
@@ -12026,6 +13121,8 @@
 					"Sap",
 					"BirdBlow"
 				],
+				"location": "Ice Key World",
+				"found": "Area Outside Spooky Forest",
 				"resistances": [
 					1,
 					1,
@@ -12062,9 +13159,12 @@
 						],
 						"mate": [
 							"BeanMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Ogre": {
 				"name": "Ogre",
@@ -12086,6 +13186,8 @@
 					"PsycheUp",
 					"Massacre"
 				],
+				"location": "Traveler World",
+				"found": "Outside Travelers Hut",
 				"resistances": [
 					1,
 					1,
@@ -12129,7 +13231,9 @@
 							"Roboster",
 							"WalrusMan",
 							"MerTiger"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -12137,7 +13241,9 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -12145,9 +13251,12 @@
 						],
 						"mate": [
 							"HammerMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"GateGuard": {
 				"name": "GateGuard",
@@ -12169,6 +13278,8 @@
 					"CleanCut",
 					"ThickFog"
 				],
+				"location": "Sky Key World",
+				"found": "Heaven Sword Castle Basement Floor 2",
 				"resistances": [
 					2,
 					2,
@@ -12217,7 +13328,9 @@
 							"SlimeBorg",
 							"Swordgon",
 							"WhiteKing"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -12225,7 +13338,9 @@
 						],
 						"mate": [
 							"Demonite"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -12233,9 +13348,12 @@
 						],
 						"mate": [
 							"ZOMBIEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"ChopClown": {
 				"name": "ChopClown",
@@ -12257,6 +13375,8 @@
 					"VacuSlash",
 					"SquallHit"
 				],
+				"location": "Limbo Key World",
+				"found": "Outside Door Shrine",
 				"resistances": [
 					2,
 					2,
@@ -12293,7 +13413,9 @@
 						],
 						"mate": [
 							"1EyeClown"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -12301,9 +13423,12 @@
 						],
 						"mate": [
 							"MimeSlime"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"BossTroll": {
 				"name": "BossTroll",
@@ -12325,6 +13450,8 @@
 					"Ramming",
 					"Cover"
 				],
+				"location": "Limbo Key World",
+				"found": "Outside Door Shrine",
 				"resistances": [
 					1,
 					1,
@@ -12365,7 +13492,9 @@
 							"Balzak",
 							"StoneMan",
 							"WalrusMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -12373,9 +13502,12 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Grendal": {
 				"name": "Grendal",
@@ -12397,6 +13529,8 @@
 					"DrakSlash",
 					"Cover"
 				],
+				"location": "Elf Key World",
+				"found": "3 Screens  Right From Elvin Village",
 				"resistances": [
 					2,
 					2,
@@ -12436,7 +13570,9 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -12445,9 +13581,12 @@
 						"mate": [
 							"MadDragon",
 							"BeastNite"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Akubar": {
 				"name": "Akubar",
@@ -12469,6 +13608,8 @@
 					"FrigidAir",
 					"Focus"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -12505,7 +13646,9 @@
 						],
 						"mate": [
 							"GateGuard"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -12513,9 +13656,12 @@
 						],
 						"mate": [
 							"Grendal"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MadKnight": {
 				"name": "MadKnight",
@@ -12537,6 +13683,8 @@
 					"GigaSlash",
 					"Massacre"
 				],
+				"location": "Sky Key World",
+				"found": "Inside Fhunt Tower Floor 4",
 				"resistances": [
 					1,
 					1,
@@ -12573,9 +13721,12 @@
 						],
 						"mate": [
 							"RogueNite"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"EvilWell": {
 				"name": "EvilWell",
@@ -12597,6 +13748,8 @@
 					"ChargeUp",
 					"WarCry"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -12633,7 +13786,9 @@
 						],
 						"mate": [
 							"IceMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -12641,9 +13796,12 @@
 						],
 						"mate": [
 							"LavaMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Gigantes": {
 				"name": "Gigantes",
@@ -12665,6 +13823,8 @@
 					"ChargeUp",
 					"EvilSlash"
 				],
+				"location": "Sky Key World",
+				"found": "Outside MadCondor's Nest",
 				"resistances": [
 					1,
 					1,
@@ -12702,7 +13862,9 @@
 						],
 						"mate": [
 							"ZOMBIEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -12710,9 +13872,12 @@
 						],
 						"mate": [
 							"BigEye"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Centasaur": {
 				"name": "Centasaur",
@@ -12734,6 +13899,8 @@
 					"FireSlash",
 					"RainSlash"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -12770,7 +13937,9 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -12780,9 +13949,12 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"EvilArmor": {
 				"name": "EvilArmor",
@@ -12804,6 +13976,8 @@
 					"BoltSlash",
 					"AquaCut"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					2,
@@ -12842,7 +14016,9 @@
 						],
 						"mate": [
 							"MATERIALFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -12850,9 +14026,12 @@
 						],
 						"mate": [
 							"ArmorPede"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Jamirus": {
 				"name": "Jamirus",
@@ -12874,6 +14053,8 @@
 					"BiAttack",
 					"TailWind"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -12910,9 +14091,12 @@
 						],
 						"mate": [
 							"RainHawk"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Durran": {
 				"name": "Durran",
@@ -12934,6 +14118,8 @@
 					"DrakSlash",
 					"BirdBlow"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -12970,7 +14156,9 @@
 						],
 						"mate": [
 							"GoldGolem"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -12978,7 +14166,9 @@
 						],
 						"mate": [
 							"Centasaur"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -12986,9 +14176,12 @@
 						],
 						"mate": [
 							"Serpentia"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Titanis": {
 				"name": "Titanis",
@@ -13010,6 +14203,8 @@
 					"Berserker",
 					"UltraDown"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -13046,9 +14241,12 @@
 						],
 						"mate": [
 							"DarkHorn"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"LampGenie": {
 				"name": "LampGenie",
@@ -13070,6 +14268,8 @@
 					"Sleep",
 					"TailWind"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -13106,9 +14306,12 @@
 						],
 						"mate": [
 							"BOSSFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			}
 		},
 		"ZOMBIE FAMILY": {
@@ -13132,6 +14335,8 @@
 					"MouthShut",
 					"Outside"
 				],
+				"location": "Oasis Key World",
+				"found": "Underground Tunnel Stairs At Kalka Town",
 				"resistances": [
 					0,
 					0,
@@ -13168,9 +14373,12 @@
 						],
 						"mate": [
 							"SLIMEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Skullgon": {
 				"name": "Skullgon",
@@ -13192,6 +14400,8 @@
 					"IceSlash",
 					"TwinSlash"
 				],
+				"location": "Traveler World",
+				"found": "Merchants' Tower Floor 3",
 				"resistances": [
 					1,
 					1,
@@ -13233,7 +14443,9 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -13247,7 +14459,9 @@
 							"Orochi",
 							"BattleRex",
 							"Divinegon"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -13258,9 +14472,12 @@
 							"DeadNoble",
 							"WhiteKing",
 							"Servant"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"PutrePup": {
 				"name": "PutrePup",
@@ -13282,6 +14499,8 @@
 					"Slow",
 					"MagicBack"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -13318,9 +14537,12 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"RotRaven": {
 				"name": "RotRaven",
@@ -13342,6 +14564,8 @@
 					"BoltSlash",
 					"Kamikaze"
 				],
+				"location": "Pirate Key World",
+				"found": "Harmirror Cave Basement Floor 3",
 				"resistances": [
 					0,
 					0,
@@ -13378,9 +14602,12 @@
 						],
 						"mate": [
 							"BIRDFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Mummy": {
 				"name": "Mummy",
@@ -13402,6 +14629,8 @@
 					"Paralyze",
 					"EvilSlash"
 				],
+				"location": "Ice Key World",
+				"found": "Goldmine Cave",
 				"resistances": [
 					0,
 					0,
@@ -13438,9 +14667,12 @@
 						],
 						"mate": [
 							"PLANTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"DarkCrab": {
 				"name": "DarkCrab",
@@ -13462,6 +14694,8 @@
 					"MagicWall",
 					"StepGuard"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -13501,9 +14735,12 @@
 							"CancerMan",
 							"Clawster",
 							"Gamanian"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"DeadNite": {
 				"name": "DeadNite",
@@ -13525,6 +14762,8 @@
 					"DeChaos",
 					"CurseOff"
 				],
+				"location": "Sky Key World",
+				"found": "Heaven Sword Castle Floor 1",
 				"resistances": [
 					1,
 					1,
@@ -13561,9 +14800,12 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Shadow": {
 				"name": "Shadow",
@@ -13585,6 +14827,8 @@
 					"K.O.Dance",
 					"ThickFog"
 				],
+				"location": "Ice Key World",
+				"found": "Inside Spooky Forest",
 				"resistances": [
 					0,
 					0,
@@ -13621,9 +14865,12 @@
 						],
 						"mate": [
 							"MATERIALFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Skulpent": {
 				"name": "Skulpent",
@@ -13645,6 +14892,8 @@
 					"PoisonHit",
 					"Dodge"
 				],
+				"location": "Traveler World",
+				"found": "Merchants' Tower Floor 2",
 				"resistances": [
 					1,
 					1,
@@ -13681,9 +14930,12 @@
 						],
 						"mate": [
 							"WATERFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Hork": {
 				"name": "Hork",
@@ -13705,6 +14957,8 @@
 					"EerieLite",
 					"LushLicks"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -13741,9 +14995,12 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Mudron": {
 				"name": "Mudron",
@@ -13765,6 +15022,8 @@
 					"MPass",
 					"Vivify"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -13810,9 +15069,12 @@
 							"MadPlant",
 							"Tonguella",
 							"Yeti"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"NiteWhip": {
 				"name": "NiteWhip",
@@ -13834,6 +15096,8 @@
 					"Lightning",
 					"Informer"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -13871,7 +15135,9 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -13879,9 +15145,12 @@
 						],
 						"mate": [
 							"MistyWing"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"WindMerge": {
 				"name": "WindMerge",
@@ -13903,6 +15172,8 @@
 					"CurseOff",
 					"BirdBlow"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -13939,7 +15210,9 @@
 						],
 						"mate": [
 							"BIRDFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -13947,9 +15220,12 @@
 						],
 						"mate": [
 							"WindBeast"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Reaper": {
 				"name": "Reaper",
@@ -13971,6 +15247,8 @@
 					"Curse",
 					"EerieLite"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -14008,7 +15286,9 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -14016,9 +15296,12 @@
 						],
 						"mate": [
 							"WeedBug"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Inverzon": {
 				"name": "Inverzon",
@@ -14040,6 +15323,8 @@
 					"PoisonGas",
 					"SideStep"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -14076,9 +15361,12 @@
 						],
 						"mate": [
 							"Hork"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"FoxFire": {
 				"name": "FoxFire",
@@ -14100,6 +15388,8 @@
 					"Firebal",
 					"Outside"
 				],
+				"location": "Ice Key World",
+				"found": "Area Outside Spooky Forest",
 				"resistances": [
 					2,
 					2,
@@ -14136,7 +15426,9 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -14144,9 +15436,12 @@
 						],
 						"mate": [
 							"MistyWing"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"CaptDead": {
 				"name": "CaptDead",
@@ -14168,6 +15463,8 @@
 					"AquaCut",
 					"SquallHit"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -14204,7 +15501,9 @@
 						],
 						"mate": [
 							"WATERFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -14212,9 +15511,12 @@
 						],
 						"mate": [
 							"Moray"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"DeadNoble": {
 				"name": "DeadNoble",
@@ -14236,6 +15538,8 @@
 					"AquaCut",
 					"TatsuCall"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					1,
@@ -14280,7 +15584,9 @@
 							"GateGuard",
 							"MetalDrak",
 							"Roboster"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -14294,7 +15600,9 @@
 						],
 						"mate": [
 							"Copycat"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -14302,7 +15610,9 @@
 						],
 						"mate": [
 							"Roboster2"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -14310,9 +15620,12 @@
 						],
 						"mate": [
 							"DeadNite"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"WhiteKing": {
 				"name": "WhiteKing",
@@ -14334,6 +15647,8 @@
 					"Bolt",
 					"Chance"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -14379,7 +15694,9 @@
 							"GoldGolem",
 							"WhaleMage",
 							"Grakos"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -14387,7 +15704,9 @@
 						],
 						"mate": [
 							"KingSlime"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -14395,7 +15714,9 @@
 						],
 						"mate": [
 							"MetalKing"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -14403,7 +15724,9 @@
 						],
 						"mate": [
 							"SpotKing"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -14411,9 +15734,12 @@
 						],
 						"mate": [
 							"BOSSFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"BoneSlave": {
 				"name": "BoneSlave",
@@ -14435,6 +15761,8 @@
 					"BoltSlash",
 					"BiAttack"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -14478,9 +15806,12 @@
 							"FloraMan",
 							"HornBeet",
 							"Gremlin"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Skeletor": {
 				"name": "Skeletor",
@@ -14502,6 +15833,8 @@
 					"BirdBlow",
 					"BiAttack"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -14550,7 +15883,9 @@
 							"Ogre",
 							"Golem",
 							"StoneMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -14558,7 +15893,9 @@
 						],
 						"mate": [
 							"BoneSlave"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -14566,9 +15903,12 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Servant": {
 				"name": "Servant",
@@ -14590,6 +15930,8 @@
 					"IceBolt",
 					"Focus"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -14626,7 +15968,9 @@
 						],
 						"mate": [
 							"Skeletor"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -14634,9 +15978,12 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Lazamanus": {
 				"name": "Lazamanus",
@@ -14658,6 +16005,8 @@
 					"K.O.Dance",
 					"LifeDance"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -14694,9 +16043,12 @@
 						],
 						"mate": [
 							"DracoLord"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Copycat": {
 				"name": "Copycat",
@@ -14718,6 +16070,8 @@
 					"OddDance",
 					"Imitate"
 				],
+				"location": "Sky Key World",
+				"found": "Heaven Sword Castle Basement Floor 2",
 				"resistances": [
 					0,
 					0,
@@ -14750,9 +16104,12 @@
 				"breeds": [
 					{
 						"base": [],
-						"mate": []
+						"mate": [],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MadSpirit": {
 				"name": "MadSpirit",
@@ -14774,6 +16131,8 @@
 					"Radiant",
 					"ThickFog"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Heaven Sword Castle",
 				"resistances": [
 					0,
 					0,
@@ -14816,7 +16175,9 @@
 						],
 						"mate": [
 							"BIRDFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -14824,9 +16185,12 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"PomPomBom": {
 				"name": "PomPomBom",
@@ -14848,6 +16212,8 @@
 					"ThickFog",
 					"LifeDance"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -14885,7 +16251,9 @@
 						"mate": [
 							"Droll",
 							"Gasgon"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -14893,9 +16261,12 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Niterich": {
 				"name": "Niterich",
@@ -14917,6 +16288,8 @@
 					"ThickFog",
 					"BladeD"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -14956,9 +16329,12 @@
 							"Octoraid",
 							"Roboster2",
 							"Serpentia"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			}
 		},
 		"MATERIAL FAMILY": {
@@ -14982,6 +16358,8 @@
 					"StopSpell",
 					"PanicAll"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -15018,9 +16396,12 @@
 						],
 						"mate": [
 							"SLIMEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"EvilWand": {
 				"name": "EvilWand",
@@ -15042,6 +16423,8 @@
 					"FrigidAir",
 					"MapMagic"
 				],
+				"location": "Pirate Key World",
+				"found": "Harmirror Cave Basement Floor 1",
 				"resistances": [
 					1,
 					1,
@@ -15078,9 +16461,12 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MadCandle": {
 				"name": "MadCandle",
@@ -15102,6 +16488,8 @@
 					"PsycheUp",
 					"Whistle"
 				],
+				"location": "Oasis Key World",
+				"found": "Underground Tunnel Stairs At Kalka Town",
 				"resistances": [
 					0,
 					0,
@@ -15138,9 +16526,12 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"CoilBird": {
 				"name": "CoilBird",
@@ -15162,6 +16553,8 @@
 					"NumbOff",
 					"SuckAll"
 				],
+				"location": "Sky Key World",
+				"found": "Outside Heaven Armor Tower",
 				"resistances": [
 					0,
 					0,
@@ -15198,9 +16591,12 @@
 						],
 						"mate": [
 							"BIRDFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Facer": {
 				"name": "Facer",
@@ -15222,6 +16618,8 @@
 					"Sacrifice",
 					"LifeSong"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -15258,9 +16656,12 @@
 						],
 						"mate": [
 							"PLANTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"SpikyBoy": {
 				"name": "SpikyBoy",
@@ -15282,6 +16683,8 @@
 					"SlimeBlow",
 					"HighJump"
 				],
+				"location": "Pirate Key World",
+				"found": "Harmirror Cave Basement Floor 3",
 				"resistances": [
 					0,
 					0,
@@ -15318,9 +16721,12 @@
 						],
 						"mate": [
 							"BUGFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MadMirror": {
 				"name": "MadMirror",
@@ -15342,6 +16748,8 @@
 					"Transform",
 					"Outside"
 				],
+				"location": "Sky Key World",
+				"found": "Inside Fhunt Tower Floor 1",
 				"resistances": [
 					1,
 					1,
@@ -15378,9 +16786,12 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"RogueNite": {
 				"name": "RogueNite",
@@ -15402,6 +16813,8 @@
 					"MetalCut",
 					"EvilSlash"
 				],
+				"location": "Ice Key World",
+				"found": "Outside Castle Of Estria",
 				"resistances": [
 					0,
 					0,
@@ -15438,9 +16851,12 @@
 						],
 						"mate": [
 							"ZOMBIEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Puppetor": {
 				"name": "Puppetor",
@@ -15462,6 +16878,8 @@
 					"LureDance",
 					"Pheromone"
 				],
+				"location": "Ice Key World",
+				"found": "Ice Tower Floor 1",
 				"resistances": [
 					0,
 					0,
@@ -15498,9 +16916,12 @@
 						],
 						"mate": [
 							"Gremlin"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Goopi": {
 				"name": "Goopi",
@@ -15522,6 +16943,8 @@
 					"LegSweep",
 					"Dodge"
 				],
+				"location": "Ice Key World",
+				"found": "Goldmine Cave",
 				"resistances": [
 					0,
 					0,
@@ -15558,9 +16981,12 @@
 						],
 						"mate": [
 							"SLIMEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Voodoll": {
 				"name": "Voodoll",
@@ -15582,6 +17008,8 @@
 					"Surround",
 					"PanicAll"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -15622,7 +17050,9 @@
 							"Snaily",
 							"SlimeNite",
 							"RockSlime"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -15630,9 +17060,12 @@
 						],
 						"mate": [
 							"Lipsy"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MetalDrak": {
 				"name": "MetalDrak",
@@ -15654,6 +17087,8 @@
 					"Massacre",
 					"SandStorm"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -15692,7 +17127,9 @@
 							"Andreal",
 							"Spikerous",
 							"GreatDrak"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -15701,7 +17138,9 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -15709,9 +17148,12 @@
 						],
 						"mate": [
 							"Andreal"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Balzak": {
 				"name": "Balzak",
@@ -15733,6 +17175,8 @@
 					"Bolt",
 					"MultiCut"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -15770,7 +17214,9 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -15778,9 +17224,12 @@
 						],
 						"mate": [
 							"BOSSFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"SabreMan": {
 				"name": "SabreMan",
@@ -15802,6 +17251,8 @@
 					"DevilCut",
 					"Paralyze"
 				],
+				"location": "Sky Key World",
+				"found": "Inside Fhunt Tower Floor 1",
 				"resistances": [
 					0,
 					0,
@@ -15844,7 +17295,9 @@
 							"MadGoose",
 							"Phoenix",
 							"FunkyBird"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -15852,9 +17305,12 @@
 						],
 						"mate": [
 							"GiantWorm"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"CurseLamp": {
 				"name": "CurseLamp",
@@ -15876,6 +17332,8 @@
 					"Speed",
 					"TwinHits"
 				],
+				"location": "Traveler World",
+				"found": "Merchants' Tower Floor 1",
 				"resistances": [
 					0,
 					0,
@@ -15912,7 +17370,9 @@
 						],
 						"mate": [
 							"BIRDFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -15920,9 +17380,12 @@
 						],
 						"mate": [
 							"WingTree"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Brushead": {
 				"name": "Brushead",
@@ -15944,6 +17407,8 @@
 					"SandStorm",
 					"LoveRain"
 				],
+				"location": "Pirate Key World",
+				"found": "Land Area 1 Screen Down Of Moonrock Tower",
 				"resistances": [
 					0,
 					0,
@@ -15980,7 +17445,9 @@
 						],
 						"mate": [
 							"WATERFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -15989,9 +17456,12 @@
 						"mate": [
 							"Demonite",
 							"Pixy"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Roboster": {
 				"name": "Roboster",
@@ -16013,6 +17483,8 @@
 					"BiAttack",
 					"RainSlash"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -16056,7 +17528,9 @@
 							"EvilArmor",
 							"DeadNoble",
 							"Skeletor"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -16068,9 +17542,12 @@
 							"Trumpeter",
 							"KingLeo",
 							"SkulRider"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Roboster2": {
 				"name": "Roboster2",
@@ -16092,6 +17569,8 @@
 					"MetalCut",
 					"GigaSlash"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -16128,9 +17607,12 @@
 						],
 						"mate": [
 							"Roboster"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"EvilPot": {
 				"name": "EvilPot",
@@ -16152,6 +17634,8 @@
 					"Massacre",
 					"Outside"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -16188,7 +17672,9 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -16196,7 +17682,9 @@
 						],
 						"mate": [
 							"Snaily"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -16204,9 +17692,12 @@
 						],
 						"mate": [
 							"Scallopa"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Gismo": {
 				"name": "Gismo",
@@ -16228,6 +17719,8 @@
 					"FrigidAir",
 					"SuckAir"
 				],
+				"location": "Ice Key World",
+				"found": "Outside Weston Town",
 				"resistances": [
 					0,
 					0,
@@ -16271,9 +17764,12 @@
 							"Phoenix",
 							"FireWeed",
 							"EvilSeed"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"LavaMan": {
 				"name": "LavaMan",
@@ -16295,6 +17791,8 @@
 					"FireAir",
 					"Cover"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					3,
 					3,
@@ -16336,9 +17834,12 @@
 							"ArcDemon",
 							"Centasaur",
 							"BossTroll"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"IceMan": {
 				"name": "IceMan",
@@ -16360,6 +17861,8 @@
 					"FrigidAir",
 					"StrongD"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -16397,7 +17900,9 @@
 						"mate": [
 							"Skullgon",
 							"WhiteKing"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -16406,9 +17911,12 @@
 						],
 						"mate": [
 							"KingLeo"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Mimic": {
 				"name": "Mimic",
@@ -16430,6 +17938,8 @@
 					"Beat",
 					"EagleEye"
 				],
+				"location": "Pirate Key World",
+				"found": "Harmirror Cave Basement Floor 2",
 				"resistances": [
 					0,
 					0,
@@ -16467,7 +17977,9 @@
 						"mate": [
 							"ZOMBIEFM",
 							"RushFish"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -16475,9 +17987,12 @@
 						],
 						"mate": [
 							"BoxSlime"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Exaucers": {
 				"name": "Exaucers",
@@ -16499,6 +18014,8 @@
 					"WindBeast",
 					"PaniDance"
 				],
+				"location": "Sky Key World",
+				"found": "Inside Heaven Armor Tower Floor 1",
 				"resistances": [
 					1,
 					1,
@@ -16535,9 +18052,12 @@
 						],
 						"mate": [
 							"Dracky"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MudDoll": {
 				"name": "MudDoll",
@@ -16559,6 +18079,8 @@
 					"Hustle",
 					"SideStep"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -16596,9 +18118,12 @@
 						"mate": [
 							"Goopi",
 							"CancerMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Golem": {
 				"name": "Golem",
@@ -16620,6 +18145,8 @@
 					"PsycheUp",
 					"Meditate"
 				],
+				"location": "Ice Key World",
+				"found": "Ice Tower Floor 1",
 				"resistances": [
 					0,
 					0,
@@ -16656,9 +18183,12 @@
 						],
 						"mate": [
 							"MudDoll"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"StoneMan": {
 				"name": "StoneMan",
@@ -16680,6 +18210,8 @@
 					"Cover",
 					"SuckAll"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					1,
@@ -16716,7 +18248,9 @@
 						],
 						"mate": [
 							"Golem"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -16725,9 +18259,12 @@
 						"mate": [
 							"HornBeet",
 							"Digster"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"BombCrag": {
 				"name": "BombCrag",
@@ -16749,6 +18286,8 @@
 					"Farewell",
 					"RockThrow"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -16785,7 +18324,9 @@
 						],
 						"mate": [
 							"SpikyBoy"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -16794,9 +18335,12 @@
 						],
 						"mate": [
 							"BUGFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"GoldGolem": {
 				"name": "GoldGolem",
@@ -16818,6 +18362,8 @@
 					"Surge",
 					"TatsuCall"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -16854,7 +18400,9 @@
 						],
 						"mate": [
 							"LavaMan"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -16862,9 +18410,12 @@
 						],
 						"mate": [
 							"BossTroll"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"DarkMate": {
 				"name": "DarkMate",
@@ -16886,6 +18437,8 @@
 					"HellBlast",
 					"EerieLite"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -16922,9 +18475,12 @@
 						],
 						"mate": [
 							"MetalKing"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"ProtoMech": {
 				"name": "ProtoMech",
@@ -16946,6 +18502,8 @@
 					"ChargeUp",
 					"Ramming"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -16982,7 +18540,9 @@
 						],
 						"mate": [
 							"EvilArmor"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -16990,7 +18550,9 @@
 						],
 						"mate": [
 							"SLIMEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -16998,9 +18560,12 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"CloudKing": {
 				"name": "CloudKing",
@@ -17022,6 +18587,8 @@
 					"Barrier",
 					"Surge"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					0,
@@ -17065,9 +18632,12 @@
 							"KingSquid",
 							"WhaleMage",
 							"DracoLord"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			}
 		},
 		"WATER FAMILY": {
@@ -17091,6 +18661,8 @@
 					"TwinHits",
 					"Ramming"
 				],
+				"location": "Pirate Key World",
+				"found": "Surf Water Outside The Door Shrine",
 				"resistances": [
 					2,
 					2,
@@ -17127,9 +18699,12 @@
 						],
 						"mate": [
 							"SLIMEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Moray": {
 				"name": "Moray",
@@ -17151,6 +18726,8 @@
 					"PsycheUp",
 					"PoisonGas"
 				],
+				"location": "Pirate Key World",
+				"found": "HoodSquid Cave",
 				"resistances": [
 					0,
 					0,
@@ -17187,9 +18764,12 @@
 						],
 						"mate": [
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"WalrusMan": {
 				"name": "WalrusMan",
@@ -17211,6 +18791,8 @@
 					"EvilSlash",
 					"Massacre"
 				],
+				"location": "Ice Key World",
+				"found": "Surf Outside Castle Of Estria",
 				"resistances": [
 					1,
 					1,
@@ -17247,9 +18829,12 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"RayGigas": {
 				"name": "RayGigas",
@@ -17271,6 +18856,8 @@
 					"MouthShut",
 					"AquaWall"
 				],
+				"location": "Pirate Key World",
+				"found": "Moonrock Tower Floor 1",
 				"resistances": [
 					2,
 					2,
@@ -17307,9 +18894,12 @@
 						],
 						"mate": [
 							"BIRDFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Anemon": {
 				"name": "Anemon",
@@ -17331,6 +18921,8 @@
 					"Paralyze",
 					"PoisonGas"
 				],
+				"location": "Oasis World",
+				"found": "Surf In The Underground Tunnel",
 				"resistances": [
 					1,
 					1,
@@ -17367,9 +18959,12 @@
 						],
 						"mate": [
 							"PLANTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Aquarella": {
 				"name": "Aquarella",
@@ -17391,6 +18986,8 @@
 					"SquallHit",
 					"Geyser"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -17427,9 +19024,12 @@
 						],
 						"mate": [
 							"BUGFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Merman": {
 				"name": "Merman",
@@ -17451,6 +19051,8 @@
 					"Sap",
 					"SleepAir"
 				],
+				"location": "Pirate Key World",
+				"found": "Surf Water Outside The Door Shrine",
 				"resistances": [
 					2,
 					2,
@@ -17487,9 +19089,12 @@
 						],
 						"mate": [
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Octokid": {
 				"name": "Octokid",
@@ -17511,6 +19116,8 @@
 					"MPass",
 					"LureDance"
 				],
+				"location": "Pirate Key World",
+				"found": "Surf Water Outside The Door Shrine",
 				"resistances": [
 					1,
 					1,
@@ -17547,9 +19154,12 @@
 						],
 						"mate": [
 							"MATERIALFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"PutreFish": {
 				"name": "PutreFish",
@@ -17571,6 +19181,8 @@
 					"Watershot",
 					"Ramming"
 				],
+				"location": "Pirate Key World",
+				"found": "HoodSquid Cave",
 				"resistances": [
 					0,
 					0,
@@ -17607,9 +19219,12 @@
 						],
 						"mate": [
 							"ZOMBIEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Octoreach": {
 				"name": "Octoreach",
@@ -17631,6 +19246,8 @@
 					"PaniDance",
 					"Geyser"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -17667,9 +19284,12 @@
 						],
 						"mate": [
 							"BEASTFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Angleron": {
 				"name": "Angleron",
@@ -17691,6 +19311,8 @@
 					"Surround",
 					"SleepAir"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -17727,9 +19349,12 @@
 						],
 						"mate": [
 							"MATERIALFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"FishRider": {
 				"name": "FishRider",
@@ -17751,6 +19376,8 @@
 					"RainSlash",
 					"Dodge"
 				],
+				"location": "Ice Key World",
+				"found": "Surf Outside Castle Of Estria",
 				"resistances": [
 					2,
 					2,
@@ -17790,9 +19417,12 @@
 							"Demonite",
 							"SkulRider",
 							"Gremlin"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"RushFish": {
 				"name": "RushFish",
@@ -17814,6 +19444,8 @@
 					"Kamikaze",
 					"SandStorm"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -17852,9 +19484,12 @@
 							"GulpBeast",
 							"Droll",
 							"DRAGONFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Gamanian": {
 				"name": "Gamanian",
@@ -17876,6 +19511,8 @@
 					"NapAttack",
 					"LushLicks"
 				],
+				"location": "Pirate Key World",
+				"found": "HoodSquid Cave",
 				"resistances": [
 					1,
 					1,
@@ -17914,9 +19551,12 @@
 							"DarkEye",
 							"MedusaEye",
 							"BUGFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Clawster": {
 				"name": "Clawster",
@@ -17938,6 +19578,8 @@
 					"MetalCut",
 					"BiAttack"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -17975,9 +19617,12 @@
 						"mate": [
 							"ArmyCrab",
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"CancerMan": {
 				"name": "CancerMan",
@@ -17999,6 +19644,8 @@
 					"BeastCut",
 					"RainSlash"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -18036,9 +19683,12 @@
 						"mate": [
 							"Clawster",
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"RogueWave": {
 				"name": "RogueWave",
@@ -18060,6 +19710,8 @@
 					"PoisonGas",
 					"AquaWall"
 				],
+				"location": "Pirate Key World",
+				"found": "Surf Water Outside The Door Shrine",
 				"resistances": [
 					2,
 					2,
@@ -18096,9 +19748,12 @@
 						],
 						"mate": [
 							"JewelBag"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Scallopa": {
 				"name": "Scallopa",
@@ -18120,6 +19775,8 @@
 					"MagicWall",
 					"Radiant"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -18157,9 +19814,12 @@
 						"mate": [
 							"Mimic",
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"SeaHorse": {
 				"name": "SeaHorse",
@@ -18181,6 +19841,8 @@
 					"Geyser",
 					"BladeD"
 				],
+				"location": "Ice Key World",
+				"found": "Surf Outside Castle Of Estria",
 				"resistances": [
 					2,
 					2,
@@ -18218,9 +19880,12 @@
 						"mate": [
 							"DRAGONFM",
 							"DEVILFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"HoodSquid": {
 				"name": "HoodSquid",
@@ -18242,6 +19907,8 @@
 					"BiAttack",
 					"LureDance"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -18279,9 +19946,12 @@
 						"mate": [
 							"WhaleMage",
 							"EvilWand"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"MerTiger": {
 				"name": "MerTiger",
@@ -18303,6 +19973,8 @@
 					"Sleep",
 					"WarCry"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -18340,9 +20012,12 @@
 						"mate": [
 							"GulpBeast",
 							"MadCat"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"AxeShark": {
 				"name": "AxeShark",
@@ -18364,6 +20039,8 @@
 					"RainSlash",
 					"Cover"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -18401,9 +20078,12 @@
 						"mate": [
 							"BattleRex",
 							"ArcDemon"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Octogon": {
 				"name": "Octogon",
@@ -18425,6 +20105,8 @@
 					"BiAttack",
 					"Hustle"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -18461,9 +20143,12 @@
 						],
 						"mate": [
 							"Octoreach†5"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"KingSquid": {
 				"name": "KingSquid",
@@ -18485,6 +20170,8 @@
 					"RainSlash",
 					"PsycheUp"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -18522,9 +20209,12 @@
 						"mate": [
 							"Octogon",
 							"Mudou"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Digong": {
 				"name": "Digong",
@@ -18546,6 +20236,8 @@
 					"Ramming",
 					"PoisonGas"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -18586,9 +20278,12 @@
 							"MadGoose",
 							"Gigantes",
 							"Golem"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"WhaleMage": {
 				"name": "WhaleMage",
@@ -18610,6 +20305,8 @@
 					"Watershot",
 					"Geyser"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -18648,9 +20345,12 @@
 							"1EyeClown",
 							"Reaper",
 							"RushFish"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Aquadon": {
 				"name": "Aquadon",
@@ -18672,6 +20372,8 @@
 					"WindBeast",
 					"Berserker"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					3,
 					3,
@@ -18710,9 +20412,12 @@
 							"GreatDrak",
 							"Coatol",
 							"Orligon"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Octoraid": {
 				"name": "Octoraid",
@@ -18734,6 +20439,8 @@
 					"SquallHit",
 					"GigaSlash"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -18773,9 +20480,12 @@
 							"EvilArmor",
 							"GateGuard",
 							"Lionex"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Grakos": {
 				"name": "Grakos",
@@ -18797,6 +20507,8 @@
 					"HighJump",
 					"SandStorm"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					2,
@@ -18833,9 +20545,12 @@
 						],
 						"mate": [
 							"BOSSFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Poseidon": {
 				"name": "Poseidon",
@@ -18857,6 +20572,8 @@
 					"Focus",
 					"Dodge"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					3,
 					3,
@@ -18893,9 +20610,12 @@
 						],
 						"mate": [
 							"Mudou"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Pumpoise": {
 				"name": "Pumpoise",
@@ -18917,6 +20637,8 @@
 					"SuckAir",
 					"Dodge"
 				],
+				"location": "Ice Key World",
+				"found": "Surf Outside Castle Of Estria",
 				"resistances": [
 					2,
 					2,
@@ -18959,9 +20681,12 @@
 							"CragDevil",
 							"SpikyBoy",
 							"BombCrag"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Starfish": {
 				"name": "Starfish",
@@ -18983,6 +20708,8 @@
 					"PoisonHit",
 					"OddDance"
 				],
+				"location": "Ice Key World",
+				"found": "Outside Ice Tower",
 				"resistances": [
 					1,
 					1,
@@ -19022,9 +20749,12 @@
 						],
 						"mate": [
 							"SLIMEFM"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			}
 		},
 		"???? FAMILY": {
@@ -19048,6 +20778,8 @@
 					"BeDragon",
 					"Meditate"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -19085,9 +20817,12 @@
 						"mate": [
 							"Andreal",
 							"GreatDrak"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"DracoLord2": {
 				"name": "DracoLord2",
@@ -19109,6 +20844,8 @@
 					"Massacre",
 					"Surge"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -19145,9 +20882,12 @@
 						],
 						"mate": [
 							"Divinegon"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"LordDraco": {
 				"name": "LordDraco",
@@ -19169,6 +20909,8 @@
 					"HellBlast",
 					"Focus"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -19205,9 +20947,12 @@
 						],
 						"mate": [
 							"Orligon"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Hargon": {
 				"name": "Hargon",
@@ -19229,6 +20974,8 @@
 					"Bang",
 					"TatsuCall"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -19265,9 +21012,12 @@
 						],
 						"mate": [
 							"MetalKing"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Sidoh": {
 				"name": "Sidoh",
@@ -19289,6 +21039,8 @@
 					"FireAir",
 					"FrigidAir"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -19325,9 +21077,12 @@
 						],
 						"mate": [
 							"Rosevine"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Genosidoh": {
 				"name": "Genosidoh",
@@ -19349,6 +21104,8 @@
 					"WindBeast",
 					"MultiCut"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -19385,9 +21142,12 @@
 						],
 						"mate": [
 							"Titanis"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Baramos": {
 				"name": "Baramos",
@@ -19409,6 +21169,8 @@
 					"HellBlast",
 					"RockThrow"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -19445,9 +21207,12 @@
 						],
 						"mate": [
 							"Orochi"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Zoma": {
 				"name": "Zoma",
@@ -19469,6 +21234,8 @@
 					"FrigidAir",
 					"DeMagic"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					2,
@@ -19506,9 +21273,12 @@
 						],
 						"mate": [
 							"Sidoh"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"AsuraZoma": {
 				"name": "AsuraZoma",
@@ -19530,6 +21300,8 @@
 					"GigaSlash",
 					"Focus"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -19566,9 +21338,12 @@
 						],
 						"mate": [
 							"PsychoPiz"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Pizzaro": {
 				"name": "Pizzaro",
@@ -19590,6 +21365,8 @@
 					"FireAir",
 					"BiAttack"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -19626,9 +21403,12 @@
 						],
 						"mate": [
 							"Divinegon"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"PsychoPiz": {
 				"name": "PsychoPiz",
@@ -19650,6 +21430,8 @@
 					"FrigidAir",
 					"DeMagic"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					1,
@@ -19686,9 +21468,12 @@
 						],
 						"mate": [
 							"Esterk"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Esterk": {
 				"name": "Esterk",
@@ -19710,6 +21495,8 @@
 					"RainSlash",
 					"GigaSlash"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					2,
@@ -19747,9 +21534,12 @@
 						"mate": [
 							"Gorago",
 							"KingLeo"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Mirudraas": {
 				"name": "Mirudraas",
@@ -19771,6 +21561,8 @@
 					"Bang",
 					"Bolt"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -19807,9 +21599,12 @@
 						],
 						"mate": [
 							"GoldSlime"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Mirudraas2": {
 				"name": "Mirudraas2",
@@ -19831,6 +21626,8 @@
 					"DeMagic",
 					"SuckAir"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -19867,9 +21664,12 @@
 						],
 						"mate": [
 							"Orligon"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Mudou": {
 				"name": "Mudou",
@@ -19891,6 +21691,8 @@
 					"FrigidAir",
 					"PoisonGas"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					0,
@@ -19927,9 +21729,12 @@
 						],
 						"mate": [
 							"Gorago"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"DeathMore": {
 				"name": "DeathMore",
@@ -19951,6 +21756,8 @@
 					"HellBlast",
 					"TatsuCall"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					1,
 					2,
@@ -19987,7 +21794,9 @@
 						],
 						"mate": [
 							"Azurile"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -19995,7 +21804,9 @@
 						],
 						"mate": [
 							"Zoma"
-						]
+						],
+						"result": "",
+						"five": 0
 					},
 					{
 						"base": [
@@ -20005,9 +21816,12 @@
 							"Azurile",
 							"Mirudraas",
 							"Mirudraas2"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"DeathMore2": {
 				"name": "DeathMore2",
@@ -20029,6 +21843,8 @@
 					"Ramming",
 					"UltraDown"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -20066,9 +21882,12 @@
 						"mate": [
 							"Armorpion",
 							"Titanis"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"DeathMore3": {
 				"name": "DeathMore3",
@@ -20090,6 +21909,8 @@
 					"DeMagic",
 					"Focus"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					3,
 					3,
@@ -20128,9 +21949,12 @@
 							"DarkMate",
 							"Mudou",
 							"Poseidon"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Darkdrium": {
 				"name": "Darkdrium",
@@ -20152,6 +21976,8 @@
 					"FireAir",
 					"FrigidAir"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -20190,9 +22016,12 @@
 							"Watabou",
 							"GranSlime",
 							"AsuraZoma"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Orgodemir": {
 				"name": "Orgodemir",
@@ -20214,6 +22043,8 @@
 					"EvilSlash",
 					"Focus"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					2,
 					2,
@@ -20250,9 +22081,12 @@
 						],
 						"mate": [
 							"Niterich"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Orgodemir2": {
 				"name": "Orgodemir2",
@@ -20274,6 +22108,8 @@
 					"DeMagic",
 					"LifeSong"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					3,
 					3,
@@ -20311,9 +22147,12 @@
 						"mate": [
 							"LordDraco",
 							"GigaDraco"
-						]
+						],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			},
 			"Darck": {
 				"name": "Darck",
@@ -20335,6 +22174,8 @@
 					"Bang",
 					"ChargeUp"
 				],
+				"location": "",
+				"found": "",
 				"resistances": [
 					0,
 					2,
@@ -20367,9 +22208,12 @@
 				"breeds": [
 					{
 						"base": [],
-						"mate": []
+						"mate": [],
+						"result": "",
+						"five": 0
 					}
-				]
+				],
+				"usedIn": []
 			}
 		}
 	}

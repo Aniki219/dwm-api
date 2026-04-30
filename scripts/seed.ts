@@ -9,11 +9,13 @@ const tables = [
     "move_requirements",
     "resistance_moves",
     "monster_breeds",
+    "monster_locations",
 
     "monsters",
     "moves",
     "stats",
-    "resistances"
+    "resistances",
+    "locations"
 ];
 
 async function seed() {
@@ -81,7 +83,18 @@ async function seed() {
             resistance_name TEXT REFERENCES resistances(name),
             move_name TEXT REFERENCES moves(name),
             PRIMARY KEY (resistance_name, move_name)
-        )
+        );
+
+        CREATE TABLE IF NOT EXISTS locations (
+            name TEXT PRIMARY KEY
+        );
+
+        CREATE TABLE IF NOT EXISTS monster_locations (
+            monster_name TEXT REFERENCES monsters(name),
+            location_name TEXT REFERENCES locations(name),
+            found TEXT,
+            PRIMARY KEY (monster_name, location_name)
+        );
     `);
 
     const monsterData = await readData<MonsterData>('MonsterData');
@@ -92,12 +105,17 @@ async function seed() {
     const insertStat = db.prepare('INSERT INTO stats (name) VALUES (?)');
     const insertMove = db.prepare('INSERT INTO moves (name) VALUES (?)');
     const insertResistance = db.prepare('INSERT INTO resistances (name) VALUES (?)');
+    const insertLocation = db.prepare('INSERT OR IGNORE INTO locations (name) VALUES (?)');
     const insertMonsterStat = db.prepare('INSERT INTO monster_stats (monster_name, stat_name, value) VALUES (?, ?, ?)');
     const insertMonsterBreeds = db.prepare('INSERT INTO monster_breeds (base_name, mate_name, result_name, plus_five) VALUES (?, ?, ?, ?)');
     const insertMoveRequirement = db.prepare('INSERT INTO move_requirements (move_name, stat_name, value) VALUES (?, ?, ?)');
     const insertMonsterMove = db.prepare('INSERT INTO monster_moves (monster_name, move_name) VALUES (?, ?)');
     const insertMonsterResistance = db.prepare('INSERT INTO monster_resistances (monster_name, resistance_name, value) VALUES (?, ?, ?)');
     const insertResistanceMove = db.prepare('INSERT INTO resistance_moves (resistance_name, move_name) VALUES (?, ?)');
+    const insertMonsterLocation = db.prepare('INSERT OR IGNORE INTO monster_locations (monster_name, location_name, found) VALUES (?, ?, ?)');
+
+    const getLocationByName = db.prepare('SELECT COUNT(*) FROM locations WHERE name = ?');
+    const getMonsterByName = db.prepare('SELECT COUNT(*) FROM monsters WHERE name = ?');
 
     const transaction = db.transaction((monsterData: MonsterData) => {
         // Stats
@@ -139,7 +157,7 @@ async function seed() {
         // Monsters
         for (const f in monsterData.families) {
             for (const m in monsterData.families[f]) {
-                const {name, family, stats, moves, resistances} = monsterData.families[f][m] as Monster;
+                const {name, family, stats, moves, resistances, location, found} = monsterData.families[f][m] as Monster;
                 insertMonster.run(name, family);
                 
                 // Monster Stats
@@ -159,6 +177,11 @@ async function seed() {
                     const value = resistances[i];
 
                     insertMonsterResistance.run(name, resName, value);
+                }
+
+                if (location && location != '') {
+                    insertLocation.run(location);
+                    insertMonsterLocation.run(name, location, found);
                 }
             }
         }

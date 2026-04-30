@@ -84,7 +84,7 @@ function MonsterUsedInTable(params: MonsterBreedTableParams) {
                                                             br.base.map((b, i) => {
                                                                 return (
                                                                     <li key={`base_${i}`}>
-                                                                        <Link href={`/monster/${b}`}>{b}</Link>
+                                                                        <Link href={`/monsters/${b}`}>{b}</Link>
                                                                     </li>
                                                                 )
                                                             })
@@ -99,7 +99,7 @@ function MonsterUsedInTable(params: MonsterBreedTableParams) {
                                                             br.mate.map((k, i) => {
                                                                 return (
                                                                     <li key={`mate_${i}`}>
-                                                                        <Link href={`/monster/${k}`}>{k}</Link>
+                                                                        <Link href={`/monsters/${k}`}>{k}</Link>
                                                                     </li>
                                                                 )
                                                             })
@@ -108,7 +108,7 @@ function MonsterUsedInTable(params: MonsterBreedTableParams) {
                                                 </td>
                                             }
                                             <td key={`result_${i}`}>
-                                                <Link href={`/monster/${result}`}>{result}</Link>
+                                                <Link href={`/monsters/${result}`}>{result}</Link>
                                             </td>
                                         </tr>
                                     )
