@@ -7,7 +7,7 @@ export default async function FamiliesIndex() {
     return (
         <div className="index">
             <h2>Skills</h2>
-            <ul className="skills-list">
+            <ul className="columns">
                 {
                     moveNames.map((name, i) =>
                         <li key={i}>

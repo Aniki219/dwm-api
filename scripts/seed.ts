@@ -93,7 +93,7 @@ async function seed() {
             monster_name TEXT REFERENCES monsters(name),
             location_name TEXT REFERENCES locations(name),
             found TEXT,
-            PRIMARY KEY (monster_name, location_name)
+            PRIMARY KEY (monster_name, location_name, found)
         );
     `);
 

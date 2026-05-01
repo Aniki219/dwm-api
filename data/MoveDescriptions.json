@@ -1,0 +1,1394 @@
+{
+  "Physical": [
+    {
+      "name": "FireSlash",
+      "mp": "3",
+      "Modifier": {
+        "0": "125%",
+        "1": "115%",
+        "2": "75%",
+        "3": "30%"
+      },
+      "description": "A fiery sword attack."
+    },
+    {
+      "name": "VacuSlash",
+      "mp": "3",
+      "Modifier": {
+        "0": "125%",
+        "1": "115%",
+        "2": "75%",
+        "3": "30%"
+      },
+      "description": "A sword attack enhanced by whirlwinds."
+    },
+    {
+      "name": "BoltSlash",
+      "mp": "3",
+      "Modifier": {
+        "0": "125%",
+        "1": "115%",
+        "2": "75%",
+        "3": "30%"
+      },
+      "description": "A sword attack made stronger by lightning."
+    },
+    {
+      "name": "IceSlash",
+      "mp": "3",
+      "Modifier": {
+        "0": "125%",
+        "1": "115%",
+        "2": "75%",
+        "3": "30%"
+      },
+      "description": "A sword attack made stronger by the power of ice."
+    },
+    {
+      "name": "NapAttack",
+      "mp": "2",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "A physical attack that may put the target to sleep. Mechanics: The damage inflicted is unaffected by the target's resistance. A monster affected by sleep cannot take action. Attacking the affected monster has a 50% chance to awaken them. The effect has a chance of wearing off each turn, and lasts up to 2 turns."
+    },
+    {
+      "name": "PoisonHit",
+      "mp": "2",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "A physical attack that may poison the target. Mechanics: The damage inflicted is unaffected by the target's resistance. A monster affected by poison will take damage after each of their actions. This effect will end after the battle. [Damage = min(50, 1 + Max HP / 8)]"
+    },
+    {
+      "name": "Paralyze",
+      "mp": "3",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "A physical attack that may paralyze the target. Mechanics: A monster affected by paralyze will be permanently stunned. If the entire party is paralyzed you will automatically be wiped out. This effect will persist after the battle."
+    },
+    {
+      "name": "SquallHit",
+      "mp": "2",
+      "Modifier": "90%",
+      "description": "A physical attack that hits first."
+    },
+    {
+      "name": "BiAttack",
+      "mp": "3",
+      "Modifier": "50%",
+      "description": "A physical attack that strikes twice in succession."
+    },
+    {
+      "name": "QuadHits",
+      "mp": "6",
+      "Modifier": "50%",
+      "description": "A physical attack that strikes four times."
+    },
+    {
+      "name": "RainSlash",
+      "mp": "5",
+      "Modifier": {
+        "0": "100%",
+        "1": "75%",
+        "2": "50%"
+      },
+      "description": "A sword attack that hits all enemies. Mechanics: Each attack is weaker than the last."
+    },
+    {
+      "name": "PsycheUp",
+      "mp": "3",
+      "Modifier": "150%",
+      "description": "Inflicts severe damage at the end of the turn."
+    },
+    {
+      "name": "HighJump",
+      "mp": "5",
+      "Modifier": "150%",
+      "description": "The user leaps and attacks in the next turn. Mechanics: The monster is immune to everything while in the air."
+    },
+    {
+      "name": "EvilSlash",
+      "mp": "3",
+      "damage": "critical",
+      "description": "A powerful, but wildly aimed, sword attack. Mechanics: Inflict a critical attack with 5/8 accuracy."
+    },
+    {
+      "name": "Massacre",
+      "mp": "3",
+      "damage": "critical",
+      "description": "Inflicts severe damage on one friend or foe."
+    },
+    {
+      "name": "TwinSlash",
+      "mp": "2",
+      "Modifier": "150%",
+      "description": "Inflicts severe damage, but also hurts the user. Mechanics: The user takes 25% of the damage inflicted."
+    },
+    {
+      "name": "Berserker",
+      "mp": "1",
+      "Modifier": "200%",
+      "description": "A powerful attack that leaves the user vulnerable. Mechanics: All damage inflicted and received is doubled after calculating resistances and DEF, damage over time effects are unaffected."
+    },
+    {
+      "name": "SlimeBlow",
+      "mp": "3",
+      "Modifier": "120%",
+      "description": "Inflicts severe damage on the slime family."
+    },
+    {
+      "name": "DrakSlash",
+      "mp": "3",
+      "Modifier": "120%",
+      "description": "Inflicts severe damage on the dragon family."
+    },
+    {
+      "name": "BeastCut",
+      "mp": "3",
+      "Modifier": "120%",
+      "description": "Inflicts severe damage on the beast family."
+    },
+    {
+      "name": "BirdBlow",
+      "mp": "3",
+      "Modifier": "120%",
+      "description": "Inflicts severe damage on the bird family."
+    },
+    {
+      "name": "BugBlow",
+      "mp": "3",
+      "Modifier": "120%",
+      "description": "Inflicts severe damage on the bug family."
+    },
+    {
+      "name": "Shears",
+      "mp": "3",
+      "Modifier": "120%",
+      "description": "Inflicts severe damage on the plant family."
+    },
+    {
+      "name": "DevilCut",
+      "mp": "3",
+      "Modifier": "120%",
+      "description": "Inflicts severe damage on the devil family."
+    },
+    {
+      "name": "ZombieCut",
+      "mp": "3",
+      "Modifier": "120%",
+      "description": "Inflicts severe damage on the zombie family."
+    },
+    {
+      "name": "CleanCut",
+      "mp": "3",
+      "Modifier": "120%",
+      "description": "Inflicts severe damage on the materail family."
+    },
+    {
+      "name": "AquaCut",
+      "mp": "3",
+      "Modifier": "120%",
+      "description": "Inflicts severe damage on the water family."
+    },
+    {
+      "name": "MetalCut",
+      "mp": "3",
+      "Modifier": "150%",
+      "description": "Inflicts damage on a high DEF enemy. Mechanics: Inflict 1-2 damage if the target's DEF is too high to inflict damage. If the target is a Metaly, Metabble, KingMetal, or GoldSlime, inflict 150% damage."
+    },
+    {
+      "name": "ChargeUp",
+      "mp": "0",
+      "description": "Inflicts severe damage on the next turn. Mechanics: The user's next physical attack will inflict double damage. This effect can be used with other physical skills."
+    },
+    {
+      "name": "StrongD",
+      "mp": "3",
+      "description": "Strongly protects the user against all attacks. Mechanics: Reduce all damage by 90%. This skill will take effect before any attacks can be used."
+    },
+    {
+      "name": "BladeD",
+      "mp": "3",
+      "description": "Protects the user and enables retaliation. Mechanics: The user will inflict damage equal to double the damage received from any physical attacks this turn. This skill will take effect before any attacks can be used."
+    },
+    {
+      "name": "Dodge",
+      "mp": "4",
+      "description": "Deflects any physical attack to another monster. Mechanics: All physical attacks that target the user will be redirected to an ally or enemy this turn. This skill will take effect before any attacks can be used."
+    },
+    {
+      "name": "Cover",
+      "mp": "2",
+      "description": "Takes all attacks meant for another monster. Mechanics: The user will block all attacks for one ally, but will take multiple hits by skills that target the entire party. This skill will take effect before any attacks can be used."
+    },
+    {
+      "name": "Guardian",
+      "mp": "2",
+      "description": "Takes all attacks meant for party monsters. Mechanics: The user will block all attacks for the party, but will take multiple hits by skills that target the entire party. This skill will take effect before any attacks can be used."
+    }
+  ],
+  "Spell": [
+    {
+      "name": "Blaze",
+      "mp": "2",
+      "Damage": {
+        "0": "12~15",
+        "1": "10~12",
+        "2": "6~7",
+        "3": "0"
+      },
+      "description": "Attack an enemy with a fireball."
+    },
+    {
+      "name": "Blazemore",
+      "mp": "4",
+      "Damage": {
+        "0": "70~90",
+        "1": "59~76",
+        "2": "35~45",
+        "3": "0"
+      },
+      "description": "Attack an enemy with a large fireball."
+    },
+    {
+      "name": "Blazemost",
+      "mp": "10",
+      "Damage": {
+        "0": "180~200",
+        "1": "153~170",
+        "2": "90~100",
+        "3": "0"
+      },
+      "description": "A towering pillar of fire roasts an enemy."
+    },
+    {
+      "name": "Firebal",
+      "mp": "4",
+      "Damage": {
+        "0": "16~24",
+        "1": "13~20",
+        "2": "8~2",
+        "3": "0"
+      },
+      "description": "Attacks enemies with a blast of fire (all)."
+    },
+    {
+      "name": "Firebane",
+      "mp": "6",
+      "Damage": {
+        "0": "30~42",
+        "1": "25~35",
+        "2": "15~20",
+        "3": "0"
+      },
+      "description": "Attacks enemies with a wall of fire (all)."
+    },
+    {
+      "name": "Firebolt",
+      "mp": "10",
+      "Damage": {
+        "0": "88~112",
+        "1": "74~95",
+        "2": "44~55",
+        "3": "0"
+      },
+      "description": "A huge wall of fire incinerates enemies (all)."
+    },
+    {
+      "name": "Bang",
+      "mp": "5",
+      "Damage": {
+        "0": "20~30",
+        "1": "17~25",
+        "2": "10~15",
+        "3": "0"
+      },
+      "description": "Small explosions strike enemies (all)."
+    },
+    {
+      "name": "Boom",
+      "mp": "8",
+      "Damage": {
+        "0": "52~68",
+        "1": "44~57",
+        "2": "26~34",
+        "3": "0"
+      },
+      "description": "A succession of explosions strikes enemies (all)."
+    },
+    {
+      "name": "Explodet",
+      "mp": "15",
+      "Damage": {
+        "0": "130~150",
+        "1": "110~127",
+        "2": "65~75",
+        "3": "0"
+      },
+      "description": "Huge explosions blast enemies (all)."
+    },
+    {
+      "name": "Infernos",
+      "mp": "2",
+      "Damage": {
+        "0": "9~24",
+        "1": "6~20",
+        "2": "4~12",
+        "3": "0"
+      },
+      "description": "Razor sharp whirlwinds slash enemies (all)."
+    },
+    {
+      "name": "Infermore",
+      "mp": "4",
+      "Damage": {
+        "0": "25~55",
+        "1": "21~46",
+        "2": "12~27",
+        "3": "0"
+      },
+      "description": "Twisters tear through enemies (all)."
+    },
+    {
+      "name": "Infermost",
+      "mp": "8",
+      "Damage": {
+        "0": "80~180",
+        "1": "68~153",
+        "2": "40~90",
+        "3": "Immune"
+      },
+      "description": "A huge tornado roars through enemies (all)."
+    },
+    {
+      "name": "Bolt",
+      "mp": "5",
+      "Damage": {
+        "0": "35~50",
+        "1": "29~42",
+        "2": "17~25",
+        "3": "0"
+      },
+      "description": "Lightning strikes enemies (all)."
+    },
+    {
+      "name": "Zap",
+      "mp": "10",
+      "Damage": {
+        "0": "70~90",
+        "1": "59~76",
+        "2": "35~45",
+        "3": "0"
+      },
+      "description": "Powerful bolts of lightning lash enemies (all)."
+    },
+    {
+      "name": "Thordain",
+      "mp": "15",
+      "Damage": {
+        "0": "175~225",
+        "1": "148~191",
+        "2": "87~112",
+        "3": "0"
+      },
+      "description": "Huge shards of lightning rip enemies."
+    },
+    {
+      "name": "Icebolt",
+      "mp": "3",
+      "Damage": {
+        "0": "25~35",
+        "1": "21~29",
+        "2": "12~17",
+        "3": "0"
+      },
+      "description": "Small chunks of ice hail down on enemies (all)."
+    },
+    {
+      "name": "SnowStorm",
+      "mp": "5",
+      "Damage": {
+        "0": "42~58",
+        "1": "35~49",
+        "2": "21~29",
+        "3": "Immune"
+      },
+      "description": "Enemies are flash frozen (all)."
+    },
+    {
+      "name": "Blizzard",
+      "mp": "12",
+      "Damage": {
+        "0": "80~104",
+        "1": "68~89",
+        "2": "40~52",
+        "3": "Immune"
+      },
+      "description": "A wicked blizzard howls through enemies (all)."
+    },
+    {
+      "name": "Beat",
+      "mp": "4",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Instantly slays an enemy."
+    },
+    {
+      "name": "Defeat",
+      "mp": "7",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Instantly slays enemies (all)."
+    },
+    {
+      "name": "Sacrifice",
+      "mp": "1",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "The user explodes to inflict damage on all enemies. Mechanics: Kill or reduce the HP to 1 of each monster, then the user perishes or survives with 1% of their HP. The surival rate is about 3/8. This effect will always kill the affected monsters if they already had 1 HP, including the user."
+    },
+    {
+      "name": "Surround",
+      "mp": "3",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Surrounds all enemies in a mirage. Mechanics: The affected monsters will have their physical attacks miss at a rate of 5/8."
+    },
+    {
+      "name": "Sleep",
+      "mp": "3",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Makes a single enemy sleep. Mechanics: A monster affected by sleep cannot take action. Attacking the affected monster has a 50% chance to awaken them. The effect has a chance of wearing off each turn, and lasts up to 2 turns."
+    },
+    {
+      "name": "SleepAll",
+      "mp": "5",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Makes all enemies sleep. Mechanics: A monster affected by sleep cannot take action. Attacking the affected monster has a 50% chance to awaken them. The effect has a chance of wearing off each turn, and lasts up to 2 turns."
+    },
+    {
+      "name": "RobMagic",
+      "mp": "0",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Steals MP from an enemy. Mechanics: The affected monster will be drained of up to 29 MP."
+    },
+    {
+      "name": "TakeMagic",
+      "mp": "2",
+      "description": "Absorbs the MP of a spell cast against the user.  Mechanics: The user gains MP equal to the MP cost spells and typeless/breath skills against it, does not work on skills used by your own monsters."
+    },
+    {
+      "name": "StopSpell",
+      "mp": "3",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Prevents spell casting by all enemies. Mechanics: The affected monsters will have all of their spells nullified."
+    },
+    {
+      "name": "PanicAll",
+      "mp": "5",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Confuses all enemies. Mechanics: The affected monsters may attack their allies with a basic attack. Each time the affected monster is attacked they have a chance to recover from this effect, and has a chance to recover each turn."
+    },
+    {
+      "name": "Sap",
+      "mp": "3",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Lowers DEF of one enemy. Mechanics: The affected monster will have their DEF lowered by half of their base value. This effect can be applied until the value is reduced to 1."
+    },
+    {
+      "name": "Defense",
+      "mp": "4",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Lowers DEF of all enemy monsters. Mechanics: The affected monsters will have their DEF lowered by half of their base value. This effect can be applied until the value is reduced to 1."
+    },
+    {
+      "name": "Slow",
+      "mp": "3",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Lowers AGL of one enemy. Mechanics: The affected monster will have their AGL lowered by half of their base value. This effect can be applied until the value is reduced to 1."
+    },
+    {
+      "name": "SlowAll",
+      "mp": "4",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Lowers AGL of all enemy monsters. Mechanics: The affected monsters will have their DEF lowered by half of their base value. This effect can be applied until the value is reduced to 1."
+    },
+    {
+      "name": "Upper",
+      "mp": "2",
+      "description": "Raises DEF of one monster. Mechanics: The affected monster will have their DEF increased by half of their base value. This effect can be applied until the value is increased to 999."
+    },
+    {
+      "name": "Increase",
+      "mp": "3",
+      "description": "Raises DEF of party monsters (all). Mechanics: The affected monsters will have their DEF increased by half of their base value. This effect can be applied until the value is increased to 999."
+    },
+    {
+      "name": "Speed",
+      "mp": "2",
+      "description": "Raises AGL of one monster. Mechanics: The affected monster will have their AGL increased by half of their base value. This effect can be applied until the value is increased to 999."
+    },
+    {
+      "name": "SpeedUp",
+      "mp": "3",
+      "description": "Raises AGL of party monsters (all). Mechanics: The affected monsters will have their AGL increased by half of their base value. This effect can be applied until the value is increased to 999."
+    },
+    {
+      "name": "TwinHits",
+      "mp": "6",
+      "description": "Doubles the ATK of one monster. Mechanics: Does not increase ATK, despite the description. Double the damage of all physical attacks, after calculating DEF and resistances."
+    },
+    {
+      "name": "Barrier",
+      "mp": "3",
+      "description": "Reduces damage from breath attacks (all). Mechanics: Reduce damage from all breath attacks by about 50% to your entire party. (Requires further testing, damage reduction may be lower or higher.)"
+    },
+    {
+      "name": "MagicWall",
+      "mp": "3",
+      "description": "Raises protection against magic spells (all). Mechanics: Reduce damage from all spell attacks by about 50% to your entire party. (Requires further testing, damage reduction may be lower or higher, and may affect more than just spells.)"
+    },
+    {
+      "name": "MagicBack",
+      "mp": "4",
+      "description": "Bounces back a spell once. Mechanics: The user generates a veil that will reflect back the next enemy spell that will affect it. Once a spell has been reflected the effect will end. If a spell targets the entire party, only the effect that affects the user will be reflected back and other party members will still be affected. (Requires further testing, may reflect more than just spells.)"
+    },
+    {
+      "name": "Bounce",
+      "mp": "4",
+      "description": "Bounces back all enemy spells. Mechanics: The user generates a veil that will reflect back enemy spells that affect it. If a spell targets the entire party, only the effect that affects the user will be reflected back and other party members will still be affected. (Requires further testing, may reflect more than just spells.)"
+    },
+    {
+      "name": "Ironize",
+      "mp": "2",
+      "description": "Changes all party monsters into chunks of iron. Mechanics: Transform the entire party into iron and become immune to all attacks and effects for 3 turns, including the turn it was cast. The affected monsters cannot act while they are transformed."
+    },
+    {
+      "name": "Transform",
+      "mp": "5",
+      "description": "Transform the user into a chosen enemy. Mechanics: Copy an enemy's HP, ATK, DEF, AGL, Resistances, and Skills. Your HP will increase or decrease to the enemy's current HP. Enemy monsters can only have up to 3 skills, but all of your skills will be replaced by them, even if you posses more than 3. If copying another player's monster, you may be able to copy more skills. Any equipped items you posses will have their effects reapplied after the transformation."
+    },
+    {
+      "name": "BeDragon",
+      "mp": "9",
+      "description": "Transform the user into a ferocious dragon. Mechanics: Transform the user into DracoLord(2) with new stats, skills, and resistances. If your current MP is above 300 it will be reduced to 300, but if it is equal to 300 or less then it will remain the same value. Unlike other games of the series, the user remains controllable."
+    },
+    {
+      "name": "Chance",
+      "mp": "20",
+      "description": "There is no telling what may happen. Mechanics: Randomly applies 1 of 12 effects. Rate Effect 2% BeDragon is applied to the user, same effect as the spell. 3% Restore 999 MP to all allies. 5% Meteors fall and brutalize all allies and enemies, reducing their HP to 1 or killing them if their current HP is already 1. 6% Drain the MP of all monsters to 0. 6% Freeze all enemies, stunning them for 1 turn. 6% Sleep is applied onto all allies and enemies, ignoring resistances. 8% ThickFog is apllied, and lasts 3 turns. 9% Restore 999 HP to all allies. 11% Fills your entire party with power, causing their next physical attack to critical. 17% Summons Gaint - Attacks all enemies, weak. Foul Being - Forces all enemies to flee. ??? - Shatters all enemies? Despite looking like they died, the game tells you they fled, so you receive no experience.  18% Nothing happens..."
+    },
+    {
+      "name": "Heal",
+      "mp": "2",
+      "description": "Restores HP by 30~40."
+    },
+    {
+      "name": "HealMore",
+      "mp": "5",
+      "description": "Restores HP by 75~90."
+    },
+    {
+      "name": "HealAll",
+      "mp": "7",
+      "description": "Fully restores HP."
+    },
+    {
+      "name": "HealUs",
+      "mp": "18",
+      "description": "Restores HP by 90~120 (all)."
+    },
+    {
+      "name": "HealUsAll",
+      "mp": "36",
+      "description": "Fully restores HP (all)."
+    },
+    {
+      "name": "MPass",
+      "mp": "20",
+      "description": "Gives 15MP to a party monster."
+    },
+    {
+      "name": "MPassmore",
+      "mp": "40",
+      "description": "Gives 30MP to a party monster."
+    },
+    {
+      "name": "MPassmost",
+      "mp": "100",
+      "description": "Gives 80MP to a party monster."
+    },
+    {
+      "name": "Vivify",
+      "mp": "10",
+      "description": "May revive a dead monster. Mechanics: Revive a monster with a success rate of 5/8. Monsters revive with 1 HP."
+    },
+    {
+      "name": "Revive",
+      "mp": "20",
+      "description": "Revives a dead monster. Mechanics: Does not fail, and monsters revive with 100% of their HP."
+    },
+    {
+      "name": "Farewell",
+      "mp": "100%",
+      "description": "Revives dead mates in exchnage for own life (all). Mechanics: Revive all allies with 100% of their HP, then the user perishes or survives with 1% of their current HP. The survival rate is about 3/8. The user will always perish if their HP is already at 1."
+    },
+    {
+      "name": "Antidote",
+      "mp": "2",
+      "description": "Cures one monster of poison."
+    },
+    {
+      "name": "DeChaos",
+      "mp": "2",
+      "description": "Clears confusion in all party monsters."
+    },
+    {
+      "name": "CurseOff",
+      "mp": "2",
+      "description": "Lifts a curse (all)."
+    },
+    {
+      "name": "NumbOff",
+      "mp": "2",
+      "description": "Cures paralysis and sleep (all)."
+    }
+  ],
+  "Normal": [
+    {
+      "name": "BigBang",
+      "mp": "30",
+      "Damage": {
+        "0": "300~400",
+        "1": "225~300",
+        "2": "120~160",
+        "3": "0"
+      },
+      "description": "Creates an enormous Explosion (all)."
+    },
+    {
+      "name": "WindBeast",
+      "mp": "3",
+      "Damage": {
+        "0": "42~206",
+        "1": "35~175",
+        "2": "21~101",
+        "3": "0"
+      },
+      "description": "Slashes a single monster with sharp whirlwinds. Mechanics: Damage scales linearly based on level."
+    },
+    {
+      "name": "Vacuum",
+      "mp": "6",
+      "Damage": {
+        "0": "51~165",
+        "1": "52~140",
+        "2": "31~82",
+        "3": "0"
+      },
+      "description": "Creates a tornado with vicious winds (all). Mechanics: Damage scales linearly based on level. (Yes, the damage range for level 19, resistance 1, is correct. I have no idea why the damage range is higher than resistance 0. I've done hundreds of tests to make sure. The damage will eventually scale to inflict less damage than resistance 0.)"
+    },
+    {
+      "name": "MultiCut",
+      "mp": "20",
+      "Damage": {
+        "0": "180~210",
+        "1": "135~157",
+        "2": "72~84",
+        "3": "0"
+      },
+      "description": "A cross-cutting sword attack (all). Mechanics: Inflict about 50% more damage vs Zombie family. (Requires more testing, bonus damage vs zombies may not be accurate.)"
+    },
+    {
+      "name": "Lightning",
+      "mp": "3",
+      "Damage": {
+        "0": "36~198",
+        "1": "31~168",
+        "2": "18~99",
+        "3": "0"
+      },
+      "description": "Summons a lightning storm (all). Mechanics: Damage scales linearly based on level."
+    },
+    {
+      "name": "Hellblast",
+      "mp": "25",
+      "Damage": {
+        "0": "211~287",
+        "1": "179~244",
+        "2": "105~144",
+        "3": "0"
+      },
+      "description": "Strikes all enemies with huge lightning."
+    },
+    {
+      "name": "Ramming",
+      "mp": "1",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "A full-body tackle that also hurts the user. Mechanics: Inflict damage equal to 80% of the target's current HP, then the user takes 1 + 80% of the user's current HP in damage. This skill will kill the user if their HP is already at 1."
+    },
+    {
+      "name": "Kamikaze",
+      "mp": "1",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Leaves the user and target on the verge of death. Mechanics: Reduce the target's HP to 1, then the user's HP is reduced to 1. This skill will kill the user if their HP is already at 1."
+    },
+    {
+      "name": "MegaMagic",
+      "mp": "100%",
+      "Damage": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "The ultimate attack spell. Mechanics: This is NOT a spell, despite the description. No monster is immune to this skill, and cannot be bred to be immune to it. [Damage = (100 + MP * 2) +-10%]"
+    },
+    {
+      "name": "Rockthrow",
+      "mp": "5",
+      "Damage": {
+        "0": "90~130",
+        "1": "77~110",
+        "2": "45~65",
+        "3": "0"
+      },
+      "description": "Hurls giant boulders at enemies (all)."
+    },
+    {
+      "name": "CallHelp",
+      "mp": "4",
+      "Damage": {
+        "0": "34~198",
+        "1": "28~168",
+        "2": "17~99",
+        "3": "0"
+      },
+      "description": "Summons friends who attack in droves. Mechanics: Damage scales linearly based on level. Calls 1~4 helpers to randomly attack enemies. The skill has a 5/8 chance of success."
+    },
+    {
+      "name": "YellHelp",
+      "mp": "8",
+      "Damage": {
+        "0": "46~198",
+        "1": "39~168",
+        "2": "23~99",
+        "3": "0"
+      },
+      "description": "Summons a mass of friends that attack in droves. Mechanics: Damage scales linearly based on level. Calls 1~8 helpers to randomly attack enemies. The skill has a 5/8 chance of success."
+    },
+    {
+      "name": "GigaSlash",
+      "mp": "20",
+      "Damage": {
+        "0": "351~410",
+        "1": "298~348",
+        "2": "175~205",
+        "3": "0"
+      },
+      "description": "The ultimate sword attack."
+    },
+    {
+      "name": "WaterShot",
+      "mp": "5",
+      "Damage": {
+        "0": "30~45",
+        "1": "25~38",
+        "2": "15~22",
+        "3": "0"
+      },
+      "description": "Shoots a high volume of water at an enemy."
+    },
+    {
+      "name": "Tidalwave",
+      "mp": "15",
+      "Damage": {
+        "0": "140~180",
+        "1": "105~135",
+        "2": "56~71",
+        "3": "0"
+      },
+      "description": "Summons a towering wall of water (all)."
+    },
+    {
+      "name": "Geyser",
+      "mp": "2",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Opens a geyser to send an enemy flying. Mechanics: Launches an enemy into the air, and if they have yet to take an action this turn then they lose their turn to act. Once in the air, the enemy will fall back down will land safely or awkwardly. If the monster lands awkwardly then they will take about 10% of their max HP in damage. The monster has a 5/8 chance of landing safely. The success rate for this skill only applies for launching the enemy into the air."
+    }
+  ],
+  "Support": [
+    {
+      "name": "Radiant",
+      "mp": "2",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "A blast of light blinds all the enemies. Mechanics: The affected monsters will have their physical attacks miss at a rate of 5/8."
+    },
+    {
+      "name": "SandStorm",
+      "mp": "2",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Obscures the visibility of all enemies.  Mechanics: The affected monsters will have their physical attacks miss at a rate of 5/8."
+    },
+    {
+      "name": "EerieLite",
+      "mp": "2",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Weakens all enemies to magic spells. Mechanics: The affected monsters will take 25-50% more damage from spells and typeless/breath skills. The more resistant a monster is to a skill the greater the damage modifier."
+    },
+    {
+      "name": "UltraDown",
+      "mp": "7",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Greatly weakens an enemy. Mechanics: The affected monster will have the effects of Sap, Slow, and Surround applied to it, ignoring the resistances of these skills."
+    },
+    {
+      "name": "LushLicks",
+      "mp": "2",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Licks one enemy to stop it for one turn."
+    },
+    {
+      "name": "SickLicks",
+      "mp": "4",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Licks one enemy to reduce its DEF. Mechanics: The affected monster will have their DEF lowered to 1, and be stunned for 1 turn."
+    },
+    {
+      "name": "Curse",
+      "mp": "3",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Lays a curse on all enemies. Mechanics: Monsters affected by curse will have a 5/8 chance to be stunned or lose HP equal to their max HP divided by 6. This effect will persist after the battle."
+    },
+    {
+      "name": "LegSweep",
+      "mp": "1",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Sweeps the leg out from under one enemy. Mechanics: The affected monster will be stunned for 1 turn. Flying monsters are immune to this skill."
+    },
+    {
+      "name": "BigTrip",
+      "mp": "3",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Sweep the legs out from under all enemies. Mechanics: The affected monsters will be stunned for 1 turn. Flying monsters are immune to this skill."
+    },
+    {
+      "name": "Ahhh",
+      "mp": "1",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Soft, plushy and very pleasant. Mechanics: If the user is a male, inflict damage equal to a basic attack, ignoring the target's resistance. If the user is a female, stun an enemy for 1 turn."
+    },
+    {
+      "name": "WarCry",
+      "mp": "3",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "A terrifying cry that stops all enemies. Mechanics: The affected monsters will be stunned for 1 turn."
+    },
+    {
+      "name": "MouthShut",
+      "mp": "6",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Prevents all enemies from using breath attacks. Mechanics: The affected monsters will have all of their breath skills nullified."
+    },
+    {
+      "name": "SealPray",
+      "mp": "15",
+      "description": "Seals a skill used by the enemy. Mechanics: The next skill used after the user's turn will be sealed. If any monster tries to use this skill, it will be nullified. If this skill is used again, the sealed skill will be replaced by the new one."
+    },
+    {
+      "name": "DeMagic",
+      "mp": "7",
+      "description": "Lifts the effects of all spells on enemies (all). Mechanics: Nullify the effects of all support skills, both negative and positive, on all enemies. SealPray is unaffected by this skill."
+    },
+    {
+      "name": "ThickFog",
+      "mp": "8",
+      "description": "Creates a fog that prevents the use of all spells. Mechanics: Nullify the effects of all support skills, both negative and positive, on all allies and enemies. All spells will be nullified for the next 3 turns, including the turn this skill was used. SealPray is unaffected by this skill."
+    },
+    {
+      "name": "Focus",
+      "mp": "0",
+      "description": "Enables two moves in the next turn. Mechanics: The user will perform the same action twice on their next turn. If a skill is used, the monster will require enough MP to use the skill twice. If you run out of MP then your second action will be wasted. Skills that require 2 or more turns to use will only be used once. Support skills that provide a one time effect, like AquaWall, will be used twice, but provide no benefit. Lastly, skills like Transform, BeDragon, and Ironize will only be used once."
+    },
+    {
+      "name": "Imitate",
+      "mp": "2",
+      "description": "Imitates the enemy's moves. Mechanics: The user will retaliate and copy all attacks this turn. This skill will take effect before any attacks can be used."
+    },
+    {
+      "name": "TailWind",
+      "mp": "6",
+      "description": "Bounces back a breath attack to an enemy. Mechanics: Any breath skill that would affect the user, this turn, is returned back and the user is unaffected by it. This does not protect the entire party from breath skills, only the user, and the breath skill is only returned back to the enemy who used it, not all enemies. You may only return one breath skill back per turn. This skill will take effect before any attacks can be used."
+    },
+    {
+      "name": "StormWind",
+      "mp": "10",
+      "description": "Bounces back all breath attacks to all enemies. Mechanics: Any breath skill that would affect the user, this turn, is returned back and the user is unaffected by it. This does not protect the entire party from breath skills, only the user, and the breath skill is only returned back to the enemy who used it, not all enemies. You aren't limited by the amount of breath skills you can return. This skill will take effect before any attacks can be used."
+    },
+    {
+      "name": "AquaWall",
+      "mp": "5",
+      "description": "Creates a barrier that blocks an attack. Mechanics: The user erects a barrier that can block any attack or skill, including criticals. Once an attack or skill is blocked, the effect will end. The barrier will only protect the user against skills that target the entire party."
+    }
+  ],
+  "Summons": [
+    {
+      "name": "TatsuCall",
+      "mp": "20",
+      "description": "Summons Tatsu to battle."
+    },
+    {
+      "name": "DiagoCall",
+      "mp": "20",
+      "description": "Summons Diago to battle."
+    },
+    {
+      "name": "SamsiCall",
+      "mp": "20",
+      "description": "Summons Samsi to battle."
+    },
+    {
+      "name": "BazooCall",
+      "mp": "20",
+      "description": "Summons Bazoo to battle."
+    }
+  ],
+  "Healing": [
+    {
+      "name": "Meditate",
+      "mp": "8",
+      "description": "Meditates to restore HP by 500."
+    },
+    {
+      "name": "LoveRain",
+      "mp": "28",
+      "description": "Summons rain that restores HP. Mechanics: The user has a 5/8 chance to restores 20~100% HP to all allies on their next turn."
+    },
+    {
+      "name": "LifeSong",
+      "mp": "20",
+      "description": "Revives all dead friends in the next turn. Mechanics: The user has a 5/8 chance to revive all allies with full HP on their next turn."
+    },
+    {
+      "name": "Surge",
+      "mp": "7",
+      "description": "Eliminates all status problems among friends. Mechanics: Remove all negative effects on your party."
+    }
+  ],
+  "Breath": [
+    {
+      "name": "FireAir",
+      "mp": "2",
+      "Damage": {
+        "0": "14~22",
+        "1": "10~16",
+        "2": "5~8",
+        "3": "0"
+      },
+      "description": "Inflicts damage with a breath of fire (all)."
+    },
+    {
+      "name": "BlazeAir",
+      "mp": "4",
+      "Damage": {
+        "0": "32~48",
+        "1": "24~36",
+        "2": "12~19",
+        "3": "0"
+      },
+      "description": "Inflicts damage with a blast of fire (all)."
+    },
+    {
+      "name": "Scorching",
+      "mp": "8",
+      "Damage": {
+        "0": "67~98",
+        "1": "55~75",
+        "2": "30~39",
+        "3": "0"
+      },
+      "description": "Inflicts damage with a huge blast of fire (all)."
+    },
+    {
+      "name": "WhiteFire",
+      "mp": "16",
+      "Damage": {
+        "0": "150~170",
+        "1": "112~127",
+        "2": "60~68",
+        "3": "0"
+      },
+      "description": "Inflicts damage with incredible fire (all)."
+    },
+    {
+      "name": "FrigidAir",
+      "mp": "2",
+      "Damage": {
+        "0": "16~24",
+        "1": "12~18",
+        "2": "6~9",
+        "3": "0"
+      },
+      "description": "Inflicts damage with a breath of ice (all)."
+    },
+    {
+      "name": "IceAir",
+      "mp": "4",
+      "Damage": {
+        "0": "43~54",
+        "1": "31~40",
+        "2": "16~21",
+        "3": "0"
+      },
+      "description": "Inflicts damage with a freezing breath (all)."
+    },
+    {
+      "name": "IceStorm",
+      "mp": "8",
+      "Damage": {
+        "0": "82~112",
+        "1": "61~84",
+        "2": "32~44",
+        "3": "0"
+      },
+      "description": "Inflicts damage by exhaling a blizzard (all)."
+    },
+    {
+      "name": "WhiteAir",
+      "mp": "16",
+      "Damage": {
+        "0": "160~180",
+        "1": "120~135",
+        "2": "64~72",
+        "3": "0"
+      },
+      "description": "Looses a white, shining breath of ice (all)."
+    },
+    {
+      "name": "SleepAir",
+      "mp": "3",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "A breath that induces sleep in all enemies. Mechanics: A monster affected by sleep cannot take action. Attacking the affected monster has a 50% chance to awaken them. The effect has a chance of wearing off each turn, and lasts up to 2 turns."
+    },
+    {
+      "name": "PoisonGas",
+      "mp": "3",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "A breath that poisons all enemies. Mechanics: A monster affected by poison will take damage after each of their actions. This effect will end after the battle. [Damage = min(50, 1 + Max HP / 8)]"
+    },
+    {
+      "name": "PoisonAir",
+      "mp": "4",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "A breath that badly poisons all enemies. Mechanics: The affected monsters will be inflicted with a strong poison that will also inflict 1 damage for each step you walk. This effect will persist after the battle. [Damage = 1 + Max HP / 5]"
+    },
+    {
+      "name": "PalsyAir",
+      "mp": "4",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "A breath that paralyzes all enemies. Mechanics: A monster affected by paralyze will be permanently stunned. If the entire party is paralyzed you will automatically be wiped out. This effect will persist after the battle."
+    },
+    {
+      "name": "SuckAir",
+      "mp": "0",
+      "description": "Holds in a breath to inflict severe damage next turn. Mechanics: The user's next breath attack will inflict double damage."
+    },
+    {
+      "name": "SuckAll",
+      "mp": "2",
+      "description": "Inhales all breath attacks meant for the party. Mechanics: Nullify all breath skills for one round. This skill will take effect before any attacks can be used."
+    }
+  ],
+  "Dance": [
+    {
+      "name": "K.O.Dance",
+      "mp": "6",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "A dance that induces death in all enemies."
+    },
+    {
+      "name": "OddDance",
+      "mp": "0",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "A dance that reduces an enemy's MP. Mechanics: The affected monster will lose up to 29 MP."
+    },
+    {
+      "name": "RobDance",
+      "mp": "0",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "A dance that steals an enemy's MP. Mechanics: The affected monster will be drained of up to 29 MP."
+    },
+    {
+      "name": "PaniDance",
+      "mp": "4",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "A dance that confuses all enemies. Mechanics: The affected monsters may attack their allies with a basic attack. Each time the affected monster is attacked they have a chance to recover from this effect, and has a chance to recover each turn."
+    },
+    {
+      "name": "LureDance",
+      "mp": "2",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "A dance that makes all enemies want to join in. Mechanics: The affected monsters will be stunned for 1 turn."
+    },
+    {
+      "name": "DanceShut",
+      "mp": "6",
+      "Success Rate": {
+        "0": "100%",
+        "1": "2/3",
+        "2": "1/3",
+        "3": "Immune"
+      },
+      "description": "Prevents all enemies from dancing. Mechanics: The affected monsters will have all of their dance skills nullified."
+    },
+    {
+      "name": "SideStep",
+      "mp": "1",
+      "description": "A quick-footed skill for dodging attacks. Mechanics: The user will evade physical attacks at a rate of 5/8 this turn. This effect will take place before any offensive skills can be used."
+    },
+    {
+      "name": "Hustle",
+      "mp": "12",
+      "description": "A dance that restores HP by 70~80 (all)."
+    },
+    {
+      "name": "LifeDance",
+      "mp": "100%",
+      "description": "A sacrificial dance to revive dead friends. Mechanics: Revive all allies to full HP, then the user perishes or survives with 1% HP. This effect will always kill the user if they already had 1 HP."
+    }
+  ],
+  "Field": [
+    {
+      "name": "Whistle",
+      "mp": "0",
+      "description": "Attracts enemy monsters. Mechanics: Instantly initiate a monster encounter of the area."
+    },
+    {
+      "name": "Pheromone",
+      "mp": "0",
+      "description": "Attracts enemy monsters of the opposite gender. Mechanics: Instantly initiate a monster encounter of the area with monsters that are of the opposite gender of the user."
+    },
+    {
+      "name": "StepGuard",
+      "mp": "2",
+      "description": "Protects the party from injurious terrain."
+    },
+    {
+      "name": "Outside",
+      "mp": "2",
+      "description": "Instantly warps the party out from caves and towers."
+    },
+    {
+      "name": "Informer",
+      "mp": "0",
+      "description": "Use to obtain Information on monsters. Mechanics: This skill will only inform you of up to 7 kinds of monsters in the area. Some areas may have more than 7 kinds of monsters, so don't solely rely on this skill to find monsters in the area."
+    },
+    {
+      "name": "Erand",
+      "mp": "2",
+      "description": "Makes the monster run an errand for 100G Mechanics: Pay 100G to fetch a randomly generate item in the area. The types of items that can be obtained are the same you find on the ground of the world, cave, tower, or dungeon you are currently in."
+    },
+    {
+      "name": "EagleEye",
+      "mp": "0",
+      "description": "Determines the presence of items nearby. Mechanics: Gives you a very vague idea of where items are. A completely useless skill, and you are better off just exploring without it."
+    },
+    {
+      "name": "MapMagic",
+      "mp": "2",
+      "description": "Checks the surrounding area's terrain. Mechanics: Reveals the entire map, and shows towns, castles, caves, towers, and dungeons on the map.A very useful skill for exploring key worlds."
+    }
+  ]
+}

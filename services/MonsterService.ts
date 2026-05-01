@@ -139,62 +139,56 @@ export async function GetMonstersByLocation(location: string) : Promise<{found: 
     return foundMonsters;
 }
 
-export async function GetMonsterNamesByMove(move: string) : Promise<{ monster_names: string[], toMove: string, secondMove: string, thirdMove: string }> {
+export async function GetMonsterNamesByMove(move: string): Promise<{ monster_names: string[], toMove: string, secondMove: string, thirdMove: string }> {
     const stm = db.prepare(
         `
-            WITH Vars AS (
-                SELECT (
-                    SELECT value
-                    FROM move_requirements
-                    WHERE stat_name = 'FROM'
-                        AND move_name = ?
-                ) AS toMove
-            ),
-            ExtendedVars AS (
-                SELECT 
-                    toMove,
-                    (
-                        SELECT value
-                        FROM move_requirements
-                        WHERE stat_name = 'FROM'
-                            AND move_name = toMove
-                    ) AS secondMove
-                FROM Vars
-            ),
-            DoubleExtendedVars AS (
-                SELECT 
-                    secondMove,
-                    (
-                        SELECT value
-                        FROM move_requirements
-                        WHERE stat_name = 'FROM'
-                            AND move_name = secondMove
-                    ) AS thirdMove
-                FROM ExtendedVars
-            )
-            SELECT 
-                monster_name,
-                ExtendedVars.toMove,
-                ExtendedVars.secondMove,
-                DoubleExtendedVars.thirdMove
-            FROM monster_moves, ExtendedVars, DoubleExtendedVars
-            WHERE move_name IN (
-                SELECT 
-                    name
-                FROM moves, ExtendedVars, DoubleExtendedVars
-                WHERE name = ExtendedVars.toMove
-                OR name = ExtendedVars.secondMove
-                OR name = DoubleExtendedVars.thirdMove
-                OR name = ?
-            )
-            ORDER BY monster_name
-            ;
+        WITH RECURSIVE
+
+        AncestorChain(move_name, depth) AS (
+            SELECT ?, 0
+            UNION ALL
+            SELECT mr.value, ac.depth + 1
+            FROM move_requirements mr
+            JOIN AncestorChain ac ON mr.move_name = ac.move_name
+            WHERE mr.stat_name = 'FROM'
+        ),
+
+        Root AS (
+            SELECT move_name
+            FROM AncestorChain
+            ORDER BY depth DESC
+            LIMIT 1
+        ),
+
+        DescendantChain(move_name, pos) AS (
+            SELECT move_name, 1 FROM Root
+            UNION ALL
+            SELECT mr.move_name, dc.pos + 1
+            FROM move_requirements mr
+            JOIN DescendantChain dc ON mr.value = dc.move_name
+            WHERE mr.stat_name = 'FROM'
+        ),
+
+        OtherMoves AS (
+            SELECT move_name, ROW_NUMBER() OVER (ORDER BY pos) AS rn
+            FROM DescendantChain
+            WHERE move_name != ?
+        )
+
+        SELECT
+            mm.monster_name,
+            (SELECT move_name FROM OtherMoves WHERE rn = 1) AS toMove,
+            (SELECT move_name FROM OtherMoves WHERE rn = 2) AS secondMove,
+            (SELECT move_name FROM OtherMoves WHERE rn = 3) AS thirdMove
+        FROM monster_moves mm
+        WHERE mm.move_name IN (SELECT move_name FROM DescendantChain)
+        ORDER BY mm.monster_name
         `
     );
 
-    const res = stm.all(move, move) as { monster_name: string, toMove: string, secondMove: string, thirdMove: string}[];
+    const res = stm.all(move, move) as { monster_name: string, toMove: string, secondMove: string, thirdMove: string }[];
 
-    return { 
+    return {
         monster_names: res.map(row => row.monster_name),
         toMove: res[0]?.toMove,
         secondMove: res[0]?.secondMove,

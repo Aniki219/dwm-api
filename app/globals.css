@@ -259,11 +259,20 @@ td ul {
     flex-wrap: nowrap;
 }
 
-.skills-list {
+.columns {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     height: 86vh;
     width: 80%;
     margin: auto;
+    align-content: center;
+}
+
+.larger {
+    height: 200vh;
+}
+
+.smaller {
+    height: 60vh;
 }

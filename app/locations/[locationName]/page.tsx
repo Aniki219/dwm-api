@@ -13,29 +13,29 @@ export default async function LocationPage({
 
     return (
         <div className="index">
-            <h1>{locationName}</h1>
-            <h2>Monsters</h2>
-            {
-                monstersByFound.map(({ found, monsters }, i) => {
-                    return (
-                        <div key={`found_${i}`}>
-                            <p>{found}</p>
-                            <ul>
-                                {
-                                    monsters.map((name, j) => {
-                                        return (
-                                            <li key={`monster_${j}`}>
-                                                <Link href={`/monsters/${name}`}>{name}</Link>
-                                            </li>
-                                        )
-                                    })
-                                }
-                            </ul>
-                        </div>
-                    )
-                })
-            }
-
+            <h1>{locationName} Monsters</h1>
+            <div className="columns">
+                {
+                    monstersByFound.map(({ found, monsters }, i) => {
+                        return (
+                            <div key={`found_${i}`}>
+                                <p>{found}</p>
+                                <ul>
+                                    {
+                                        monsters.map((name, j) => {
+                                            return (
+                                                <li key={`monster_${j}`}>
+                                                    <Link href={`/monsters/${name}`}>{name}</Link>
+                                                </li>
+                                            )
+                                        })
+                                    }
+                                </ul>
+                            </div>
+                        )
+                    })
+                }
+            </div>
             <div className="page-bottom">
                 <Link href={`/locations`}>Back to Location Index</Link>
             </div>

@@ -38,7 +38,7 @@ export default async function MovePage({
                 }
             </ul>
             <h2>Monsters Who Learn {moveName}</h2>
-            <ul>
+            <ul className="columns smaller">
                 {
                     monster_names.map((monster_name, i) => {
                         return (

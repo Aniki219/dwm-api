@@ -1,0 +1,1976 @@
+Skills - Physical
+
+Elemental Attacks
+
+Skill
+MP	Attribute	Damage	Skill Tree
+Requirements
+FireSlash	3	A	Modifier
+0: 125%
+1: 115%
+2: 75%
+3: 30%	ChargeUp + Blazemore	
+Lv
+
+HP	MP	ATK	DEF	AGL	INT
+11	77	34	66	0	0	76
+Description: A fiery sword attack.
+
+VacuSlash	3	D	Modifier
+0: 125%
+1: 115%
+2: 75%
+3: 30%	ChargeUp + WindBeast	
+Lv	HP	MP	ATK	DEF	AGL	INT
+11	77	34	66	0	0	76
+Description: A sword attack enhanced by whirlwinds.
+BoltSlash	3	E	Modifier
+0: 125%
+1: 115%
+2: 75%
+3: 30%	ChargeUp
++
+Lightning	
+Lv	HP	MP	ATK	DEF	AGL	INT
+11	77	34	66	0	0	76
+Description: A sword attack made stronger by lightning.
+IceSlash	3	F	Modifier
+0: 125%
+1: 115%
+2: 75%
+3: 30%	ChargeUp + SnowStorm	
+Lv	HP	MP	ATK	DEF	AGL	INT
+11	77	34	66	0	0	76
+Description: A sword attack made stronger by the power of ice.
+
+Debilitating Attacks
+
+Skill
+MP	Attribute	Resistance	Skill Tree
+Requirements
+NapAttack	2	H	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+7	49	0	42	0	0	76
+Description: A physical attack that may put the target to sleep.
+
+Mechanics: The damage inflicted is unaffected by the target's resistance. A monster affected by sleep cannot take action. Attacking the affected monster has a 50% chance to awaken them. The effect has a chance of wearing off each turn, and lasts up to 2 turns.
+
+PoisonHit	2	S	
+Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune
+
+None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+5	35	0	50	0	0	90
+Description: A physical attack that may poison the target.
+
+Mechanics: The damage inflicted is unaffected by the target's resistance. A monster affected by poison will take damage after each of their actions. This effect will end after the battle. [Damage = min(50, 1 + Max HP / 8)]
+
+Paralyze	3	T	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	NapAttack
++
+PoisonHit
+
+Lv	HP	MP	ATK	DEF	AGL	INT
+9	63	0	54	0	0	98
+Description: A physical attack that may paralyze the target.
+
+Mechanics: A monster affected by paralyze will be permanently stunned. If the entire party is paralyzed you will automatically be wiped out. This effect will persist after the battle.
+
+
+Physical Attacks
+
+Skill
+MP	Attribute	Damage	Skill Tree
+Requirements
+SquallHit	2	None	Modifier
+90%	ChargeUp + SpeedUp	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	72	0	68	0	82	0
+Description: A physical attack that hits first.
+BiAttack	3	None	Modifier
+50%	BiAttack
+⇓
+QuadHits	
+Lv	HP	MP	ATK	DEF	AGL	INT
+19	98	0	88	0	112	0
+Description: A physical attack that strikes twice in succession.
+QuadHits	6	None	Modifier
+50%	BiAttack
+⇓
+QuadHits	
+Lv	HP	MP	ATK	DEF	AGL	INT
+24	124	0	112	0	136	0
+Description: A physical attack that strikes four times.
+
+RainSlash	5	None	
+Modifier
+100%, 75%,
+50%
+
+BiAttack
++
+SquallHit	
+Lv	HP	MP	ATK	DEF	AGL	INT
+15	92	0	90	0	96	0
+Description: A sword attack that hits all enemies.
+
+Mechanics: Each attack is weaker than the last.
+
+PsycheUp	3	None	Modifier
+150%	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	74	0	82	68	0	0
+Description: Inflicts severe damage at the end of the turn.
+
+HighJump
+
+5	None	Modifier
+150%	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+20	75	0	70	0	48	80
+Description: The user leaps and attacks in the next turn.
+
+Mechanics: The monster is immune to everything while in the air.
+
+EvilSlash
+
+3	None	
+Critical
+
+None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+15	106	0	90	0	0	0
+Description: A powerful, but wildly aimed, sword attack.
+
+Mechanics: Inflict a critical attack with 5/8 accuracy.
+
+Massacre
+
+3	None	Critical	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	84	0	72	0	72	0
+Description: Inflicts severe damage on one friend or foe.
+TwinSlash	2	None	
+Modifier
+150%
+
+None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+8	80	0	80	0	0	0
+Desription: Inflicts severe damage, but also hurts the user.
+
+Mechanics: The user takes 25% of the damage inflicted.
+
+Berserker	1	None	
+Modifier
+200%
+
+None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+14	98	0	84	84	0	0
+Description: A powerful attack that leaves the user vulnerable.
+
+Mechanics: All damage inflicted and received is doubled after calculating resistances and DEF, damage over time effects are unaffected.
+
+
+Monster Attacks
+
+Skill
+MP	Attriubte	Damage	Requirements
+SlimeBlow	3	None	Modifier
+120%	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	62	0	68	0	72	0
+Description: Inflicts severe damage on the slime family.
+DrakSlash	3	None	Modifier
+120%	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	62	0	72	0	62	0
+Description: Inflicts severe damage on the dragon family.
+BeastCut	3	None	Modifier
+120%	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	62	0	68	0	72	0
+Description: Inflicts severe damage on the beast family.
+BirdBlow	3	None	Modifier
+120%	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	62	0	68	0	72	0
+Description: Inflicts severe damage on the bird family.
+BugBlow	3	None	Modifier
+120%	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	68	0	72	0	62	0
+Description: Inflicts severe damage on the bug family.
+Shears	3	None	Modifier
+120%	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	68	0	62	0	72	0
+Description: Inflicts severe damage on the plant family.
+DevilCut	3	None	Modifier
+120%	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	64	0	58	0	62	87
+Description: Inflicts severe damage on the devil family.
+ZombieCut	3	None	Modifier
+120%	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	64	0	58	0	62	87
+Description: Inflicts severe damage on the zombie family.
+CleanCut	3	None	Modifier
+120%	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	68	0	72	0	62	0
+Description: Inflicts severe damage on the materail family.
+AquaCut	3	None	Modifier
+120%	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	68	0	72	0	62	0
+Description: Inflicts severe damage on the water family.
+MetalCut	3	None	Modifier
+150%
+or
+1-2	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	68	0	72	0	62	0
+Description: Inflicts damage on a high DEF enemy.
+
+Mechanics: Inflict 1-2 damage if the target's DEF is too high to inflict damage. If the target is a Metaly, Metabble, KingMetal, or GoldSlime, inflict 150% damage.
+
+
+Defensive Skills
+
+Skill
+MP	Skill Tree
+Requirements
+ChargeUp	0	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+14	98	0	0	84	0	0
+Description: Inflicts severe damage on the next turn.
+
+Mechanics: The user's next physical attack will inflict double damage. This effect can be used with other physical skills.
+
+StrongD	3	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+14	98	0	0	84	0	0
+Description: Strongly protects the user against all attacks.
+
+Mechanics: Reduce all damage by 90%. This skill will take effect before any attacks can be used.
+
+BladeD	3	TwinSlash
++
+StrongD	
+Lv	HP	MP	ATK	DEF	AGL	INT
+14	98	0	84	84	84	0
+Description: Protects the user and enables retaliation.
+
+Mechanics: The user will inflict damage equal to double the damage received from any physical attacks this turn. This skill will take effect before any attacks can be used.
+
+Dodge
+
+4	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+18	126	0	108	108	108	0
+Description: Deflects any physical attack to another monster.
+
+Mechanics: All physical attacks that target the user will be redirected to an ally or enemy this turn. This skill will take effect before any attacks can be used.
+
+Cover	2	Cover
+⇓
+Guardian	
+Lv	HP	MP	ATK	DEF	AGL	INT
+5	35	0	0	30	30	0
+Description: Takes all attacks meant for another monster.
+
+Mechanics: The user will block all attacks for one ally, but will take multiple hits by skills that target the entire party. This skill will take effect before any attacks can be used.
+
+Guardian	2	Cover
+⇓
+Guardian	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	84	0	0	72	72	0
+Description: Takes all attacks meant for party monsters.
+
+Mechanics: The user will block all attacks for the party, but will take multiple hits by skills that target the entire party. This skill will take effect before any attacks can be used.
+
+ Previous: List of AttributesNext: Skills - Spell 
+
+
+ 
+Breath - Attacks
+
+Skill
+MP	Attribute	Resistances	Skill Tree
+Requirements
+FireAir	2	Q	Damage
+0: 14~22
+1: 10~16
+2: 5~8
+3: 0	FireAir
+⇓
+BlazeAir
+⇓
+Scorching
+⇓
+WhiteFire	
+Lv	HP	MP	ATK	DEF	AGL	INT
+3	21	0	0	0	0	0
+Description: Inflicts damage with a breath of fire (all).
+
+BlazeAir	4	Q	Damage
+0: 32~48
+1: 24~36
+2: 12~19
+3: 0	FireAir
+⇓
+BlazeAir
+⇓
+Scorching
+⇓
+WhiteFire	
+Lv	HP	MP	ATK	DEF	AGL	INT
+10	70	0	0	0	0	0
+Description: Inflicts damage with a blast of fire (all).
+Scorching	8	Q	Damage
+0: 67~98
+1: 55~75
+2: 30~39
+3: 0	FireAir
+⇓
+BlazeAir
+⇓
+Scorching
+⇓
+WhiteFire	
+Lv	HP	MP	ATK	DEF	AGL	INT
+20	140	0	0	0	0	0
+Description: Inflicts damage with a huge blast of fire (all).
+WhiteFire	16	Q	Damage
+0: 150~170
+1: 112~127
+2: 60~68
+3: 0	FireAir
+⇓
+BlazeAir
+⇓
+Scorching
+⇓
+WhiteFire	
+Lv	HP	MP	ATK	DEF	AGL	INT
+30	210	0	0	0	0	0
+Description: Inflicts damage with incredible fire (all).
+
+FrigidAir	2	R	Damage
+0: 16~24
+1: 12~18
+2: 6~9
+3: 0	FrigidAir
+⇓
+IceAir
+⇓
+IceStorm
+⇓
+WhiteAir	
+Lv	HP	MP	ATK	DEF	AGL	INT
+3	21	0	0	0	0	0
+Description: Inflicts damage with a breath of ice (all).
+IceAir	4	R	Damage
+0: 43~54
+1: 31~40
+2: 16~21
+3: 0	FrigidAir
+⇓
+IceAir
+⇓
+IceStorm
+⇓
+WhiteAir	
+Lv	HP	MP	ATK	DEF	AGL	INT
+10	70	0	0	0	0	0
+Description: Inflicts damage with a freezing breath (all).
+IceStorm	8	R	Damage
+0: 82~112
+1: 61~84
+2: 32~44
+3: 0	FrigidAir
+⇓
+IceAir
+⇓
+IceStorm
+⇓
+WhiteAir	
+Lv	HP	MP	ATK	DEF	AGL	INT
+20	140	0	0	0	0	0
+Description: Inflicts damage by exhaling a blizzard (all).
+WhiteAir	16	R	Damage
+0: 160~180
+1: 120~135
+2: 64~72
+3: 0	FrigidAir
+⇓
+IceAir
+⇓
+IceStorm
+⇓
+WhiteAir	
+Lv	HP	MP	ATK	DEF	AGL	INT
+30	210	0	0	0	0	0
+Description: Looses a white, shining breath of ice (all).
+
+Breath - Support
+
+Skill
+MP	Attribute	Resistances	Skill Tree
+Requirements
+SleepAir	3	H	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+10	70	0	0	0	0	108
+Description: A breath that induces sleep in all enemies.
+
+Mechanics: A monster affected by sleep cannot take action. Attacking the affected monster has a 50% chance to awaken them. The effect has a chance of wearing off each turn, and lasts up to 2 turns.
+
+PoisonGas	3	S	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	PoisonGas
+⇓
+PoisonAir	
+Lv	HP	MP	ATK	DEF	AGL	INT
+9	63	0	0	0	0	98
+Description: A breath that poisons all enemies.
+
+Mechanics: A monster affected by poison will take damage after each of their actions. This effect will end after the battle. [Damage = min(50, 1 + Max HP / 8)]
+
+PoisonAir	4	S	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	PoisonGas
+⇓
+PoisonAir	
+Lv	HP	MP	ATK	DEF	AGL	INT
+14	98	0	0	0	0	152
+Description: A breath that badly poisons all enemies.
+
+Mechanics: The affected monsters will be inflicted with a strong poison that will also inflict 1 damage for each step you walk. This effect will persist after the battle. [Damage = 1 + Max HP / 5]
+
+PalsyAir	4	T	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	SleepAir
++
+PoisonAir	
+Lv	HP	MP	ATK	DEF	AGL	INT
+16	112	0	0	0	0	173
+Description: A breath that paralyzes all enemies.
+
+Mechanics: A monster affected by paralyze will be permanently stunned. If the entire party is paralyzed you will automatically be wiped out. This effect will persist after the battle.
+
+SuckAir	0	None	None	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+17	119	0	0	102	0	0
+Description: Holds in a breath to inflict severe damage next turn.
+
+Mechanics: The user's next breath attack will inflict double damage.
+
+SuckAll	2	None	None	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+13	91	0	0	78	0	0
+Description: Inhales all breath attacks meant for the party.
+
+Mechanics: Nullify all breath skills for one round. This skill will take effect before any attacks can be used.
+
+
+Skills - Attacks
+
+Skill	MP	Attribute	Resistance	Skill Tree
+Requirements
+BigBang
+
+30	A	Damage
+0: 300~400
+1: 225~300
+2: 120~160
+3: 0	Explodet
++
+WhiteAir
++
+WhiteFire	
+Lv	HP	MP	ATK	DEF	AGL	INT
+36	196	196	0	0	0	612
+Description: Creates an enormous Explosion (all).
+WindBeast	3	D	
+Damage
+Level 13
+0: 42~56
+1: 35~47
+2: 21~28
+3: 0
+Level 99
+0: 153~206
+1: 130~175
+2: 76~101
+3: 0
+
+WindBeast
+⇓
+Vacuum	
+Lv	HP	MP	ATK	DEF	AGL	INT
+13	74	0	60	0	84	0
+Description: Slashes a single monster with sharp whirlwinds.
+
+Mechanics: Damage scales linearly based on level.
+
+Vacuum	6	D	Damage
+Level 19
+0: 51~61
+1: 52~62
+2: 31~37
+3: 0
+Level 99
+0: 135~165
+1: 114~140
+2: 67~82
+3: 0	
+WindBeast
+⇓
+Vacuum
+
+
+Lv	HP	MP	ATK	DEF	AGL	INT
+19	112	0	114	0	132	0
+Description: Creates a tornado with vicious winds (all).
+
+Mechanics: Damage scales linearly based on level.
+
+(Yes, the damage range for level 19, resistance 1, is correct. I have no idea why the damage range is higher than resistance 0. I've done hundreds of tests to make sure. The damage will eventually scale to inflict less damage than resistance 0.)
+
+MultiCut	20	D	Damage
+0: 180~210
+1: 135~157
+2: 72~84
+3: 0	Vacuum
++ ZombieCut	
+Lv	HP	MP	ATK	DEF	AGL	INT
+28	154	140	168	0	168	572
+Description: A cross-cutting sword attack (all).
+
+Mechanics: Inflict about 50% more damage vs Zombie family.
+
+(Requires more testing, bonus damage vs zombies may not be accurate.)
+
+Lightning	3	E	Damage
+Level 10
+0: 36~44
+1: 31~37
+2: 18~22
+3: 0
+Level 99
+0: 166~198
+1: 137~168
+2: 81~99
+3: 0	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+10	65	0	90	0	52	0
+Description: Summons a lightning storm (all).
+
+Mechanics: Damage scales linearly based on level.
+
+Hellblast	25	E	Damage
+0: 211~287
+1: 179~244
+2: 105~144
+3: 0	Lightning
++
+Thordain	
+Lv	HP	MP	ATK	DEF	AGL	INT
+34	184	184	0	0	0	538
+Description: Strikes all enemies with huge lightning.
+Ramming	1	O	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	70	0	0	0	70	0
+Description: A full-body tackle that also hurts the user.
+
+Mechanics: Inflict damage equal to 80% of the target's current HP, then the user takes 1 + 80% of the user's current HP in damage. This skill will kill the user if their HP is already at 1.
+
+Kamikaze	1	O	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	ChargeUp
++
+Ramming	
+Lv	HP	MP	ATK	DEF	AGL	INT
+18	126	0	108	108	0	0
+Description: Leaves the user and target on the verge of death.
+
+Mechanics: Reduce the target's HP to 1, then the user's HP is reduced to 1. This skill will kill the user if their HP is already at 1.
+MegaMagic
+
+100%	P	Damage
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	Blazemost
++
+Firebolt
++
+Explodet
++
+Infermost
++
+Blizzard
+
+Lv	HP	MP	ATK	DEF	AGL	INT
+38	0	210	0	0	0	794
+Description: The ultimate attack spell.
+
+Mechanics: This is NOT a spell, despite the description. No monster is immune to this skill, and cannot be bred to be immune to it. [Damage = (100 + MP * 2) +-10%]
+
+Rockthrow
+
+5	Y	Damage
+0: 90~130
+1: 77~110
+2: 45~65
+3: 0	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+16	124	0	102	0	0	0
+Description: Hurls giant boulders at enemies (all).
+
+CallHelp	4	Y	Damage
+Level 17
+0: 34
+1: 28
+2: 17
+3: 0
+Level 99
+0: 198
+1: 168
+2: 99
+3: 0	
+CallHelp
+⇓
+YellHelp
+
+
+Lv	HP	MP	ATK	DEF	AGL	INT
+17	84	42	0	0	68	98
+Description: Summons friends who attack in droves.
+
+Mechanics: Damage scales linearly based on level. Calls 1~4 helpers to randomly attack enemies. The skill has a 5/8 chance of success.
+
+YellHelp	8	Y	Damage
+Level 23
+0: 46
+1: 39
+2: 23
+3: 0
+Level 99
+0: 198
+1: 168
+2: 99
+3: 0	CallHelp
+⇓
+YellHelp	
+Lv	HP	MP	ATK	DEF	AGL	INT
+23	128	64	0	0	82	134
+Description: Summons a mass of friends that attack in droves.
+
+Mechanics: Damage scales linearly based on level. Calls 1~8 helpers to randomly attack enemies. The skill has a 5/8 chance of success.
+
+GigaSlash	20	Z	Damage
+0: 351~410
+1: 298~348
+2: 175~205
+3: 0	
+FireSlash
++
+VacuSlash
++
+BoltSlash
++
+IceSlash
+
+
+Lv	HP	MP	ATK	DEF	AGL	INT
+33	231	164	198	0	198	608
+Description: The ultimate sword attack.
+
+WaterShot
+
+5	Æ	Damage
+0: 30~45
+1: 25~38
+2: 15~22
+3: 0	WaterShot
++
+Tidalwave	
+Lv	HP	MP	ATK	DEF	AGL	INT
+13	74	0	60	0	84	0
+Description: Shoots a high volume of water at an enemy.
+Tidalwave	15	Æ	Damage
+0: 140~180
+1: 105~135
+2: 56~71
+3: 0	WaterShot
++
+Tidalwave	
+Lv	HP	MP	ATK	DEF	AGL	INT
+19	112	0	114	0	132	0
+Description: Summons a towering wall of water (all).
+Geyser	2	Æ	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	HighJump
++
+RockThrow	
+Lv	HP	MP	ATK	DEF	AGL	INT
+22	140	120	120	0	120	288
+Description: Opens a geyser to send an enemy flying.
+
+Mechanics: Launches an enemy into the air, and if they have yet to take an action this turn then they lose their turn to act. Once in the air, the enemy will fall back down will land safely or awkwardly. If the monster lands awkwardly then they will take about 10% of their max HP in damage. The monster has a 5/8 chance of landing safely. The success rate for this skill only applies for launching the enemy into the air.
+
+
+Skills - Support
+
+
+Skill
+MP	Attribute	Resistance	Skill Tree
+Requirements
+Radiant	2	G	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	0	42	0	0	72	130
+Description: A blast of light blinds all the enemies.
+
+Mechanics: The affected monsters will have their physical attacks miss at a rate of 5/8.
+
+SandStorm	2	G	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+10	70	0	0	0	70	0
+Description: Obscures the visibility of all enemies.
+
+Mechanics: The affected monsters will have their physical attacks miss at a rate of 5/8.
+
+EerieLite
+
+2	I	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	Curse
++
+Radiant	
+Lv	HP	MP	ATK	DEF	AGL	INT
+14	0	65	0	0	84	152
+Description: Weakens all enemies to magic spells.
+
+Mechanics: The affected monsters will take 25-50% more damage from spells and typeless/breath skills. The more resistant a monster is to a skill the greater the damage modifier.
+
+UltraDown
+
+7	I	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	Defence
++
+SlowAll
++
+Surround	
+Lv	HP	MP	ATK	DEF	AGL	INT
+21	0	110	0	0	0	270
+Description: Greatly weakens an enemy.
+
+Mechanics: The affected monster will have the effects of Sap, Slow, and Surround applied to it, ignoring the resistances of these skills.
+
+LushLicks
+
+2	V	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	LushLicks
+⇓
+SickLicks	
+Lv	HP	MP	ATK	DEF	AGL	INT
+7	55	0	0	0	67	0
+Description: Licks one enemy to stop it for one turn.
+SickLicks	4	M	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	LushLicks
+⇓
+SickLicks	
+Lv	HP	MP	ATK	DEF	AGL	INT
+13	81	0	0	0	94	0
+Description: Licks one enemy to reduce its DEF.
+
+Mechanics: The affected monster will have their DEF lowered to 1, and be stunned for 1 turn.
+
+Curse	3	U	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+15	0	65	0	0	82	148
+Description: Lays a curse on all enemies.
+
+Mechanics: Monsters affected by curse will have a 5/8 chance to be stunned or lose HP equal to their max HP divided by 6. This effect will persist after the battle.
+
+LegSweep	1	V	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	LegSweep
+⇓
+BigTrip	
+Lv	HP	MP	ATK	DEF	AGL	INT
+6	32	0	31	0	48	0
+Description: Sweeps the leg out from under one enemy.
+
+Mechanics: The affected monster will be stunned for 1 turn. Flying monsters are immune to this skill.
+
+BigTrip	3	V	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	LegSweep
+⇓
+BigTrip	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	66	0	63	0	77	0
+Description: Sweep the legs out from under all enemies.
+
+Mechanics: The affected monsters will be stunned for 1 turn. Flying monsters are immune to this skill.
+
+Ahhh
+
+1	V	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+10	0	0	60	0	60	0
+Description: Soft, plushy and very pleasant.
+
+Mechanics: If the user is a male, inflict damage equal to a basic attack, ignoring the target's resistance. If the user is a female, stun an enemy for 1 turn.
+
+WarCry	3	V	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+14	120	0	0	0	0	0
+Description: A terrifying cry that stops all enemies.
+
+Mechanics: The affected monsters will be stunned for 1 turn.
+
+MouthShut	6	X	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+17	120	0	100	0	140	0
+Description: Prevents all enemies from using breath attacks.
+
+Mechanics: The affected monsters will have all of their breath skills nullified.
+
+SealPray
+
+15	None	None	DanceShut
++
+MouthShut
++
+StopSpell	
+Lv	HP	MP	ATK	DEF	AGL	INT
+35	87	160	0	0	0	794
+Description: Seals a skill used by the enemy.
+
+Mechanics: The next skill used after the user's turn will be sealed. If any monster tries to use this skill, it will be nullified. If this skill is used again, the sealed skill will be replaced by the new one.
+
+DeMagic	7	None	None	Surge
++
+UltraDown	
+Lv	HP	MP	ATK	DEF	AGL	INT
+20	0	100	0	0	0	252
+Description: Lifts the effects of all spells on enemies (all).
+
+Mechanics: Nullify the effects of all support skills, both negative and positive, on all enemies. SealPray is unaffected by this skill.
+
+ThickFog	8	None	None	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+22	0	120	0	0	0	288
+Description: Creates a fog that prevents the use of all spells.
+
+Mechanics: Nullify the effects of all support skills, both negative and positive, on all allies and enemies. All spells will be nullified for the next 3 turns, including the turn this skill was used. SealPray is unaffected by this skill.
+
+Focus	0	None	None	ChargeUp
++
+Meditate
++
+SuckAir	
+Lv	HP	MP	ATK	DEF	AGL	INT
+18	126	0	0	108	108	195
+Description: Enables two moves in the next turn.
+
+Mechanics: The user will perform the same action twice on their next turn. If a skill is used, the monster will require enough MP to use the skill twice. If you run out of MP then your second action will be wasted. Skills that require 2 or more turns to use will only be used once. Support skills that provide a one time effect, like AquaWall, will be used twice, but provide no benefit. Lastly, skills like Transform, BeDragon, and Ironize will only be used once.
+
+Imitate	2	None	None	Focus
++
+Transform	
+Lv	HP	MP	ATK	DEF	AGL	INT
+21	147	147	126	126	126	227
+Description: Imitates the enemy's moves.
+
+Mechanics: The user will retaliate and copy all attacks this turn. This skill will take effect before any attacks can be used.
+
+TailWind	6	None	None	TailWind
+⇓
+StormWind	
+Lv	HP	MP	ATK	DEF	AGL	INT
+11	75	0	0	84	70	0
+Description: Bounces back a breath attack to an enemy.
+
+Mechanics: Any breath skill that would affect the user, this turn, is returned back and the user is unaffected by it. This does not protect the entire party from breath skills, only the user, and the breath skill is only returned back to the enemy who used it, not all enemies. You may only return one breath skill back per turn. This skill will take effect before any attacks can be used.
+
+StormWind	10	None	None	TailWind
+⇓
+StormWind	
+Lv	HP	MP	ATK	DEF	AGL	INT
+19	140	0	0	126	140	0
+Description: Bounces back all breath attacks to all enemies.
+
+Mechanics: Any breath skill that would affect the user, this turn, is returned back and the user is unaffected by it. This does not protect the entire party from breath skills, only the user, and the breath skill is only returned back to the enemy who used it, not all enemies. You aren't limited by the amount of breath skills you can return. This skill will take effect before any attacks can be used.
+
+AquaWall	5	None	None	Bounce
++
+Tidalwave	
+Lv	HP	MP	ATK	DEF	AGL	INT
+20	100	94	0	84	0	202
+Description: Creates a barrier that blocks an attack.
+
+Mechanics: The user erects a barrier that can block any attack or skill, including criticals. Once an attack or skill is blocked, the effect will end. The barrier will only protect the user against skills that target the entire party.
+
+
+Skills - Summons
+
+Skill
+
+MP	Skill Tree	Requirements
+TatsuCall
+
+HP	MP	ATK	DEF	AGL
+???	???	???	???	???
+Skill 1	HealMore
+Skill 2	Lightning
+Skill 3	Cover
+20	TatsuCall
+⇓
+DiagoCall
+⇓
+SamsiCall
+⇓
+BazooCall	
+Lv	HP	MP	ATK	DEF	AGL	INT
+20	0	70	0	0	0	100
+Description: Summons Tatsu to battle.
+
+DiagoCall
+
+HP	MP	ATK	DEF	AGL
+???	???	???	???	???
+Skill 1	TwinHits
+Skill 2	SickLicks
+Skill 3	Scorching
+20	TatsuCall
+⇓
+DiagoCall
+⇓
+SamsiCall
+⇓
+BazooCall	
+Lv	HP	MP	ATK	DEF	AGL	INT
+25	0	100	0	0	0	250
+Description: Summons Diago to battle.
+
+SamsiCall
+
+HP	MP	ATK	DEF	AGL
+???	???	???	???	???
+Skill 1	SquallHit
+Skill 2	EvilSlash
+Skill 3	RainSlash
+20	TatsuCall
+⇓
+DiagoCall
+⇓
+SamsiCall
+⇓
+BazooCall	
+Lv	HP	MP	ATK	DEF	AGL	INT
+30	0	130	0	0	0	400
+Description: Summons Samsi to battle.
+
+BazooCall
+
+HP	MP	ATK	DEF	AGL
+???	???	???	???	???
+Skill 1	DeMagic
+Skill 2	HellBlast
+Skill 3	IceStorm
+20	TatsuCall
+⇓
+DiagoCall
+⇓
+SamsiCall
+⇓
+BazooCall	
+Lv	HP	MP	ATK	DEF	AGL	INT
+35	0	160	0	0	0	550
+Description: Summons Bazoo to battle.
+
+Skills - Healing
+
+Skill
+MP	Skill Tree
+Requirements
+Meditate	8	Guardian
++
+StrongD	
+Lv	HP	MP	ATK	DEF	AGL	INT
+26	182	0	0	156	0	281
+Description: Meditates to restore HP by 500.
+LoveRain	28	Meditate
++
+LifeSong	
+Lv	HP	MP	ATK	DEF	AGL	INT
+24	116	96	0	0	78	263
+Description: Summons rain that restores HP.
+
+Mechanics: The user has a 5/8 chance to restores 20~100% HP to all allies on their next turn.
+
+LifeSong	20	Revive
++
+WarCry	
+Lv	HP	MP	ATK	DEF	AGL	INT
+27	198	94	0	0	145	292
+Description: Revives all dead friends in the next turn.
+
+Mechanics: The user has a 5/8 chance to revive all allies with full HP on their next turn.
+
+Surge	7	
+Antidote
++
+CurseOff
++
+DeChaos
++
+NumbOff
+
+
+Lv	HP	MP	ATK	DEF	AGL	INT
+23	0	130	0	0	0	306
+Description: Eliminates all status problems among friends.
+
+Mechanics: Remove all negative effects on your party.
+
+Skills - Spell
+
+Spells - Attacks
+
+Skill
+MP	Attribute	Resistance	Skill Tree
+Requirements
+Blaze	2	A	Damage
+0: 12~15
+1: 10~12
+2: 6~7
+3: 0	
+Blaze
+⇓
+Blazemore
+⇓
+Blazemost
+
+
+Lv	HP	MP	ATK	DEF	AGL	INT
+2	0	7	0	0	0	36
+Description: Attack an enemy with a fireball.
+
+Blazemore	4	A	Damage
+0: 70~90
+1: 59~76
+2: 35~45
+3: 0	
+Blaze
+⇓
+Blazemore
+⇓
+Blazemost
+
+
+Lv	HP	MP	ATK	DEF	AGL	INT
+13	0	46	0	0	0	116
+Description: Attack an enemy with a large fireball.
+
+Blazemost	10	A	Damage
+0: 180~200
+1: 153~170
+2: 90~100
+3: 0	Blaze
+⇓
+Blazemore
+⇓
+Blazemost	
+Lv	HP	MP	ATK	DEF	AGL	INT
+28	0	112	0	0	0	263
+Description: A towering pillar of fire roasts an enemy.
+
+Firebal	4	B	Damage
+0: 16~24
+1: 13~20
+2: 8-~2
+3: 0	Firebal
+⇓
+Firebane
+⇓
+Firebolt	
+Lv	HP	MP	ATK	DEF	AGL	INT
+3	0	11	0	0	0	42
+Description: Attacks enemies with a blast of fire (all).
+
+Firebane	6	B	Damage
+0: 30~42
+1: 25~35
+2: 15~20
+3: 0	Firebal
+⇓
+Firebane
+⇓
+Firebolt	
+Lv	HP	MP	ATK	DEF	AGL	INT
+10	0	34	0	0	0	94
+Description: Attacks enemies with a wall of fire (all).
+
+Firebolt	10	B	Damage
+0: 88~112
+1: 74~95
+2: 44~55
+3: 0	Firebal
+⇓
+Firebane
+⇓
+Firebolt	
+Lv	HP	MP	ATK	DEF	AGL	INT
+26	0	96	0	0	0	220
+Description: A huge wall of fire incinerates enemies (all).
+
+Bang	5	C	Damage
+0: 20~30
+1: 17~25
+2: 10~15
+3: 0	Bang
+⇓
+Boom
+⇓
+Explodet	
+Lv	HP	MP	ATK	DEF	AGL	INT
+4	0	13	0	0	0	47
+Description: Small explosions strike enemies (all).
+
+Boom	8	C	Damage
+0: 52~68
+1: 44~57
+2: 26~34
+3: 0	Bang
+⇓
+Boom
+⇓
+Explodet	
+Lv	HP	MP	ATK	DEF	AGL	INT
+14	0	50	0	0	0	123
+Description: A succession of explosions strikes enemies (all).
+
+Explodet	15	C	Damage
+0: 130~150
+1: 110~127
+2: 65~75
+3: 0	Bang
+⇓
+Boom
+⇓
+Explodet	
+Lv	HP	MP	ATK	DEF	AGL	INT
+29	0	120	0	0	0	285
+Description: Huge explosions blast enemies (all).
+
+Infernos	2	D	Damage
+0:9~24
+1: 6~20
+2: 4~12
+3: 0	Infernos
+⇓
+Infermore
+⇓
+Infermost	
+Lv	HP	MP	ATK	DEF	AGL	INT
+2	0	10	0	0	0	38
+Description: Razor sharp whirlwinds slash enemies (all).
+
+Infermore	4	D	Damage
+0: 25~55
+1: 21~46
+2: 12~27
+3: 0	Infernos
+⇓
+Infermore
+⇓
+Infermost	
+Lv	HP	MP	ATK	DEF	AGL	INT
+10	0	38	0	0	0	101
+Description: Twisters tear through enemies (all).
+
+Infermost	8	D	Damage
+0: 80~180
+1: 68~153
+2: 40~90
+3: Immune	Infernos
+⇓
+Infermore
+⇓
+Infermost	
+Lv	HP	MP	ATK	DEF	AGL	INT
+21	0	104	0	0	0	242
+Description: A huge tornado roars through enemies (all).
+
+Bolt	5	E	Damage
+0: 35~50
+1: 29~42
+2: 17~25
+3: 0	Bolt
+⇓
+Zap
+⇓
+Thordain	
+Lv	HP	MP	ATK	DEF	AGL	INT
+6	0	20	0	0	0	63
+Description: Lightning strikes enemies (all).
+
+Zap	10	E	Damage
+0: 70~90
+1: 59~76
+2: 35~45
+3: 0	Bolt
+⇓
+Zap
+⇓
+Thordain	
+Lv	HP	MP	ATK	DEF	AGL	INT
+15	0	54	0	0	0	130
+Description: Powerful bolts of lightning lash enemies (all).
+Thordain	15	E	Damage
+0: 175~225
+1: 148~191
+2: 87~112
+3: 0	Bolt
+⇓
+Zap
+⇓
+Thordain	
+Lv	HP	MP	ATK	DEF	AGL	INT
+30	0	128	0	0	0	306
+Description: Huge shards of lightning rip enemies.
+Icebolt	3	F	Damage
+0: 25~35
+1: 21~29
+2: 12~17
+3: 0	Icebolt
+⇓
+SnowStorm
+⇓
+Blizzard	
+Lv	HP	MP	ATK	DEF	AGL	INT
+5	0	16	0	0	0	54
+Description: Small chunks of ice hail down on enemies (all).
+SnowStorm	5	F	Damage
+0: 42~58
+1: 35~49
+2: 21~29
+3: Immune	Icebolt
+⇓
+SnowStorm
+⇓
+Blizzard	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	0	42	0	0	0	108
+Description: Enemies are flash frozen (all).
+Blizzard	12	F	Damage
+0: 80~104
+1: 68~89
+2: 40~52
+3: Immune	Icebolt
+⇓
+SnowStorm
+⇓
+Blizzard	
+Lv	HP	MP	ATK	DEF	AGL	INT
+25	0	88	0	0	0	198
+Description: A wicked blizzard howls through enemies (all).
+Beat	4	I	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	Beat
+⇓
+Defeat	
+Lv	HP	MP	ATK	DEF	AGL	INT
+16	0	58	0	0	0	137
+Description: Instantly slays an enemy.
+
+Defeat	7	I	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	Beat
+⇓
+Defeat	
+Lv	HP	MP	ATK	DEF	AGL	INT
+24	0	80	0	0	0	177
+Description: Instantly slays enemies (all).
+
+Sacrifice	1	O	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+28	0	40	0	140	0	78
+Description: The user explodes to inflict damage on all enemies.
+
+Mechanics: Kill or reduce the HP to 1 of each monster, then the user perishes or survives with 1% of their HP. The surival rate is about 3/8. This effect will always kill the affected monsters if they already had 1 HP, including the user.
+
+
+Spells - Support
+
+Skill
+MP	Attribute	Resistance	Skill Tree
+Requirements
+Surround	3	G	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+10	0	47	0	0	0	74
+Description: Surrounds all enemies in a mirage.
+
+Mechanics: The affected monsters will have their physical attacks miss at a rate of 5/8.
+
+Sleep	3	H	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	Sleep
+⇓
+SleepAll	
+Lv	HP	MP	ATK	DEF	AGL	INT
+4	0	24	0	0	0	29
+Description: Makes a single enemy sleep.
+
+Mechanics: A monster affected by sleep cannot take action. Attacking the affected monster has a 50% chance to awaken them. The effect has a chance of wearing off each turn, and lasts up to 2 turns.
+
+SleepAll	5	H	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	Sleep
+⇓
+SleepAll	
+Lv	HP	MP	ATK	DEF	AGL	INT
+11	0	52	0	0	0	83
+Description: Makes all enemies sleep.
+
+Mechanics: A monster affected by sleep cannot take action. Attacking the affected monster has a 50% chance to awaken them. The effect has a chance of wearing off each turn, and lasts up to 2 turns.
+
+RobMagic
+
+0	J	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	RobMagic
+⇓
+TakeMagic	
+Lv	HP	MP	ATK	DEF	AGL	INT
+7	0	32	0	0	0	51
+Description: Steals MP from an enemy.
+
+Mechanics: The affected monster will be drained of up to 29 MP.
+
+TakeMagic
+
+2	None	None	RobMagic
+⇓
+TakeMagic	
+Lv	HP	MP	ATK	DEF	AGL	INT
+13	0	58	0	0	0	94
+Description: Absorbs the MP of a spell cast against the user.
+
+Mechanics: The user gains MP equal to the MP cost spells and typeless/breath skills against it, does not work on skills used by your own monsters.
+
+StopSpell
+
+3	K	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+9	0	44	0	0	0	69
+Description: Prevents spell casting by all enemies.
+
+Mechanics: The affected monsters will have all of their spells nullified.
+
+PanicAll	5	L	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	0	56	0	0	0	89
+Description: Confuses all enemies.
+
+Mechanics: The affected monsters may attack their allies with a basic attack. Each time the affected monster is attacked they have a chance to recover from this effect, and has a chance to recover each turn.
+
+Sap
+
+3	M	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	Sap
+⇓
+Defense	
+Lv	HP	MP	ATK	DEF	AGL	INT
+4	0	18	0	0	0	27
+Description: Lowers DEF of one enemy.
+
+Mechanics: The affected monster will have their DEF lowered by half of their base value. This effect can be applied until the value is reduced to 1.
+
+Defense
+
+4	M	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	Sap
+⇓
+Defense	
+Lv	HP	MP	ATK	DEF	AGL	INT
+8	0	36	0	0	0	58
+Description: Lowers DEF of all enemy monsters.
+
+Mechanics: The affected monsters will have their DEF lowered by half of their base value. This effect can be applied until the value is reduced to 1.
+
+Slow
+
+3	N	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	Slow
+⇓
+SlowAll	
+Lv	HP	MP	ATK	DEF	AGL	INT
+3	0	16	0	0	0	26
+Description: Lowers AGL of one enemy.
+
+Mechanics: The affected monster will have their AGL lowered by half of their base value. This effect can be applied until the value is reduced to 1.
+
+SlowAll	4	N	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	Slow
+⇓
+SlowAll	
+Lv	HP	MP	ATK	DEF	AGL	INT
+7	0	32	0	0	0	51
+Description: Lowers AGL of all enemy monsters.
+
+Mechanics: The affected monsters will have their DEF lowered by half of their base value. This effect can be applied until the value is reduced to 1.
+
+Upper
+
+2	None	None	Upper
+⇓
+Increase	
+Lv	HP	MP	ATK	DEF	AGL	INT
+2	0	14	0	0	0	22
+Decription: Raises DEF of one monster.
+
+Mechanics: The affected monster will have their DEF increased by half of their base value. This effect can be applied until the value is increased to 999.
+
+Increase	3	None	None	Upper
+⇓
+Increase	
+Lv	HP	MP	ATK	DEF	AGL	INT
+6	0	27	0	0	0	44
+Description: Raises DEF of party monsters (all).
+
+Mechanics: The affected monsters will have their DEF increased by half of their base value. This effect can be applied until the value is increased to 999.
+
+Speed	2	None	None	Speed
+⇓
+SpeedUp	
+Lv	HP	MP	ATK	DEF	AGL	INT
+2	0	10	0	0	0	15
+Description: Raises AGL of one monster.
+
+Mechanics: The affected monster will have their AGL increased by half of their base value. This effect can be applied until the value is increased to 999.
+
+SpeedUp	3	None	None	Speed
+⇓
+SpeedUp	
+Lv	HP	MP	ATK	DEF	AGL	INT
+5	0	24	0	0	0	36
+Description: Raises AGL of party monsters (all).
+
+Mechanics: The affected monsters will have their AGL increased by half of their base value. This effect can be applied until the value is increased to 999.
+
+TwinHits	6	None	None	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+17	0	72	0	0	0	119
+Description: Doubles the ATK of one monster.
+
+Mechanics: Does not increase ATK, despite the description. Double the damage of all physical attacks, after calculating DEF and resistances.
+
+Barrier	3	None	None	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+18	0	76	0	0	0	126
+Description: Reduces damage from breath attacks (all).
+
+Mechanics: Reduce damage from all breath attacks by about 50% to your entire party.
+
+(Requires further testing, damage reduction may be lower or higher.)
+
+MagicWall	3	None	None	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+19	0	80	0	0	0	134
+Description: Raises protection against magic spells (all).
+
+Mechanics: Reduce damage from all spell attacks by about 50% to your entire party.
+
+(Requires further testing, damage reduction may be lower or higher, and may affect more than just spells.)
+
+MagicBack	4	None	None	MagicBack
+⇓
+Bounce	
+Lv	HP	MP	ATK	DEF	AGL	INT
+16	0	68	0	0	0	112
+Description: Bounces back a spell once.
+
+Mechanics: The user generates a veil that will reflect back the next enemy spell that will affect it. Once a spell has been reflected the effect will end. If a spell targets the entire party, only the effect that affects the user will be reflected back and other party members will still be affected.
+
+(Requires further testing, may reflect more than just spells.)
+
+Bounce	4	None	None	MagicBack
+⇓
+Bounce	
+Lv	HP	MP	ATK	DEF	AGL	INT
+20	0	84	0	0	0	141
+Description: Bounces back all enemy spells.
+
+Mechanics: The user generates a veil that will reflect back enemy spells that affect it. If a spell targets the entire party, only the effect that affects the user will be reflected back and other party members will still be affected.
+
+(Requires further testing, may reflect more than just spells.)
+
+Ironize	2	None	None	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+15	0	62	0	0	0	87
+Description: Changes all party monsters into chunks of iron.
+
+Mechanics: Transform the entire party into iron and become immune to all attacks and effects for 3 turns, including the turn it was cast. The affected monsters cannot act while they are transformed.
+
+Transform	5	None	None	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+21	0	92	0	0	0	159
+Description: Transform the user into a chosen enemy.
+
+Mechanics: Copy an enemy's HP, ATK, DEF, AGL, Resistances, and Skills. Your HP will increase or decrease to the enemy's current HP. Enemy monsters can only have up to 3 skills, but all of your skills will be replaced by them, even if you posses more than 3. If copying another player's monster, you may be able to copy more skills. Any equipped items you posses will have their effects reapplied after the transformation.
+
+
+BeDragon
+
+MP	ATK	DEF	AGL
+300	300	400	???
+Skill 1	Scorching
+Skill 2	IceStorm
+Skill 3	DeMagic
+Resistances	DracoLord(2)
+9	None	None	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+23	0	72	0	0	0	162
+Description: Transform the user into a ferocious dragon.
+
+Mechanics: Transform the user into DracoLord(2) with new stats, skills, and resistances. If your current MP is above 300 it will be reduced to 300, but if it is equal to 300 or less then it will remain the same value. Unlike other games of the series, the user remains controllable.
+
+Chance	20	None	None	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+40	0	224	0	0	0	420
+Description: There is no telling what may happen.
+
+Mechanics: Randomly applies 1 of 12 effects.
+
+Rate	Effect
+2%	BeDragon is applied to the user, same effect as the spell.
+3%	Restore 999 MP to all allies.
+5%	Meteors fall and brutalize all allies and enemies, reducing their HP to 1 or killing them if their current HP is already 1.
+6%	Drain the MP of all monsters to 0.
+6%	Freeze all enemies, stunning them for 1 turn.
+6%	Sleep is applied onto all allies and enemies, ignoring resistances.
+8%	ThickFog is apllied, and lasts 3 turns.
+9%	Restore 999 HP to all allies.
+11%	Fills your entire party with power, causing their next physical attack to critical.
+17%	
+Summons
+Gaint - Attacks all enemies, weak.
+Foul Being - Forces all enemies to flee.
+??? - Shatters all enemies? Despite looking like they died, the game tells you they fled, so you receive no experience.
+
+18%	Nothing happens...
+
+Spells - Healing
+
+Skill Name	MP	Skill Tree
+Requirements
+Heal	2	Heal
+⇓
+HealMore
+⇓
+HealAll	
+Lv	HP	MP	ATK	DEF	AGL	INT
+2	0	7	0	0	0	11
+Description: Restores HP by 30~40.
+
+HealMore	5	Heal
+⇓
+HealMore
+⇓
+HealAl	
+Lv	HP	MP	ATK	DEF	AGL	INT
+10	0	52	0	0	0	87
+Description: Restores HP by 75~90.
+
+HealAll	7	Heal
+⇓
+HealMore
+⇓
+HealAl	
+Lv	HP	MP	ATK	DEF	AGL	INT
+16	0	82	0	0	0	144
+Description: Fully restores HP.
+
+HealUs	18	HealUs
+⇓
+HealUsAll	
+Lv	HP	MP	ATK	DEF	AGL	INT
+20	0	140	0	0	0	216
+Description: Restores HP by 90~120 (all).
+
+HealUsAll	36	HealUs
+⇓
+HealUsAll	
+Lv	HP	MP	ATK	DEF	AGL	INT
+28	0	196	0	0	0	288
+Description: Fully restores HP (all).
+
+MPass	20	MPass
+⇓
+MPassmore
+⇓
+MPassmost	
+Lv	HP	MP	ATK	DEF	AGL	INT
+2	0	55	0	0	0	11
+Description: Gives 15MP to a party monster.
+MPassmore	40	MPass
+⇓
+MPassmore
+⇓
+MPassmost	
+Lv	HP	MP	ATK	DEF	AGL	INT
+10	0	120	0	0	0	87
+Description: Gives 30MP to a party monster.
+
+MPassmost	100	MPass
+⇓
+MPassmore
+⇓
+MPassmost	
+Lv	HP	MP	ATK	DEF	AGL	INT
+16	0	82	0	0	0	144
+Description: Gives 80MP to a party monster.
+
+Vivify	10	Vivify
+⇓
+Revive	
+Lv	HP	MP	ATK	DEF	AGL	INT
+14	0	63	0	0	0	98
+Description: May revive a dead monster.
+
+Mechanics: Revive a monster with a success rate of 5/8. Monsters revive with 1 HP.
+
+Revive	20	Vivify
+⇓
+Revive	
+Lv	HP	MP	ATK	DEF	AGL	INT
+27	0	174	0	0	0	274
+Description: Revives a dead monster.
+
+Mechanics: Does not fail, and monsters revive with 100% of their HP.
+
+Farewell	100%	Revive + Sacrifice	
+Lv	HP	MP	ATK	DEF	AGL	INT
+32	0	188	0	0	0	317
+Description: Revives dead mates in exchnage for own life (all).
+
+Mechanics: Revive all allies with 100% of their HP, then the user perishes or survives with 1% of their current HP. The survival rate is about 3/8. The user will always perish if their HP is already at 1.
+
+Antidote	2	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+5	0	21	0	0	0	47
+Description: Cures one monster of poison.
+
+DeChaos	2	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+6	0	24	0	0	0	47
+Description: Clears confusion in all party monsters.
+
+CurseOff	2	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+7	0	27	0	0	0	44
+Description: Lifts a curse (all).
+
+NumbOff	2	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+8	0	30	0	0	0	47
+Description: Cures paralysis and sleep (all).
+
+Skills - Dance
+
+Dance - Attacks
+
+Skill
+MP	Attribute	Resistances	Skill Tree
+Requirements
+K.O.Dance	6	I	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	Curse
++
+LureDance	
+Lv	HP	MP	ATK	DEF	AGL	INT
+20	140	72	0	0	120	216
+Description: A dance that induces death in all enemies.
+
+Dance - Support
+
+Skill
+MP	Attribute	Resistances	Skill Tree
+Requirements
+OddDance	0	J	
+Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune
+
+OddDance
+⇓
+RobDance
+
+
+Lv	HP	MP	ATK	DEF	AGL	INT
+10	54	27	0	0	63	89
+Description: A dance that reduces an enemy's MP.
+
+Mechanics: The affected monster will lose up to 29 MP.
+
+RobDance	0	J	
+Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune
+
+OddDance
+⇓
+RobDance
+
+Lv	HP	MP	ATK	DEF	AGL	INT
+12	68	39	0	0	85	110
+Description: A dance that steals an enemy's MP.
+
+Mechanics: The affected monster will be drained of up to 29 MP.
+
+PaniDance
+
+4	L	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+13	74	0	0	0	78	141
+Description: A dance that confuses all enemies.
+
+Mechanics: The affected monsters may attack their allies with a basic attack. Each time the affected monster is attacked they have a chance to recover from this effect, and has a chance to recover each turn.
+
+LureDance	2	V	
+Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune
+
+None
+
+
+Lv	HP	MP	ATK	DEF	AGL	INT
+14	84	0	0	0	98	0
+Description: A dance that makes all enemies want to join in.
+
+Mechanics: The affected monsters will be stunned for 1 turn.
+
+DanceShut	6	W	Success Rate
+0: 100%
+1: 2/3
+2: 1/3
+3: Immune	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+16	100	0	0	0	120	0
+Description: Prevents all enemies from dancing.
+
+Mechanics: The affected monsters will have all of their dance skills nullified.
+
+SideStep	1	None	None	None	
+Lv	HP	MP	ATK	DEF	AGL	INT
+9	63	0	0	0	54	0
+Description: A quick-footed skill for dodging attacks.
+
+Mechanics: The user will evade physical attacks at a rate of 5/8 this turn. This effect will take place before any offensive skills can be used.
+
+
+Dance - Healing
+
+Skill
+MP	Skill Tree
+Requirements
+Hustle	12	HealAll
++
+SideStep	
+Lv	HP	MP	ATK	DEF	AGL	INT
+18	114	0	0	0	130	173
+Description: A dance that restores HP by 70~80 (all).
+
+LifeDance	100%	Hustle
++
+Sacrifice	
+Lv	HP	MP	ATK	DEF	AGL	INT
+30	210	0	0	0	180	446
+Description: A sacrificial dance to revive dead friends.
+
+Mechanics: Revive all allies to full HP, then the user perishes or survives with 1% HP. This effect will always kill the user if they already had 1 HP.
+
+Field Skills
+
+Field Skills
+
+Skill
+MP	Requirements
+Whistle	0	
+Lv	HP	MP	ATK	DEF	AGL	INT
+4	0	28	0	0	0	44
+Description: Attracts enemy monsters.
+
+Mechanics: Instantly initiate a monster encounter of the area.
+
+Pheromone	0	
+Lv	HP	MP	ATK	DEF	AGL	INT
+4	0	28	0	0	0	44
+Description: Attracts enemy monsters of the opposite gender.
+
+Mechanics: Instantly initiate a monster encounter of the area with monsters that are of the opposite gender of the user.
+
+StepGuard	2	
+Lv	HP	MP	ATK	DEF	AGL	INT
+10	0	40	0	0	0	62
+Description: Protects the party from injurious terrain.
+Outside	2	
+Lv	HP	MP	ATK	DEF	AGL	INT
+10	0	40	0	0	0	62
+Description: Instantly warps the party out from caves and towers.
+Informer	0	
+Lv	HP	MP	ATK	DEF	AGL	INT
+10	0	40	0	0	0	62
+Description: Use to obtain Information on monsters.
+
+Mechanics: This skill will only inform you of up to 7 kinds of monsters in the area. Some areas may have more than 7 kinds of monsters, so don't solely rely on this skill to find monsters in the area.
+
+Erand	2	
+Lv	HP	MP	ATK	DEF	AGL	INT
+10	0	40	0	0	0	62
+Description: Makes the monster run an errand for 100G
+
+Mechanics: Pay 100G to fetch a randomly generate item in the area. The types of items that can be obtained are the same you find on the ground of the world, cave, tower, or dungeon you are currently in.
+
+EagleEye	0	
+Lv	HP	MP	ATK	DEF	AGL	INT
+10	0	40	0	0	0	62
+Description: Determines the presence of items nearby.
+
+Mechanics: Gives you a very vague idea of where items are. A completely useless skill, and you are better off just exploring without it.
+
+MapMagic	2	
+Lv	HP	MP	ATK	DEF	AGL	INT
+10	0	40	0	0	0	62
+Description: Checks the surrounding area's terrain.
+
+Mechanics: Reveals the entire map, and shows towns, castles, caves, towers, and dungeons on the map.A very useful skill for exploring key worlds.
