@@ -154,7 +154,7 @@ function MonsterBreedTable(params: MonsterBreedTableParams) {
                                                         base.map((b, i) => {
                                                             return (
                                                                 <li key={`base_${i}`}>
-                                                                    <Link href={`/monster/${b}`}>{b}</Link>
+                                                                    <Link href={`/monsters/${b}`}>{b}</Link>
                                                                 </li>
                                                             )
                                                         })
@@ -169,7 +169,7 @@ function MonsterBreedTable(params: MonsterBreedTableParams) {
                                                         mate.map((k, i) => {
                                                             return (
                                                                 <li key={`mate_${i}`}>
-                                                                    <Link href={`/monster/${k}`}>{k}</Link>
+                                                                    <Link href={`/monsters/${k}`}>{k}</Link>
                                                                 </li>
                                                             )
                                                         })

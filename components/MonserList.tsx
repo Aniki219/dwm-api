@@ -114,7 +114,7 @@ export default function MonsterList(params: MonsterListParams) {
                                     <td
                                         style={{ 'width': '35px', 'maxWidth': '35px' }}
                                     >
-                                        <Link href={`/monster/${name}`}>{name}</Link>
+                                        <Link href={`/monsters/${name}`}>{name}</Link>
                                     </td>
                                     <td>{family}</td>
                                     {statNames.map((stat, k) => (
