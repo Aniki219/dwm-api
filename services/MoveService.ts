@@ -1,3 +1,5 @@
+'use cache'
+
 import db from '@/lib/db'
 
 export async function GetMoveNames() : Promise<string[]> {

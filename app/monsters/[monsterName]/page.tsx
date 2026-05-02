@@ -1,11 +1,11 @@
 import MonsterList from "@/components/MonserList";
 import MonsterBreedsTable from "@/components/MonsterBreedTable";
-import MonsterBreedTable from "@/components/MonsterBreedTable";
 import MonsterStats from "@/components/MonsterStats";
 import MonsterWindow from "@/components/MonsterWindow";
 import { GetMonster, GetMonsters } from "@/services/MonsterService";
 import { Monster } from "@/types/types";
 import { cookies } from "next/headers";
+import { Suspense } from "react";
 
 export default async function MonsterPage({
     params
@@ -22,15 +22,25 @@ export default async function MonsterPage({
     const initialSort = savedSort ? JSON.parse(savedSort) : { sortKey: 'none', up: true };
 
     return (
-        <div className="page-layout">
-            <div className="left-column">
-                <MonsterWindow monster={monster} />
-                <MonsterBreedsTable monster={monster} />
+        <Suspense>
+            <div className="page-layout">
+                <div className="left-column">
+                    <Suspense>
+                        <MonsterWindow monster={monster} />
+                    </Suspense>
+                    <Suspense>
+                        <MonsterBreedsTable monster={monster} />
+                    </Suspense>
+                </div>
+                <div className="right-column">
+                    <Suspense>
+                        <MonsterStats monster={monster} />
+                    </Suspense>
+                    <Suspense>
+                        <MonsterList currentMonster={monster} monsterList={monsterList} initialSort={initialSort} />
+                    </Suspense>
+                </div>
             </div>
-            <div className="right-column">
-                <MonsterStats monster={monster} />
-                <MonsterList currentMonster={monster} monsterList={monsterList} initialSort={initialSort} />
-            </div>
-        </div>
+        </Suspense>
     );
 }

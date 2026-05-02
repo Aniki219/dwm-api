@@ -1,5 +1,7 @@
+'use cache'
+
 import db from '@/lib/db'
-import { Family, Monster } from '@/types/types';
+import { Monster } from '@/types/types';
 
 export async function GetMonsters() : Promise<Monster[]> {
     const stm = db.prepare(

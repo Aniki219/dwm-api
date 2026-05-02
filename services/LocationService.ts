@@ -1,3 +1,5 @@
+'use cache'
+
 import db from '@/lib/db'
 
 export async function GetLocationNames() : Promise<string[]> {

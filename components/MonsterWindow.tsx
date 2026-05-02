@@ -1,6 +1,6 @@
 "use client"
 
-import { Monster, RES_NAMES } from "@/types/types";
+import { Monster } from "@/types/types";
 import Image from "next/image";
 import '../app/globals.css'
 
