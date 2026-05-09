@@ -3,13 +3,15 @@
 import db from '@/lib/db'
 
 export async function GetFamilyNames() : Promise<string[]> {
-    const stm = db.prepare(
+    const stm = await db.execute(
         `SELECT DISTINCT(family)
         FROM monsters
         `
     );
 
-    const res = stm.all() as { family: string }[];
+    const res = stm.toJSON().rows;
 
-    return res.map(row => row.family);
+    console.log(res.map((r:string[]) => r[0]))
+
+    return res.map((r:string[]) => r[0]);
 }

@@ -4,7 +4,7 @@ import db from '@/lib/db'
 import { Monster } from '@/types/types';
 
 export async function GetMonsters() : Promise<Monster[]> {
-    const stm = db.prepare(
+    const stm = await db.execute(
         `SELECT
             name,
             family,
@@ -17,8 +17,11 @@ export async function GetMonsters() : Promise<Monster[]> {
         WHERE name NOT LIKE '%FM'
         `
     );
-
-    const res = stm.all() as Monster[];
+ 
+    const res = stm.toJSON().rows.map((r:string[]) => {
+        return {name: r[0], family:r[1], stats:r[2]}
+    }) as Monster[]
+    
     
     for (const monster of res) {
         const stats = ((monster.stats) as unknown) as string;
@@ -48,66 +51,76 @@ export async function GetMonstersByFamily(family : string) : Promise<Monster[]> 
     return res as Monster[];
 }
 
-export async function GetMonstersFull(wheres: string[] = [], ...params: unknown[]) : Promise<Monster[]> {
-    const stm = db.prepare(`
-        SELECT 
-            m.name, 
-            m.family,
-            (
-                SELECT json_group_object(stat_name, value) 
-                FROM monster_stats 
-                WHERE monster_name = m.name
-            ) AS stats,
-            (
-                SELECT json_group_array(value)
-                FROM monster_resistances
-                WHERE monster_name = m.name
-            ) AS resistances,
-            (
-                SELECT json_group_array(move_name) 
-                FROM monster_moves 
-                WHERE monster_name = m.name
-            ) AS moves,
-            (
-                SELECT location_name
-                FROM monster_locations 
-                WHERE monster_name = m.name
-            ) AS location,
-            (
-                SELECT found
-                FROM monster_locations 
-                WHERE monster_name = m.name
-            ) AS found,
-            (
-                SELECT json_group_array(json_object('base', base_name, 'mate', mate_name, 'five', plus_five))
-                FROM monster_breeds
-                WHERE result_name = m.name
-            ) AS breeds,
-            (
-                SELECT json_group_array(json_object('base', base_name, 'mate', mate_name, 'result', result_name, 'five', plus_five))
-                FROM monster_breeds
-                WHERE result_name IN (
-                    SELECT 
-                        result_name
+export async function GetMonstersFull(wheres: string[] = [], ...params: string[]) : Promise<Monster[]> {
+    const stm = await db.execute({
+        sql: `
+            SELECT 
+                m.name, 
+                m.family,
+                (
+                    SELECT json_group_object(stat_name, value) 
+                    FROM monster_stats 
+                    WHERE monster_name = m.name
+                ) AS stats,
+                (
+                    SELECT json_group_array(value)
+                    FROM monster_resistances
+                    WHERE monster_name = m.name
+                ) AS resistances,
+                (
+                    SELECT json_group_array(move_name) 
+                    FROM monster_moves 
+                    WHERE monster_name = m.name
+                ) AS moves,
+                (
+                    SELECT location_name
+                    FROM monster_locations 
+                    WHERE monster_name = m.name
+                ) AS location,
+                (
+                    SELECT found
+                    FROM monster_locations 
+                    WHERE monster_name = m.name
+                ) AS found,
+                (
+                    SELECT json_group_array(json_object('base', base_name, 'mate', mate_name, 'five', plus_five))
                     FROM monster_breeds
-                    WHERE base_name = m.name OR mate_name = m.name
-                )
-            ) AS usedIn     
-        FROM monsters m
-        WHERE name NOT LIKE '%FM'
-        ${wheres.map((w) => `AND ${w}`)}
-        ;
-    `);
+                    WHERE result_name = m.name
+                ) AS breeds,
+                (
+                    SELECT json_group_array(json_object('base', base_name, 'mate', mate_name, 'result', result_name, 'five', plus_five))
+                    FROM monster_breeds
+                    WHERE result_name IN (
+                        SELECT 
+                            result_name
+                        FROM monster_breeds
+                        WHERE base_name = m.name OR mate_name = m.name
+                    )
+                ) AS usedIn     
+            FROM monsters m
+            WHERE name NOT LIKE '%FM'
+            ${wheres.map(w => ` AND ${w}`)}
+            ;
+        `,
+        args: [...params],
+    });
 
-    const res = stm.all(...params) as Monster[];
+    const data = stm.toJSON();
 
-    res.forEach((monster) => {
+    const res = data.rows.map((row: Monster[]) => {
+        return Object.fromEntries(
+            data.columns.map((key: string, i: number) => [key, row[i]])
+        );
+    }) as Monster[];
+
+    
+    res.forEach((monster: Monster) => {
         const moves = ((monster.moves) as unknown) as string;
         const stats = ((monster.stats) as unknown) as string;
         const breeds = ((monster.breeds) as unknown) as string;
         const resistances = ((monster.resistances) as unknown) as string;
         const usedIn = ((monster.usedIn) as unknown) as string;
-
+        
         monster.moves = JSON.parse(moves);
         monster.stats = JSON.parse(stats);
         monster.breeds = JSON.parse(breeds);
@@ -119,22 +132,23 @@ export async function GetMonstersFull(wheres: string[] = [], ...params: unknown[
 }
 
 export async function GetMonsterNamesByFamily(family: string) : Promise<string[]> {
-    const stm = db.prepare(
-        `SELECT
+    const stm = await db.execute({
+        sql: `SELECT
             name
         FROM monsters
         WHERE name NOT LIKE '%FM'
             AND family = ?
-        `
-    );
+        `,
+        args: [family]
+    });
 
-    const res = stm.all(family) as { name: string }[];   
-    return res.map(row => row.name);
+    const res = stm.toJSON().rows as string[];   
+    return res;
 }
 
 export async function GetMonstersByLocation(location: string) : Promise<{found: string, monsters: string[]}[]> {
-    const stm = db.prepare(
-        `SELECT
+    const stm = await db.execute({
+        sql: `SELECT
             monsters.name,
             ml.found
         FROM monsters
@@ -142,10 +156,18 @@ export async function GetMonstersByLocation(location: string) : Promise<{found: 
             ON monsters.name = ml.monster_name
         WHERE ml.location_name = ?
         ORDER BY ml.location_name, ml.found
-        `
-    );
+        `,
+        args: [location]
+    });
 
-    const res = stm.all(location) as {name: string, found: string}[];
+    const res = stm.rows.map((r) => {
+        const obj = {} as Record<string, unknown>;
+        stm.columns.forEach((col, i) => {
+            obj[col] = r[i];
+        });
+        return obj as { name: string; found: string };
+    });
+
     const monstersByFound = new Map<string, string[]>();
     res.forEach(({name, found}) => {
         if (monstersByFound.get(found)) {
@@ -163,8 +185,8 @@ export async function GetMonstersByLocation(location: string) : Promise<{found: 
 }
 
 export async function GetMonsterNamesByMove(move: string): Promise<{ monster_names: string[], toMove: string, secondMove: string, thirdMove: string }> {
-    const stm = db.prepare(
-        `
+    const stm = await db.execute({
+        sql: `
         WITH RECURSIVE
 
         AncestorChain(move_name, depth) AS (
@@ -206,15 +228,29 @@ export async function GetMonsterNamesByMove(move: string): Promise<{ monster_nam
         FROM monster_moves mm
         WHERE mm.move_name IN (SELECT move_name FROM DescendantChain)
         ORDER BY mm.monster_name
-        `
-    );
+        `,
+        args: [move, move]
+    });
 
-    const res = stm.all(move, move) as { monster_name: string, toMove: string, secondMove: string, thirdMove: string }[];
+    interface MoveRow {
+        monster_name: string;
+        toMove: string;
+        secondMove: string;
+        thirdMove: string;
+    }
+
+    const res = stm.rows.map((r) => {
+        const obj = {} as Record<string, unknown>;
+        stm.columns.forEach((col, i) => {
+            obj[col] = r[i];
+        });
+        return obj as unknown as MoveRow;
+    });
 
     return {
         monster_names: res.map(row => row.monster_name),
-        toMove: res[0]?.toMove,
-        secondMove: res[0]?.secondMove,
-        thirdMove: res[0]?.thirdMove,
+        toMove: res[0]?.toMove ?? "",
+        secondMove: res[0]?.secondMove ?? "",
+        thirdMove: res[0]?.thirdMove ?? "",
     };
 }

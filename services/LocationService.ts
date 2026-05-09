@@ -3,13 +3,13 @@
 import db from '@/lib/db'
 
 export async function GetLocationNames() : Promise<string[]> {
-    const stm = db.prepare(
+    const stm = await db.execute(
         `SELECT DISTINCT(location_name)
         FROM monster_locations
         `
     );
 
-    const res = stm.all() as { location_name: string }[];
+    const res = stm.toJSON().rows;
 
-    return res.map(row => row.location_name);
+    return res;
 }

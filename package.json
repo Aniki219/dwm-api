@@ -14,6 +14,7 @@
   "dependencies": {
     "@heroui/react": "^3.0.2",
     "@heroui/styles": "^3.0.2",
+    "@libsql/client": "^0.17.3",
     "better-sqlite3": "^12.8.0",
     "dotenv": "^17.4.1",
     "next": "16.2.2",
