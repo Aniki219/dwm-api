@@ -1,9 +1,13 @@
 "use client"
 
+import { Button } from "@heroui/react/button"
 import { useEffect, useState } from "react"
+import MonsterBreedsTable from "./MonsterBreedTable"
+import { Monster } from "@/types/types"
+import { GetMonster } from "@/services/MonsterService"
 
 export type PlanNode = {
-    monsterName: string,
+    monsterName: string | null,
     baseChild: PlanNode | null,
     mateChild: PlanNode | null,
 }
@@ -21,6 +25,7 @@ type BreedPlannerParams = {
 export default function BreedPlanner(params: BreedPlannerParams) {
     const { initialPlan } = params;
     const [plan, setPlan] = useState<PlanNode>(initialPlan);
+    const [currentMonster, setCurrentMonster] = useState<Monster>()
 
     const GeneratePlanTree = (nodes: PlanNode) => {
         const tree = new Array<PlanElement>();
@@ -28,6 +33,8 @@ export default function BreedPlanner(params: BreedPlannerParams) {
         let row = 0
         const DFS = (node: PlanNode, col: number) => {
             const { monsterName: name, baseChild, mateChild } = node;
+            if (!name) return;
+
             tree.push({ name, row, col });
 
             if (!node.baseChild) return;
@@ -43,45 +50,47 @@ export default function BreedPlanner(params: BreedPlannerParams) {
         return tree;
     }
 
+    const SetCurrentMonsterByName = async (name: string) => {
+        const monster = await GetMonster(name);
+        setCurrentMonster(monster);
+    }
+
     const tree = GeneratePlanTree(plan);
     const rows = tree.at(-1)?.row as number;
     const cols = tree.reduce((p, c) => p.col > c.col ? p : c).col as number;
 
     const grid: string[][] = Array.from({ length: rows + 1 }, () => Array(cols + 1).fill(""));
 
-
     tree.forEach((node) => grid[node.row][node.col] = node.name)
 
-    console.log(grid)
-
     return (
-        <div>
-
+        <div className="index">
+            <h2>Breed Plan for {plan.monsterName || "monster"}</h2>
+            <table>
+                <tbody>
+                    {
+                        grid.map((row, r) => {
+                            return (
+                                <tr key={`row_${r}`}>
+                                    {
+                                        row.map((col, c) => {
+                                            return (
+                                                <td key={`slot_${c}`}>
+                                                    {
+                                                        col &&
+                                                        <Button onClick={() => SetCurrentMonsterByName(col)}>{col}</Button>
+                                                    }
+                                                </td>
+                                            )
+                                        })
+                                    }
+                                </tr>
+                            )
+                        })
+                    }
+                </tbody>
+            </table>
+            {/* {currentMonster && <MonsterBreedsTable monster={currentMonster as Monster} />} */}
         </div>
     )
 }
-
-// const samplePlan = {
-//     "monsterName": "ZapBird",
-
-//     "baseChild": {
-//         "monsterName": "Phoenix",
-
-//         "baseChild": {
-//             "monsterName": "BIRDFM"
-//         },
-//         "mateChild": {
-//             "monsterName": "Grizzly"
-//         }
-//     },
-//     "mateChild": {
-//         "monsterName": "Gismo",
-
-//         "baseChild":  {
-//             "monsterName": "MadCandle"
-//         },
-//         "mateChild":  {
-//             "monsterName": "Wyvern"
-//         }
-//     }
-// }

@@ -251,12 +251,31 @@ td ul {
 }
 
 .navbar {
-    width: 50%;
+    width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
+
+    /* height: 80px;
+    background-color: #a8b9d3;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-blend-mode: luminosity;
+    background-size: 96px; */
+}
+
+.navbar a {
+    /* color: #fff; */
+    /* background-color: #00000063; */
+    margin: auto;
+    padding: 2px 4px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
 }
 
 .columns {

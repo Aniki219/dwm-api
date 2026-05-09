@@ -5,187 +5,120 @@ import '../app/globals.css'
 import Link from "next/link";
 import { useState } from "react";
 
-type MonsterBreedsTableParams = {
-    monster: Monster
+type MonsterBreedTableParams = {
+    monster: Monster,
+    breedsArray: [string, Breed[]][],
+    breedPairs: Breed[]
 }
 
-export default function MonsterBreedsTable(params: MonsterBreedsTableParams) {
-    const { monster } = params;
-
+export default function MonsterBreedsTable(params: MonsterBreedTableParams) {
     const [showBreeds, setShowBreeds] = useState(true)
 
     return (
-        <>
+        <div className="monster-bottom">
+            <h2> {showBreeds ? "Breed Pairs" : "Used In"} </h2>
+            <ShowBreedsBar setShowBreeds={setShowBreeds} />
             {
                 showBreeds ?
-                    <MonsterBreedTable monster={monster} setShowBreeds={setShowBreeds} /> :
-                    <MonsterUsedInTable monster={monster} setShowBreeds={setShowBreeds} />
+                    <MonsterBreedTable params={params} /> :
+                    <MonsterUsedInTable params={params} />
             }
-        </>
-    )
-}
-
-type MonsterBreedTableParams = {
-    monster: Monster,
-    setShowBreeds: (b: boolean) => void
-}
-
-
-function MonsterUsedInTable(params: MonsterBreedTableParams) {
-    const { setShowBreeds } = params;
-    const { name, usedIn } = params.monster;
-
-    const breeds = usedIn;
-
-    const breedsMap = new Map<string, Breed[]>();
-    breeds.forEach(b => {
-        const { result, base, mate, five } = b;
-        const baseStr = base as unknown as string;
-        const mateStr = mate as unknown as string;
-        if (breedsMap.get(result)) {
-            const resultBreeds = breedsMap.get(result);
-            resultBreeds?.push({ base: [baseStr], mate: [mateStr], five: five, result });
-        } else {
-            breedsMap.set(result, [{ base: [baseStr], mate: [mateStr], five: five, result }]);
-        }
-    })
-
-    const breedsArray = Array.from(breedsMap);
-    breedsArray.forEach(e => {
-        e[1] = GetCondensedBreedPairs(e[1])
-    })
-
-    breedsArray.forEach(ba => ba[1] = ba[1].filter(e => e.base.includes(name) || e.mate.includes(name)));
-
-    return (
-        <div className="monster-bottom">
-            <h2> Used In </h2>
-            <ShowBreedsBar setShowBreeds={setShowBreeds} />
-            <div className="table-wrapper">
-                <table className="breed-table">
-                    <thead>
-                        <tr>
-                            <th>Base</th>
-                            <th>Mate</th>
-                            <th>Result</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {
-                            breedsArray.map((res, i) => {
-                                const [result, resultBreeds] = res;
-                                return resultBreeds.map((br, i) => {
-                                    return (
-                                        <tr key={`pair_${i}`}>
-                                            {
-                                                <td key={`bases_${i}`}>
-                                                    <ul>
-                                                        {
-                                                            br.base.map((b, i) => {
-                                                                return (
-                                                                    <li key={`base_${i}`}>
-                                                                        <Link href={`/monsters/${b}`}>{b}</Link>
-                                                                    </li>
-                                                                )
-                                                            })
-                                                        }
-                                                    </ul>
-                                                </td>
-                                            }
-                                            {
-                                                <td key={`mates_${i}`}>
-                                                    <ul>
-                                                        {
-                                                            br.mate.map((k, i) => {
-                                                                return (
-                                                                    <li key={`mate_${i}`}>
-                                                                        <Link href={`/monsters/${k}`}>{k}</Link>
-                                                                    </li>
-                                                                )
-                                                            })
-                                                        }
-                                                    </ul>
-                                                </td>
-                                            }
-                                            <td key={`result_${i}`}>
-                                                <Link href={`/monsters/${result}`}>{result}</Link>
-                                            </td>
-                                        </tr>
-                                    )
-                                })
-                            })
-                        }
-                    </tbody>
-                </table>
-            </div>
         </div>
     )
 }
 
-
-function MonsterBreedTable(params: MonsterBreedTableParams) {
-    const { setShowBreeds } = params;
-    const { breeds } = params.monster;
-
-    const breedPairs = GetCondensedBreedPairs(breeds);
+function MonsterUsedInTable({ params }: { params: MonsterBreedTableParams }) {
+    const { breedsArray } = params;
 
     return (
-        <div className="monster-bottom">
-            <h2> Breeds </h2>
-            <ShowBreedsBar setShowBreeds={setShowBreeds} />
-            <div className="table-wrapper">
-                <table className="breed-table">
-                    <thead>
-                        <tr>
-                            <th>Base</th>
-                            <th>Mate</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {
-                            breedPairs.map((pair, i) => {
-                                const { base, mate } = pair;
+        <div className="table-wrapper">
+            <table className="breed-table">
+                <thead>
+                    <tr>
+                        <th>Base</th>
+                        <th>Mate</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {
+                        breedsArray.map((res) => {
+                            const [result, resultBreeds] = res;
+                            return resultBreeds.map((br, i) => {
                                 return (
                                     <tr key={`pair_${i}`}>
                                         {
                                             <td key={`bases_${i}`}>
-                                                <ul>
-                                                    {
-                                                        base.map((b, i) => {
-                                                            return (
-                                                                <li key={`base_${i}`}>
-                                                                    <Link href={`/monsters/${b}`}>{b}</Link>
-                                                                </li>
-                                                            )
-                                                        })
-                                                    }
-                                                </ul>
+                                                {MonsterList(br.base)}
                                             </td>
                                         }
                                         {
                                             <td key={`mates_${i}`}>
-                                                <ul>
-                                                    {
-                                                        mate.map((k, i) => {
-                                                            return (
-                                                                <li key={`mate_${i}`}>
-                                                                    <Link href={`/monsters/${k}`}>{k}</Link>
-                                                                </li>
-                                                            )
-                                                        })
-                                                    }
-                                                </ul>
+                                                {MonsterList(br.mate)}
                                             </td>
                                         }
+                                        <td key={`result_${i}`}>
+                                            <Link href={`/monsters/${result}`}>{result}</Link>
+                                        </td>
                                     </tr>
                                 )
                             })
-                        }
-                    </tbody>
-                </table>
-            </div>
+                        })
+                    }
+                </tbody>
+            </table>
         </div>
     )
+}
+
+function MonsterBreedTable({ params }: { params: MonsterBreedTableParams }) {
+    const { breedPairs } = params;
+
+    return (
+        <div className="table-wrapper">
+            <table className="breed-table">
+                <thead>
+                    <tr>
+                        <th>Base</th>
+                        <th>Mate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {
+                        breedPairs.map((pair, i) => {
+                            const { base, mate } = pair;
+                            return (
+                                <tr key={`pair_${i}`}>
+                                    {
+                                        <td key={`bases_${i}`}>
+                                            {MonsterList(base)}
+                                        </td>
+                                    }
+                                    {
+                                        <td key={`mates_${i}`}>
+                                            {MonsterList(mate)}
+                                        </td>
+                                    }
+                                </tr>
+                            )
+                        })
+                    }
+                </tbody>
+            </table>
+        </div>
+    )
+}
+
+function MonsterList(names: string[]) {
+    return <ul>
+        {names.map((n, i) => {
+            return (
+                <li key={`name_${i}`}>
+                    <Link href={`/monsters/${n}`}>{n}</Link>
+                </li>
+            );
+        })}
+    </ul>;
 }
 
 function ShowBreedsBar({ setShowBreeds }: { setShowBreeds: (b: boolean) => void }) {
@@ -196,49 +129,4 @@ function ShowBreedsBar({ setShowBreeds }: { setShowBreeds: (b: boolean) => void 
             <a href='#' onClick={() => setShowBreeds(false)}>Used In</a>
         </div>
     )
-}
-
-function GetCondensedBreedPairs(breeds: Breed[]): Breed[] {
-    const breedMap = new Map<string, string[]>();
-    breeds.forEach(pair => {
-        const { base, mate, five: plusFive } = pair;
-        const baseStr: string = base as unknown as string;
-        const mateStr: string = mate as unknown as string;
-        const fullBaseStr = baseStr + (plusFive ? "(+5)" : "");
-        const fullMateStr = mateStr + (plusFive ? "(+5)" : "");
-        if (breedMap.has(fullBaseStr)) {
-            breedMap.get(fullBaseStr)?.push(fullMateStr);
-        } else {
-            breedMap.set(fullBaseStr, [fullMateStr]);
-        }
-    });
-
-    const reverseIndex = new Map<string, string[]>();
-    for (const [key, valueArray] of breedMap) {
-        for (const value of valueArray) {
-            if (reverseIndex.has(value)) {
-                reverseIndex.get(value)?.push(key);
-            } else {
-                reverseIndex.set(value, [key]);
-            }
-        }
-    }
-
-    const twiceReversedIndex = new Map<string, string[]>();
-    for (const [key, valueArray] of reverseIndex) {
-        const valueString = valueArray.join(",");
-        if (twiceReversedIndex.has(valueString)) {
-            twiceReversedIndex.get(valueString)?.push(key);
-        } else {
-            twiceReversedIndex.set(valueString, [key]);
-        }
-    }
-
-    const breedPairs = new Array<Breed>;
-    for (const [keyString, valueArray] of twiceReversedIndex) {
-        const base = keyString.split(",");
-        breedPairs.push({ base, mate: valueArray, five: null, result: "" });
-    }
-
-    return breedPairs;
 }

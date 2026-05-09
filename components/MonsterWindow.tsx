@@ -17,7 +17,7 @@ export default function MonsterWindow(params: MonsterWindowParams) {
                 {name} (<a href={`/families/${family}`}>{family}</a>)
             </h1>
             <div className="monster-top">
-                <Image src={`/sprites/${name.toLowerCase()}.png`} width={144} height={144} style={{ imageRendering: 'pixelated' }} alt={`${name.toLowerCase()}`} />
+                <Image src={`/sprites/${name.toLowerCase()}.png`} width={144} height={144} quality={100} style={{ imageRendering: 'pixelated' }} alt={`${name.toLowerCase()}`} />
             </div>
         </div>
     )

@@ -29,6 +29,26 @@ export async function GetMonsters() : Promise<Monster[]> {
 }
 
 export async function GetMonster(name : string) : Promise<Monster> {
+    const res = await GetMonstersFull(["m.name = ?"], name);
+
+    if (!res || res.length == 0) {
+        throw new Error(`Monster not found: ${name}`);
+    }
+    
+    return res[0] as Monster;
+}
+
+export async function GetMonstersByFamily(family : string) : Promise<Monster[]> {
+    const res = await GetMonstersFull(["m.family = ?"], family);
+
+    if (!res || res.length == 0) {
+        throw new Error(`No monsters found for family: ${family}`);
+    }
+    
+    return res as Monster[];
+}
+
+export async function GetMonstersFull(wheres: string[] = [], ...params: unknown[]) : Promise<Monster[]> {
     const stm = db.prepare(`
         SELECT 
             m.name, 
@@ -74,25 +94,26 @@ export async function GetMonster(name : string) : Promise<Monster> {
                 )
             ) AS usedIn     
         FROM monsters m
-        WHERE m.name = ?
+        WHERE name NOT LIKE '%FM'
+        ${wheres.map((w) => `AND ${w}`)}
         ;
     `);
 
-    const res = stm.get(name) as Monster;
+    const res = stm.all(...params) as Monster[];
 
-    const moves = ((res.moves) as unknown) as string;
-    const stats = ((res.stats) as unknown) as string;
-    const breeds = ((res.breeds) as unknown) as string;
-    const resistances = ((res.resistances) as unknown) as string;
-    const usedIn = ((res.usedIn) as unknown) as string;
+    res.forEach((monster) => {
+        const moves = ((monster.moves) as unknown) as string;
+        const stats = ((monster.stats) as unknown) as string;
+        const breeds = ((monster.breeds) as unknown) as string;
+        const resistances = ((monster.resistances) as unknown) as string;
+        const usedIn = ((monster.usedIn) as unknown) as string;
 
-    res.moves = JSON.parse(moves);
-    res.stats = JSON.parse(stats);
-    res.breeds = JSON.parse(breeds);
-    res.resistances = JSON.parse(resistances);
-    res.usedIn = JSON.parse(usedIn)
-
-    // console.log(res.usedIn)
+        monster.moves = JSON.parse(moves);
+        monster.stats = JSON.parse(stats);
+        monster.breeds = JSON.parse(breeds);
+        monster.resistances = JSON.parse(resistances);
+        monster.usedIn = JSON.parse(usedIn);
+    });
     
     return res;
 }

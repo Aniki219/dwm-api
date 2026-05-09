@@ -5,9 +5,10 @@ import Link from "next/link";
 import { startTransition, useEffect, useMemo, useRef, useState } from "react";
 
 type MonsterListParams = {
-    currentMonster: Monster
+    monsterName: string
     monsterList: Monster[]
     initialSort: MonsterListSort
+    fullHeight: boolean
 }
 
 type MonsterListSort = {
@@ -16,7 +17,7 @@ type MonsterListSort = {
 }
 
 export default function MonsterList(params: MonsterListParams) {
-    const { stats: currentStats, name: currentName } = params.currentMonster;
+    const { monsterName: currentName, fullHeight } = params;
     const [filteredFamily, setFilteredFamily] = useState<string>("")
     const [sortBy, setSortBy] = useState<MonsterListSort>(params.initialSort);
 
@@ -67,14 +68,7 @@ export default function MonsterList(params: MonsterListParams) {
     return (
         <div className="monster-bottom">
             <h2> Monster List </h2>
-            <div className="list-tabs">
-                <a href='#'>Breeds</a>
-                <span>|</span>
-                <a href='#'>Stats</a>
-                <span>|</span>
-                <a href='#'>Resistances</a>
-            </div>
-            <div className="table-wrapper">
+            <div className="table-wrapper" style={fullHeight ? { "maxHeight": "70vh" } : {}}>
                 <table className="monster-table">
                     <thead>
                         <tr>
@@ -110,7 +104,7 @@ export default function MonsterList(params: MonsterListParams) {
                                     key={`monster_${k}`}
                                     className={`${name == currentName ? " currentRow" : ""}`}
                                 >
-                                    <td>{k}</td>
+                                    <td>{k + 1}</td>
                                     <td
                                         style={{ 'width': '35px', 'maxWidth': '35px' }}
                                     >
